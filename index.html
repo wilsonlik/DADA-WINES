@@ -125,9 +125,9 @@ details.f[open] summary::after{content:"–"}
 .card .pic.none{background:var(--bg-3)}
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .card .pic{opacity:.92} }
 :root[data-theme="dark"] .card .pic{opacity:.92}
-.card .head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-.card .vint{font-family:var(--display);font-weight:800;font-size:30px;line-height:1;letter-spacing:-.02em}
-.card .vint.nv{font-size:22px;color:var(--fg-2)}
+.card .head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card .vint{font-family:var(--mono);font-weight:400;font-size:14.5px;line-height:1.3;letter-spacing:0;color:var(--fg-2)}
+.card .vint.nv{color:var(--fg-3)}
 .card .type{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2);padding-top:4px}
 .card .type i{width:9px;height:9px;border-radius:50%;background:var(--type);display:inline-block}
 .card .name{font-weight:600;font-size:14.5px;line-height:1.3;margin:0;cursor:pointer;text-wrap:pretty;overflow-wrap:anywhere}
@@ -213,7 +213,6 @@ footer{border-top:1px solid var(--line);background:var(--bg-2)}
   .rate{font-size:9.5px;padding:2px 5px}
   .grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
   .card{padding:12px}
-  .card .vint{font-size:24px}
   .hero h1{font-size:30px}
 }
 @media (prefers-reduced-motion: reduce){ *{transition:none !important} }
