@@ -15,7 +15,7 @@
 :root{
   --bg:#EEF0EA; --bg-2:#FFFFFF; --bg-3:#E2E6DD; --fg:#17221C; --fg-2:#4F5D55; --fg-3:#8A958E; --line:#CBD2C8;
   --green:#2F5D46; --green-ink:#1E3F30; --on-green:#F2F6F0;
-  --accent:#E2C044; --accent-ink:#5A4600;
+  --accent:#E2C044; --accent-ink:#5A4600; --wine:#722F37;
   --red:#7A2E2E; --white:#8C7A2A; --spark:#6B6F2E; --rose:#B0566F; --dessert:#B07A1E; --fort:#5A3A1E; --spirit:#3C3F4A; --sake:#4A6E8A; --other:#6B6B6B;
   --ok:#2E7D4F; --warn:#9A6A00; --bad:#B23A3A;
   --display:"Syne",ui-sans-serif,system-ui,sans-serif;
@@ -25,12 +25,12 @@
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
   --bg:#141815; --bg-2:#1C221E; --bg-3:#242B26; --fg:#ECEFE9; --fg-2:#B3BBB4; --fg-3:#7E8780; --line:#323A34;
-  --green:#5E9C7B; --green-ink:#3E7A5C; --on-green:#0F1A14; --accent:#E8CB5A; --accent-ink:#2A2100;
+  --green:#5E9C7B; --green-ink:#3E7A5C; --on-green:#0F1A14; --accent:#E8CB5A; --accent-ink:#2A2100; --wine:#D4848F;
   --red:#D07A7A; --white:#D8C56A; --spark:#B9BE6A; --rose:#E08AA3; --dessert:#E0A94A; --fort:#C08A5A; --spirit:#A9AFC2; --sake:#8FB8D8; --other:#9A9A9A;
   --ok:#6BC78F; --warn:#E0B24A; --bad:#E07070; --shadow:0 12px 40px rgba(0,0,0,.5); color-scheme:dark }}
 :root[data-theme="dark"]{
   --bg:#141815; --bg-2:#1C221E; --bg-3:#242B26; --fg:#ECEFE9; --fg-2:#B3BBB4; --fg-3:#7E8780; --line:#323A34;
-  --green:#5E9C7B; --green-ink:#3E7A5C; --on-green:#0F1A14; --accent:#E8CB5A; --accent-ink:#2A2100;
+  --green:#5E9C7B; --green-ink:#3E7A5C; --on-green:#0F1A14; --accent:#E8CB5A; --accent-ink:#2A2100; --wine:#D4848F;
   --red:#D07A7A; --white:#D8C56A; --spark:#B9BE6A; --rose:#E08AA3; --dessert:#E0A94A; --fort:#C08A5A; --spirit:#A9AFC2; --sake:#8FB8D8; --other:#9A9A9A;
   --ok:#6BC78F; --warn:#E0B24A; --bad:#E07070; --shadow:0 12px 40px rgba(0,0,0,.5); color-scheme:dark }
 
@@ -70,7 +70,7 @@ input,select{font:inherit;color:var(--fg)}
 
 /* ---- hero ---- */
 .hero{padding-block:28px 18px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));max-width:1440px;margin:0 auto}
-.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,4.5vw,54px);line-height:1;letter-spacing:-.02em;margin:0 0 10px;text-wrap:balance}
+.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,4.5vw,54px);line-height:1;letter-spacing:-.02em;margin:0 0 10px;text-wrap:balance;color:var(--wine)}
 .hero h1 em{font-style:normal;color:var(--green)}
 .hero p{margin:0;max-width:60ch;color:var(--fg-2)}
 .stats{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:14px;font-family:var(--mono);font-size:12px;color:var(--fg-2)}
@@ -242,7 +242,7 @@ footer{border-top:1px solid var(--line);background:var(--bg-2)}
 
 <section class="hero">
   <div class="eyebrow">Wine &amp; spirits · Singapore · prices in SGD</div>
-  <h1>Every bottle, <em>one list.</em></h1>
+  <h1>Every Wine has its story.</h1>
   <p>A single catalogue of fine wine, sake and spirits. Filter by region, vintage and price, build an enquiry list and send it to us in one message.</p>
   <div class="stats" id="stats"></div>
   <div class="chips" id="chips"></div>
