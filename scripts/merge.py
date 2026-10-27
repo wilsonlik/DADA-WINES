@@ -7,6 +7,8 @@ piv = json.load(open(RAW/'pivene_all.json'))
 cw = json.load(open(RAW/'cw_all.json'))
 cs = json.load(open(RAW/'cs_all.json'))
 cs_types = json.load(open(RAW/'cs_types.json'))
+_det = ROOT / 'data' / 'cs_details.json'
+cs_details = json.load(open(_det)) if _det.exists() else {}
 
 # ---------- helpers ----------
 def strip_accents(s):
@@ -215,17 +217,22 @@ for r in cs:
         t = cs_type_map.get(href) or infer_type(nm)
         if href in cs_type_map and cs_type_map[href] == 'White' and re.search(r'\bcheval blanc\b', nm.lower()) and 'petit' not in nm.lower():
             t = 'Red'
+    det = cs_details.get(href) or {}
+    dt = (det.get('type') or '').strip().lower()
+    if cat != 'spirits' and dt in ('red', 'white', 'rose', 'sparkling', 'champagne', 'dessert', 'sweet'):
+        t = {'red':'Red','white':'White','rose':'Rose','sparkling':'Sparkling','champagne':'Sparkling','dessert':'Dessert','sweet':'Dessert'}[dt]
+        if dt == 'white' and re.search(r'\bcheval blanc\b', nm.lower()) and 'petit' not in nm.lower(): t = 'Red'
     size = size_of(nm, 700 if t == 'Spirits' else 750)
     pack = pack_of(nm)
     if re.search(r'\(owc 1\)', nm.lower()): pack = 1
     price = op if op is not None else lp
     compare = lp if (op is not None and lp and lp > op) else None
-    cty = CS_COUNTRY.get(cat, '')
-    reg = infer_region(nm)
+    cty = CS_COUNTRY.get(cat, '') or norm_country(det.get('country') or '')
+    reg = infer_region(nm) or clean(det.get('region') or '').title()
     if not cty and reg: cty = REGION_COUNTRY.get(reg, '')
     items.append(dict(src='cornerstone', name=nm, type=t, country=cty, region=reg, vintage=vintage_of(nm), size=size, pack=pack,
         price=price, compare=compare, in_stock=(mode == 'buy'), stock=2 if mode == 'buy' else 1, url='https://shop.cornerstonewines.com'+href, img=img or '',
-        rating='', producer=''))
+        rating=clean(det.get('rating') or ''), producer=''))
 
 for it in items:
     if not it['region']:

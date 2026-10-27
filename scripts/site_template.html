@@ -116,7 +116,7 @@ details.f[open] summary::after{content:"–"}
 .card .pic.none{background:var(--bg-3)}
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .card .pic{opacity:.92} }
 :root[data-theme="dark"] .card .pic{opacity:.92}
-.card .head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card .head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
 .card .vint{font-family:var(--mono);font-weight:400;font-size:14.5px;line-height:1.3;letter-spacing:0;color:var(--fg-2)}
 .card .vint.nv{color:var(--fg-3)}
 .card .type{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2);padding-top:4px}
@@ -130,7 +130,7 @@ details.f[open] summary::after{content:"–"}
 .price small{font-size:11px;color:var(--fg-3);font-weight:400;margin-right:3px}
 .price .was{display:block;font-size:11px;color:var(--fg-3);text-decoration:line-through;font-weight:400;margin-top:2px}
 .price.poa{font-size:13px;color:var(--fg-2)}
-.rate{font-family:var(--mono);font-size:10.5px;background:var(--bg-3);border-radius:3px;padding:2px 6px;color:var(--fg-2);white-space:nowrap;flex:none}
+.rate{font-family:var(--mono);font-size:10.5px;background:var(--bg-3);border-radius:3px;padding:2px 6px;color:var(--fg-2);text-align:right;line-height:1.35;max-width:68%}
 .add{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;flex:none;background:var(--bg-2)}
 .add:hover{background:var(--green);color:var(--on-green);border-color:var(--green)}
 .add.in{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
@@ -462,7 +462,7 @@ function cardHTML(p) {
   const where = [p.r, p.c].filter((x,i,a)=>x && a.indexOf(x)===i).join(', ');
   return `<article class="card ${p.st===0?'oos':''}" style="--type:var(${tm[0]})" data-id="${p.i}">
     <div class="pic ${p.im?'':'none'}" data-open="${p.i}">${p.im?`<img src="${p.im}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('none');this.remove()">`:''}${PH}</div>
-    <div class="head"><span class="vint ${vint==='NV'?'nv':''}">${vint}</span>${p.rt?`<span class="rate" title="Critic score">${p.rt.replace('-',' ')}</span>`:''}</div>
+    <div class="head"><span class="vint ${vint==='NV'?'nv':''}">${vint}</span>${p.rt?`<span class="rate" title="${p.rt}">${p.rt.split(' · ').slice(0,2).join(' · ')}</span>`:''}</div>
     <span class="type"><i></i>${tm[1]}</span>
     <h3 class="name" data-open="${p.i}">${p.n}</h3>
     <div class="meta">${where?`<span>${where}</span>`:''}<span class="sz">${sizeLabel(p.s)}${pack}</span>${p.st===0?`<span class="stock out">Out of stock</span>`:(p.st===1?`<span class="stock">Limited stock · enquire</span>`:'')}</div>
@@ -556,7 +556,7 @@ function openModal(id) {
     ${p.im?`<div class="mpic"><img src="${p.im.replace('?width=480','?width=900')}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`:''}
     <span class="type" style="--type:var(${tm[0]});display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)"><i style="width:9px;height:9px;border-radius:50%;background:var(--type);display:inline-block"></i>${tm[1]}</span>
     <h2>${p.n}</h2>
-    <dl class="kv"><dt>Vintage</dt><dd>${vint}</dd><dt>Origin</dt><dd>${[p.r,p.c].filter((x,i,a)=>x&&a.indexOf(x)===i).join(', ')||'—'}</dd><dt>Format</dt><dd>${sizeLabel(p.s)}${p.k>1?`, case of ${p.k}`:(p.k===0?', case':'')}</dd>${p.rt?`<dt>Score</dt><dd>${p.rt.replace('-',' ')}</dd>`:''}<dt>Status</dt><dd style="color:${p.st===2?'var(--ok)':(p.st===1?'var(--warn)':'var(--bad)')}">${p.st===2?'In stock':(p.st===1?'Limited stock — enquire for availability':'Out of stock')}</dd></dl>
+    <dl class="kv"><dt>Vintage</dt><dd>${vint}</dd><dt>Origin</dt><dd>${[p.r,p.c].filter((x,i,a)=>x&&a.indexOf(x)===i).join(', ')||'—'}</dd><dt>Format</dt><dd>${sizeLabel(p.s)}${p.k>1?`, case of ${p.k}`:(p.k===0?', case':'')}</dd>${p.rt?`<dt>Score</dt><dd>${p.rt}</dd>`:''}<dt>Status</dt><dd style="color:${p.st===2?'var(--ok)':(p.st===1?'var(--warn)':'var(--bad)')}">${p.st===2?'In stock':(p.st===1?'Limited stock — enquire for availability':'Out of stock')}</dd></dl>
     ${p.p==null?`<div class="price poa">Price on enquiry</div>`:`<div class="price"><small>S$</small>${Math.round(p.p).toLocaleString()}${p.cp?`<span class="was">${SGD(p.cp)}</span>`:''}</div>`}
     <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px"><button class="btn primary" data-madd="${p.i}">${list[p.i]?'Remove from list':'Add to enquiry list'}</button>${CONFIG.whatsapp?`<a class="btn" target="_blank" rel="noopener" href="https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent('Hi ' + CONFIG.brand + ', is ' + p.n + ' (' + sizeLabel(p.s) + ') available?')}">Ask on WhatsApp</a>`:''}</div>`;
   document.getElementById('modal').classList.add('show'); scrim.classList.add('show');
