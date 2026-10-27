@@ -19,7 +19,7 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleW
            'Accept': 'image/avif,image/webp,image/*,*/*;q=0.8'}
 
 
-ALGO_VERSION = 2
+ALGO_VERSION = 3
 
 
 def _sectors(mask, cx, cy, rr, w, h):
@@ -50,6 +50,10 @@ def remove_badges(bgr):
                                minRadius=int(0.05 * side), maxRadius=int(0.25 * side))
     if circles is None:
         return bgr, 0
+    sat = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)[:, :, 1]
+    nonbg = ((gray < 170) | (sat > 80)).astype(np.uint8)
+    light = (gray > 195).astype(np.uint8)
+    removed = 0
     cands = []
     for cx, cy, R in circles[0]:
         cx, cy, R = float(cx), float(cy), float(R)
@@ -57,10 +61,17 @@ def remove_badges(bgr):
         cv2.circle(inner, (int(cx), int(cy)), max(1, int(R * 0.85)), 1, -1)
         dark = (gray[inner > 0] < 90).mean()
         if dark < 0.45:
+            # coloured award medal: a solid non-white disc completely surrounded by background
+            rim = np.zeros_like(gray, np.uint8)
+            cv2.circle(rim, (int(cx), int(cy)), max(1, int(R * 0.7)), 1, 2)
+            if nonbg[inner > 0].mean() >= 0.7 and nonbg[rim > 0].mean() >= 0.6 and R >= 0.07 * side:
+                if min(_sectors(light, cx, cy, R + max(10, 0.025 * side), w, h)) >= 0.9:
+                    cv2.circle(bgr, (int(round(cx)), int(round(cy))), int(R * 1.2) + 4, (255, 255, 255), -1)
+                    removed += 1
             continue
         rim = np.zeros_like(gray, np.uint8)
         cv2.circle(rim, (int(cx), int(cy)), max(1, int(R * 0.7)), 1, 2)
-        if (gray[rim > 0] < 150).mean() < 0.6:
+        if (gray[rim > 0] < 150).mean() < 0.45:
             continue
         # a score badge carries big light digits in its centre; a dark bottle body does not
         core = np.zeros_like(gray, np.uint8)
@@ -70,12 +81,10 @@ def remove_badges(bgr):
             continue
         cands.append((cx, cy, R, dark))
     if not cands:
-        return bgr, 0
-    light = (gray > 195).astype(np.uint8)
+        return bgr, removed
     plain = [_sectors(light, cx, cy, R + max(10, 0.025 * side), w, h) for cx, cy, R, _ in cands]
     # a candidate may cover a neighbour's sectors (stacked badges) only if it is itself mostly surrounded by background
     strong = [i for i, s in enumerate(plain) if sum(1 for f in s if f >= 0.9) >= 8]
-    removed = 0
     for i, (cx, cy, R, dark) in enumerate(cands):
         rr = R + max(10, 0.025 * side)
         masked_bg = light.copy()
