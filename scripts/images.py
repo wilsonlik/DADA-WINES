@@ -19,44 +19,76 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleW
            'Accept': 'image/avif,image/webp,image/*,*/*;q=0.8'}
 
 
+ALGO_VERSION = 2
+
+
+def _sectors(mask, cx, cy, rr, w, h):
+    """Fraction of background pixels in each of 12 angular sectors of a ring of radius rr."""
+    out = []
+    for k in range(12):
+        a0 = 2 * math.pi * k / 12
+        vals = []
+        for j in range(8):
+            a = a0 + j * (math.pi / 6) / 8
+            x, y = int(cx + rr * math.cos(a)), int(cy + rr * math.sin(a))
+            vals.append(mask[y, x] if 0 <= x < w and 0 <= y < h else 1)
+        out.append(float(np.mean(vals)))
+    return out
+
+
 def remove_badges(bgr):
-    """Paint over circular critic-score badges (dark disc on the light background) with white.
-    Detection: Hough circles, then the disc must be dark inside and surrounded by light background
-    on (almost) every side, which a bottle never is. Returns (image, number_of_badges_removed)."""
+    """Paint over circular critic-score badges (black discs) with white.
+    Detection: Hough circles -> dark inside with a dark rim -> surrounded by light background on every
+    side. At most 2 sectors may be merely light-ish, and up to 3 may instead touch another badge candidate, so a
+    stack of badges is found as a group; a bottle never passes because its body occupies far more of the
+    ring than that. Returns (image, number_of_badges_removed)."""
     h, w = bgr.shape[:2]
     side = min(h, w)
     gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
     g = cv2.GaussianBlur(gray, (5, 5), 1.2)
     circles = cv2.HoughCircles(g, cv2.HOUGH_GRADIENT, dp=1.2, minDist=side * 0.15, param1=120, param2=35,
                                minRadius=int(0.05 * side), maxRadius=int(0.25 * side))
-    removed = 0
     if circles is None:
         return bgr, 0
+    cands = []
     for cx, cy, R in circles[0]:
         cx, cy, R = float(cx), float(cy), float(R)
         inner = np.zeros_like(gray, np.uint8)
         cv2.circle(inner, (int(cx), int(cy)), max(1, int(R * 0.85)), 1, -1)
-        if (gray[inner > 0] < 90).mean() < 0.45:      # not a dark disc
+        dark = (gray[inner > 0] < 90).mean()
+        if dark < 0.45:
             continue
-        # the rim of a badge is dark all the way round (a bottle crossing a circle is not)
         rim = np.zeros_like(gray, np.uint8)
         cv2.circle(rim, (int(cx), int(cy)), max(1, int(R * 0.7)), 1, 2)
         if (gray[rim > 0] < 150).mean() < 0.6:
             continue
-        # light background all around: check 12 angular sectors of a ring just outside the disc
-        ok_sectors = 0
+        # a score badge carries big light digits in its centre; a dark bottle body does not
+        core = np.zeros_like(gray, np.uint8)
+        cv2.circle(core, (int(cx), int(cy)), max(1, int(R * 0.6)), 1, -1)
+        bright = (gray[core > 0] > 150).mean()
+        if not 0.15 <= bright <= 0.8:
+            continue
+        cands.append((cx, cy, R, dark))
+    if not cands:
+        return bgr, 0
+    light = (gray > 195).astype(np.uint8)
+    plain = [_sectors(light, cx, cy, R + max(10, 0.025 * side), w, h) for cx, cy, R, _ in cands]
+    # a candidate may cover a neighbour's sectors (stacked badges) only if it is itself mostly surrounded by background
+    strong = [i for i, s in enumerate(plain) if sum(1 for f in s if f >= 0.9) >= 8]
+    removed = 0
+    for i, (cx, cy, R, dark) in enumerate(cands):
         rr = R + max(10, 0.025 * side)
-        for k in range(12):
-            a0 = 2 * math.pi * k / 12
-            pts = [(int(cx + rr * math.cos(a0 + j * (math.pi / 6) / 8)), int(cy + rr * math.sin(a0 + j * (math.pi / 6) / 8))) for j in range(8)]
-            vals = [gray[y, x] for x, y in pts if 0 <= x < w and 0 <= y < h]
-            frac = np.mean(np.array(vals) > 195) if vals else 1.0   # off the image edge counts as background
-            if frac < 0.6:
-                ok_sectors = -99
-                break
-            if frac >= 0.9:
-                ok_sectors += 1
-        if ok_sectors < 11:
+        masked_bg = light.copy()
+        for j in strong:
+            if j != i:
+                ox, oy, oR, _ = cands[j]
+                cv2.circle(masked_bg, (int(ox), int(oy)), int(oR * 1.25) + 6, 1, -1)
+        masked = _sectors(masked_bg, cx, cy, rr, w, h)
+        if min(masked) < 0.6:
+            continue
+        good = sum(1 for f in plain[i] if f >= 0.9)
+        rescued = sum(1 for a, b in zip(plain[i], masked) if a < 0.9 <= b)
+        if good + rescued < 10 or rescued > 4:
             continue
         cv2.circle(bgr, (int(round(cx)), int(round(cy))), int(R * 1.2) + 4, (255, 255, 255), -1)
         removed += 1
@@ -84,7 +116,8 @@ def main(limit=None):
     for x in merged:
         for s in x['sources']:
             u = s.get('img') or ''
-            if u and u not in manifest and u not in urls:
+            stale = u in manifest and 'cornerstonewines' in u and manifest[u].get('v') != ALGO_VERSION
+            if u and (u not in manifest or stale) and u not in urls:
                 urls.append(u)
             if u:
                 break  # only the first (preferred) image per product is needed
@@ -100,7 +133,7 @@ def main(limit=None):
             out, badges = process(r.content, 'cornerstonewines' in u)
             name = hashlib.md5(u.encode()).hexdigest()[:16] + '.jpg'
             (IMG / name).write_bytes(out)
-            manifest[u] = {'file': f'img/{name}', 'badge': badges}
+            manifest[u] = {'file': f'img/{name}', 'badge': badges, 'v': ALGO_VERSION}
             done += 1
         except Exception as e:
             print(f'  {u}: {e}', file=sys.stderr)
