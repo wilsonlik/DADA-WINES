@@ -19,7 +19,7 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleW
            'Accept': 'image/avif,image/webp,image/*,*/*;q=0.8'}
 
 
-ALGO_VERSION = 3
+ALGO_VERSION = 4
 
 
 def _sectors(mask, cx, cy, rr, w, h):
@@ -57,6 +57,8 @@ def remove_badges(bgr):
     cands = []
     for cx, cy, R in circles[0]:
         cx, cy, R = float(cx), float(cy), float(R)
+        if cx > 0.42 * w:          # this merchant always places badges and medals in the left margin
+            continue
         inner = np.zeros_like(gray, np.uint8)
         cv2.circle(inner, (int(cx), int(cy)), max(1, int(R * 0.85)), 1, -1)
         dark = (gray[inner > 0] < 90).mean()
@@ -107,13 +109,13 @@ def remove_badges(bgr):
 def process(data, is_cornerstone):
     im = Image.open(io.BytesIO(data)).convert('RGB')
     arr = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
-    badges = 0
-    if is_cornerstone:
-        arr, badges = remove_badges(arr)
     h, w = arr.shape[:2]
     scale = MAX_SIDE / max(h, w)
     if scale < 1:
         arr = cv2.resize(arr, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_AREA)
+    badges = 0
+    if is_cornerstone:
+        arr, badges = remove_badges(arr)   # detection always runs at the same scale as the stored image
     ok, buf = cv2.imencode('.jpg', arr, [cv2.IMWRITE_JPEG_QUALITY, 84])
     return buf.tobytes(), badges
 
