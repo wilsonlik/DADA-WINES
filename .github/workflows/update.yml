@@ -47,7 +47,9 @@ jobs:
         continue-on-error: true
 
       - name: Merge
-        run: python scripts/merge.py
+        run: |
+          cp data/merged.json data/merged_prev.json
+          python scripts/merge.py
 
       - name: Images (download new ones, remove score badges)
         run: python scripts/images.py
@@ -55,6 +57,9 @@ jobs:
 
       - name: Build site
         run: python scripts/build.py
+
+      - name: Daily change report
+        run: python scripts/report.py
 
       - name: Commit and publish
         run: |

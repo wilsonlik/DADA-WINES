@@ -1,0 +1,54 @@
+{
+ "date": "2026-10-29",
+ "total": 3878,
+ "total_prev": 3875,
+ "added": [
+  {
+   "name": "Macallan 12YO SHERRY Oak Single Malt Whisky 0.70l (2022 Release) · 700 ml",
+   "price": 155,
+   "stock": "限量/询价",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Macallan 12YO SHERRY Oak Single Malt Whisky 0.70l (2024 Release) · 700 ml",
+   "price": 155,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Benedictine DOM 0.70l · 700 ml",
+   "price": 65,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Laphroaig Quarter Cask Single Malt Whisky 0.70l · 700 ml",
+   "price": 97,
+   "stock": "限量/询价",
+   "sources": [
+    "cornerstone"
+   ]
+  }
+ ],
+ "removed": [
+  {
+   "name": "Domaine Fichet BOURGOGNE CHARDONNAY 2023",
+   "price": 38,
+   "sources": [
+    "cornerstone"
+   ]
+  }
+ ],
+ "price_up": [],
+ "price_down": [],
+ "stock_changes": [],
+ "rating_added": [],
+ "other": [],
+ "status": {}
+}
