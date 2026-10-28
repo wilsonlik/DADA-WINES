@@ -1,54 +1,354 @@
 {
  "date": "2026-10-29",
- "total": 3878,
- "total_prev": 3875,
+ "total": 3870,
+ "total_prev": 3878,
  "added": [
   {
-   "name": "Macallan 12YO SHERRY Oak Single Malt Whisky 0.70l (2022 Release) · 700 ml",
-   "price": 155,
+   "name": "Casa Silva RESERVA Merlot 2023",
+   "price": 29,
    "stock": "限量/询价",
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Macallan 12YO SHERRY Oak Single Malt Whisky 0.70l (2024 Release) · 700 ml",
-   "price": 155,
+   "name": "Malibu · 700 ml",
+   "price": 34,
    "stock": "有货",
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Benedictine DOM 0.70l · 700 ml",
-   "price": 65,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Laphroaig Quarter Cask Single Malt Whisky 0.70l · 700 ml",
-   "price": 97,
+   "name": "Malibu 0.70l · 700 ml",
+   "price": 34,
    "stock": "限量/询价",
    "sources": [
     "cornerstone"
+   ]
+  },
+  {
+   "name": "Hennessy Paradis Rare Brandy 0.70l · 700 ml",
+   "price": 1622,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Martell VSOP Aged in RED BARREL 0.70l · 700 ml",
+   "price": 86,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Martell VSOP Aged in RED BARREL 0.70l · 700 ml",
+   "price": 86,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "John Jameson Irish Whisky 0.70l · 700 ml",
+   "price": 48,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Jose Cuervo Especial GOLD Tequila · 700 ml",
+   "price": 43,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Aramasa, Private Lab Hinotori Junmai Kijoshu Ginjo (Sun Bird) NV · 720 ml",
+   "price": 458.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
    ]
   }
  ],
  "removed": [
   {
-   "name": "Domaine Fichet BOURGOGNE CHARDONNAY 2023",
-   "price": 38,
+   "name": "Ch Brane Cantenac 2006",
+   "price": 180.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Brane Cantenac 2013",
+   "price": 130.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Durfort Vivens 2022",
+   "price": 145.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Giscours 2012",
+   "price": 130.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Kirwan 2022",
+   "price": 110.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Lascombes 2011",
+   "price": 180.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Lascombes 2012",
+   "price": 180.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Lascombes 2013",
+   "price": 170.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Malescot St Exupery 2009 · 700 ml",
+   "price": 169.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Malescot St Exupery 2013",
+   "price": 120.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Margaux 2020",
+   "price": 918.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Palmer 2008",
+   "price": 480.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Palmer 2021",
+   "price": 488.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Palmer 2022",
+   "price": 598.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Pavie Macquin 2020",
+   "price": 144,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Smith Haut Lafitte 2020 1.5l · 1.5 L",
+   "price": 482,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Smith Haut Lafitte Blanc 2020",
+   "price": 217,
    "sources": [
     "cornerstone"
    ]
   }
  ],
- "price_up": [],
- "price_down": [],
- "stock_changes": [],
+ "price_up": [
+  {
+   "name": "Ch Grand Village 2023",
+   "old": 42.5,
+   "new": 50.0,
+   "pct": 17.6
+  },
+  {
+   "name": "Ch Lafleur 2023",
+   "old": 1185.6,
+   "new": 1248.0,
+   "pct": 5.3
+  },
+  {
+   "name": "Les Pensees de Lafleur 2023",
+   "old": 254.6,
+   "new": 268.0,
+   "pct": 5.3
+  },
+  {
+   "name": "Les Perrieres de Lafleur 2023",
+   "old": 121.6,
+   "new": 128.0,
+   "pct": 5.3
+  },
+  {
+   "name": "Macallan 15YO DOUBLE Cask Single Malt Whisky 0.70l · 700 ml",
+   "old": 227,
+   "new": 238,
+   "pct": 4.8
+  }
+ ],
+ "price_down": [
+  {
+   "name": "Giscours - Margaux 2014",
+   "old": 135.0,
+   "new": 109.0,
+   "pct": -19.3
+  },
+  {
+   "name": "Margaux 2021",
+   "old": 848.0,
+   "new": 845,
+   "pct": -0.4
+  },
+  {
+   "name": "Rauzan Segla 2021",
+   "old": 138.0,
+   "new": 116,
+   "pct": -15.9
+  },
+  {
+   "name": "Rauzan Segla 2022",
+   "old": 198.0,
+   "new": 197,
+   "pct": -0.5
+  }
+ ],
+ "stock_changes": [
+  {
+   "name": "Lascombes - Margaux 2009",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Jean Fournier, Marsannay Es Chezots 2022",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Robert Groffier, Bourgogne Cote D'or (Ex-Domaine) 2024",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Saumaize Michelin, Pouilly Fuisse 1er Cru La Marechaude 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Henri Giraud, Ratafia Champenois Solera 1990-2019 NV · 500 ml",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Aramasa, Colors Ecru Junmai Ginjo (Kimoto) NV · 720 ml",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Aramasa, Colors Velvet Junmai Ginjo (Viridian) NV · 720 ml",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Dassai, 45 Junmai Daiginjo NV · 1.8 L",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Kamoshibito Kuheiji, Yamada Nishiki 45 Human Junmai Daiginjo NV · 720 ml",
+   "old": "售罄",
+   "new": "有货"
+  }
+ ],
  "rating_added": [],
- "other": [],
- "status": {}
+ "other": [
+  {
+   "name": "Giscours - Margaux 2014",
+   "change": "来源 Crystal+Pivene → Pivene"
+  },
+  {
+   "name": "Lascombes - Margaux 2009",
+   "change": "来源 Crystal+Pivene → Pivene"
+  },
+  {
+   "name": "Margaux 2021",
+   "change": "来源 Cornerstone+Crystal → Cornerstone"
+  },
+  {
+   "name": "Rauzan Segla 2021",
+   "change": "来源 Cornerstone+Crystal → Cornerstone"
+  },
+  {
+   "name": "Rauzan Segla 2022",
+   "change": "来源 Cornerstone+Crystal → Cornerstone"
+  }
+ ],
+ "status": {
+  "pivene_all": {
+   "ok": true,
+   "rows": 1139,
+   "previous": 1138,
+   "ts": "2026-10-28T19:45:01"
+  },
+  "cw_all": {
+   "ok": true,
+   "rows": 1127,
+   "previous": 1146,
+   "ts": "2026-10-28T19:46:32"
+  },
+  "cs_all": {
+   "ok": true,
+   "rows": 1772,
+   "previous": 1763,
+   "ts": "2026-10-28T19:53:43"
+  },
+  "cs_types": {
+   "ok": true,
+   "rows": 117,
+   "previous": 118,
+   "ts": "2026-10-28T19:53:43"
+  }
+ }
 }
