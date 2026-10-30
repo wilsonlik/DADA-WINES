@@ -1,29 +1,250 @@
 {
- "date": "2026-10-30",
- "total": 3871,
- "total_prev": 3870,
+ "date": "2026-10-31",
+ "total": 3894,
+ "total_prev": 3871,
  "added": [
   {
-   "name": "Gregorio Martinez Gran Reserva DOC 2014",
-   "price": 52,
+   "name": "Ch Brane Cantenac 2006",
+   "price": 148.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Brane Cantenac 2013",
+   "price": 107.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Durfort Vivens 2022",
+   "price": 118.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Giscours 2012",
+   "price": 105.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Kirwan 2022",
+   "price": 89.0,
+   "stock": "售罄",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Lascombes 2011",
+   "price": 148.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Lascombes 2012",
+   "price": 148.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Lascombes 2013",
+   "price": 138.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Malescot St Exupery 2009",
+   "price": 188.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Malescot St Exupery 2013",
+   "price": 95.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Margaux 2020",
+   "price": 830.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Palmer 2008",
+   "price": 388.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Palmer 2021",
+   "price": 440.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Ch Palmer 2022",
+   "price": 557.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Coquard Loison Fleurot, Charmes Chambertin Grand Cru 2024",
+   "price": 584.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Coquard Loison Fleurot, Clos de Vougeot Grand Cru 2024",
+   "price": 584.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Coquard Loison Fleurot, Nuits Saint Georges 2024",
+   "price": 191.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Domaine Cluny, Chambolle Musigny 1er Cru Les Charmes 2023",
+   "price": 240.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Domaine Cluny, Gevrey Chambertin 1er Cru Les Champeaux 2023",
+   "price": 213.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Faiveley, Gevrey Chambertin 1er Cru Les Cazetiers 2021",
+   "price": 284.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Chateau de la Font du Loup, Chateauneuf du Pape Le Puy Rolland 2024",
+   "price": 126.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Chateau de la Font du Loup, Chateauneuf du Pape Les Demoiselles 2024",
+   "price": 82.0,
+   "stock": "有货",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Antinori TIGNANELLO 2023",
+   "price": 196,
    "stock": "限量/询价",
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Macallan 12YO SHERRY Oak Single Malt Whisky (GBX / 2025 Release)",
-   "price": 155,
+   "name": "Chavost Blanc DASSEMBLAGE Brut Nature NV*ETA:End Nov",
+   "price": 90.0,
    "stock": "有货",
    "sources": [
-    "cornerstone"
+    "crystal"
+   ]
+  },
+  {
+   "name": "Chavost Blanc de Chardonnay Extra Brut NV*ETA:End Nov",
+   "price": 120.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Chavost Blanc de Meunier Brut Nature NV*ETA:End Nov",
+   "price": 120.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Chavost Cuvee Paradoxe Brut Nature NV*ETA:End Nov",
+   "price": 110.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
    ]
   }
  ],
  "removed": [
   {
-   "name": "Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2021",
-   "price": 123,
+   "name": "Calon Segur - Saint Estephe 2003",
+   "price": 271.0,
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Luce della Vite Brunello di Montalcino 2019",
+   "price": 244,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Veuve Clicquot NV Champagne",
+   "price": 69,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Malibu 0.70l · 700 ml",
+   "price": 34,
    "sources": [
     "cornerstone"
    ]
@@ -31,218 +252,143 @@
  ],
  "price_up": [
   {
-   "name": "Montes Alpha M 2021 · 700 ml",
-   "old": 99.0,
-   "new": 160.0,
-   "pct": 61.6
-  },
-  {
-   "name": "Ch Branaire Ducru 2007 · 700 ml",
+   "name": "Giscours - Margaux 2014",
    "old": 109.0,
-   "new": 170.0,
-   "pct": 56.0
+   "new": 110.0,
+   "pct": 0.9
   },
   {
-   "name": "Clerico Barolo Ginestra Ciabot Mentin DOCG 2021",
-   "old": 129.0,
-   "new": 227.0,
-   "pct": 76.0
-  },
-  {
-   "name": "Clerico Barolo Ginestra Pajana DOCG 2021",
-   "old": 119.0,
-   "new": 204.0,
-   "pct": 71.4
-  },
-  {
-   "name": "Castello di MONSANTO Chianti Classico DOCG 2023",
-   "old": 50,
-   "new": 57,
-   "pct": 14.0
-  },
-  {
-   "name": "Castello di Monsanto FABRIZIO BIANCHI Sangioveto IGT 2016",
-   "old": 91,
-   "new": 104,
-   "pct": 14.3
-  },
-  {
-   "name": "Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2018",
-   "old": 108,
-   "new": 122,
-   "pct": 13.0
-  },
-  {
-   "name": "Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2019",
-   "old": 123,
-   "new": 155,
-   "pct": 26.0
-  },
-  {
-   "name": "Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2020 (Vinous No.1 Wine of 2025)",
-   "old": 123,
-   "new": 139,
-   "pct": 13.0
-  },
-  {
-   "name": "Zenato Amarone della Val DOC Classico 2020",
-   "old": 79.0,
-   "new": 130.0,
-   "pct": 64.6
-  },
-  {
-   "name": "Yjar 2020 · 700 ml",
-   "old": 159.0,
-   "new": 220.0,
-   "pct": 38.4
-  },
-  {
-   "name": "Vincent & Sophie Morey Chassange Montrachet Embrazees 2024 · 700 ml",
-   "old": 119.0,
-   "new": 180.0,
-   "pct": 51.3
-  },
-  {
-   "name": "Vincent & Sophie Morey Chassange Montrachet Morgeot 2024 · 700 ml",
-   "old": 119.0,
-   "new": 180.0,
-   "pct": 51.3
-  },
-  {
-   "name": "Laurent Perrier Blanc de Blancs Brut Nature NV",
-   "old": 152.0,
-   "new": 171.0,
-   "pct": 12.5
-  },
-  {
-   "name": "Laurent Perrier Brut Reserve Heritage NV",
-   "old": 130.4,
-   "new": 146.7,
-   "pct": 12.5
-  },
-  {
-   "name": "Laurent Perrier Grand Siecle Iteration (27)",
-   "old": 228.0,
-   "new": 308.0,
-   "pct": 35.1
-  },
-  {
-   "name": "Laurent Perrier Grand Siecle Iteration NO. 26 With Giftbox",
-   "old": 297.6,
-   "new": 334.8,
-   "pct": 12.5
-  },
-  {
-   "name": "Laurent Perrier Ultra Brut NV",
-   "old": 115.2,
-   "new": 129.6,
-   "pct": 12.5
+   "name": "Rauzan Segla 2021",
+   "old": 116,
+   "new": 117.0,
+   "pct": 0.9
   }
  ],
  "price_down": [
   {
-   "name": "Laurent Perrier Brut NV Champagne",
-   "old": 98.0,
-   "new": 78.4,
-   "pct": -20.0
+   "name": "Antinori TIGNANELLO 2006",
+   "old": 517,
+   "new": 315,
+   "pct": -39.1
   },
   {
-   "name": "Laurent Perrier Brut Vintage 2018",
-   "old": 155.0,
-   "new": 139.5,
-   "pct": -10.0
+   "name": "Antinori TIGNANELLO 2007",
+   "old": 420,
+   "new": 313,
+   "pct": -25.5
   },
   {
-   "name": "Laurent Perrier Cuvee Rose NV",
-   "old": 182.0,
-   "new": 145.6,
-   "pct": -20.0
+   "name": "Antinori TIGNANELLO 2008",
+   "old": 331,
+   "new": 275,
+   "pct": -16.9
   },
   {
-   "name": "Laurent Perrier Grand Siecle Iteration NO. 24 Mv · 1.5 L",
-   "old": 847.0,
-   "new": 762.3,
-   "pct": -10.0
+   "name": "Antinori TIGNANELLO 2009",
+   "old": 348,
+   "new": 306,
+   "pct": -12.1
   }
  ],
  "stock_changes": [
   {
-   "name": "Mitolo Angela Shiraz 2021",
+   "name": "Feytit Clinet 2020",
+   "old": "有货",
+   "new": "限量/询价"
+  },
+  {
+   "name": "Lascombes - Margaux 2009",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Berthelemot, Beaune 1er Cru Les Bressandes 2023",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Antinori Chianti Classico Riserva 2021",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Montrose, La Dame de Montrose - Saint Estephe 2016",
+   "name": "Badia a Coltibuono, Sangioveto di Toscana 2015",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Antinori Tignanello 2021*ETA:Nov",
+   "name": "Les Hauts Smith Blanc 1990*ETA:Nov",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Opus One 2012",
+   "name": "Berthelemot, Meursault 2023",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Coche Dury, Bourgogne Chardonnay 2019",
+   "name": "Bollinger Special Cuvee Brut NV",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Francois Carillon, Puligny Montrachet 1er Cru Les Champs Gains 2024",
+   "name": "Laurent Perrier Blanc de Blancs Brut Nature NV",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Francois Raveneau, Chablis 1er Cru Butteaux 2016",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Chateau de la Font du Loup, Cotes du Rhone Blanc 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Ch Coutet 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Aramasa, Colors Ecru Junmai Ginjo (Kimoto) NV · 720 ml",
+   "name": "Donnafugata, Sul Vulcano Etna Rosato 2021",
    "old": "有货",
    "new": "售罄"
   }
  ],
  "rating_added": [],
- "other": [],
+ "other": [
+  {
+   "name": "Giscours - Margaux 2014",
+   "change": "来源 Pivene → Crystal+Pivene"
+  },
+  {
+   "name": "Lascombes - Margaux 2009",
+   "change": "来源 Pivene → Crystal+Pivene"
+  },
+  {
+   "name": "Margaux 2021",
+   "change": "来源 Cornerstone → Cornerstone+Crystal"
+  },
+  {
+   "name": "Rauzan Segla 2021",
+   "change": "来源 Cornerstone → Cornerstone+Crystal"
+  },
+  {
+   "name": "Rauzan Segla 2022",
+   "change": "来源 Cornerstone → Cornerstone+Crystal"
+  }
+ ],
  "status": {
   "pivene_all": {
    "ok": true,
-   "rows": 1139,
+   "rows": 1146,
    "previous": 1139,
-   "ts": "2026-10-29T19:47:10"
+   "ts": "2026-10-30T19:43:47"
   },
   "cw_all": {
    "ok": true,
-   "rows": 1127,
+   "rows": 1150,
    "previous": 1127,
-   "ts": "2026-10-29T19:48:22"
+   "ts": "2026-10-30T19:45:24"
   },
   "cs_all": {
    "ok": true,
-   "rows": 1773,
-   "previous": 1772,
-   "ts": "2026-10-29T19:55:32"
+   "rows": 1770,
+   "previous": 1773,
+   "ts": "2026-10-30T19:52:54"
   },
   "cs_types": {
    "ok": true,
-   "rows": 117,
+   "rows": 116,
    "previous": 117,
-   "ts": "2026-10-29T19:55:32"
+   "ts": "2026-10-30T19:52:54"
   }
  }
 }

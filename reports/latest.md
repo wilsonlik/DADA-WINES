@@ -1,68 +1,84 @@
-# DADA WINES 每日更新报告 — 2026-10-30
-更新时间 2026-10-30 03:55 (新加坡时间)
+# DADA WINES 每日更新报告 — 2026-10-31
+更新时间 2026-10-31 03:53 (新加坡时间)
 
 ## 概览
-- 产品总数：3,870 → **3,871**（+1）
-- 新上架 2，下架 1，涨价 18，降价 4，库存变动 10，新增评分 0
-- 目前售罄 268，限量/询价 829，有货 2774
+- 产品总数：3,871 → **3,894**（+23）
+- 新上架 27，下架 4，涨价 2，降价 4，库存变动 10，新增评分 0
+- 目前售罄 273，限量/询价 828，有货 2793
 
 ## 来源站抓取状态
-- Pivene：✅ 成功，1,139 条（上次 1,139）
-- Crystal Wines：✅ 成功，1,127 条（上次 1,127）
-- Cornerstone：✅ 成功，1,773 条（上次 1,772）
+- Pivene：✅ 成功，1,146 条（上次 1,139）
+- Crystal Wines：✅ 成功，1,150 条（上次 1,127）
+- Cornerstone：✅ 成功，1,770 条（上次 1,773）
 
-## 新上架（2）
-- Macallan 12YO SHERRY Oak Single Malt Whisky (GBX / 2025 Release) — S$155 · 有货 · Cornerstone
-- Gregorio Martinez Gran Reserva DOC 2014 — S$52 · 限量/询价 · Cornerstone
+## 新上架（27）
+- Ch Margaux 2020 — S$830 · 有货 · Crystal
+- Coquard Loison Fleurot, Charmes Chambertin Grand Cru 2024 — S$584 · 有货 · Pivene
+- Coquard Loison Fleurot, Clos de Vougeot Grand Cru 2024 — S$584 · 有货 · Pivene
+- Ch Palmer 2022 — S$557 · 有货 · Crystal
+- Ch Palmer 2021 — S$440 · 有货 · Crystal
+- Ch Palmer 2008 — S$388 · 有货 · Crystal
+- Faiveley, Gevrey Chambertin 1er Cru Les Cazetiers 2021 — S$284 · 有货 · Pivene
+- Domaine Cluny, Chambolle Musigny 1er Cru Les Charmes 2023 — S$240 · 有货 · Pivene
+- Domaine Cluny, Gevrey Chambertin 1er Cru Les Champeaux 2023 — S$213 · 有货 · Pivene
+- Antinori TIGNANELLO 2023 — S$196 · 限量/询价 · Cornerstone
+- Coquard Loison Fleurot, Nuits Saint Georges 2024 — S$191 · 有货 · Pivene
+- Ch Malescot St Exupery 2009 — S$188 · 有货 · Crystal
+- Ch Brane Cantenac 2006 — S$148 · 有货 · Crystal
+- Ch Lascombes 2011 — S$148 · 有货 · Crystal
+- Ch Lascombes 2012 — S$148 · 有货 · Crystal
+- Ch Lascombes 2013 — S$138 · 有货 · Crystal
+- Chateau de la Font du Loup, Chateauneuf du Pape Le Puy Rolland 2024 — S$126 · 有货 · Pivene
+- Chavost Blanc de Chardonnay Extra Brut NV*ETA:End Nov — S$120 · 有货 · Crystal
+- Chavost Blanc de Meunier Brut Nature NV*ETA:End Nov — S$120 · 有货 · Crystal
+- Ch Durfort Vivens 2022 — S$118 · 有货 · Crystal
+- Chavost Cuvee Paradoxe Brut Nature NV*ETA:End Nov — S$110 · 有货 · Crystal
+- Ch Brane Cantenac 2013 — S$107 · 有货 · Crystal
+- Ch Giscours 2012 — S$105 · 有货 · Crystal
+- Ch Malescot St Exupery 2013 — S$95 · 有货 · Crystal
+- Chavost Blanc DASSEMBLAGE Brut Nature NV*ETA:End Nov — S$90 · 有货 · Crystal
+- Ch Kirwan 2022 — S$89 · 售罄 · Crystal
+- Chateau de la Font du Loup, Chateauneuf du Pape Les Demoiselles 2024 — S$82 · 有货 · Pivene
 
-## 下架（1）
-- Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2021 — 原价 S$123 · Cornerstone
+## 下架（4）
+- Calon Segur - Saint Estephe 2003 — 原价 S$271 · Pivene
+- Luce della Vite Brunello di Montalcino 2019 — 原价 S$244 · Cornerstone
+- Veuve Clicquot NV Champagne — 原价 S$69 · Cornerstone
+- Malibu 0.70l · 700 ml — 原价 S$34 · Cornerstone
 
-## 涨价（18）
-- Clerico Barolo Ginestra Ciabot Mentin DOCG 2021：S$129 → **S$227**（+76%）
-- Clerico Barolo Ginestra Pajana DOCG 2021：S$119 → **S$204**（+71%）
-- Zenato Amarone della Val DOC Classico 2020：S$79 → **S$130**（+65%）
-- Montes Alpha M 2021 · 700 ml：S$99 → **S$160**（+62%）
-- Ch Branaire Ducru 2007 · 700 ml：S$109 → **S$170**（+56%）
-- Vincent & Sophie Morey Chassange Montrachet Embrazees 2024 · 700 ml：S$119 → **S$180**（+51%）
-- Vincent & Sophie Morey Chassange Montrachet Morgeot 2024 · 700 ml：S$119 → **S$180**（+51%）
-- Yjar 2020 · 700 ml：S$159 → **S$220**（+38%）
-- Laurent Perrier Grand Siecle Iteration (27)：S$228 → **S$308**（+35%）
-- Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2019：S$123 → **S$155**（+26%）
-- Castello di Monsanto FABRIZIO BIANCHI Sangioveto IGT 2016：S$91 → **S$104**（+14%）
-- Castello di MONSANTO Chianti Classico DOCG 2023：S$50 → **S$57**（+14%）
-- Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2020 (Vinous No.1 Wine of 2025)：S$123 → **S$139**（+13%）
-- Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2018：S$108 → **S$122**（+13%）
-- Laurent Perrier Blanc de Blancs Brut Nature NV：S$152 → **S$171**（+12%）
-- Laurent Perrier Grand Siecle Iteration NO. 26 With Giftbox：S$298 → **S$335**（+12%）
-- Laurent Perrier Ultra Brut NV：S$115 → **S$130**（+12%）
-- Laurent Perrier Brut Reserve Heritage NV：S$130 → **S$147**（+12%）
+## 涨价（2）
+- Giscours - Margaux 2014：S$109 → **S$110**（+1%）
+- Rauzan Segla 2021：S$116 → **S$117**（+1%）
 
 ## 降价（4）
-- Laurent Perrier Cuvee Rose NV：S$182 → **S$146**（-20%）
-- Laurent Perrier Brut NV Champagne：S$98 → **S$78**（-20%）
-- Laurent Perrier Grand Siecle Iteration NO. 24 Mv · 1.5 L：S$847 → **S$762**（-10%）
-- Laurent Perrier Brut Vintage 2018：S$155 → **S$140**（-10%）
+- Antinori TIGNANELLO 2006：S$517 → **S$315**（-39%）
+- Antinori TIGNANELLO 2007：S$420 → **S$313**（-25%）
+- Antinori TIGNANELLO 2008：S$331 → **S$275**（-17%）
+- Antinori TIGNANELLO 2009：S$348 → **S$306**（-12%）
 
 ## 库存变动（10）
-- Coche Dury, Bourgogne Chardonnay 2019：有货 → **售罄**
-- Opus One 2012：有货 → **售罄**
-- Francois Raveneau, Chablis 1er Cru Butteaux 2016：有货 → **售罄**
-- Aramasa, Colors Ecru Junmai Ginjo (Kimoto) NV · 720 ml：有货 → **售罄**
-- Antinori Tignanello 2021*ETA:Nov：有货 → **售罄**
-- Francois Carillon, Puligny Montrachet 1er Cru Les Champs Gains 2024：有货 → **售罄**
-- Montrose, La Dame de Montrose - Saint Estephe 2016：有货 → **售罄**
-- Ch Coutet 2022：有货 → **售罄**
-- Chateau de la Font du Loup, Cotes du Rhone Blanc 2024：有货 → **售罄**
-- Mitolo Angela Shiraz 2021：有货 → **售罄**
+- Laurent Perrier Blanc de Blancs Brut Nature NV：有货 → **售罄**
+- Berthelemot, Meursault 2023：有货 → **售罄**
+- Bollinger Special Cuvee Brut NV：有货 → **售罄**
+- Badia a Coltibuono, Sangioveto di Toscana 2015：有货 → **售罄**
+- Antinori Chianti Classico Riserva 2021：有货 → **售罄**
+- Les Hauts Smith Blanc 1990*ETA:Nov：有货 → **售罄**
+- Donnafugata, Sul Vulcano Etna Rosato 2021：有货 → **售罄**
+- Feytit Clinet 2020：有货 → **限量/询价**
+- Lascombes - Margaux 2009：售罄 → **有货**
+- Berthelemot, Beaune 1er Cru Les Bressandes 2023：售罄 → **有货**
 
 ## 新增评分（0）
 - 无
 
-## 其他变动（0）
-- 无
+## 其他变动（5）
+- Giscours - Margaux 2014：来源 Pivene → Crystal+Pivene
+- Lascombes - Margaux 2009：来源 Pivene → Crystal+Pivene
+- Margaux 2021：来源 Cornerstone → Cornerstone+Crystal
+- Rauzan Segla 2021：来源 Cornerstone → Cornerstone+Crystal
+- Rauzan Segla 2022：来源 Cornerstone → Cornerstone+Crystal
 
 ## 图片
-- 图库共 3,365 张，其中已去除评分标 876 张
+- 图库共 3,372 张，其中已去除评分标 876 张
 
-来源数量：Pivene 1,139→1,139，Crystal 1,122→1,122，Cornerstone 1,759→1,760
+来源数量：Pivene 1,139→1,146，Crystal 1,122→1,145，Cornerstone 1,760→1,758
