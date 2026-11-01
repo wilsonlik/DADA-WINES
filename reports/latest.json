@@ -1,1360 +1,384 @@
 {
- "date": "2026-11-01",
- "total": 3883,
- "total_prev": 3894,
+ "date": "2026-11-02",
+ "total": 3892,
+ "total_prev": 3883,
  "added": [
   {
-   "name": "Katnook Estate Cabernet Sauvignon 2021",
-   "price": 36.0,
+   "name": "Francois Janoueix - Chateau Condat St Emilion Grand Cru 2022",
+   "price": 52,
    "stock": "有货",
    "sources": [
-    "crystal"
+    "cornerstone"
    ]
   },
   {
-   "name": "Katnook FOUNDER'S Block Shiraz 2021",
-   "price": 25.0,
+   "name": "Francois Janoueix - Chateau D Arthus 2022",
+   "price": 48,
    "stock": "有货",
    "sources": [
-    "crystal"
+    "cornerstone"
    ]
   },
   {
-   "name": "Clarendelle Rouge By Haut Brion 2016",
-   "price": 29.0,
+   "name": "Domaine Fichet Macon Chateau LONDON BLANC 2024",
+   "price": 40,
    "stock": "有货",
    "sources": [
-    "crystal"
+    "cornerstone"
    ]
   },
   {
-   "name": "Francois Janoueix - Ducasse (Graves) 2021",
-   "price": 29,
+   "name": "Domaine Fichet Macon GRANDE CRAIE BLANC 2023",
+   "price": 92,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Domaine de La Choupette Puligny Montrachet 1er Cru LA GARENNE BLANC 2023",
+   "price": 127,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Domaine de La Choupette Puligny Montrachet 1er Cru LES CHALUMAUX BLANC 2023",
+   "price": 127,
    "stock": "限量/询价",
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Francois Janoueix - Ducasse (Graves) 2024",
-   "price": 29,
+   "name": "Domaine de La Choupette Puligny Montrachet 1er Cru LES CHALUMAUX BLANC 2024",
+   "price": 127,
    "stock": "有货",
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "La Gerla Brunello di Montalcino DOCG LA PIEVE 2021 (KO 100, #1 Top Wines of 2025)",
-   "price": 117,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "La Rasina Brunello Di Montalcino 2019",
-   "price": 78,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "La Rasina Brunello Di Montalcino 2020",
-   "price": 78,
+   "name": "Domaine de La Choupette Puligny Montrachet VIEILLES VIGNES BLANC 2023",
+   "price": 118,
    "stock": "有货",
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Astoria ICONA Cabernet Sauvignon 2023",
-   "price": 29,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Astoria ICONA Cabernet Sauvignon 2024",
-   "price": 29,
+   "name": "Domaine de La Choupette Puligny Montrachet VIEILLES VIGNES BLANC 2024",
+   "price": 118,
    "stock": "有货",
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Zenato Valpolicella DOC Superiore 2021",
-   "price": 25.0,
+   "name": "Ara, Rose 2022",
+   "price": 32.0,
    "stock": "有货",
    "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Francois Janoueix - R de Romer 2024",
-   "price": 39,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Louis Latour Chablis Ac 2024*Damaged Label",
-   "price": 30.0,
-   "stock": "有货",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Louis Latour Chablis les Clos Grands Cru 2022",
-   "price": 119.4,
-   "stock": "有货",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Louis Latour Chardonnay de L'ARDECHE Blanc 2021",
-   "price": 25.5,
-   "stock": "有货",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Weingut Seehof Riesling Feinherb 2024",
-   "price": 32,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Astoria ALISIA Pinot Grigio 2024",
-   "price": 29,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Astoria ALISIA Pinot Grigio 2025",
-   "price": 29,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Santa Margherita Pinot Grigio 2022",
-   "price": 26.0,
-   "stock": "有货",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Zenato Soave DOC Classico 2024",
-   "price": 19.2,
-   "stock": "有货",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Manzanos - Bodegas Manzanos BLANCO FERMENTADO en Barrica NV",
-   "price": 39,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Astoria Prosecco ROSE 2025",
-   "price": 24,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Canadian Club Whisky 0.70l · 700 ml",
-   "price": 54,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Grand Marnier 0.70l · 700 ml",
-   "price": 57,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Lillet ROUGE · 700 ml",
-   "price": 41,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Campari Aperitif 0.70l · 700 ml",
-   "price": 39,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Campari Aperitif 0.75l",
-   "price": 39,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Fernet Branca 0.70l · 700 ml",
-   "price": 59,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Fernet Branca 0.70l · 700 ml",
-   "price": 59,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "De Kuyper - Kwai Feh Lychee Liqueur 0.70l · 700 ml",
-   "price": 38,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
+    "pivene"
    ]
   }
  ],
  "removed": [
   {
-   "name": "Kaiken Mai 2021",
-   "price": 82.2,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Kalleske Merchant Cab Sau 2022",
-   "price": 34.5,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Mitolo Angela Shiraz 2021",
-   "price": 43.2,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Mitolo Serpico Cabernet Sauvignon 2020",
-   "price": 61.8,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "La Boheme Riesling 2024",
-   "price": 23.2,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Casa Silva RESERVA Merlot 2023",
-   "price": 29,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Casa Silva RESERVA Range Merlot 2024",
-   "price": 29,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Montes Alpha M 2015",
-   "price": 105.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Palmer 2019 (OWC 3)(Ex-Chateau)",
-   "price": 430,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Chapoutier Crozes Hermitage Meysonniers Rouge 2022",
-   "price": 36.6,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Argiolas COSTERA Cannonau Di Sardegna DOC 2022",
-   "price": 38,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Castello di MONSANTO Chianti Classico DOCG 2023",
-   "price": 57,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "La Gerla Brunello di Montalcino DOCG 2020",
-   "price": 86,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Brigaldara Valpolicella RIPASSO SUPERIORE 2022",
-   "price": 48,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Brigaldara Valpolicella RIPASSO SUPERIORE 2023",
-   "price": 48,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Brigaldara Valpolicella RIPASSO SUPERIORE 2024",
-   "price": 48,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "MISHA'S Vineyard the High Note Pinot Noir 2021",
-   "price": 43.2,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Trinity Hill HAWKE'S Bay Syrah 2021",
-   "price": 29.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Marques de Caceres Bio Red 2021",
-   "price": 23.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Arzuaga Pago Mota 2024",
-   "price": 24.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Marques de Caceres Crianza Red 2021",
-   "price": 24.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Gregorio Martinez GRAN RESERVA DOC 2015",
-   "price": 52,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Gregorio Martinez Gran Reserva DOC 2014",
-   "price": 52,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Montes Outer Limits Sauvignon Blanc 2024",
-   "price": 30.5,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Montes Limited Pinot Noir 2022",
-   "price": 22.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Marius Avenue de la Gare Marsanne 2023 (CORK)",
-   "price": 18.8,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Zenato Lugana DOC San Benedetto 2024",
-   "price": 24.5,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "MISHA'S Vineyard the Gallery Gewurztraminer 2023",
-   "price": 28.5,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Saint Clair MARLBOROUGH Riesling 2024",
-   "price": 32,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Saint Clair MARLBOROUGH Riesling 2025",
-   "price": 32,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Arzuaga Fan D.ORO Blanco 2023",
-   "price": 28.5,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Dorgo Tokaji Edes Szamorodni 2018 · 500 ml",
-   "price": 30.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Dorgo Tokaji Late Harvest 2021 · 500 ml",
-   "price": 25.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Quinta Do Noval Port Vintage 2015",
-   "price": 113.2,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Quinta Do Noval Port Vintage 2018",
-   "price": 64.8,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Pernod 0.70l · 700 ml",
-   "price": 49,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Poli - Cleopatra Moscato Oro Grappa 0.70l · 700 ml",
-   "price": 92,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Ardbeg 10YO Single Malt Whisky 0.70l · 700 ml",
-   "price": 103,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Lagavulin 16YO Single Malt Whisky 0.70l · 700 ml",
-   "price": 138,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Laphroaig 10YO Single Malt Whisky 0.70l · 700 ml",
-   "price": 83,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Sourz Apple Liqueur 0.70l · 700 ml",
-   "price": 35,
+   "name": "Domaine de La Choupette Chassagne Montrachet 1er Cru MORGEOT BLANC 2023",
+   "price": 140,
    "sources": [
     "cornerstone"
    ]
   }
  ],
- "price_up": [
+ "price_up": [],
+ "price_down": [
   {
-   "name": "Berthelemot, Beaune 1er Cru Clos des Mouches 2021",
-   "old": 103.0,
-   "new": 148.0,
-   "pct": 43.7
+   "name": "By Farr, Irrewarra Pinot Noir 2023",
+   "old": 71.0,
+   "new": 60.0,
+   "pct": -15.5
   },
   {
-   "name": "Berthelemot, Beaune 1er Cru Clos des Mouches 2022",
-   "old": 111.0,
-   "new": 159.0,
-   "pct": 43.2
+   "name": "By Farr, Irrewarra Pinot Noir 2024",
+   "old": 77.0,
+   "new": 60.0,
+   "pct": -22.1
   },
   {
-   "name": "Berthelemot, Beaune 1er Cru Clos des Mouches 2023",
-   "old": 114.0,
-   "new": 164.0,
-   "pct": 43.9
+   "name": "By Farr, Shiraz 2024",
+   "old": 93.0,
+   "new": 78.0,
+   "pct": -16.1
   },
   {
-   "name": "Berthelemot, Beaune 1er Cru Les Bressandes 2023",
-   "old": 80.0,
-   "new": 115.0,
-   "pct": 43.8
+   "name": "Dominique Portet, Heathcote Shiraz 2022",
+   "old": 87.0,
+   "new": 60.0,
+   "pct": -31.0
   },
   {
-   "name": "Berthelemot, Corton Grand Cru 2021",
-   "old": 183.0,
-   "new": 262.0,
-   "pct": 43.2
+   "name": "Head, Old Vine Grenache 2020",
+   "old": 68.0,
+   "new": 47.0,
+   "pct": -30.9
   },
   {
-   "name": "Berthelemot, Corton Grand Cru 2022",
-   "old": 198.0,
-   "new": 284.0,
-   "pct": 43.4
+   "name": "Head, Old Vine Shiraz 2020",
+   "old": 68.0,
+   "new": 47.0,
+   "pct": -30.9
   },
   {
-   "name": "Berthelemot, Corton Grand Cru 2023",
-   "old": 214.0,
-   "new": 306.0,
-   "pct": 43.0
+   "name": "Head, Old Vine Shiraz 2021",
+   "old": 68.0,
+   "new": 47.0,
+   "pct": -30.9
   },
   {
-   "name": "Hubert Lignier, Bourgogne Pinot Noir 2023",
-   "old": 69.0,
-   "new": 99.0,
-   "pct": 43.5
-  },
-  {
-   "name": "Hubert Lignier, Chambolle Musigny 1er Cru Les Baudes 2023",
-   "old": 320.0,
-   "new": 458.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Hubert Lignier, Chambolle Musigny 1er Cru Les Chabiots 2023",
-   "old": 320.0,
-   "new": 458.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Hubert Lignier, Chambolle Musigny Les Bussieres 2023 · 1.5 L",
-   "old": 416.0,
-   "new": 595.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Hubert Lignier, Charmes Chambertin Grand Cru 2023",
-   "old": 625.0,
-   "new": 894.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Hubert Lignier, Clos de la Roche Grand Cru 2023",
-   "old": 801.0,
-   "new": 1145.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Hubert Lignier, Gevrey Chambertin Les Seuvrees 2023 · 1.5 L",
-   "old": 340.0,
-   "new": 486.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Hubert Lignier, Gevrey Chambertin Les Seuvrees 2023",
-   "old": 145.0,
-   "new": 208.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Hubert Lignier, Gevrey Chambertin Regnard 2023",
-   "old": 133.0,
-   "new": 191.0,
-   "pct": 43.6
-  },
-  {
-   "name": "Hubert Lignier, Monthelie 2023",
-   "old": 88.0,
-   "new": 126.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Hubert Lignier, Morey Saint Denis 1er Cru Chenevery 2023",
-   "old": 202.0,
-   "new": 289.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Hubert Lignier, Morey Saint Denis 1er Cru Les Chaffots 2023 · 1.5 L",
-   "old": 480.0,
-   "new": 687.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Hubert Lignier, Morey Saint Denis 1er Cru Les Chaffots 2023",
-   "old": 225.0,
-   "new": 322.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Hubert Lignier, Morey Saint Denis 1er Cru Les Sorbets 2023",
-   "old": 202.0,
-   "new": 289.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Hubert Lignier, Morey Saint Denis 1er Cru Vieilles Vignes 2023 · 1.5 L",
-   "old": 606.0,
-   "new": 867.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Hubert Lignier, Morey Saint Denis 1er Cru Vieilles Vignes 2023",
-   "old": 286.0,
-   "new": 409.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Hubert Lignier, Morey Saint Denis Trilogie 2023",
-   "old": 141.0,
-   "new": 202.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Hubert Lignier, Pommard Les Chanlins 2023",
-   "old": 130.0,
-   "new": 186.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Hubert Lignier, Pommard Les Chanlins 2023 · 1.5 L",
-   "old": 270.0,
-   "new": 387.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Jean Fournier, Gevrey Chambertin 1er Cru Champeaux 2021",
-   "old": 194.0,
-   "new": 278.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Jean Fournier, Gevrey Chambertin 2023",
-   "old": 111.0,
-   "new": 159.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Jean Fournier, Marsannay Clos du Roy 2022",
-   "old": 76.0,
-   "new": 109.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Jean Fournier, Marsannay Cuvee Saint Urbain 2022",
-   "old": 69.0,
-   "new": 99.0,
-   "pct": 43.5
-  },
-  {
-   "name": "Jean Fournier, Marsannay Es Chezots 2022",
-   "old": 76.0,
-   "new": 109.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Jean Fournier, Marsannay Le Chapitre 2022",
-   "old": 69.0,
-   "new": 99.0,
-   "pct": 43.5
-  },
-  {
-   "name": "Jean Fournier, Marsannay Les Longeroies 2023",
-   "old": 76.0,
-   "new": 109.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Jean Fournier, Marsannay Trois Terres Vieilles Vignes 2021",
-   "old": 111.0,
-   "new": 159.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Jean Fournier, Marsannay Trois Terres Vieilles Vignes 2022",
-   "old": 111.0,
-   "new": 159.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Jean Fournier, Marsannay Trois Terres Vieilles Vignes 2023",
-   "old": 111.0,
-   "new": 159.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Jean Jacques Confuron, Chambolle Musigny 2023",
-   "old": 128.0,
-   "new": 184.0,
-   "pct": 43.8
-  },
-  {
-   "name": "Jean Jacques Confuron, Clos Vougeot Grand Cru 2021",
-   "old": 351.0,
-   "new": 502.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Jean Jacques Confuron, Clos Vougeot Grand Cru 2022",
-   "old": 359.0,
-   "new": 513.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Jean Jacques Confuron, Clos Vougeot Grand Cru 2023",
-   "old": 342.0,
-   "new": 489.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Jean Jacques Confuron, Cote de Nuits Villages Les Vignottes 2022",
-   "old": 98.0,
-   "new": 140.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Jean Jacques Confuron, Cote de Nuits Villages Les Vignottes 2023",
-   "old": 98.0,
-   "new": 140.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Jean Jacques Confuron, Cuvee Jeuneese Bourgogne Rouge 2023",
-   "old": 64.0,
-   "new": 92.0,
-   "pct": 43.8
-  },
-  {
-   "name": "Jean Jacques Confuron, Nuits Saint Georges 1er Cru Aux Boudots 2022",
-   "old": 217.0,
-   "new": 311.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Jean Jacques Confuron, Nuits Saint Georges 1er Cru Les Chaboeufs 2022",
-   "old": 191.0,
-   "new": 273.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Jean Jacques Confuron, Nuits Saint Georges 1er Cru Les Chaboeufs 2023",
-   "old": 183.0,
-   "new": 262.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Joseph Pascal, Bourgogne Cote d'Or Pinot Noir 2024",
-   "old": 46.0,
-   "new": 66.0,
-   "pct": 43.5
-  },
-  {
-   "name": "Michele & Patrice Rion, Bourgogne Rouge 2023",
-   "old": 53.0,
-   "new": 77.0,
-   "pct": 45.3
-  },
-  {
-   "name": "Michele & Patrice Rion, Chambolle Musigny 1er Cru Les Charmes 2020",
-   "old": 263.0,
-   "new": 377.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Michele & Patrice Rion, Chambolle Musigny 1er Cru Les Charmes 2022",
-   "old": 233.0,
-   "new": 333.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Michele & Patrice Rion, Chambolle Musigny 1er Cru Les Charmes 2023",
-   "old": 233.0,
-   "new": 333.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Michele & Patrice Rion, Chambolle Musigny Les Cras 2022",
-   "old": 168.0,
-   "new": 240.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Michele & Patrice Rion, Chambolle Musigny Les Cras 2023",
-   "old": 168.0,
-   "new": 240.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Michele & Patrice Rion, Nuits Saint Georges 1er Cru Clos Des Argillieres 2022",
-   "old": 179.0,
-   "new": 257.0,
-   "pct": 43.6
-  },
-  {
-   "name": "Michele & Patrice Rion, Nuits Saint Georges 1er Cru Les Hauts Pruliers 2023",
-   "old": 179.0,
-   "new": 257.0,
-   "pct": 43.6
-  },
-  {
-   "name": "Michele & Patrice Rion, Nuits Saint Georges Aux Barrieres 2022",
-   "old": 122.0,
-   "new": 175.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Michele & Patrice Rion, Nuits Saint Georges Aux Barrieres 2023",
-   "old": 122.0,
-   "new": 175.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Michele & Patrice Rion, Vosne Romanee 1er Cru Les Beaux Monts 2023",
-   "old": 233.0,
-   "new": 333.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Michele & Patrice Rion, Vosne Romanee 2022",
-   "old": 164.0,
-   "new": 235.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Michele & Patrice Rion, Vosne Romanee 2023",
-   "old": 164.0,
-   "new": 235.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Patrick Javillier, Savigny Les Beaune 1er Cru Les Serpentieres 2021",
-   "old": 95.0,
-   "new": 137.0,
-   "pct": 44.2
-  },
-  {
-   "name": "Patrick Javillier, Savigny Les Beaune 1er Cru Les Serpentieres 2023",
-   "old": 99.0,
-   "new": 142.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Patrick Javillier, Savigny Les Beaune Les Grands Liards 2023",
-   "old": 76.0,
-   "new": 109.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Patrick Javillier, Savigny Les Beaune Les Grands Liards 2024",
-   "old": 76.0,
-   "new": 109.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Robert Groffier, Bonnes Mares Grand Cru (Ex-Domaine) 2017",
-   "old": 935.0,
-   "new": 1336.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Bonnes Mares Grand Cru (Ex-Domaine) 2019",
-   "old": 935.0,
-   "new": 1336.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Bonnes Mares Grand Cru (Ex-Domaine) 2023",
-   "old": 935.0,
-   "new": 1336.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Bonnes Mares Grand Cru (Ex-Domaine) 2024",
-   "old": 1049.0,
-   "new": 1499.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Bourgogne Cote D'or (Ex-Domaine) 2024",
-   "old": 88.0,
-   "new": 126.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Robert Groffier, Chambertin Clos de Beze Grand Cru (Ex-Domaine) 2015",
-   "old": 1297.0,
-   "new": 1853.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Chambertin Clos de Beze Grand Cru (Ex-Domaine) 2024",
-   "old": 1278.0,
-   "new": 1826.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Chambolle Musigny 1er Cru Les Amoureuses (Ex-Domaine) 2016",
-   "old": 1049.0,
-   "new": 1499.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Chambolle Musigny 1er Cru Les Amoureuses (Ex-Domaine) 2017",
-   "old": 1049.0,
-   "new": 1499.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Chambolle Musigny 1er Cru Les Hauts Doix (Ex-Domaine) 2024",
-   "old": 294.0,
-   "new": 420.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Chambolle Musigny 1er Cru Les Sentiers (Ex-Domaine) 2018",
-   "old": 317.0,
-   "new": 453.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Chambolle Musigny 1er Cru Les Sentiers 2024",
-   "old": 294.0,
-   "new": 420.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Robert Groffier, Gevrey Chambertin Les Seuvrees (Ex-Domaine) 2024",
-   "old": 214.0,
-   "new": 306.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Berthelemot, Chassagne Montrachet 1er Cru Abbaye de Morgeot 2024",
-   "old": 130.0,
-   "new": 186.0,
-   "pct": 43.1
-  },
-  {
-   "name": "Berthelemot, Corton Charlemagne Grand Cru 2023",
-   "old": 275.0,
-   "new": 393.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Berthelemot, Meursault 2023",
-   "old": 99.0,
-   "new": 142.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Berthelemot, Meursault 2024",
-   "old": 103.0,
-   "new": 148.0,
-   "pct": 43.7
-  },
-  {
-   "name": "Berthelemot, Puligny Montrachet 1er Cru Les Folatieres 2024",
-   "old": 145.0,
-   "new": 208.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Berthelemot, Puligny Montrachet 2024",
-   "old": 103.0,
-   "new": 148.0,
-   "pct": 43.7
-  },
-  {
-   "name": "Berthelemot, Saint Aubin 1er Cru Murgers des Dents de Chien 2022",
-   "old": 95.0,
-   "new": 137.0,
-   "pct": 44.2
-  },
-  {
-   "name": "Berthelemot, Saint Aubin 1er Cru Murgers des Dents de Chien 2023",
-   "old": 99.0,
-   "new": 142.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Berthelemot, Saint Aubin 1er Cru Murgers des Dents de Chien 2024",
-   "old": 99.0,
-   "new": 142.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Charly Nicolle, Chablis 1er Cru Les Fourneaux Ante MCMLXXX 2023",
-   "old": 60.0,
-   "new": 86.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Charly Nicolle, Chablis 1er Cru Mont de Milieu 2023",
-   "old": 61.0,
-   "new": 88.0,
-   "pct": 44.3
-  },
-  {
-   "name": "Charly Nicolle, Chablis Grand Cru Bougros 2023",
-   "old": 107.0,
-   "new": 153.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Francois Carillon, Bourgogne Cote d'Or Blanc Cuvee Le Vieux Clos 2024",
-   "old": 69.0,
-   "new": 99.0,
-   "pct": 43.5
-  },
-  {
-   "name": "Francois Carillon, Chassagne Montrachet 2024",
-   "old": 145.0,
-   "new": 208.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Francois Carillon, Macon Ige 2024",
-   "old": 53.0,
-   "new": 77.0,
-   "pct": 45.3
-  },
-  {
-   "name": "Francois Carillon, Puligny Montrachet 1er Cru Les Champs Gains 2024",
-   "old": 206.0,
-   "new": 295.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Francois Carillon, Puligny Montrachet 1er Cru Les Combettes 2024",
-   "old": 282.0,
-   "new": 404.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Francois Carillon, Puligny Montrachet 1er Cru Les Folatieres 2024",
-   "old": 282.0,
-   "new": 404.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Francois Carillon, Puligny Montrachet 1er Cru Les Perrieres 2024",
-   "old": 282.0,
-   "new": 404.0,
-   "pct": 43.3
-  },
-  {
-   "name": "Francois Carillon, Puligny Montrachet 2024",
-   "old": 149.0,
-   "new": 213.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Hubert Lignier, Coteaux Bourguignons Chardonnay Au Gue 2024",
-   "old": 57.0,
-   "new": 82.0,
-   "pct": 43.9
-  },
-  {
-   "name": "Hubert Lignier, Fixin Champs de Vosger Blanc 2023",
-   "old": 111.0,
-   "new": 159.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Jean Fournier, Bourgogne Origines Cuvee Speciale Blanc 2023",
+   "name": "Head, Red GSM 2021",
    "old": 55.0,
-   "new": 79.0,
-   "pct": 43.6
+   "new": 38.0,
+   "pct": -30.9
   },
   {
-   "name": "Jean Fournier, Marsannay Cuvee Saint Urbain Blanc 2023",
-   "old": 69.0,
-   "new": 99.0,
-   "pct": 43.5
+   "name": "Head, Red Shiraz 2022",
+   "old": 56.0,
+   "new": 39.0,
+   "pct": -30.4
   },
   {
-   "name": "Jean Jacques Confuron, Cote de Nuits Villages La Montagne Blanc 2022",
-   "old": 84.0,
-   "new": 120.0,
-   "pct": 42.9
+   "name": "Head, The Blonde Shiraz 2018",
+   "old": 86.0,
+   "new": 60.0,
+   "pct": -30.2
   },
   {
-   "name": "Jean Jacques Confuron, Cotes de Nuits Village La Montagne Blanc 2023",
-   "old": 82.0,
+   "name": "Noon Winery, Eclipse 2020",
+   "old": 80.0,
+   "new": 60.0,
+   "pct": -25.0
+  },
+  {
+   "name": "Noon Winery, Reserve Cabernet Sauvignon 2020",
+   "old": 80.0,
+   "new": 60.0,
+   "pct": -25.0
+  },
+  {
+   "name": "By Farr, RP Cote Vineyard Pinot Noir 2024",
+   "old": 131.0,
+   "new": 110.0,
+   "pct": -16.0
+  },
+  {
+   "name": "By Farr, Tout Pres Pinot Noir 2024",
+   "old": 131.0,
    "new": 118.0,
-   "pct": 43.9
+   "pct": -9.9
   },
   {
-   "name": "Joseph Pascal, Bourgogne Cote d'Or Chardonnay 2023",
-   "old": 44.0,
-   "new": 64.0,
-   "pct": 45.5
+   "name": "Dominique Portet, Cabernet Sauvignon 2019",
+   "old": 79.0,
+   "new": 55.0,
+   "pct": -30.4
   },
   {
-   "name": "Joseph Pascal, Bourgogne Cote d'Or Chardonnay 2024",
+   "name": "Dominique Portet, Fontaine Cabernets 2024",
+   "old": 48.0,
+   "new": 33.0,
+   "pct": -31.2
+  },
+  {
+   "name": "Dominique Portet, Reserve de Famille 2021",
+   "old": 88.0,
+   "new": 61.0,
+   "pct": -30.7
+  },
+  {
+   "name": "Soumah, Equilibrio Syrah 2018",
+   "old": 75.0,
+   "new": 60.0,
+   "pct": -20.0
+  },
+  {
+   "name": "Ara, Pinot Noir 2023",
    "old": 46.0,
-   "new": 66.0,
-   "pct": 43.5
+   "new": 32.0,
+   "pct": -30.4
   },
   {
-   "name": "Joseph Pascal, Meursault 2024",
-   "old": 91.0,
-   "new": 131.0,
-   "pct": 44.0
+   "name": "Ata Rangi, Crimson Pinot Noir 2023",
+   "old": 53.0,
+   "new": 40.0,
+   "pct": -24.5
   },
   {
-   "name": "Joseph Pascal, Puligny Montrachet 1er Cru Hameau de Blagny 2022",
-   "old": 147.0,
-   "new": 210.0,
-   "pct": 42.9
+   "name": "By Farr, Irrewarra Chardonnay 2025",
+   "old": 77.0,
+   "new": 62.0,
+   "pct": -19.5
   },
   {
-   "name": "Joseph Pascal, Puligny Montrachet 1er Cru Hameau de Blagny 2023",
-   "old": 147.0,
-   "new": 210.0,
-   "pct": 42.9
+   "name": "By Farr, Viognier 2025",
+   "old": 93.0,
+   "new": 78.0,
+   "pct": -16.1
   },
   {
-   "name": "Joseph Pascal, Puligny Montrachet 1er Cru Hameau de Blagny 2024",
-   "old": 147.0,
-   "new": 210.0,
-   "pct": 42.9
+   "name": "Grosset, Alea Riesling 2025",
+   "old": 53.0,
+   "new": 42.0,
+   "pct": -20.8
   },
   {
-   "name": "Joseph Pascal, Puligny Montrachet 1er Cru Les Chalumeaux 2024",
-   "old": 147.0,
-   "new": 210.0,
-   "pct": 42.9
+   "name": "Grosset, Polish Hill Riesling 2025",
+   "old": 75.0,
+   "new": 60.0,
+   "pct": -20.0
   },
   {
-   "name": "Joseph Pascal, Puligny Montrachet 2024",
-   "old": 97.0,
-   "new": 139.0,
-   "pct": 43.3
+   "name": "Grosset, Springvale Riesling 2025",
+   "old": 55.0,
+   "new": 46.0,
+   "pct": -16.4
   },
   {
-   "name": "Joseph Pascal, Puligny Montrachet Les Enseigneres 2024",
-   "old": 112.0,
-   "new": 161.0,
-   "pct": 43.8
+   "name": "By Farr, GC Cote Chardonnay 2025",
+   "old": 131.0,
+   "new": 110.0,
+   "pct": -16.0
   },
   {
-   "name": "Patrick Javillier, Bourgogne Blanc Cuvee des Forgets 2022",
-   "old": 64.0,
-   "new": 92.0,
-   "pct": 43.8
+   "name": "Dominique Portet, Fontaine Chardonnay 2024",
+   "old": 48.0,
+   "new": 33.0,
+   "pct": -31.2
   },
   {
-   "name": "Patrick Javillier, Bourgogne Blanc Cuvee des Forgets 2023",
-   "old": 64.0,
-   "new": 92.0,
-   "pct": 43.8
+   "name": "Dominique Portet, Sauvignon Blanc 2024",
+   "old": 54.0,
+   "new": 37.0,
+   "pct": -31.5
   },
   {
-   "name": "Patrick Javillier, Bourgogne Blanc Cuvee des Forgets 2024",
-   "old": 64.0,
-   "new": 92.0,
-   "pct": 43.8
+   "name": "Dominique Portet, Single Vineyard Chardonnay 2024",
+   "old": 60.0,
+   "new": 42.0,
+   "pct": -30.0
   },
   {
-   "name": "Patrick Javillier, Corton Charlemagne Grand Cru 2024",
-   "old": 420.0,
-   "new": 600.0,
-   "pct": 42.9
+   "name": "Ara, Pinot Gris 2024",
+   "old": 46.0,
+   "new": 32.0,
+   "pct": -30.4
   },
   {
-   "name": "Patrick Javillier, Meursault 1er Cru les Charmes 2023",
-   "old": 198.0,
-   "new": 284.0,
-   "pct": 43.4
+   "name": "Ara, Pinot Gris 2025",
+   "old": 46.0,
+   "new": 32.0,
+   "pct": -30.4
   },
   {
-   "name": "Patrick Javillier, Meursault 1er Cru les Charmes 2024",
-   "old": 206.0,
-   "new": 295.0,
-   "pct": 43.2
+   "name": "Ara, Sauvignon Blanc 2024",
+   "old": 46.0,
+   "new": 32.0,
+   "pct": -30.4
   },
   {
-   "name": "Patrick Javillier, Meursault 2022",
-   "old": 128.0,
-   "new": 183.0,
-   "pct": 43.0
+   "name": "Dominique Portet, Fontaine Rose 2025",
+   "old": 48.0,
+   "new": 33.0,
+   "pct": -31.2
   },
   {
-   "name": "Patrick Javillier, Meursault 2023",
-   "old": 128.0,
-   "new": 183.0,
-   "pct": 43.0
+   "name": "Ara, Rose 2025",
+   "old": 46.0,
+   "new": 32.0,
+   "pct": -30.4
   },
   {
-   "name": "Patrick Javillier, Meursault 2024",
-   "old": 128.0,
-   "new": 183.0,
-   "pct": 43.0
-  },
-  {
-   "name": "Patrick Javillier, Meursault Clos du Cromin 2022",
-   "old": 133.0,
-   "new": 191.0,
-   "pct": 43.6
-  },
-  {
-   "name": "Patrick Javillier, Meursault Les Clousots 2024",
-   "old": 152.0,
-   "new": 218.0,
-   "pct": 43.4
-  },
-  {
-   "name": "Patrick Javillier, Meursault Les Tillets 2024",
-   "old": 133.0,
-   "new": 191.0,
-   "pct": 43.6
-  },
-  {
-   "name": "Saumaize Michelin, Macon Villages 2024",
-   "old": 44.0,
-   "new": 64.0,
-   "pct": 45.5
-  },
-  {
-   "name": "Saumaize Michelin, Pouilly Fuisse 1er Cru Clos Sur La Roche 2024",
-   "old": 78.0,
-   "new": 112.0,
-   "pct": 43.6
-  },
-  {
-   "name": "Saumaize Michelin, Pouilly Fuisse 1er Cru La Marechaude 2023",
-   "old": 78.0,
-   "new": 112.0,
-   "pct": 43.6
-  },
-  {
-   "name": "Saumaize Michelin, Pouilly Fuisse Pentacrine 2023",
-   "old": 57.0,
-   "new": 82.0,
-   "pct": 43.9
-  },
-  {
-   "name": "Saumaize Michelin, Vire Clesse 2023",
-   "old": 51.0,
-   "new": 74.0,
-   "pct": 45.1
-  },
-  {
-   "name": "Seguinot Bordet, Bourgogne Blanc 2024",
-   "old": 35.0,
-   "new": 50.0,
-   "pct": 42.9
-  },
-  {
-   "name": "Seguinot Bordet, Chablis 2025",
-   "old": 44.0,
-   "new": 63.0,
-   "pct": 43.2
-  },
-  {
-   "name": "Seguinot Bordet, Chablis Grand Cru Les Preuses 2023",
-   "old": 118.0,
-   "new": 169.0,
-   "pct": 43.2
+   "name": "Strange Nature, Gin NV · 700 ml",
+   "old": 109.0,
+   "new": 76.0,
+   "pct": -30.3
   }
  ],
- "price_down": [],
- "stock_changes": [],
+ "stock_changes": [
+  {
+   "name": "Katnook Estate Cabernet Sauvignon 2021",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Ch Lafite Rothschild 2009",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Clarendelle Rouge By Haut Brion 2016",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Grosset, Springvale Riesling 2025",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Louis Latour Chablis Ac 2024*Damaged Label",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Louis Latour Chablis les Clos Grands Cru 2022",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Louis Latour Chardonnay de L'ARDECHE Blanc 2021",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Zenato Soave DOC Classico 2024",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Cloudy Bay Sauvignon Blanc 2024",
+   "old": "有货",
+   "new": "售罄"
+  }
+ ],
  "rating_added": [],
  "other": [],
  "status": {
   "pivene_all": {
    "ok": true,
-   "rows": 1146,
+   "rows": 1147,
    "previous": 1146,
-   "ts": "2026-10-31T19:36:21"
+   "ts": "2026-11-01T19:36:50"
   },
   "cw_all": {
    "ok": true,
    "rows": 1137,
-   "previous": 1150,
-   "ts": "2026-10-31T19:37:43"
+   "previous": 1137,
+   "ts": "2026-11-01T19:37:59"
   },
   "cs_all": {
    "ok": true,
    "rows": 1781,
-   "previous": 1770,
-   "ts": "2026-10-31T19:45:05"
+   "previous": 1781,
+   "ts": "2026-11-01T19:45:01"
   },
   "cs_types": {
    "ok": true,
    "rows": 125,
-   "previous": 116,
-   "ts": "2026-10-31T19:45:05"
+   "previous": 125,
+   "ts": "2026-11-01T19:45:01"
   }
  }
 }
