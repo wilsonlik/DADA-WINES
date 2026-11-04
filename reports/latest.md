@@ -1,35 +1,22 @@
-# DADA WINES 每日更新报告 — 2026-11-04
-更新时间 2026-11-04 23:58 (新加坡时间)
+# DADA WINES 每日更新报告 — 2026-11-05
+更新时间 2026-11-05 04:05 (新加坡时间)
 
 ## 概览
-- 产品总数：6,928 → **6,935**（+7）
-- 新上架 14，下架 2322，涨价 223，降价 1810，库存变动 294，新增评分 17
-- 目前售罄 818，限量/询价 818，有货 5299
+- 产品总数：6,935 → **6,930**（-5）
+- 新上架 0，下架 2319，涨价 220，降价 1809，库存变动 267，新增评分 16
+- 目前售罄 818，限量/询价 817，有货 5295
 
 ## 来源站抓取状态
-- Pivene：✅ 成功，1,149 条（上次 1,151）
+- Pivene：✅ 成功，1,149 条（上次 1,149）
 - Crystal Wines：✅ 成功，1,171 条（上次 1,171）
-- Cornerstone：✅ 成功，1,796 条（上次 1,794）
+- Cornerstone：✅ 成功，1,791 条（上次 1,796）
 - Grand Vin：✅ 成功，1,623 条（上次 1,623）
 - Vinum：✅ 成功，1,610 条（上次 1,610）
 
-## 新上架（14）
-- Francois Raveneau, Chablis 1er Cru Butteaux 2014 — S$818 · 售罄 · Pivene
-- Ch Rauzan Segla 1990 — S$346 · 售罄 · Crystal
-- Ch Canon 2016 — S$250 · 有货 · Crystal
-- Niizawa, Hakurakusei Hikari Junmai Daiginjo NV · 720 ml — S$180 · 有货 · Pivene
-- Ch Canon 2023 — S$175 · 有货 · Crystal
-- Geantet Pansiot, Gevrey Chambertin 2023 — S$175 · 有货 · Pivene
-- Ch Rauzan Segla 2023 — S$120 · 有货 · Crystal
-- Tio PePe Fino Sherry 0.75l — S$39 · 限量/询价 · Cornerstone
-- Argiolas COSTERA Cannonau Di Sardegna DOC 2022 — S$38 · 有货 · Cornerstone
-- Argiolas COSTERA Cannonau Di Sardegna DOC 2023 — S$38 · 有货 · Cornerstone
-- Trebbio Chianti DOCG SUPERIORE 2021 — S$38 · 有货 · Cornerstone
-- Argiolas COSTAMOLINO Vermentino Di Sardegna DOC 2025 — S$38 · 有货 · Cornerstone
-- Castello Trebbio Chianti DOCG SUPERIORE 2023 — S$30 · 限量/询价 · Cornerstone
-- Castello Trebbio Chianti DOCG SUPERIORE 2024 — S$30 · 有货 · Cornerstone
+## 新上架（0）
+- 无
 
-## 下架（2322）
+## 下架（2319）
 - Domaine de la Romanee Conti Romanee Conti Grand Cru 2015 — 原价 S$45,000 · Grand Vin
 - DRC, Romanee Conti Grand Cru 2020 — 原价 S$35,970 · Vinum
 - Domaine de la Romanee Conti Romanee Conti Grand Cru 2013 — 原价 S$35,000 · Grand Vin
@@ -70,9 +57,9 @@
 - Macallan 30 yrs Double Cask 2021 Release (43%) — 原价 S$8,502 · Vinum
 - Domaine de la Romanee Conti La Tache Grand Cru 2014 — 原价 S$8,500 · Grand Vin
 - DRC, Richebourg Grand Cru 2002 — 原价 S$8,175 · Vinum
-- …另有 2282 条，见 latest.json
+- …另有 2279 条，见 latest.json
 
-## 涨价（223）
+## 涨价（220）
 - Dom Perignon (Giftbox) 2017 ([6 bottles])：S$317 → **S$1,848**（+483%）
 - Dassai 23 Junmai Daiginjo (720ml [Bundle of 3]) · 720 ml：S$108 → **S$315**（+192%）
 - Dassai 39 Junmai Daiginjo (720ml [Bundle of 3]) · 720 ml：S$68 → **S$195**（+187%）
@@ -80,7 +67,6 @@
 - Carruades De Lafite 2006：S$300 → **S$788**（+163%）
 - Carruades De Lafite 2007：S$300 → **S$788**（+163%）
 - Branaire Ducru 2000：S$98 → **S$255**（+160%）
-- Dominus 2013：S$338 → **S$838**（+148%）
 - Carruades De Lafite 2016：S$300 → **S$731**（+144%）
 - Lafite Rothschild 2010：S$818 → **S$1,970**（+141%）
 - Carruades De Lafite 2012：S$300 → **S$714**（+138%）
@@ -94,6 +80,7 @@
 - Clos L'Eglise 2010：S$140 → **S$278**（+99%）
 - Lafleur 2010：S$1,260 → **S$2,452**（+95%）
 - Dassai 39 Junmai Daiginjo (1.8L) · 1.8 L：S$68 → **S$132**（+94%）
+- Dominus 2013：S$436 → **S$838**（+92%）
 - Troplong Mondot *Arriving Q4 2026 2005：S$223 → **S$415**（+86%）
 - D'Yquem 2001：S$495 → **S$920**（+86%）
 - Carruades De Lafite 2018：S$300 → **S$556**（+85%）
@@ -113,9 +100,9 @@
 - Rauzan Segla 2000：S$197 → **S$308**（+56%）
 - La Lagune 2008：S$72 → **S$112**（+56%）
 - Grand Puy Lacoste 1978：S$145 → **S$225**（+55%）
-- …另有 183 条，见 latest.json
+- …另有 180 条，见 latest.json
 
-## 降价（1810）
+## 降价（1809）
 - Ch Grand Village (Ex-Chateau) 2021 · 375 ml：S$52,320 → **S$25**（-100%）
 - Ch Grand Village (Ex-Chateau) 2020 · 375 ml：S$52,320 → **S$27**（-100%）
 - La Bollina, 'Cosmo' Rosso Terre Siciliane IGT 2018：S$52,320 → **S$44**（-100%）
@@ -156,9 +143,9 @@
 - Cape Mentelle, Shiraz 2017：S$52,320 → **S$65**（-100%）
 - Ch Meyney 2019：S$52,320 → **S$65**（-100%）
 - Domaine de la Folie, Rully Cuvee Marey Rouge 2023：S$52,320 → **S$65**（-100%）
-- …另有 1770 条，见 latest.json
+- …另有 1769 条，见 latest.json
 
-## 库存变动（294）
+## 库存变动（267）
 - Domaine de la Romanee Conti Montrachet Grand Cru 2005：有货 → **售罄**
 - Domaine de la Romanee Conti La Tache Grand Cru 2014：有货 → **售罄**
 - Domaine de la Romanee Conti Echezeaux Grand Cru 2006：有货 → **售罄**
@@ -167,7 +154,6 @@
 - Latour 1500ml 2011 · 1.5 L：有货 → **售罄**
 - Lafite Rothschild 1990：有货 → **售罄**
 - Latour 1500ml 2017 · 1.5 L：有货 → **售罄**
-- Palmer - Margaux 2009 · 1.5 L：有货 → **售罄**
 - S de Salon 2013：有货 → **售罄**
 - Comte Georges de Vogue Musigny Vieilles Vignes Grand Cru 2021：有货 → **售罄**
 - Dominus 1500ml 2018 · 1.5 L：有货 → **售罄**
@@ -180,7 +166,6 @@
 - Cheval Blanc 2011：有货 → **售罄**
 - Mouton Rothschild 2017：有货 → **售罄**
 - Mouton Rothschild 2008：有货 → **售罄**
-- Louis Latour Chambertin Cuvee Heritiers Latour Grand Cru 2019：有货 → **售罄**
 - Faiveley Latricieres Chambertin Grand Cru 1500ml 2013 · 1.5 L：有货 → **售罄**
 - Louis Roederer Cristal Brut 2002：有货 → **售罄**
 - Jean-Marie Fourrier Vosne Romanee 1er Cru Aux Malconsorts 2023：有货 → **售罄**
@@ -199,9 +184,11 @@
 - Louis Roederer Cristal Brut (Giftbox) 2013：有货 → **售罄**
 - Y de Y'quem 2008：有货 → **售罄**
 - Faiveley Echezeaux En Orveaux Grand Cru 2020：有货 → **售罄**
-- …另有 254 条，见 latest.json
+- Louis Roederer Brut Rose Late Release (Deluxe Giftbox) 1995：有货 → **售罄**
+- Louis Roederer Brut Rose Late Release (Deluxe Giftbox) 1996：有货 → **售罄**
+- …另有 227 条，见 latest.json
 
-## 新增评分（17）
+## 新增评分（16）
 - Angelus 2020：WA98-100
 - Calon Segur 2021：WA95-96
 - Figeac 2021：WA94-97
@@ -217,10 +204,9 @@
 - Pavie 2020：JD100 / JS100
 - Vieux Chateau Certan 2020：JD100
 - Petrolo Galatrona 2020：JS97 / WA96
-- Dominus 2023：James Suckling-99
 - Le Petit Cheval Blanc 2020：AG96
 
-## 其他变动（187）
+## 其他变动（184）
 - Certan de May 2022：来源 Crystal+Grand Vin → Grand Vin
 - Clos L'Eglise 2001：来源 Crystal+Grand Vin → Grand Vin
 - Clos L'Eglise 2010：来源 Crystal+Grand Vin → Grand Vin
@@ -261,9 +247,9 @@
 - L'Eglise Clinet 2017：来源 Cornerstone+Grand Vin → Grand Vin
 - L'Eglise Clinet 2019：来源 Cornerstone+Grand Vin → Grand Vin
 - La Conseillante 2014：来源 Cornerstone+Crystal+Grand Vin → Grand Vin
-- …另有 147 条，见 latest.json
+- …另有 144 条，见 latest.json
 
 ## 图片
-- 图库共 4,528 张，其中已去除评分标 885 张
+- 图库共 4,529 张，其中已去除评分标 886 张
 
-来源数量：Pivene 1,148→1,149，Crystal 1,157→1,166，Cornerstone 1,781→1,783，Grand Vin 1,616→1,616，Vinum 1,610→1,610
+来源数量：Pivene 1,149→1,149，Crystal 1,166→1,166，Cornerstone 1,783→1,778，Grand Vin 1,616→1,616，Vinum 1,610→1,610

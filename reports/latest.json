@@ -1,121 +1,8 @@
 {
- "date": "2026-11-04",
- "total": 6935,
- "total_prev": 6928,
- "added": [
-  {
-   "name": "Ch Canon 2016",
-   "price": 250.0,
-   "stock": "有货",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Ch Canon 2023",
-   "price": 175.0,
-   "stock": "有货",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Ch Rauzan Segla 1990",
-   "price": 346.0,
-   "stock": "售罄",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Ch Rauzan Segla 2023",
-   "price": 120.0,
-   "stock": "有货",
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Geantet Pansiot, Gevrey Chambertin 2023",
-   "price": 175.0,
-   "stock": "有货",
-   "sources": [
-    "pivene"
-   ]
-  },
-  {
-   "name": "Argiolas COSTERA Cannonau Di Sardegna DOC 2022",
-   "price": 38,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Argiolas COSTERA Cannonau Di Sardegna DOC 2023",
-   "price": 38,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Castello Trebbio Chianti DOCG SUPERIORE 2023",
-   "price": 30,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Castello Trebbio Chianti DOCG SUPERIORE 2024",
-   "price": 30,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Trebbio Chianti DOCG SUPERIORE 2021",
-   "price": 38,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Francois Raveneau, Chablis 1er Cru Butteaux 2014",
-   "price": 818.0,
-   "stock": "售罄",
-   "sources": [
-    "pivene"
-   ]
-  },
-  {
-   "name": "Argiolas COSTAMOLINO Vermentino Di Sardegna DOC 2025",
-   "price": 38,
-   "stock": "有货",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Tio PePe Fino Sherry 0.75l",
-   "price": 39,
-   "stock": "限量/询价",
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Niizawa, Hakurakusei Hikari Junmai Daiginjo NV · 720 ml",
-   "price": 180.0,
-   "stock": "有货",
-   "sources": [
-    "pivene"
-   ]
-  }
- ],
+ "date": "2026-11-05",
+ "total": 6930,
+ "total_prev": 6935,
+ "added": [],
  "removed": [
   {
    "name": "Amelia Park Shiraz 2021",
@@ -1043,7 +930,8 @@
    "price": 210.0,
    "sources": [
     "grandvin",
-    "cornerstone"
+    "cornerstone",
+    "crystal"
    ]
   },
   {
@@ -1237,13 +1125,6 @@
   {
    "name": "Ch Brane Cantenac (Ex-Chateau) 2020 · 1.5 L",
    "price": 1340.7,
-   "sources": [
-    "vinum"
-   ]
-  },
-  {
-   "name": "Ch Canon (Ex-Chateau) 2017",
-   "price": 185.3,
    "sources": [
     "vinum"
    ]
@@ -2784,6 +2665,13 @@
    ]
   },
   {
+   "name": "Francois Janoueix - Chateau Rousseau Cuvee Tradition Bordeaux ROUGE 2023",
+   "price": 24,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
    "name": "Gazin 2021",
    "price": 135.0,
    "sources": [
@@ -2826,7 +2714,6 @@
    "name": "Haut Bailly II 2019",
    "price": 70.85,
    "sources": [
-    "cornerstone",
     "vinum"
    ]
   },
@@ -9334,13 +9221,6 @@
    ]
   },
   {
-   "name": "Raymond Usseglio Chateauneuf Du Pape Imperiale 2016 1.5L · 1.5 L",
-   "price": 244,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
    "name": "de la Vieille Julienne, Chateauneuf du Pape Les Hauts-Lieux 2019",
    "price": 163.5,
    "sources": [
@@ -10605,13 +10485,6 @@
    "price": 132.0,
    "sources": [
     "grandvin",
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Talenti Brunello Di Montalcino 2015",
-   "price": 181,
-   "sources": [
     "cornerstone"
    ]
   },
@@ -13321,6 +13194,13 @@
    ]
   },
   {
+   "name": "Domaine Fichet Macon GRANDE CRAIE BLANC 2023",
+   "price": 92,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
    "name": "Domaine de l'Arlot, Nuits St Georges Clos de l'Arlot Blanc 1er Cru 2021",
    "price": 1046.4,
    "sources": [
@@ -13601,13 +13481,6 @@
    ]
   },
   {
-   "name": "Francois Raveneau, Chablis 1er Cru Butteaux 2016",
-   "price": 682.0,
-   "sources": [
-    "pivene"
-   ]
-  },
-  {
    "name": "Henri Boillot, Meursault Genevrieres 1er Cru 2015",
    "price": 348.8,
    "sources": [
@@ -13815,27 +13688,6 @@
    "price": 130.8,
    "sources": [
     "vinum"
-   ]
-  },
-  {
-   "name": "Joseph Colin, Saint Aubin 1er Cru Sous Roche Dumay 2023",
-   "price": 142.0,
-   "sources": [
-    "pivene"
-   ]
-  },
-  {
-   "name": "Joseph Drouhin Montrachet Marquis De Laguiche 2004",
-   "price": 1642,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Joseph Drouhin Montrachet Marquis De Laguiche 2006",
-   "price": 1739,
-   "sources": [
-    "cornerstone"
    ]
   },
   {
@@ -16306,6 +16158,20 @@
    ]
   },
   {
+   "name": "Macallan 12YO SHERRY Oak Single Malt Whisky (GBX / 2025 Release)",
+   "price": 155,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Tio PePe Fino Sherry 0.75l",
+   "price": 39,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
    "name": "2019 Flying Fairy Brand Kweichow Moutai Chiew 500ml (53%)",
    "price": 981.0,
    "sources": [
@@ -16411,6 +16277,13 @@
    ]
   },
   {
+   "name": "De Kuyper - Kwai Feh Lychee Liqueur 0.70l · 700 ml",
+   "price": 38,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
    "name": "2007 The Macallan 'Diamonds Are Forever' 18 yrs 55th Anniversary Release (45.5%)",
    "price": 1090.0,
    "sources": [
@@ -16471,13 +16344,6 @@
    "price": 135.0,
    "sources": [
     "grandvin"
-   ]
-  },
-  {
-   "name": "Juyondai, Kakushin Muroka Junmai Ginjo NV · 1.8 L",
-   "price": 550.0,
-   "sources": [
-    "pivene"
    ]
   },
   {
@@ -17366,18 +17232,6 @@
    "pct": 4.5
   },
   {
-   "name": "Siro Pacenti PS Brunello Di Montalcino RISERVA DOCG 2019 0.75l",
-   "old": 322,
-   "new": 383,
-   "pct": 18.9
-  },
-  {
-   "name": "Siro Pacenti PS Brunello Di Montalcino Riserva DOCG 2016",
-   "old": 322,
-   "new": 383,
-   "pct": 18.9
-  },
-  {
    "name": "Dominus 1500ml 2017 · 1.5 L",
    "old": 680.0,
    "new": 780.0,
@@ -17409,21 +17263,15 @@
   },
   {
    "name": "Dominus 2013",
-   "old": 338.0,
+   "old": 436.0,
    "new": 838.0,
-   "pct": 147.9
+   "pct": 92.2
   },
   {
    "name": "Dominus 2019",
-   "old": 338.0,
+   "old": 436.0,
    "new": 480.0,
-   "pct": 42.0
-  },
-  {
-   "name": "Dominus 2023",
-   "old": 338.0,
-   "new": 436.0,
-   "pct": 29.0
+   "pct": 10.1
   },
   {
    "name": "Hundred Acre Deep Time 2014",
@@ -18350,12 +18198,6 @@
    "old": 52320.0,
    "new": 1438.8,
    "pct": -97.2
-  },
-  {
-   "name": "Ch Canon 2017",
-   "old": 52320.0,
-   "new": 185.3,
-   "pct": -99.6
   },
   {
    "name": "Ch Canon 2017",
@@ -28842,37 +28684,7 @@
    "new": "售罄"
   },
   {
-   "name": "Pierre Marie Chermette Domaine du Vissoux Fleurie LES GARANTS 2019",
-   "old": "有货",
-   "new": "限量/询价"
-  },
-  {
-   "name": "Belair Monange - Saint Emilion 2011",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Beychevelle - Saint Julien 2014",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
    "name": "Carruades De Lafite 2010",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Ch Talbot 1995",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Ch Talbot 1998",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Ch Talbot 2023",
    "old": "有货",
    "new": "售罄"
   },
@@ -29047,11 +28859,6 @@
    "new": "限量/询价"
   },
   {
-   "name": "Palmer - Margaux 2009 · 1.5 L",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
    "name": "Paradis Casseuil 2020",
    "old": "有货",
    "new": "售罄"
@@ -29123,11 +28930,6 @@
   },
   {
    "name": "Trotanoy 2020",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Vignobles Bourceau 990 Malbec 2023",
    "old": "有货",
    "new": "售罄"
   },
@@ -29282,16 +29084,6 @@
    "new": "有货"
   },
   {
-   "name": "Jean Fournier, Gevrey Chambertin 2023",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Jean Fournier, Marsannay Es Chezots 2022",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
    "name": "Jean-Marc Millot Cote De Nuits Villages Aux Faulques 2022",
    "old": "有货",
    "new": "售罄"
@@ -29302,22 +29094,12 @@
    "new": "售罄"
   },
   {
-   "name": "Louis Latour Chambertin Cuvee Heritiers Latour Grand Cru 2019",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
    "name": "Marc Roy Gevrey Chambertin La Justice 2020",
    "old": "有货",
    "new": "售罄"
   },
   {
    "name": "Marc Roy Gevrey Chambertin Vieilles Vignes 2021",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Patrick Javillier, Savigny Les Beaune Les Grands Liards 2023",
    "old": "有货",
    "new": "售罄"
   },
@@ -29340,11 +29122,6 @@
    "name": "Remoissenet Savigny Les Beaune 1er Cru Serpentieres 2021",
    "old": "有货",
    "new": "售罄"
-  },
-  {
-   "name": "Robert Groffier, Bourgogne Cote D'or (Ex-Domaine) 2024",
-   "old": "售罄",
-   "new": "有货"
   },
   {
    "name": "Robert Sirugue Chambolle Musigny Les Mombies 2020",
@@ -29487,11 +29264,6 @@
    "new": "售罄"
   },
   {
-   "name": "Antinori Tignanello 2011",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
    "name": "Le Serre Nuove dell'Ornellaia 2022",
    "old": "有货",
    "new": "售罄"
@@ -29528,16 +29300,6 @@
   },
   {
    "name": "Te Mata Bullnose Syrah 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Borsao, Seleccion Tinto 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Vega Sicilia, Alion 2019",
    "old": "有货",
    "new": "售罄"
   },
@@ -29832,11 +29594,6 @@
    "new": "有货"
   },
   {
-   "name": "Joseph Pascal, Puligny Montrachet 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
    "name": "Michel Bouzereau Meursault 1er Cru Genevrieres 2021",
    "old": "有货",
    "new": "售罄"
@@ -29900,11 +29657,6 @@
    "name": "Remoissenet Santenay 1er Cru Beaurepaire Blanc 2022",
    "old": "有货",
    "new": "售罄"
-  },
-  {
-   "name": "Saumaize Michelin, Pouilly Fuisse 1er Cru La Marechaude 2023",
-   "old": "售罄",
-   "new": "有货"
   },
   {
    "name": "Vacheron Sancerre Blanc 2023",
@@ -30087,11 +29839,6 @@
    "new": "售罄"
   },
   {
-   "name": "Simon Bize et Fils, Vin de France Momokuro Rose NV",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
    "name": "Dom Perignon Rose 2008",
    "old": "有货",
    "new": "售罄"
@@ -30100,11 +29847,6 @@
    "name": "BY.OTT Rose 2024",
    "old": "有货",
    "new": "售罄"
-  },
-  {
-   "name": "Domaines Ott Clos Mireille Rose 2024",
-   "old": "售罄",
-   "new": "有货"
   },
   {
    "name": "Domaines Ott Etoile Rose 2022",
@@ -30122,44 +29864,9 @@
    "new": "售罄"
   },
   {
-   "name": "Ara, Rose 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Martini (Extra) DRY Vermouth 1.0l · 1 L",
-   "old": "有货",
-   "new": "限量/询价"
-  },
-  {
-   "name": "Kopke, Colheita Port 2004",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
    "name": "Ramos Pinto LBV Porto 2017",
    "old": "有货",
    "new": "售罄"
-  },
-  {
-   "name": "Aramasa, Colors Tangerine Junmai Ginjo (Yamabuki) NV · 720 ml",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Dassai, 23 Junmai Daiginjo NV · 1.8 L",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Juyondai, Morohaku Gokujo Junmai Daiginjo NV · 720 ml",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Kokuryu, Kokuryu Daiginjo NV · 720 ml",
-   "old": "售罄",
-   "new": "有货"
   }
  ],
  "rating_added": [
@@ -30222,10 +29929,6 @@
   {
    "name": "Petrolo Galatrona 2020",
    "rating": "JS97 / WA96"
-  },
-  {
-   "name": "Dominus 2023",
-   "rating": "James Suckling-99"
   },
   {
    "name": "Le Petit Cheval Blanc 2020",
@@ -30399,19 +30102,19 @@
   },
   {
    "name": "Rauzan Segla 1995",
-   "change": "来源 Cornerstone+Grand Vin → Grand Vin"
+   "change": "来源 Cornerstone+Crystal+Grand Vin → Grand Vin"
   },
   {
    "name": "Rauzan Segla 2000",
-   "change": "来源 Cornerstone+Grand Vin → Grand Vin"
+   "change": "来源 Cornerstone+Crystal+Grand Vin → Grand Vin"
   },
   {
    "name": "Rauzan Segla 2011",
-   "change": "来源 Cornerstone+Grand Vin → Grand Vin"
+   "change": "来源 Cornerstone+Crystal+Grand Vin → Grand Vin"
   },
   {
    "name": "Rauzan Segla 2014",
-   "change": "来源 Cornerstone+Grand Vin → Grand Vin"
+   "change": "来源 Cornerstone+Crystal+Grand Vin → Grand Vin"
   },
   {
    "name": "Angelus 2020",
@@ -30435,15 +30138,11 @@
   },
   {
    "name": "Canon 2012",
-   "change": "来源 Cornerstone+Grand Vin → Grand Vin"
+   "change": "来源 Cornerstone+Crystal+Grand Vin → Grand Vin"
   },
   {
-   "name": "Canon 2021",
-   "change": "来源 Cornerstone+Grand Vin → Cornerstone+Crystal+Grand Vin"
-  },
-  {
-   "name": "Canon 2022",
-   "change": "来源 Cornerstone+Grand Vin → Cornerstone+Crystal+Grand Vin"
+   "name": "Canon 2019",
+   "change": "来源 Cornerstone+Crystal+Grand Vin → Cornerstone+Grand Vin"
   },
   {
    "name": "Carruades De Lafite 2006",
@@ -30460,10 +30159,6 @@
   {
    "name": "Carruades De Lafite 2018",
    "change": "来源 Cornerstone+Grand Vin → Grand Vin"
-  },
-  {
-   "name": "Ch Canon 2017",
-   "change": "来源 Vinum → Crystal+Vinum"
   },
   {
    "name": "Cheval Blanc 2011",
@@ -30814,12 +30509,8 @@
    "change": "来源 Crystal+Grand Vin+Vinum → Crystal+Grand Vin"
   },
   {
-   "name": "Rauzan Segla 2021",
-   "change": "来源 Cornerstone → Cornerstone+Crystal"
-  },
-  {
-   "name": "Rauzan Segla 2022",
-   "change": "来源 Cornerstone+Grand Vin → Cornerstone+Crystal+Grand Vin"
+   "name": "Rauzan Segla 2020",
+   "change": "来源 Cornerstone+Crystal+Grand Vin → Cornerstone+Grand Vin"
   },
   {
    "name": "Trotanoy 2011",
@@ -30922,8 +30613,12 @@
    "change": "来源 Grand Vin → Cornerstone+Grand Vin"
   },
   {
-   "name": "Dominus 2023",
-   "change": "来源 Grand Vin → Grand Vin+Pivene"
+   "name": "Dominus 2013",
+   "change": "来源 Grand Vin+Pivene → Grand Vin"
+  },
+  {
+   "name": "Dominus 2019",
+   "change": "来源 Grand Vin+Pivene → Grand Vin"
   },
   {
    "name": "Napanook 2020",
@@ -30936,10 +30631,6 @@
   {
    "name": "Le Petit Cheval Blanc 2021",
    "change": "来源 Grand Vin → Crystal+Grand Vin"
-  },
-  {
-   "name": "Domaine Bonneau du Martray Corton Charlemagne Grand Cru 2008 1.5l · 1.5 L",
-   "change": "价格 询价 → S$2,056"
   },
   {
    "name": "Marc Roy Marsannay Champs Perdrix Blanc 2021",
@@ -30986,38 +30677,38 @@
   "pivene_all": {
    "ok": true,
    "rows": 1149,
-   "previous": 1151,
-   "ts": "2026-11-04T15:39:48"
+   "previous": 1149,
+   "ts": "2026-11-04T19:55:18"
   },
   "cw_all": {
    "ok": true,
    "rows": 1171,
    "previous": 1171,
-   "ts": "2026-11-04T15:41:28"
+   "ts": "2026-11-04T19:56:32"
   },
   "cs_all": {
    "ok": true,
-   "rows": 1796,
-   "previous": 1794,
-   "ts": "2026-11-04T15:48:43"
+   "rows": 1791,
+   "previous": 1796,
+   "ts": "2026-11-04T20:04:53"
   },
   "cs_types": {
    "ok": true,
-   "rows": 128,
+   "rows": 127,
    "previous": 128,
-   "ts": "2026-11-04T15:48:43"
+   "ts": "2026-11-04T20:04:53"
   },
   "gv_all": {
    "ok": true,
    "rows": 1623,
    "previous": 1623,
-   "ts": "2026-11-04T15:48:53"
+   "ts": "2026-11-04T20:05:02"
   },
   "vinum_all": {
    "ok": true,
    "rows": 1610,
    "previous": 1610,
-   "ts": "2026-11-04T15:48:54"
+   "ts": "2026-11-04T20:05:03"
   }
  }
 }
