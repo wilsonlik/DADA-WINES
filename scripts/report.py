@@ -48,7 +48,7 @@ for x in new:
         added.append(x)
         continue
     matched_prev.add(id(p))
-    if x['price'] != p['price'] and x['price'] is not None and p['price'] is not None:
+    if x['price'] != p['price'] and x['price'] is not None and p['price'] is not None and p['price'] > 0:
         d = (x['price'] - p['price']) / p['price'] * 100
         (price_up if d > 0 else price_down).append((x, p['price'], x['price'], d))
     elif x['price'] != p['price']:
