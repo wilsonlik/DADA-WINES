@@ -7,6 +7,24 @@ piv = json.load(open(RAW/'pivene_all.json'))
 cw = json.load(open(RAW/'cw_all.json'))
 cs = json.load(open(RAW/'cs_all.json'))
 cs_types = json.load(open(RAW/'cs_types.json'))
+_gv = RAW/'gv_all.json'; gv = json.load(open(_gv)) if _gv.exists() else []
+_vn = RAW/'vinum_all.json'; vn = json.load(open(_vn)) if _vn.exists() else []
+_vi = RAW/'vinum_uk_images.json'; vn_imgs = json.load(open(_vi)) if _vi.exists() else []
+VN_CDN = 'https://vinumfinewinescom-21644.kxcdn.com/wp-content/uploads/'
+_VSTOP = set('ch chateau domaine dom the de du des la le les di da del della st saint ex mag btl cru premier 1er grand gc 1c and et owc oc bot hlf mags halves reconditioned stained label ready stock case of x cl pere fils poderi famille vigneron'.split())
+_VLEAD = set('ch chateau domaine dom poderi famille les le la the clos'.split())
+def _vnorm(n):
+    n = n.lower().replace('&#8217;', "'"); n = re.sub(r'\(.*?\)|\[.*?\]', ' ', n); n = re.sub(r'\b(19|20)\d\d\b', ' ', n)
+    n = re.sub(r'\b\d+x\d+cl\b', ' ', n); n = re.sub(r'\b\d+(bot|mag|hlf)\b', ' ', n)
+    return re.sub(r'[^a-z0-9 ]', ' ', n).split()
+def _vtoks(w): return {t for t in w if t not in _VSTOP and len(t) > 1}
+def _vlead(w): return next((t for t in w if t not in _VLEAD and len(t) > 1), '')
+_vn_index = [(_vtoks(w), _vlead(w), i) for n, i in vn_imgs for w in [_vnorm(n)]]
+def vinum_image(wine):
+    w = _vnorm(wine); t = _vtoks(w); ld = _vlead(w)
+    if not t: return ''
+    cands = sorted((len(ut), i) for ut, ul, i in _vn_index if t <= ut and ul == ld)
+    return VN_CDN + cands[0][1] if cands else ''
 _det = ROOT / 'data' / 'cs_details.json'
 cs_details = json.load(open(_det)) if _det.exists() else {}
 
@@ -68,6 +86,7 @@ def tokens(name):
     n = VINT_RE.sub(' ', n)
     n = re.sub(r'\d+(?:\.\d+)?\s*(?:ml|cl|l)\b', ' ', n)
     n = re.sub(r'[^a-z0-9 ]', ' ', n)
+    n = re.sub(r'\bgrands?\s+echezeaux\b', 'grandsechezeaux', n)
     toks = [t for t in n.split() if t not in STOP]
     return set(toks)
 
@@ -234,6 +253,73 @@ for r in cs:
         price=price, compare=compare, in_stock=(mode == 'buy'), stock=2 if mode == 'buy' else 1, url='https://shop.cornerstonewines.com'+href, img=img or '',
         rating=clean(det.get('rating') or ''), producer=''))
 
+# Grand Vin: [title, handle, product_type, vendor, tags, variant_title, price, compare, available, img]
+GV_TYPE = {'Red Wine':'Red','White Wine':'White','Rose':'Rose','Champagne':'Sparkling','Sparkling':'Sparkling','Fortified Wine':'Fortified',
+           'Spirits':'Spirits','Whiskey':'Spirits','Sake':'Sake','Accessories':'Accessories','Glassware':'Accessories','Gift':'Accessories'}
+for r in gv:
+    title, handle, ptype, vendor, tags, vt, price, compare, avail, img = r
+    if ptype in ('Event', 'Olive Oil') or 'gift-voucher' in handle: continue
+    t = GV_TYPE.get(ptype, 'Other')
+    vt = clean(vt)
+    m = re.match(r'^(\d{4}|NV)\b(.*)$', vt, re.I)
+    vint = m.group(1).upper() if m else vintage_of(title)
+    rest = (m.group(2) if m else vt)
+    if rest.strip().lower() in ('', 'default title'): rest = ''
+    nm = clean(title)
+    if vint and vint != 'NV' and vint not in nm: nm = f'{nm} {vint}'
+    # keep meaningful variant qualifiers (format, gift box), drop logistics notes
+    rest = re.sub(r'\*?\s*(arriving|ships?|ready stock)[^)\]]*', '', rest, flags=re.I).strip(' ()*-')
+    if rest and not re.match(r'^(default title|1 bottle)$', rest, re.I): nm = f'{nm} ({rest})'
+    size = size_of(nm, 720 if t == 'Sake' else (700 if t == 'Spirits' else 750))
+    pack = pack_of(nm)
+    pk = re.search(r'bundle of (\d+)', vt.lower())
+    if pk: pack = int(pk.group(1))
+    p = float(price) if price else None
+    cmp_ = float(compare) if compare else None
+    tagl = [x.strip() for x in tags.split('|') if x.strip()]
+    GV_REG = {'Burgundy':'Burgundy','Bordeaux':'Bordeaux','Rhone':'Rhone','Champagne':'Champagne','Loire':'Loire','Alsace':'Alsace','Napa Valley':'USA',
+              'Piedmont':'Piedmont','Tuscany':'Tuscany','Veneto':'Veneto','Rioja':'Spain',"Hawke's Bay":'New Zealand','Marlborough':'New Zealand','Nahe':'Germany','Mosel':'Germany','Barossa':'Australia'}
+    reg = infer_region(nm + ' ' + vendor) or next((GV_REG[x] for x in tagl if x in GV_REG), '') or next((GV_REG[x.title()] for x in tagl if x.title() in GV_REG), '')
+    cty = REGION_COUNTRY.get(reg, '') or next((norm_country(x) for x in tagl if norm_country(x) in REGION_COUNTRY.values() or x in ('China','Austria','South Africa','Argentina','Portugal')), '')
+    items.append(dict(src='grandvin', name=nm, type=t, country=cty, region=reg, vintage=vint or '', size=size, pack=pack,
+        price=p, compare=cmp_ if cmp_ and p and cmp_ > p else None, in_stock=bool(avail), stock=2 if avail else 0,
+        url='https://www.grandvin.com.sg/products/'+handle, img=img or '', rating='', producer=clean(vendor)))
+
+# Vinum Fine Wines SG: [category, vintage, wine, format, qty, unit_price]
+VN_CAT = {'White Bordeaux':('White','Bordeaux'),'Red Bordeaux':('Red','Bordeaux'),'Red Burgundy & Beaujolais':('Red','Burgundy'),
+          'White Burgundy':('White','Burgundy'),'Rhone':('Red','Rhone'),'Alsace':('White','Alsace'),'Champagne':('Sparkling','Champagne'),
+          'Jura':('White','Jura'),'Languedoc-Rousillon':('Red','Languedoc'),'Loire':('White','Loire'),'Provence':('Rose','Provence'),
+          'Sauternes':('Dessert','Bordeaux'),'Argentina':('Red','Argentina'),'Australia':('Red','Australia'),'Austria':('White','Austria'),
+          'Chile':('Red','Chile'),'England':('Sparkling','England'),'Germany':('White','Germany'),'Italy':('Red','Other Italy'),
+          'New Zealand':('Red','New Zealand'),'Portugal':('Fortified','Portugal'),'South Africa':('Red','South Africa'),'Spain':('Red','Spain'),
+          'USA':('Red','USA'),'Whiskies & Spirits':('Spirits','')}
+VN_FMT = {'Btl':(750,1),'Mag':(1500,1),'HLF':(375,1),'JERO':(3000,1),'Case of 6 Btls':(750,6),'Case of 3 Btls':(750,3),'Case of 12 Btls':(750,12),
+          'Case of 4 Btls':(750,4),'Case of 3 Mags':(1500,3),'Case of 6 Mags':(1500,6),'Case of 12 Halves':(375,12),'CS4M':(1500,4),'CS24H':(375,24)}
+for r in vn:
+    cat, vint, wine, fmt, qty, price = r
+    t, reg = VN_CAT.get(cat, ('Red', ''))
+    nm = clean(wine)
+    nm = re.sub(r'\s*\((\d+)(bot|mag|hlf)/O(W)?C\)', '', nm, flags=re.I)        # (6bot/OWC) -> handled via format
+    nm = re.sub(r'\s*\((mag|dmg|jrb|imp|hlf)\)', '', nm, flags=re.I)
+    nm = re.sub(r'\s*\[(ex-chateau|ex-domaine|reconditioned[^\]]*)\]', lambda m: f' ({m.group(1).title()})', nm, flags=re.I)
+    low = nm.lower()
+    if t == 'Red' and re.search(r'\b(blanc|bianco|white|chardonnay|riesling|sauvignon|semillon|chablis|meursault|montrachet|corton charlemagne)\b', low): t = 'White'
+    if t == 'White' and re.search(r'\b(rouge|rosso|pinot noir|cabernet|merlot|syrah|shiraz|nebbiolo|barolo|barbaresco|brunello)\b', low): t = 'Red'
+    if re.search(r'\b(rose|rosato)\b', low): t = 'Rose'
+    if re.search(r'\b(port|porto|vintage port|tawny|colheita|madeira)\b', low): t = 'Fortified'
+    if cat == 'Whiskies & Spirits': t = 'Spirits'
+    size, pack = VN_FMT.get(fmt, (750, 1))
+    if re.search(r'\bmag\b', fmt.lower()) and size == 750: size = 1500
+    v = vint.strip().upper() if vint else vintage_of(nm)
+    if v == 'NV' or not v: v = 'NV' if t in ('Sparkling','Fortified','Spirits') else ''
+    if v and v != 'NV' and v not in nm: nm = f'{nm} {v}'
+    r2 = infer_region(nm) or reg
+    cty = REGION_COUNTRY.get(r2, '') or REGION_COUNTRY.get(reg, '')
+    q = int(qty) if str(qty).isdigit() else 1
+    items.append(dict(src='vinum', name=nm, type=t, country=cty, region=r2, vintage=v, size=size, pack=pack,
+        price=price, compare=None, in_stock=q > 0, stock=2 if q > 0 else 0,
+        url='https://vinumfinewines.sg/', img=vinum_image(wine), rating='', producer=''))
+
 for it in items:
     if not it['region']:
         it['region'] = infer_region(it['name'])
@@ -266,12 +352,16 @@ for it in items:
     else:
         it['core'] = (it['tok'] - NOISE) or it['tok']
 
+APPELL = {'pauillac','margaux','julien','estephe','emilion','pomerol','pessac','leognan','graves','medoc','listrac','moulis','fronsac','castillon'}
+
 def compatible(a, b):
     if a['src'] == b['src']: return False
     if a['vintage'] != b['vintage'] or a['size'] != b['size'] or a['pack'] != b['pack']: return False
     if a['type'] != b['type'] and 'Other' not in (a['type'], b['type']): return False
     fa, fb, ca, cb = a['tok'], b['tok'], a['core'], b['core']
     if not ca or not cb: return False
+    aa, ab = fa & APPELL, fb & APPELL
+    if aa and ab and aa != ab: return False   # e.g. Lagrange (Pomerol) vs Lagrange (St Julien)
     if not (ca <= fb and cb <= fa): return False
     if (fa ^ fb) & SECOND: return False
     extra_a = fa - fb - NOISE - (fa - ca)
@@ -294,9 +384,13 @@ def find(x):
     while parent[x] != x:
         parent[x] = parent[parent[x]]; x = parent[x]
     return x
+srcs = [{it['src']} for it in items]   # sources present in each root's group
 def union(a, b):
     ra, rb = find(a), find(b)
-    if ra != rb: parent[ra] = rb
+    if ra == rb: return
+    if srcs[ra] & srcs[rb]: return         # never two listings from the same merchant in one group
+    parent[ra] = rb
+    srcs[rb] |= srcs[ra]
 
 pairs = 0
 for key, idxs in blocks.items():
@@ -309,7 +403,7 @@ groups = collections.defaultdict(list)
 for idx in range(len(items)):
     groups[find(idx)].append(idx)
 
-SRC_PRIO = {'pivene': 0, 'cornerstone': 1, 'crystal': 2}
+SRC_PRIO = {'pivene': 0, 'grandvin': 1, 'cornerstone': 2, 'crystal': 3, 'vinum': 4}
 merged = []
 for g, idxs in groups.items():
     members = [items[i] for i in idxs]

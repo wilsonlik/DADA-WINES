@@ -42,6 +42,14 @@ jobs:
         run: python scripts/scrape_cornerstone.py
         continue-on-error: true
 
+      - name: Scrape Grand Vin
+        run: python scripts/scrape_grandvin.py
+        continue-on-error: true
+
+      - name: Scrape Vinum Fine Wines
+        run: python scripts/scrape_vinum.py
+        continue-on-error: true
+
       - name: Cornerstone detail pages (ratings, type, region)
         run: python scripts/scrape_cornerstone_details.py
         continue-on-error: true

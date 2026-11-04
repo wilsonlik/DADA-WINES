@@ -53,9 +53,34 @@ def ratings_of(raw):
 
 
 
+def wine_key(name):
+    n = name.lower()
+    n = re.sub(r'\(.*?\)|\[.*?\]', ' ', n)
+    n = re.sub(r'\b(19|20)\d\d\b', ' ', n)
+    n = re.sub(r'\b\d+(\.\d+)?\s*(ml|cl|l)\b', ' ', n)
+    n = re.sub(r'\b(ch|chateau|domaine|dom|tenuta|ex|nv|magnum|owc|occ|gbx|ngbx|the|de|du|des|la|le|les|di|da|del|della)\b', ' ', n)
+    n = re.sub(r'[^a-z0-9 ]', ' ', n)
+    return ' '.join(sorted(set(n.split())))
+
+
+# images by wine (any vintage/size) for listings that have no photo of their own (e.g. price-list sources)
+img_by_key = {}
+for x in m:
+    im = pick_img(x)
+    if im and not im.startswith('http'):
+        img_by_key.setdefault(wine_key(x['name']), im)
+
+
+def pick_img_fallback(x):
+    im = pick_img(x)
+    if im:
+        return im
+    return img_by_key.get(wine_key(x['name']), '')
+
+
 pub = [{'i': x['id'], 'n': x['name'], 't': x['type'], 'c': x['country'], 'r': x['region'], 'v': x['vintage'],
         's': x['size'], 'k': x['pack'], 'p': x['price'], 'cp': x['compare'], 'st': x['stock'], 'rt': ratings_of(x['rating']),
-        'im': pick_img(x)} for x in m]
+        'im': pick_img_fallback(x)} for x in m]
 data = json.dumps(pub, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 
 tpl = open(ROOT / 'scripts' / 'site_template.html', encoding='utf-8').read()
