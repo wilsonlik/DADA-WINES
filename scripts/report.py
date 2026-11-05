@@ -120,6 +120,11 @@ section('库存变动', sorted(stock_changes, key=lambda r: (r[2], -(r[0]['price
 section('新增评分', rating_added, lambda x: f"{label(x)}：{x['rating']}")
 section('其他变动', src_changes, lambda r: f"{label(r[0])}：{r[1]}")
 
+zm_path = ROOT / 'data' / 'zh_missing.json'
+zm = json.load(open(zm_path, encoding='utf-8')) if zm_path.exists() else {}
+L.append('## 中文名')
+L.append(f"- 词典外、暂用规则翻译的酒名：{len(zm):,} 个（见 data/zh_missing.json）")
+L.append('')
 L.append('## 图片')
 L.append(f"- 图库共 {len(imgs_today):,} 张，其中已去除评分标 {sum(1 for v in imgs_today if v.get('badge')):,} 张")
 L.append('')

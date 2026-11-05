@@ -123,6 +123,8 @@ details.f[open] summary::after{content:"–"}
 .card .type i{width:9px;height:9px;border-radius:50%;background:var(--type);display:inline-block}
 .card .name{font-weight:600;font-size:14.5px;line-height:1.3;margin:0;cursor:pointer;text-wrap:pretty;overflow-wrap:anywhere}
 .card .name:hover{color:var(--green);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.card .zh{font-size:13px;color:var(--fg-2);line-height:1.35;margin:2px 0 0;overflow-wrap:anywhere}
+#mbox .zh{font-size:15px;color:var(--fg-2);margin:-6px 0 10px}
 .card .meta{font-size:12.5px;color:var(--fg-2);display:flex;flex-wrap:wrap;gap:4px 8px}
 .card .meta .sz{font-family:var(--mono)}
 .card .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;gap:8px;padding-top:6px;border-top:1px dashed var(--line)}
@@ -217,7 +219,7 @@ footer{border-top:1px solid var(--line);background:var(--bg-2)}
     </button>
     <label class="search">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input id="q" type="search" placeholder="Search a producer, wine, region or vintage" autocomplete="off" aria-label="Search">
+      <input id="q" type="search" placeholder="Search a producer, wine, region, vintage · 支持中文" autocomplete="off" aria-label="Search">
     </label>
     <button class="btn" id="openList" aria-label="Open enquiry list"><span class="lbl">Enquiry list</span> <span class="count" id="listCount">0</span></button>
   </div>
@@ -317,7 +319,7 @@ const SGD = n => 'S$' + Math.round(n).toLocaleString('en-SG');
 const sizeLabel = s => s >= 1000 ? (s/1000).toString().replace(/\.0$/,'') + ' L' : s + ' ml';
 const mix = i => ((i * 2654435761) >>> 0) % 100003;
 const norm = s => (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
-P.forEach(p => { p.h = norm(p.n + ' ' + p.r + ' ' + p.c + ' ' + p.v + ' ' + p.t); p.sortName = norm(p.n); });
+P.forEach(p => { p.h = norm(p.n + ' ' + (p.z||'') + ' ' + p.r + ' ' + p.c + ' ' + p.v + ' ' + p.t); p.sortName = norm(p.n); });
 
 // ---- state ----
 const state = { q:'', type:new Set(), country:new Set(), region:new Set(), size:new Set(), pmin:'', pmax:'', vmin:'', vmax:'', stock:false, hideOut:false, sort:'rel', page:1, chip:'' };
@@ -464,7 +466,7 @@ function cardHTML(p) {
     <div class="pic ${p.im?'':'none'}" data-open="${p.i}">${p.im?`<img src="${p.im}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('none');this.remove()">`:''}${PH}</div>
     <div class="head"><span class="vint ${vint==='NV'?'nv':''}">${vint}</span>${p.rt?`<span class="rate" title="${p.rt}">${p.rt.split(' · ').slice(0,2).join(' · ')}</span>`:''}</div>
     <span class="type"><i></i>${tm[1]}</span>
-    <h3 class="name" data-open="${p.i}">${p.n}</h3>
+    <h3 class="name" data-open="${p.i}">${p.n}</h3>${p.z?`<p class="zh" data-open="${p.i}">${p.z}</p>`:''}
     <div class="meta">${where?`<span>${where}</span>`:''}<span class="sz">${sizeLabel(p.s)}${pack}</span>${p.st===0?`<span class="stock out">Out of stock</span>`:(p.st===1?`<span class="stock">Limited stock · enquire</span>`:'')}</div>
     <div class="foot">${price}<button class="add ${inList?'in':''}" data-add="${p.i}" aria-label="${inList?'Remove from enquiry list':'Add to enquiry list'}" title="${inList?'In your list':'Add to enquiry list'}">${inList?'✓':'+'}</button></div>
   </article>`;
@@ -555,7 +557,7 @@ function openModal(id) {
   document.getElementById('mbox').innerHTML = `<button class="x" id="mclose" aria-label="Close">×</button>
     ${p.im?`<div class="mpic"><img src="${p.im.replace('?width=480','?width=900')}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`:''}
     <span class="type" style="--type:var(${tm[0]});display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)"><i style="width:9px;height:9px;border-radius:50%;background:var(--type);display:inline-block"></i>${tm[1]}</span>
-    <h2>${p.n}</h2>
+    <h2>${p.n}</h2>${p.z?`<div class="zh">${p.z}</div>`:''}
     <dl class="kv"><dt>Vintage</dt><dd>${vint}</dd><dt>Origin</dt><dd>${[p.r,p.c].filter((x,i,a)=>x&&a.indexOf(x)===i).join(', ')||'—'}</dd><dt>Format</dt><dd>${sizeLabel(p.s)}${p.k>1?`, case of ${p.k}`:(p.k===0?', case':'')}</dd>${p.rt?`<dt>Score</dt><dd>${p.rt}</dd>`:''}<dt>Status</dt><dd style="color:${p.st===2?'var(--ok)':(p.st===1?'var(--warn)':'var(--bad)')}">${p.st===2?'In stock':(p.st===1?'Limited stock — enquire for availability':'Out of stock')}</dd></dl>
     ${p.p==null?`<div class="price poa">Price on enquiry</div>`:`<div class="price"><small>S$</small>${Math.round(p.p).toLocaleString()}${p.cp?`<span class="was">${SGD(p.cp)}</span>`:''}</div>`}
     <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px"><button class="btn primary" data-madd="${p.i}">${list[p.i]?'Remove from list':'Add to enquiry list'}</button>${CONFIG.whatsapp?`<a class="btn" target="_blank" rel="noopener" href="https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent('Hi ' + CONFIG.brand + ', is ' + p.n + ' (' + sizeLabel(p.s) + ') available?')}">Ask on WhatsApp</a>`:''}</div>`;

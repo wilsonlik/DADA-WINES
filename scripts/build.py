@@ -79,7 +79,15 @@ def pick_img_fallback(x):
     return img_by_key.get(wine_key(x['name']), '')
 
 
-pub = [{'i': x['id'], 'n': x['name'], 't': x['type'], 'c': x['country'], 'r': x['region'], 'v': x['vintage'],
+from zh import zh_name, zh_key
+zh_missing = {}
+def zh_of(x):
+    z, ok = zh_name(x['name'])
+    if not ok:
+        zh_missing[zh_key(x['name'])] = x['name']
+    return z
+
+pub = [{'i': x['id'], 'n': x['name'], 'z': zh_of(x), 't': x['type'], 'c': x['country'], 'r': x['region'], 'v': x['vintage'],
         's': x['size'], 'k': x['pack'], 'p': x['price'], 'cp': x['compare'], 'st': x['stock'], 'rt': ratings_of(x['rating']),
         'im': pick_img_fallback(x)} for x in m]
 data = json.dumps(pub, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
@@ -94,6 +102,8 @@ doc = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
        'filter by region, vintage and price, and send us your enquiry.">\n'
        '<style>img{max-width:100%}[hidden]{display:none!important}</style>\n</head>\n<body>\n' + page + '\n</body>\n</html>\n')
 open(ROOT / 'index.html', 'w', encoding='utf-8').write(doc)
+json.dump(zh_missing, open(ROOT / 'data' / 'zh_missing.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0, sort_keys=True)
+print(f'chinese names: {len(m) - len([1 for p in pub if not p["z"]])} shown, {len(zh_missing)} names not in dictionary (rule-based fallback)')
 
 ST = {2: 'in stock', 1: 'limited / enquire', 0: 'out of stock'}
 with open(ROOT / 'data' / 'products_review.csv', 'w', newline='', encoding='utf-8-sig') as f:
