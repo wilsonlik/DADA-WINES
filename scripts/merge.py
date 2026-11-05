@@ -9,6 +9,7 @@ cs = json.load(open(RAW/'cs_all.json'))
 cs_types = json.load(open(RAW/'cs_types.json'))
 _gv = RAW/'gv_all.json'; gv = json.load(open(_gv)) if _gv.exists() else []
 _vn = RAW/'vinum_all.json'; vn = json.load(open(_vn)) if _vn.exists() else []
+_wc = RAW/'wc_all.json'; wc = json.load(open(_wc)) if _wc.exists() else []
 _vi = RAW/'vinum_uk_images.json'; vn_imgs = json.load(open(_vi)) if _vi.exists() else []
 VN_CDN = 'https://vinumfinewinescom-21644.kxcdn.com/wp-content/uploads/'
 _VSTOP = set('ch chateau domaine dom the de du des la le les di da del della st saint ex mag btl cru premier 1er grand gc 1c and et owc oc bot hlf mags halves reconditioned stained label ready stock case of x cl pere fils poderi famille vigneron'.split())
@@ -320,6 +321,36 @@ for r in vn:
         price=price, compare=None, in_stock=q > 0, stock=2 if q > 0 else 0,
         url='https://vinumfinewines.sg/#'+re.sub(r'[^a-z0-9]+','-',f'{vint} {wine} {fmt}'.lower()).strip('-'), img=vinum_image(wine), rating='', producer=''))
 
+# Wine Culture: [name, id, permalink, price, regular, sale, in_stock, cats, img, short_description]
+WC_REG = {'Burgundy':'Burgundy','Bordeaux':'Bordeaux','Rhone Valley':'Rhone','Champagne':'Champagne','Alsace':'Alsace','Loire':'Loire','Provence':'Provence',
+          'Italy':'Other Italy','USA':'USA','Australia':'Australia','New Zealand':'New Zealand','Austria':'Austria','Germany':'Germany','Chile':'Chile','Spain':'Spain'}
+for r in wc:
+    name, pid, url, price, regular, sale, stock, cats, img, sd = r
+    sd = html.unescape(sd)
+    m = re.search(r'Selection:\s*([A-Za-z ]+?)\s*[–-]\s*([\d.]+)\s*(ml|cl|l)\b', sd, re.I)
+    colour = (m.group(1).strip().lower() if m else '')
+    size = 750
+    if m:
+        v = float(m.group(2)); u = m.group(3).lower()
+        size = int(round(v if u == 'ml' else v * 10 if u == 'cl' else v * 1000))
+    mv = re.search(r'\(\s*((?:19|20)\d\d|NV)\s*\)', sd, re.I)
+    vint = mv.group(1).upper() if mv else vintage_of(name)
+    ms = re.search(r'Score:\s*(\d{2,3}(?:-\d{2,3})?\+?)', sd)
+    rating = f'Score {ms.group(1)}' if ms else ''
+    nm = clean(name)
+    if vint and vint != 'NV' and vint not in nm: nm = f'{nm} {vint}'
+    if size != 750 and not re.search(r'\d+\s*(ml|cl|l)\b', nm.lower()): nm = f'{nm} {size}ml' if size < 1000 else f'{nm} {size/1000:g}L'
+    t = {'red':'Red','white':'White','rose':'Rose','sparkling':'Sparkling','champagne':'Sparkling','sweet':'Dessert','dessert':'Dessert','fortified':'Fortified'}.get(colour) or infer_type(nm)
+    if 'Champagne' in cats: t = 'Sparkling'
+    reg = infer_region(nm) or next((WC_REG[c] for c in cats.split('|') if c in WC_REG), '')
+    cty = REGION_COUNTRY.get(reg, '')
+    GST = 1.09   # Wine Culture lists prices excluding GST; every other source is GST-inclusive
+    p = round(float(price) / 100 * GST) if price else None
+    rg = round(float(regular) / 100 * GST) if regular else None
+    items.append(dict(src='wineculture', name=nm, type=t, country=cty, region=reg, vintage=vint or '', size=size, pack=pack_of(nm),
+        price=p, compare=rg if rg and p and rg > p else None, in_stock=bool(stock), stock=2 if stock else 0,
+        url=url, img=img or '', rating=rating, producer=''))
+
 for it in items:
     if not it['region']:
         it['region'] = infer_region(it['name'])
@@ -403,7 +434,7 @@ groups = collections.defaultdict(list)
 for idx in range(len(items)):
     groups[find(idx)].append(idx)
 
-SRC_PRIO = {'pivene': 0, 'grandvin': 1, 'cornerstone': 2, 'crystal': 3, 'vinum': 4}
+SRC_PRIO = {'pivene': 0, 'grandvin': 1, 'cornerstone': 2, 'crystal': 3, 'wineculture': 4, 'vinum': 5}
 merged = []
 for g, idxs in groups.items():
     members = [items[i] for i in idxs]

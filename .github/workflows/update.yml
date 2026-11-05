@@ -50,6 +50,10 @@ jobs:
         run: python scripts/scrape_vinum.py
         continue-on-error: true
 
+      - name: Scrape Wine Culture
+        run: python scripts/scrape_wineculture.py
+        continue-on-error: true
+
       - name: Cornerstone detail pages (ratings, type, region)
         run: python scripts/scrape_cornerstone_details.py
         continue-on-error: true

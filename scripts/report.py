@@ -20,7 +20,7 @@ manifest_path = ROOT / 'data' / 'img_manifest.json'
 manifest = json.load(open(manifest_path)) if manifest_path.exists() else {}
 
 ST = {2: '有货', 1: '限量/询价', 0: '售罄'}
-SITE = {'pivene': 'Pivene', 'crystal': 'Crystal', 'cornerstone': 'Cornerstone', 'grandvin': 'Grand Vin', 'vinum': 'Vinum'}
+SITE = {'pivene': 'Pivene', 'crystal': 'Crystal', 'cornerstone': 'Cornerstone', 'grandvin': 'Grand Vin', 'vinum': 'Vinum', 'wineculture': 'Wine Culture'}
 LIMIT = 40
 
 
@@ -77,7 +77,7 @@ L.append(f"- 新上架 {len(added)}，下架 {len(removed)}，涨价 {len(price_
 L.append(f"- 目前售罄 {out_now}，限量/询价 {sum(1 for x in new if x['stock'] == 1)}，有货 {sum(1 for x in new if x['stock'] == 2)}")
 L.append('')
 L.append('## 来源站抓取状态')
-for key, name in [('pivene_all', 'Pivene'), ('cw_all', 'Crystal Wines'), ('cs_all', 'Cornerstone'), ('gv_all', 'Grand Vin'), ('vinum_all', 'Vinum')]:
+for key, name in [('pivene_all', 'Pivene'), ('cw_all', 'Crystal Wines'), ('cs_all', 'Cornerstone'), ('gv_all', 'Grand Vin'), ('vinum_all', 'Vinum'), ('wc_all', 'Wine Culture')]:
     s = status.get(key)
     if not s:
         L.append(f"- {name}：无记录")
