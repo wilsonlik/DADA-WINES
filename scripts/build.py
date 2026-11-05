@@ -90,11 +90,64 @@ def zh_of(x):
 pub = [{'i': x['id'], 'n': x['name'], 'z': zh_of(x), 't': x['type'], 'c': x['country'], 'r': x['region'], 'v': x['vintage'],
         's': x['size'], 'k': x['pack'], 'p': x['price'], 'cp': x['compare'], 'st': x['stock'], 'rt': ratings_of(x['rating']),
         'im': pick_img_fallback(x)} for x in m]
+# ---- home-page banners: a short list of famous labels, latest in-stock vintage with a photo ----
+FEATURED = [
+    (r'lafite rothschild', r'carruades|pauillac de', 'First growth, Pauillac'),
+    (r'opus one', r'overture', 'Napa Valley icon'),
+    (r'sassicaia', r'guidalberto|difese', 'The original Super Tuscan'),
+    (r'penfolds.*grange', r'bin|hermitage', "Australia's benchmark Shiraz"),
+    (r'dom perignon', r'rose|p2|luminous|plenitude', 'Vintage champagne'),
+    (r'mouton rothschild', r'petit|armailhac', 'First growth, Pauillac'),
+    (r'tignanello', r'chianti|marchese|solaia', 'Antinori, Tuscany'),
+    (r'(^|, |chateau |ch )margaux \d{4}$', r'pavillon', 'First growth, Margaux'),
+    (r'krug.*grande cuvee', r'rose', 'Prestige champagne'),
+    (r'(^|, )ornellaia \d{4}', r'serre|volte|massetino|bianco|gazze', 'Bolgheri Superiore'),
+    (r'cloudy bay.*sauvignon blanc', r'te koko', 'Marlborough classic'),
+    (r'caymus.*cabernet sauvignon', r'special|40th', 'Napa Valley Cabernet'),
+    (r'penfolds bin 389', r'', 'The baby Grange'),
+    (r'louis roederer cristal', r'rose', 'Prestige champagne'),
+    (r'whispering angel', r'', 'Provence rosé'),
+    (r'billecart.*rose', r'elisabeth', 'Rosé champagne'),
+    (r'almaviva', r'epu', "Chile's first growth"),
+]
+MAX_BANNERS = 9
+BAD = re.compile(r'eta|primeur|ex-chateau|hirst|limited|edition|gift|box|owc|\(', re.I)
+CLEAN_IMG = ('cornerstone', 'crystal', 'pivene', 'wineculture', 'angra', 'ponti', 'straits', 'wineconn')   # cleanest bottle photos first
+def white_bg(loc):
+    """True when the photo sits on a plain white background (so it blends into the grey banner tile)."""
+    try:
+        from PIL import Image
+        im = Image.open(ROOT / loc).convert('L'); w, h = im.size
+        pts = [(2, 2), (w-3, 2), (2, h-3), (w-3, h-3), (w//2, 2), (2, h//2), (w-3, h//2)]
+        return min(im.getpixel(p) for p in pts) > 247
+    except Exception:
+        return True
+def banner_img(x):
+    """(rank, local image) — lower rank = cleaner photo source"""
+    for rank, site in enumerate(CLEAN_IMG):
+        for sr in x['sources']:
+            if sr['site'] == site and sr.get('img'):
+                loc = (manifest.get(sr['img']) or {}).get('file')
+                if loc and (ROOT / loc).exists() and white_bg(loc):
+                    return rank, loc
+    return 99, ''
+by_id = {x['id']: x for x in m}
+featured = []
+for pat, ex, tag in FEATURED:
+    c = [x for x in m if re.search(pat, x['name'].lower()) and not (ex and re.search(ex, x['name'].lower()))
+         and not BAD.search(x['name']) and x['size'] == 750 and x['pack'] == 1 and x['stock'] == 2 and x['price']
+         and banner_img(x)[1]]
+    c.sort(key=lambda x: (-(int(x['vintage']) if x['vintage'].isdigit() else 0), len(x['name'])))
+    if c:
+        featured.append({'id': c[0]['id'], 'tag': tag, 'im': banner_img(c[0])[1]})
+featured = featured[:MAX_BANNERS]
+print('featured banners:', [(by_id[f['id']]['name'], f['tag']) for f in featured])
+
 data = json.dumps(pub, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 
 tpl = open(ROOT / 'scripts' / 'site_template.html', encoding='utf-8').read()
 assert '/*__DATA__*/' in tpl
-page = tpl.replace('/*__DATA__*/', data)
+page = tpl.replace('/*__DATA__*/', data).replace('/*__FEATURED__*/', json.dumps(featured))
 page = re.sub(r'<span id="updated">[^<]*</span>', f'<span id="updated">{today}</span>', page)
 doc = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
        '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'

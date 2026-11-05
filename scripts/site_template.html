@@ -80,6 +80,31 @@ input,select{font:inherit;color:var(--fg)}
 .chip:hover{background:var(--bg-3)}
 .chip.on{background:var(--fg);color:var(--bg)}
 
+/* ---- bestseller banners ---- */
+.feat{max-width:1200px;margin:0 auto 26px;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
+.feat-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+.feat-head h2{font-family:var(--display);font-size:26px;font-weight:700;letter-spacing:-.03em;margin:0}
+.feat-nav{display:flex;gap:8px}
+.feat-nav button{width:34px;height:34px;border-radius:50%;background:var(--bg-2);color:var(--fg-2);font-size:22px;line-height:1;display:inline-flex;align-items:center;justify-content:center}
+.feat-nav button:hover{background:var(--bg-3);color:var(--fg)}
+.feat-row{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 36px)/3);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+.feat-row::-webkit-scrollbar{display:none}
+.bn{scroll-snap-align:start;background:var(--bg-2);border-radius:var(--tile);padding:22px 24px;min-height:300px;display:grid;grid-template-columns:1fr 42%;gap:16px;align-items:center;cursor:pointer;position:relative;overflow:hidden;transition:transform .25s cubic-bezier(.2,.7,.2,1),box-shadow .25s}
+.bn:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(0,0,0,.10)}
+.bn .tag{background:none;padding:0;font-size:13px;color:var(--fg-2);border-radius:0}
+.bn h3{font-family:var(--display);font-size:22px;font-weight:700;letter-spacing:-.03em;line-height:1.15;margin:4px 0 2px;text-wrap:balance}
+.bn .zh{font-size:15px;color:var(--fg-2);margin:0 0 10px}
+.bn .pr{font-size:17px;font-weight:600;font-variant-numeric:tabular-nums}
+.bn .pr small{font-weight:400;color:var(--fg-2);font-size:13px;margin-right:2px}
+.bn .cta{display:inline-flex;margin-top:14px;background:var(--blue);color:#fff;border-radius:999px;padding:8px 16px;font-size:14px;font-weight:500}
+.bn:hover .cta{background:var(--blue-ink)}
+.bn .img{height:250px;display:flex;align-items:center;justify-content:center}
+.bn .img img{max-height:100%;max-width:100%;object-fit:contain;mix-blend-mode:multiply}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .bn .img img{mix-blend-mode:normal;background:#fff;border-radius:12px;padding:8px} }
+:root[data-theme="dark"] .bn .img img{mix-blend-mode:normal;background:#fff;border-radius:12px;padding:8px}
+@media (max-width: 1000px){ .feat-row{grid-auto-columns:calc((100% - 18px)/2)} }
+@media (max-width: 640px){ .feat-row{grid-auto-columns:88%} .bn{min-height:240px;padding:18px} .bn .img{height:190px} .bn h3{font-size:19px} .feat-nav{display:none} }
+
 /* ---- main layout ---- */
 .wrap{display:grid;grid-template-columns:230px minmax(0,1fr);gap:40px;padding-block:8px 80px;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px));max-width:1200px;margin:0 auto}
 .rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 68px);align-self:start;max-height:calc(100vh - 84px);overflow:auto;padding-right:6px;scrollbar-width:thin}
@@ -258,6 +283,11 @@ footer{background:var(--bg-2)}
   <div class="chips" id="chips"></div>
 </section>
 
+<section class="feat" id="feat" hidden>
+  <div class="feat-head"><h2>Bestsellers</h2><div class="feat-nav"><button id="featPrev" aria-label="Previous">‹</button><button id="featNext" aria-label="Next">›</button></div></div>
+  <div class="feat-row" id="featRow"></div>
+</section>
+
 <main class="wrap">
   <aside class="rail" id="rail">
     <div class="rail-head"><span class="eyebrow">Filters</span><button id="clearAll">Clear all</button></div>
@@ -312,6 +342,7 @@ footer{background:var(--bg-2)}
 <div class="toast" id="toast"></div>
 
 <script id="data" type="application/json">/*__DATA__*/</script>
+<script id="featured" type="application/json">/*__FEATURED__*/</script>
 <script>
 // ====== Edit these before going live ======
 const CONFIG = {
@@ -331,6 +362,7 @@ document.getElementById('waBtn').hidden = !CONFIG.whatsapp;
 if (!CONFIG.whatsapp) document.getElementById('copyBtn').classList.add('primary');
 
 const P = JSON.parse(document.getElementById('data').textContent);
+const FEATURED = (() => { try { return JSON.parse(document.getElementById('featured').textContent); } catch (e) { return []; } })();
 const TYPE_META = {Red:['--red','Red'],White:['--white','White'],Sparkling:['--spark','Sparkling'],Rose:['--rose','Rosé'],Dessert:['--dessert','Dessert'],Fortified:['--fort','Fortified'],Spirits:['--spirit','Spirits'],Sake:['--sake','Sake'],'Non-Alcoholic':['--other','Non-alcoholic'],Accessories:['--other','Accessories'],Other:['--other','Other']};
 const TYPE_ORDER = ['Red','White','Sparkling','Rose','Dessert','Fortified','Spirits','Sake','Non-Alcoholic','Accessories'];
 const SGD = n => 'S$' + Math.round(n).toLocaleString('en-SG');
@@ -588,4 +620,21 @@ document.getElementById('modal').onclick = e => { if (e.target.id === 'modal') c
 let tt; function toast(m){ const t = document.getElementById('toast'); t.textContent = m; t.classList.add('show'); clearTimeout(tt); tt = setTimeout(()=>t.classList.remove('show'), 1800); }
 
 renderList(); update();
+
+// ---- bestseller banners ----
+(function(){
+  const byIdF = new Map(P.map(p => [p.i, p]));
+  const items = FEATURED.map(f => ({...f, p: byIdF.get(f.id)})).filter(f => f.p);
+  if (!items.length) return;
+  const sec = document.getElementById('feat'), row = document.getElementById('featRow');
+  sec.hidden = false;
+  row.innerHTML = items.map(f => `<article class="bn" data-open="${f.p.i}">
+    <div><div class="tag">${f.tag}</div><h3>${f.p.n}</h3>${f.p.z?`<p class="zh">${f.p.z}</p>`:''}<div class="pr"><small>S$</small>${Math.round(f.p.p).toLocaleString()}</div><span class="cta">View</span></div>
+    <div class="img"><img src="${f.im||f.p.im}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+  </article>`).join('');
+  const step = () => row.firstElementChild ? row.firstElementChild.getBoundingClientRect().width + 18 : 300;
+  document.getElementById('featPrev').onclick = () => row.scrollBy({left: -step(), behavior: 'smooth'});
+  document.getElementById('featNext').onclick = () => row.scrollBy({left: step(), behavior: 'smooth'});
+  row.addEventListener('click', e => { const o = e.target.closest('[data-open]'); if (o) openModal(+o.dataset.open); });
+})();
 </script>
