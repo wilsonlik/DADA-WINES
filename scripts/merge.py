@@ -1,4 +1,5 @@
 import json, re, unicodedata, collections, itertools, html
+from urllib.parse import unquote
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -397,7 +398,7 @@ def _finish(src, nm, t, cty, reg, vint, size, pack, price, compare, avail, url, 
     if vint == 'NV' and re.search(r'\bvintage\b', nm, re.I) and not re.search(r'\bnon[ -]?vintage\b|\bNV\b', nm, re.I):
         vint = ''   # "Vintage Brut" with no year given: year unknown, not NV
     items.append(dict(src=src, name=nm, type=t, country=cty, region=reg, vintage=vint or '', size=size, pack=pack,
-        price=p, compare=c if c and p and c > p else None, in_stock=bool(avail), stock=2 if avail else 0,
+        price=p, compare=c if c and p and c > p else None, in_stock=bool(avail), stock=(2 if p else 1) if avail else 0,
         url=url, img=img or '', rating=rating, producer=producer))
 
 # 1855 The Bottle Shop: tags carry vintage/country/region/type; title ends "2020 750ml"
@@ -571,6 +572,12 @@ for r in _load('wh_all.json'):
     nm = clean(name)
     low = nm.lower()
     if re.search(r'\b(gift card|voucher|glass|decanter|aroma|accessor)\b', low): continue
+    folder = unquote(img or '').split('/catalog/')[-1].rsplit('/', 1)[0].split('/')[-1].lower()
+    if folder in ('mix 2-3', 'mix 6', 'bulk', 'duo hampers holiday', 'duo', 'best seller template'): continue   # multi-bottle sets
+    if re.match(r'^(buy \d+|duo|trio|quad|quartet|mix(ed)?)\b', low) or re.search(r'\b(bundle|gift set|hamper|celebration|holiday season|appelation mix|appellation mix)\b', low): continue
+    nm = re.sub(r'^(nv|n\.v\.)\s+', '', nm, flags=re.I)
+    nm = re.sub(r'^((?:19|20)\d\d)\s+(.+)$', r'\2 \1', nm)       # "2022 Catena Zapata" -> "Catena Zapata 2022"
+    if price is not None and price <= 2: price = None           # S$1.00 placeholder on unavailable items
     t = infer_type(nm)
     vint = vintage_of(nm) or ('NV' if t in ('Sparkling','Spirits','Fortified') else '')
     size = size_of(nm, _default_size(t))
