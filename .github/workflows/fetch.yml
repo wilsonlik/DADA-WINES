@@ -1,0 +1,34 @@
+name: Fetch raw feeds only
+
+on:
+  workflow_dispatch:
+    inputs:
+      scripts:
+        description: 'space-separated scraper commands'
+        required: true
+        default: 'scrape_shopify.py all'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet requests
+      - name: Run scrapers
+        run: |
+          cd scripts
+          IFS=';' read -ra CMDS <<< "${{ github.event.inputs.scripts }}"
+          for c in "${CMDS[@]}"; do echo "== $c"; python $c || true; done
+      - name: Commit raw data
+        run: |
+          git config user.name "catalogue-bot"
+          git config user.email "catalogue-bot@users.noreply.github.com"
+          git add data/raw
+          git diff --cached --quiet || (git commit -m "Fetch raw feeds" && git push)
