@@ -29,10 +29,10 @@ def listing(s):
         if not cards:
             break
         for c in cards:
-            main = c.select_one('.card-main[data-handle]')
-            if not main:
+            a = c.select_one('a[href*="/products/"]')
+            if not a:
                 continue
-            handle = main['data-handle']
+            handle = a['href'].split('/products/')[-1].split('?')[0].strip('/')
             title = (c.select_one('.visually-hidden') or c).get_text(' ', strip=True)
             img = c.select_one('img')
             img = (img.get('src') or '') if img else ''

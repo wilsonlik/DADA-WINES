@@ -57,7 +57,7 @@ def listing(s):
                 rows.append([cat, brand, title, href, price, money(old.get_text()) if old else None, img])
                 n += 1
             print(f'bnb {cat} page {page}: {len(cards)} cards, {n} new (total {len(rows)})')
-            if not cards or (n == 0 and page > 1) or len(cards) < 100:
+            if not cards or n == 0:
                 break
             time.sleep(0.5)
     return rows

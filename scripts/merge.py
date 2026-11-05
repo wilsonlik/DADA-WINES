@@ -157,8 +157,11 @@ def title_case(s):
     out = []
     for i, w in enumerate(s.split()):
         lw = w.lower()
-        if re.match(r'^[a-z]+$', lw) is None and not lw.isalpha():
+        if not re.sub(r"['’.-]", '', lw).isalpha():
             out.append(w.upper() if re.match(r'^(nv|igt|doc|docg|aoc|owc|occ|gbx|ngbx|sgn|px|xo|vs|vsop)$', lw) else w)
+        elif not lw.isalpha():
+            w2 = re.sub(r"(^|['\u2019-])([a-z])", lambda m: m.group(1) + m.group(2).upper(), lw)
+            out.append(re.sub(r"'S$", "'s", w2))
         elif lw in small and i > 0:
             out.append(lw)
         elif re.match(r'^(nv|igt|doc|docg|aoc|owc|occ|gbx|ngbx|sgn|px|xo|vs|vsop|mo|jj)$', lw):
@@ -353,6 +356,178 @@ for r in wc:
         price=p, compare=rg if rg and p and rg > p else None, in_stock=bool(stock), stock=2 if stock else 0,
         url=url, img=img or '', rating=rating, producer=''))
 
+# ---------- Shopify sites (generic feed): [title, handle, product_type, vendor, tags, vtitle, opt1, opt2, price, compare, available, img] ----------
+def _load(name):
+    p = RAW / name
+    return json.load(open(p)) if p.exists() else []
+
+def _variant_slug(vt):
+    return re.sub(r'[^a-z0-9]+', '-', (vt or '').lower()).strip('-')
+
+def _size_from_text(s, default=750):
+    """'1.5 L', '750ml', '70cl', '375ML', '1.5 ml' (Angra typo for 1.5 L) -> ml"""
+    m = re.search(r'(\d+(?:\.\d+)?)\s*(ml|cl|l)\b', (s or '').lower())
+    if not m: return default
+    v = float(m.group(1)); u = m.group(2)
+    if u == 'ml' and v < 10: u = 'l'
+    return int(round(v if u == 'ml' else v * 10 if u == 'cl' else v * 1000))
+
+def _default_size(t):
+    return 720 if t == 'Sake' else 700 if t == 'Spirits' else 750
+
+def _add_size(nm, size):
+    if size != 750 and not re.search(r'\d+(?:\.\d+)?\s*(ml|cl|l)\b', nm.lower()) and not re.search(r'\b(magnum|jeroboam|imperial|methuselah|half bottle)\b', nm.lower()):
+        nm = f'{nm} {size}ml' if size < 1000 else f'{nm} {size/1000:g}L'
+    return nm
+
+COUNTRY_SET = {'France','Italy','Spain','Germany','Australia','New Zealand','Chile','Argentina','Japan','Portugal','Austria','South Africa','USA','China','Uruguay','Lebanon','Canada','Greece','Hungary','England','Scotland','Israel','Switzerland','Slovenia','Croatia','Georgia','Mexico','Ireland','Jamaica','Barbados','Cuba','Taiwan','India'}
+TAG_TYPE = {'red wine':'Red','red':'Red','white wine':'White','white':'White','rose':'Rose','rosé':'Rose','rose wine':'Rose','rosé wine':'Rose',
+            'sparkling':'Sparkling','sparkling wine':'Sparkling','champagne':'Sparkling','champagne & sparkling wine':'Sparkling','bubbly':'Sparkling',
+            'sweet':'Dessert','sweet wine':'Dessert','dessert':'Dessert','dessert wine':'Dessert','sparkling sweet':'Sparkling',
+            'fortified':'Fortified','fortified wine':'Fortified','port':'Fortified','port wine':'Fortified','sherry':'Fortified',
+            'spirits':'Spirits','spirit':'Spirits','whisky':'Spirits','whiskey':'Spirits','gin':'Spirits','rum':'Spirits','vodka':'Spirits','cognac':'Spirits','brandy':'Spirits','tequila':'Spirits','liqueur':'Spirits','liqueurs':'Spirits','bai jiu':'Spirits','baijiu':'Spirits',
+            'sake':'Sake','orange':'Other','orange wine':'Other','cider':'Other','beer':'Other','alcohol-free wine':'Non-Alcoholic','naa':'Non-Alcoholic'}
+SKIP_TYPE = {'event','events','wine dinner','gift cards','gift card','accessories','accessory','glassware','gifts','gift','fridge','water','hampers','sparkling tea','mixer','delivery charge','general','wine chiller','cigar humidor','donation','olive oil'}
+
+def _finish(src, nm, t, cty, reg, vint, size, pack, price, compare, avail, url, img, rating='', producer=''):
+    p = float(price) if price not in (None, '') else None
+    c = float(compare) if compare not in (None, '') else None
+    nm = re.sub(r'\s+', ' ', nm).strip()
+    items.append(dict(src=src, name=nm, type=t, country=cty, region=reg, vintage=vint or '', size=size, pack=pack,
+        price=p, compare=c if c and p and c > p else None, in_stock=bool(avail), stock=2 if avail else 0,
+        url=url, img=img or '', rating=rating, producer=producer))
+
+# 1855 The Bottle Shop: tags carry vintage/country/region/type; title ends "2020 750ml"
+for r in _load('sh_1855.json'):
+    title, handle, ptype, vendor, tags, vt, o1, o2, price, compare, avail, img = r
+    tg = [x.strip() for x in tags.split('|') if x.strip()]
+    tl = {x.lower() for x in tg}
+    if tl & {'event','accessories','glass','gift card','hamper'} or 'Wine Dinner' in title or '|' in title: continue
+    if not (tl & {'wine','spirits','sake','champagne','beer'}): continue
+    if re.search(r'\bbundle\b|\bset of\b', title.lower()): continue
+    t = next((TAG_TYPE[x] for x in ('red wine','white wine','champagne','sparkling','rose','sweet','dessert','fortified','sake','spirits') if x in tl), '')
+    nm = clean(title)
+    if not t: t = infer_type(nm)
+    if t == 'Spirits' and 'sake' in tl: t = 'Sake'
+    vint = next((x for x in tg if re.fullmatch(r'(19|20)\d\d', x)), '') or vintage_of(nm)
+    if t in ('Sparkling','Spirits','Fortified') and not vint: vint = 'NV'
+    size = size_of(nm, _default_size(t))
+    if 'half bottle' in tl and size == 750: size = 375
+    if 'magnum' in tl and size == 750: size = 1500
+    cty = next((x for x in tg if x in COUNTRY_SET), '')
+    reg = infer_region(nm) or next(({'Bordeaux':'Bordeaux','Burgundy':'Burgundy','Champagne':'Champagne','Rhone':'Rhone','Loire':'Loire','Alsace':'Alsace','Tuscany':'Tuscany','Piedmont':'Piedmont','Veneto':'Veneto','Sicily':'Sicily'}[x] for x in tg if x in ('Bordeaux','Burgundy','Champagne','Rhone','Loire','Alsace','Tuscany','Piedmont','Veneto','Sicily')), '')
+    _finish('1855', nm, t, cty, reg, vint, size, pack_of(nm), price, compare, avail,
+            'https://www.1855thebottleshop.com/products/' + handle, img, producer='')
+
+# The Straits Wine Company: product_type Red/White/...; vintage in title
+ST_TYPE = {'Red':'Red','White':'White','Rose':'Rose','Sparkling':'Sparkling','Sweet':'Dessert','Cider':'Other','Liqueur':'Spirits','Gin':'Spirits','Whisky':'Spirits','Sake':'Sake'}
+for r in _load('sh_straits.json'):
+    title, handle, ptype, vendor, tags, vt, o1, o2, price, compare, avail, img = r
+    if ptype not in ST_TYPE: continue
+    nm = clean(re.sub(r'^\[[^\]]*\]\s*', '', title))
+    t = ST_TYPE[ptype]
+    vint = vintage_of(nm) or ('NV' if t in ('Sparkling','Spirits') else '')
+    size = size_of(nm, _default_size(t))
+    _finish('straits', nm, t, '', infer_region(nm + ' ' + vendor), vint, size, pack_of(nm), price, compare, avail,
+            'https://straitswine.com/products/' + handle, img, producer=clean(vendor))
+
+# Wine Connection: title "PRODUCER "Cuvee" 2019 - Wine - Region - Country"
+WCN_TYPE = {'Red Wine':'Red','White Wine':'White','Rosé Wine':'Rose','Champagne & Sparkling Wine':'Sparkling','Sweet Wine':'Dessert','Port Wine':'Fortified',
+            'Spirit':'Spirits','Sake':'Sake','Cider':'Other','Orange Wine':'Other','Alcohol-Free Wine':'Non-Alcoholic'}
+for r in _load('sh_wineconn.json'):
+    title, handle, ptype, vendor, tags, vt, o1, o2, price, compare, avail, img = r
+    if ptype not in WCN_TYPE or vt not in ('Default Title', ''): continue
+    t = WCN_TYPE[ptype]
+    parts = [p.strip() for p in clean(title).split(' - ')]
+    head = parts[0]
+    vint = vintage_of(head) or ('NV' if t in ('Sparkling','Spirits','Fortified') else '')
+    head_nov = VINT_RE.sub('', head).strip()
+    prod = title_case(head_nov) if head_nov.isupper() or re.match(r'^[A-Z0-9 &\'".-]+$', head_nov) else head_nov
+    wine = parts[1] if len(parts) > 2 else ''
+    cty = parts[-1] if len(parts) > 1 and parts[-1] in COUNTRY_SET else ''
+    region_hint = parts[2] if len(parts) > 3 else ''
+    nm = ' '.join(x for x in (prod, wine, vint if vint and vint != 'NV' else '') if x)
+    nm = nm.replace('"', '')
+    size = _size_from_text(next((x for x in tags.split('|') if x.startswith('packing:')), ''), _default_size(t))
+    size = size_of(nm, size)
+    rating = ''
+    acc = [x.split(':', 1)[1] for x in tags.split('|') if x.startswith('Accolades:')]
+    reg = infer_region(nm + ' ' + region_hint) or infer_region(region_hint)
+    _finish('wineconn', nm, t, cty, reg, vint, size, pack_of(nm), price, compare, avail,
+            'https://www.wineconnection.com.sg/products/' + handle, img, producer=prod)
+
+# Wines Wholesales: product_type = country (or Gifts/Fridge/...); tags carry colour + size; vintage rarely given
+for r in _load('sh_wholesale.json'):
+    title, handle, ptype, vendor, tags, vt, o1, o2, price, compare, avail, img = r
+    if ptype.lower() in SKIP_TYPE or not ptype: continue
+    tg = [x.strip() for x in tags.split('|') if x.strip()]
+    tl = {x.lower() for x in tg}
+    if ptype == 'Whisky' or ptype == 'Bai Jiu': t = 'Spirits'
+    elif ptype == 'Beer': t = 'Other'
+    else: t = next((TAG_TYPE[x] for x in ('port','fortified','sparkling sweet','sparkling','sweet','rosé','rose','white','red') if x in tl), '')
+    nm = clean(title)
+    if re.search(r'\b(gift set|with \d+ (flutes|glasses)|hamper|bundle)\b', nm.lower()): continue
+    if not t: t = infer_type(nm)
+    vint = (o1 if re.fullmatch(r'(19|20)\d\d', o1 or '') else '') or vintage_of(nm) or ('NV' if t in ('Sparkling','Fortified','Spirits') else '')
+    if vint and vint != 'NV' and vint not in nm: nm = f'{nm} {vint}'
+    size = _size_from_text(next((x for x in tg if re.fullmatch(r'\d+(\.\d+)?\s*(ml|l)', x.lower())), ''), _default_size(t))
+    size = size_of(nm, size)
+    cty = ptype if ptype in COUNTRY_SET else ''
+    url = 'https://www.wineswholesales.com.sg/products/' + handle + ('' if vt in ('Default Title', '') else '?variant=' + _variant_slug(vt))
+    _finish('wholesale', nm, t, cty, infer_region(nm), vint, size, pack_of(nm), price, compare, avail, url, img)
+
+# Wines Online: product_type WINE/CHAMPAGNE/WHISKY/...; tags type-Red, vintage-2023, country-France, region-X, ratings-WS-92, cap-70cl
+WO_TYPE = {'WINE':'', 'CHAMPAGNE':'Sparkling', 'WHISKY':'Spirits', 'GIN':'Spirits', 'SAKE':'Sake', 'RUM':'Spirits', 'VODKA':'Spirits', 'COGNAC':'Spirits', 'BRANDY':'Spirits', 'LIQUEUR':'Spirits', 'NAA':'Non-Alcoholic', 'BEER CIDER':'Other'}
+WO_CRITIC = {'WS':'Wine Spectator','RP':'Robert Parker','WA':'Robert Parker','JS':'James Suckling','JH':'James Halliday','D':'Decanter','V':'Vinous','AG':'Vinous','JR':'Jancis Robinson','WE':'Wine Enthusiast','BH':'Burghound','JD':'Jeb Dunnuck','TA':'Tim Atkin'}
+for r in _load('sh_winesonl.json'):
+    title, handle, ptype, vendor, tags, vt, o1, o2, price, compare, avail, img = r
+    if ptype not in WO_TYPE: continue
+    tg = [x.strip() for x in tags.split('|') if x.strip()]
+    tagv = {}
+    for x in tg:
+        m = re.match(r'^(type|vintage|country|region|ratings|cap|size)-(.+)$', x, re.I)
+        if m: tagv.setdefault(m.group(1).lower(), []).append(m.group(2).replace('-', ' ').strip())
+    if 'gift' in {x.lower() for x in tg} or '+ $' in vt: continue
+    pack = 1
+    m = re.match(r'^(\d+)\s*bottles?$', vt.lower())
+    if m: pack = int(m.group(1))
+    elif vt not in ('Default Title', '', '1 Bottle'): continue
+    t = WO_TYPE[ptype] or TAG_TYPE.get((tagv.get('type') or [''])[0].lower(), '')
+    nm = clean(re.sub(r'\s*\((\d+(?:\.\d+)?\s*(?:ml|cl|l))\)', r' \1', title, flags=re.I))
+    if not t: t = infer_type(nm)
+    vint = vintage_of(nm) or (tagv.get('vintage') or [''])[0]
+    if not re.fullmatch(r'((19|20)\d\d|NV)', vint): vint = 'NV' if t in ('Sparkling','Spirits','Fortified') else ''
+    if vint and vint != 'NV' and vint not in nm: nm = f'{nm} {vint}'
+    size = size_of(nm, _size_from_text((tagv.get('cap') or [''])[0], _default_size(t)))
+    cty = norm_country((tagv.get('country') or [''])[0])
+    cty = cty if cty in COUNTRY_SET else ''
+    reg = infer_region(nm) or infer_region((tagv.get('region') or [''])[0])
+    rating = ' · '.join(f"{WO_CRITIC.get(a.upper(), a)} {b}" for a, b in (x.split(' ', 1) for x in tagv.get('ratings', []) if ' ' in x) if re.match(r'^\d{2,3}', b))
+    url = 'https://winesonline.com.sg/products/' + handle + ('' if pack == 1 else '?variant=' + _variant_slug(vt))
+    _finish('winesonl', nm, t, cty, reg, vint, size, pack, price, compare, avail, url, img, rating=rating)
+
+# Angra: product_type RED/WHITE/...; options VINTAGE + SIZE ("2024 / 750 ml"); titles in caps
+AN_TYPE = {'RED':'Red','WHITE':'White','CHAMPAGNE':'Sparkling','SPARKLING':'Sparkling','ROSE':'Rose','FORTIFIED':'Fortified','SWEET':'Dessert','SWEET WINE':'Dessert','DESSERT':'Dessert',
+           'LIQUEUR':'Spirits','Liqueurs':'Spirits','Cognac':'Spirits','WHISKY':'Spirits','SPIRIT':'Spirits','TEQUILA':'Spirits','SAKE':'Sake','BEER':'Other','Orange':'Other'}
+for r in _load('sh_angra.json'):
+    title, handle, ptype, vendor, tags, vt, o1, o2, price, compare, avail, img = r
+    if ptype not in AN_TYPE: continue
+    t = AN_TYPE[ptype]
+    nm = title_case(clean(title))
+    nm = re.sub(r'\s*\(.*?pre-?order.*?\)', '', nm, flags=re.I)
+    vint = o1.strip().upper() if re.fullmatch(r'((19|20)\d\d|NV)', (o1 or '').strip(), re.I) else vintage_of(nm) or ('NV' if t in ('Sparkling','Spirits','Fortified') else '')
+    if vint and vint != 'NV' and vint not in nm: nm = f'{nm} {vint}'
+    size = _size_from_text(o2, 0) or size_of(nm, _default_size(t))
+    nm = _add_size(nm, size)
+    tg = [x.strip() for x in tags.split('|') if x.strip()]
+    cty = next((x for x in tg if x in COUNTRY_SET), '')
+    reg = infer_region(nm + ' ' + vendor) or next((x for x in tg if x in REGION_COUNTRY), '')
+    rating = ''
+    m = re.search(r'\b(\d{2,3}\+?)\s*(RP|JS|WS|WA|JD|V|AG|D)\b', vt)
+    if m: rating = f"{WO_CRITIC.get(m.group(2), m.group(2))} {m.group(1)}"
+    url = 'https://angra.com.sg/products/' + handle + ('' if vt in ('Default Title', '') else '?variant=' + _variant_slug(vt))
+    _finish('angra', nm, t, cty, reg, vint, size, pack_of(nm), price, compare, avail, url, img, rating=rating, producer=title_case(clean(vendor)))
+
 for it in items:
     if not it['region']:
         it['region'] = infer_region(it['name'])
@@ -436,7 +611,7 @@ groups = collections.defaultdict(list)
 for idx in range(len(items)):
     groups[find(idx)].append(idx)
 
-SRC_PRIO = {'pivene': 0, 'grandvin': 1, 'cornerstone': 2, 'crystal': 3, 'wineculture': 4, 'vinum': 5}
+SRC_PRIO = {'pivene': 0, 'grandvin': 1, 'cornerstone': 2, 'crystal': 3, 'wineculture': 4, 'vinum': 5, '1855': 6, 'angra': 7, 'wineconn': 8, 'straits': 9, 'winesonl': 10, 'wholesale': 11, 'ponti': 12, 'finewines': 13, 'winehours': 14, 'bnb': 15}
 merged = []
 for g, idxs in groups.items():
     members = [items[i] for i in idxs]
@@ -446,7 +621,7 @@ for g, idxs in groups.items():
     # remove source-specific size suffix noise from display name
     name = namer['name']
     name = re.sub(r'\s*\((?:GBX|NGBX|W/O LIGHT)\)', '', name, flags=re.I)
-    name = re.sub(r'\s+\d+ML$', '', name)
+    name = re.sub(r'\s+\d+ML$', '', name, flags=re.I)
     name = re.sub(r'\s+', ' ', name).strip()
     types = [m['type'] for m in members if m['type'] != 'Other']
     t = collections.Counter(types).most_common(1)[0][0] if types else 'Other'

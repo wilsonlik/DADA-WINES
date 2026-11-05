@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 200
     steps:
       - uses: actions/checkout@v4
 
@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --quiet requests playwright numpy pillow opencv-python-headless
+          pip install --quiet requests beautifulsoup4 playwright numpy pillow opencv-python-headless
           playwright install --with-deps chromium
 
       # Each scraper only overwrites its snapshot when the result looks sane,
@@ -52,6 +52,22 @@ jobs:
 
       - name: Scrape Wine Culture
         run: python scripts/scrape_wineculture.py
+        continue-on-error: true
+
+      - name: Scrape Shopify shops (1855, Straits, Wine Connection, Wines Wholesales, Wines Online, Angra)
+        run: python scripts/scrape_shopify.py all
+        continue-on-error: true
+
+      - name: Scrape Ponti Wine Cellars
+        run: python scripts/scrape_ponti.py
+        continue-on-error: true
+
+      - name: Scrape Winehours
+        run: python scripts/scrape_winehours.py
+        continue-on-error: true
+
+      - name: Scrape Bottles & Bottles
+        run: python scripts/scrape_bnb.py
         continue-on-error: true
 
       - name: Cornerstone detail pages (ratings, type, region)
