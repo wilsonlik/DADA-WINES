@@ -88,6 +88,8 @@ def tokens(name):
     n = re.sub(r'\d+(?:\.\d+)?\s*(?:ml|cl|l)\b', ' ', n)
     n = re.sub(r'[^a-z0-9 ]', ' ', n)
     n = re.sub(r'\bgrands?\s+echezeaux\b', 'grandsechezeaux', n)
+    # Latour a Pomerol (Pomerol) is a different estate from Ch Latour (Pauillac): keep it as one token
+    n = re.sub(r'\blatour\s*a\s*pomerol\b', 'latourapomerol', n)
     toks = [t for t in n.split() if t not in STOP]
     return set(toks)
 
