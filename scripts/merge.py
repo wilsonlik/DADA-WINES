@@ -283,7 +283,7 @@ for r in gv:
     cty = REGION_COUNTRY.get(reg, '') or next((norm_country(x) for x in tagl if norm_country(x) in REGION_COUNTRY.values() or x in ('China','Austria','South Africa','Argentina','Portugal')), '')
     items.append(dict(src='grandvin', name=nm, type=t, country=cty, region=reg, vintage=vint or '', size=size, pack=pack,
         price=p, compare=cmp_ if cmp_ and p and cmp_ > p else None, in_stock=bool(avail), stock=2 if avail else 0,
-        url='https://www.grandvin.com.sg/products/'+handle, img=img or '', rating='', producer=clean(vendor)))
+        url='https://www.grandvin.com.sg/products/'+handle+'?variant='+re.sub(r'[^a-z0-9]+','-',vt.lower()).strip('-'), img=img or '', rating='', producer=clean(vendor)))
 
 # Vinum Fine Wines SG: [category, vintage, wine, format, qty, unit_price]
 VN_CAT = {'White Bordeaux':('White','Bordeaux'),'Red Bordeaux':('Red','Bordeaux'),'Red Burgundy & Beaujolais':('Red','Burgundy'),
@@ -318,7 +318,7 @@ for r in vn:
     q = int(qty) if str(qty).isdigit() else 1
     items.append(dict(src='vinum', name=nm, type=t, country=cty, region=r2, vintage=v, size=size, pack=pack,
         price=price, compare=None, in_stock=q > 0, stock=2 if q > 0 else 0,
-        url='https://vinumfinewines.sg/', img=vinum_image(wine), rating='', producer=''))
+        url='https://vinumfinewines.sg/#'+re.sub(r'[^a-z0-9]+','-',f'{vint} {wine} {fmt}'.lower()).strip('-'), img=vinum_image(wine), rating='', producer=''))
 
 for it in items:
     if not it['region']:
