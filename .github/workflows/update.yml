@@ -80,7 +80,7 @@ jobs:
           python scripts/merge.py
 
       - name: Images (download new ones, remove score badges)
-        run: python scripts/images.py
+        run: python scripts/images.py 4000
         continue-on-error: true
 
       - name: Build site

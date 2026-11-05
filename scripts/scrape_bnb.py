@@ -71,9 +71,10 @@ def detail(s, url):
     txt = soup.get_text(' ', strip=True)
     m = re.search(r'(\d+\s+Left in Stock|Out of Stock|In Stock|Pre-?Order)', txt, re.I)
     stock = m.group(1) if m else ''
-    cty = re.search(r'\bCountry\s+([A-Za-z][A-Za-z ]+?)\s+(?:Region|Grape|Food|Alcohol|Tasting|Awards|You May)', txt)
-    reg = re.search(r'\bRegion\s+([A-Za-z][A-Za-z ,\'-]+?)\s+(?:Grape|Food|Alcohol|Tasting|Awards|You May)', txt)
-    return dict(stock=stock, country=cty.group(1).strip() if cty else '', region=reg.group(1).strip() if reg else '')
+    # the nav menu also contains "Country France Italy ..." so keep only short values (the product attribute)
+    ctys = [m.strip() for m in re.findall(r'\bCountry\s+([A-Za-z][A-Za-z ]+?)\s+(?:Region|Grape|Food|Alcohol|Tasting|Awards|You May)', txt) if len(m.split()) <= 3]
+    regs = [m.strip() for m in re.findall(r'\bRegion\s+([A-Za-z][A-Za-z ,\'-]+?)\s+(?:Grape|Food|Alcohol|Tasting|Awards|You May)', txt) if len(m.split()) <= 8]
+    return dict(stock=stock, country=ctys[0] if ctys else '', region=regs[0] if regs else '')
 
 
 def main():

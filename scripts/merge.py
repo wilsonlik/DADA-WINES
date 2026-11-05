@@ -55,6 +55,7 @@ def size_of(name, default=750):
         ml = v if u == 'ml' else v*10 if u == 'cl' else v*1000
         return int(round(ml))
     m = re.search(r'\b(magnum|jeroboam|double magnum|imperial|methuselah)\b', n)
+    if m and m.group(1) == 'imperial' and re.search(r'moet|chandon', n): m = None   # Moet "Brut Imperial" is a cuvee, not a 6L
     if m:
         return {'magnum':1500,'double magnum':3000,'jeroboam':3000,'imperial':6000,'methuselah':6000}[m.group(1)]
     return default
@@ -392,7 +393,9 @@ SKIP_TYPE = {'event','events','wine dinner','gift cards','gift card','accessorie
 def _finish(src, nm, t, cty, reg, vint, size, pack, price, compare, avail, url, img, rating='', producer=''):
     p = float(price) if price not in (None, '') else None
     c = float(compare) if compare not in (None, '') else None
-    nm = re.sub(r'\s+', ' ', nm).strip()
+    nm = re.sub(r'\s+', ' ', nm).strip(' ,.;-')
+    if vint == 'NV' and re.search(r'\bvintage\b', nm, re.I) and not re.search(r'\bnon[ -]?vintage\b|\bNV\b', nm, re.I):
+        vint = ''   # "Vintage Brut" with no year given: year unknown, not NV
     items.append(dict(src=src, name=nm, type=t, country=cty, region=reg, vintage=vint or '', size=size, pack=pack,
         price=p, compare=c if c and p and c > p else None, in_stock=bool(avail), stock=2 if avail else 0,
         url=url, img=img or '', rating=rating, producer=producer))
@@ -502,8 +505,10 @@ for r in _load('sh_winesonl.json'):
     cty = norm_country((tagv.get('country') or [''])[0])
     cty = cty if cty in COUNTRY_SET else ''
     reg = infer_region(nm) or infer_region((tagv.get('region') or [''])[0])
-    rating = ' · '.join(f"{WO_CRITIC.get(a.upper(), a)} {b}" for a, b in (x.split(' ', 1) for x in tagv.get('ratings', []) if ' ' in x) if re.match(r'^\d{2,3}', b))
+    rating = ' / '.join(f"{a} {b}" for a, b in (x.split(' ', 1) for x in tagv.get('ratings', []) if ' ' in x) if re.match(r'^\d{2,3}', b))
     url = 'https://winesonline.com.sg/products/' + handle + ('' if pack == 1 else '?variant=' + _variant_slug(vt))
+    mp = re.search(r'pay\s*\d+\s*get\s*(\d+)', nm.lower())
+    pack = max(pack, pack_of(nm), int(mp.group(1)) if mp else 1)
     _finish('winesonl', nm, t, cty, reg, vint, size, pack, price, compare, avail, url, img, rating=rating)
 
 # Angra: product_type RED/WHITE/...; options VINTAGE + SIZE ("2024 / 750 ml"); titles in caps
@@ -524,9 +529,88 @@ for r in _load('sh_angra.json'):
     reg = infer_region(nm + ' ' + vendor) or next((x for x in tg if x in REGION_COUNTRY), '')
     rating = ''
     m = re.search(r'\b(\d{2,3}\+?)\s*(RP|JS|WS|WA|JD|V|AG|D)\b', vt)
-    if m: rating = f"{WO_CRITIC.get(m.group(2), m.group(2))} {m.group(1)}"
+    if m: rating = f"{m.group(2)} {m.group(1)}"
     url = 'https://angra.com.sg/products/' + handle + ('' if vt in ('Default Title', '') else '?variant=' + _variant_slug(vt))
     _finish('angra', nm, t, cty, reg, vint, size, pack_of(nm), price, compare, avail, url, img, rating=rating, producer=title_case(clean(vendor)))
+
+# Ponti Wine Cellars: [title, handle, price, compare, sold_out, image, tags, description]
+# tags e.g. "All items|Vintage Wine|1994|750ml|Monbousquet|Red|Bordeaux|France"; description "Vintage - 1994Country - France...Ratings - WA90"
+PO_CRITIC = {'WA':'Robert Parker','RP':'Robert Parker','JS':'James Suckling','WS':'Wine Spectator','V':'Vinous','AG':'Vinous','JR':'Jancis Robinson','D':'Decanter','WE':'Wine Enthusiast','BH':'Burghound','JD':'Jeb Dunnuck','JH':'James Halliday'}
+for r in _load('ponti_all.json'):
+    title, handle, price, compare, sold, img, tags, desc = r
+    tg = [x.strip() for x in (tags or '').split('|') if x.strip()]
+    tl = {x.lower() for x in tg}
+    nm = clean(title)
+    low = nm.lower()
+    if re.search(r'\b(gift card|voucher|glass|decanter|corkscrew|opener|accessor|set of)\b', low) or tl & {'accessories','gift card','glassware'}: continue
+    t = next((TAG_TYPE[x] for x in ('red','white','rose','rosé','sparkling','champagne','sweet','dessert','fortified','port','spirits','whisky','sake') if x in tl), '') or infer_type(nm)
+    m = re.search(r'Vintage\s*-\s*((?:19|20)\d\d|NV)', desc or '', re.I)
+    vint = (m.group(1).upper() if m else '') or next((x for x in tg if re.fullmatch(r'(19|20)\d\d', x)), '') or vintage_of(nm)
+    if not vint and t in ('Sparkling','Spirits','Fortified'): vint = 'NV'
+    if vint and vint != 'NV' and vint not in nm: nm = f'{nm} {vint}'
+    m = re.search(r'Size\s*-\s*([\d.]+\s*(?:ml|cl|l))', desc or '', re.I)
+    size = _size_from_text(m.group(1), 0) if m else 0
+    if not size: size = _size_from_text(next((x for x in tg if re.fullmatch(r'[\d.]+\s*(ml|cl|l)', x.lower())), ''), 0)
+    if not size: size = size_of(nm, _default_size(t))
+    nm = _add_size(nm, size)
+    m = re.search(r'Country\s*-\s*([A-Za-z ]+?)\s*(?:Region|Size|Grape|Ratings|SKU|$)', desc or '')
+    cty = norm_country(m.group(1)) if m else next((x for x in tg if x in COUNTRY_SET), '')
+    if cty not in COUNTRY_SET: cty = ''
+    m = re.search(r'Region\s*-\s*([A-Za-z ,\'-]+?)\s*(?:Size|Grape|Ratings|SKU|$)', desc or '')
+    reg = infer_region(nm) or infer_region(m.group(1) if m else '') or next((x for x in tg if x in REGION_COUNTRY), '')
+    rating = ''
+    m = re.search(r'Ratings?\s*-\s*([A-Z]{1,2})\s*(\d{2,3}\+?)', desc or '')
+    if m: rating = f"{m.group(1)} {m.group(2)}"
+    _finish('ponti', nm, t, cty, reg, vint, size, pack_of(nm), price, compare, not sold,
+            'https://pontiwinecellars.com.sg/products/' + handle, img, rating=rating)
+
+# Winehours: [name, url, price, old_price, out_of_stock, ratings('WA 100|JS 98'), image, enquire]
+WH_CRITIC = {'WA':'Robert Parker','RP':'Robert Parker','JS':'James Suckling','WS':'Wine Spectator','V':'Vinous','Vinious':'Vinous','Vinous':'Vinous','AG':'Vinous','JR':'Jancis Robinson','D':'Decanter','Decanter':'Decanter','WE':'Wine Enthusiast','BH':'Burghound','JD':'Jeb Dunnuck','JH':'James Halliday','IWC':'IWC','W&S':'Wine & Spirits','TA':'Tim Atkin'}
+for r in _load('wh_all.json'):
+    name, url, price, old, oos, rt, img, enquire = r
+    nm = clean(name)
+    low = nm.lower()
+    if re.search(r'\b(gift card|voucher|glass|decanter|aroma|accessor)\b', low): continue
+    t = infer_type(nm)
+    vint = vintage_of(nm) or ('NV' if t in ('Sparkling','Spirits','Fortified') else '')
+    size = size_of(nm, _default_size(t))
+    pack = pack_of(nm)
+    nm = re.sub(r'\s+with gift box$', ' (Gift Box)', nm, flags=re.I)
+    rating = ' / '.join(f"{a} {b}" for a, b in (x.rsplit(' ', 1) for x in rt.split('|') if ' ' in x) if re.match(r'^\d{2,3}', b))
+    if enquire:
+        items.append(dict(src='winehours', name=nm, type=t, country='', region=infer_region(nm), vintage=vint, size=size, pack=pack,
+            price=None, compare=None, in_stock=False, stock=1, url=url, img=img or '', rating=rating, producer=''))
+    else:
+        _finish('winehours', nm, t, '', infer_region(nm), vint, size, pack, price, old, not oos, url, img, rating=rating)
+
+# Bottles & Bottles: [category, brand, title, url, price, old_price, image, stock_text, country, region]
+BNB_TYPE = {'red':'Red','white':'White','sweet':'Dessert','rose':'Rose','nonalc':'Non-Alcoholic','sparkling':'Sparkling','spirits':'Spirits','wine':''}
+_bnb_type = {}
+for r in _load('bnb_all.json'):
+    cat, brand, title, url, price, old, img, stock_text, cty, reg = r
+    if url not in _bnb_type or not _bnb_type[url]: _bnb_type[url] = BNB_TYPE.get(cat, '')
+_bnb_seen = set()
+for r in _load('bnb_all.json'):
+    cat, brand, title, url, price, old, img, stock_text, cty, reg = r
+    if url in _bnb_seen: continue
+    _bnb_seen.add(url)
+    nm = clean(title).strip(' ,.;-')
+    low = nm.lower()
+    if re.search(r'\b(gift set|hamper|bundle|glass|decanter|voucher)\b', low): continue
+    t = _bnb_type.get(url) or infer_type(nm)
+    if t == 'Spirits' and re.search(r'\bsake\b', low): t = 'Sake'
+    if t == 'Spirits' and re.search(r'\b(port|sherry|madeira)\b', low): t = 'Fortified'
+    vint = vintage_of(nm) or ('NV' if t in ('Sparkling','Spirits','Fortified') else '')
+    size = size_of(nm, _default_size(t))
+    st = (stock_text or '').lower()
+    avail = not re.search(r'out of stock', st)
+    stock = 0 if not avail else (1 if 'pre' in st else 2)
+    cty = norm_country(cty) if cty else ''
+    if cty not in COUNTRY_SET: cty = ''
+    region = infer_region(nm + ' ' + (reg or '')) or ''
+    items.append(dict(src='bnb', name=nm, type=t, country=cty, region=region, vintage=vint, size=size, pack=pack_of(nm),
+        price=float(price) if price else None, compare=float(old) if old and price and float(old) > float(price) else None,
+        in_stock=avail, stock=stock, url=url, img=img or '', rating='', producer=clean(brand)))
 
 for it in items:
     if not it['region']:
@@ -561,6 +645,16 @@ for it in items:
         it['core'] = (it['tok'] - NOISE) or it['tok']
 
 APPELL = {'pauillac','margaux','julien','estephe','emilion','pomerol','pessac','leognan','graves','medoc','listrac','moulis','fronsac','castillon'}
+# appellation words that never co-occur on one label: two listings naming different ones are different wines
+APPELL_KEY = {'chateauneuf':'cndp','pape':'cndp','cdp':'cndp','gigondas':'gigondas','vacqueyras':'vacqueyras','rasteau':'rasteau','cairanne':'cairanne',
+              'hermitage':'hermitage','crozes':'crozes','cornas':'cornas','rotie':'rotie','condrieu':'condrieu','rhone':'rhone','ventoux':'ventoux','lirac':'lirac',
+              'montalcino':'montalcino','bolgheri':'bolgheri','chianti':'chianti','montepulciano':'montepulciano','barolo':'barolo','barbaresco':'barbaresco','langhe':'langhe','roero':'roero',
+              'rioja':'rioja','ribera':'ribera','priorat':'priorat','toro':'toro','rueda':'rueda',
+              'gevrey':'gevrey','chambertin':'chambertin','chambolle':'chambolle','musigny':'musigny','vosne':'vosne','nuits':'nuits','morey':'morey','vougeot':'vougeot','echezeaux':'echezeaux','grandsechezeaux':'grandsechezeaux',
+              'meursault':'meursault','puligny':'puligny','chassagne':'chassagne','montrachet':'montrachet','pommard':'pommard','volnay':'volnay','beaune':'beaune','corton':'corton','charlemagne':'charlemagne','chablis':'chablis','santenay':'santenay','marsannay':'marsannay','fixin':'fixin','savigny':'savigny','pernand':'pernand','aloxe':'aloxe','mercurey':'mercurey','rully':'rully','givry':'givry','macon':'macon','fuisse':'fuisse',
+              'sancerre':'sancerre','fume':'fume','vouvray':'vouvray','chinon':'chinon','napa':'napa','sonoma':'sonoma','barossa':'barossa','mclaren':'mclaren','coonawarra':'coonawarra','marlborough':'marlborough','otago':'otago','mosel':'mosel','rheingau':'rheingau','pfalz':'pfalz','nahe':'nahe'}
+def _appell(toks):
+    return {APPELL_KEY[t] for t in toks if t in APPELL_KEY} - ({'rhone'} if {'cndp','gigondas','vacqueyras','hermitage','crozes','cornas','rotie','condrieu','rasteau','cairanne','ventoux','lirac'} & {APPELL_KEY[t] for t in toks if t in APPELL_KEY} else set())
 
 def compatible(a, b):
     if a['src'] == b['src']: return False
@@ -570,6 +664,8 @@ def compatible(a, b):
     if not ca or not cb: return False
     aa, ab = fa & APPELL, fb & APPELL
     if aa and ab and aa != ab: return False   # e.g. Lagrange (Pomerol) vs Lagrange (St Julien)
+    ka, kb = _appell(fa), _appell(fb)
+    if ka and kb and ka != kb: return False   # e.g. Guigal Cotes du Rhone vs Guigal Chateauneuf du Pape
     if not (ca <= fb and cb <= fa): return False
     if (fa ^ fb) & SECOND: return False
     extra_a = fa - fb - NOISE - (fa - ca)

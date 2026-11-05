@@ -34,7 +34,8 @@ CRITICS = {'RP': 'Robert Parker', 'WA': 'Wine Advocate', 'JS': 'James Suckling',
            'NM': 'Neal Martin', 'TA': 'Tim Atkin', 'JR': 'Jancis Robinson', 'V': 'Vinous', 'VM': 'Vinous', 'LM': 'Luca Maroni',
            'GR': 'Gambero Rosso', 'F': 'Falstaff', 'JL': 'Jeannie Cho Lee', 'LPB': 'Le Point', 'RVF': 'RVF', 'CT': 'CellarTracker',
            'WW': 'Wine & Spirits', 'JG': 'John Gilman', 'WK': 'Wine Kritik', 'HALLIDAY': 'James Halliday', 'TWI': 'The Wine Independent',
-           'TRR': 'The Real Review', 'BC': 'Bob Campbell', 'RH': 'Richard Hemming', 'YC': 'Yves Beck', 'YB': 'Yves Beck'}
+           'TRR': 'The Real Review', 'BC': 'Bob Campbell', 'RH': 'Richard Hemming', 'YC': 'Yves Beck', 'YB': 'Yves Beck',
+           'VINIOUS': 'Vinous', 'VINOUS': 'Vinous', 'DECANTER': 'Decanter', 'IWC': 'IWC', 'W&S': 'Wine & Spirits', 'WB': 'Wine Business'}
 
 
 def ratings_of(raw):
