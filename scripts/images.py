@@ -120,6 +120,25 @@ def process(data, is_cornerstone):
     return buf.tobytes(), badges
 
 
+import re, subprocess
+BRAND = re.compile(r'wine\s*culture|pivene|crystal\s*wines?|cornerstone\s*wines?|grand\s*vin\s*(singapore|pte|wines|\.com)|the\s*bottle\s*shop|angra\.com|angra\s*wines?|ponti\s*wine|wine\s*hours|winehours|wine\s*connection|straits\s*wine|bottles\s*(&|and)\s*bottles|bnb\.com|wines\s*online|wines\s*wholesale|vinum\s*fine|fine\s*(&|and)\s*rare\s*wine\s*merchant|\.com\.sg', re.I)
+BLOCK_URL = re.compile(r'LABEL_V2|/logo|placeholder|no-image|noimage|coming-soon', re.I)
+
+
+def brand_text(jpg_bytes):
+    """Merchant name/logo printed in the picture (OCR, tesseract) -> the matched text, else ''."""
+    try:
+        im = Image.open(io.BytesIO(jpg_bytes)).convert('L')
+        im = im.resize((im.width * 2, im.height * 2))
+        buf = io.BytesIO(); im.save(buf, 'PNG')
+        t = subprocess.run(['tesseract', '-', '-', '--psm', '6', '-l', 'eng'], input=buf.getvalue(),
+                           capture_output=True, timeout=60).stdout.decode('utf-8', 'replace')
+        m = BRAND.search(t)
+        return m.group(0) if m else ''
+    except Exception:
+        return ''
+
+
 def main(limit=None):
     merged = json.load(open(ROOT / 'data' / 'merged.json'))
     manifest = json.load(open(MANIFEST)) if MANIFEST.exists() else {}
@@ -136,12 +155,19 @@ def main(limit=None):
     sess = requests.Session(); sess.headers.update(HEADERS)
     done = 0
     for u in urls[:limit]:
+        if BLOCK_URL.search(u):
+            manifest[u] = {'file': None, 'blocked': 'url'}
+            continue
         try:
             r = sess.get(u, timeout=60)
             if r.status_code != 200 or not r.content:
                 manifest[u] = {'file': None, 'error': r.status_code}
                 continue
             out, badges = process(r.content, 'cornerstonewines' in u)
+            brand = brand_text(out)
+            if brand:
+                manifest[u] = {'file': None, 'blocked': 'brand', 'text': brand, 'v': ALGO_VERSION}
+                continue
             name = hashlib.md5(u.encode()).hexdigest()[:16] + '.jpg'
             (IMG / name).write_bytes(out)
             manifest[u] = {'file': f'img/{name}', 'badge': badges, 'v': ALGO_VERSION}

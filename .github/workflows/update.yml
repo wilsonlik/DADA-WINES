@@ -25,6 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          sudo apt-get install -y -qq tesseract-ocr >/dev/null
           pip install --quiet requests beautifulsoup4 playwright numpy pillow opencv-python-headless
           playwright install --with-deps chromium
 

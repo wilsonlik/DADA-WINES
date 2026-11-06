@@ -14,15 +14,24 @@ MANIFEST = ROOT / 'data' / 'img_manifest.json'
 manifest = json.load(open(MANIFEST)) if MANIFEST.exists() else {}
 
 
+GENERIC = 'img/bottle.jpg'   # plain black bottle, used when no clean photo exists
+
+
 def pick_img(x):
-    """Local processed copy when we have one; otherwise the source image."""
+    """Local processed copy when we have one; otherwise the source image.  Pictures that carry a
+    merchant's name/logo (manifest 'blocked') are skipped."""
     for s in x['sources']:
         u = s.get('img') or ''
         if not u:
             continue
-        loc = (manifest.get(u) or {}).get('file')
+        ent = manifest.get(u) or {}
+        if ent.get('blocked'):
+            continue
+        loc = ent.get('file')
         if loc and (ROOT / loc).exists():
             return loc
+        if ent:          # fetched before and failed: try the next source
+            continue
         if 'cdn.shopify.com' in u:
             u = u.split('?')[0] + '?width=480'
         return u
@@ -76,7 +85,7 @@ def pick_img_fallback(x):
     im = pick_img(x)
     if im:
         return im
-    return img_by_key.get(wine_key(x['name']), '')
+    return img_by_key.get(wine_key(x['name']), '') or GENERIC
 
 
 from zh import zh_name, zh_key
