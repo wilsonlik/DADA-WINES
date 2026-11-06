@@ -106,6 +106,98 @@ def remove_badges(bgr):
     return bgr, removed
 
 
+# ---------------------------------------------------------------------------------------------
+# Loose stickers beside the bottle (certification marks, organic/sustainability logos, flags,
+# medals, merchant captions) are painted out so a photo cannot be traced back to its source site.
+def background_mask(bgr):
+    """Flood-fill from the border; tolerant so soft gradients count as background."""
+    h, w = bgr.shape[:2]
+    mask = np.zeros((h + 2, w + 2), np.uint8)
+    work = bgr.copy()
+    seeds = [(1, 1), (w - 2, 1), (1, h - 2), (w - 2, h - 2), (w // 2, 1), (w // 2, h - 2), (1, h // 2), (w - 2, h // 2)]
+    white = min(int(bgr[y, x].min()) for x, y in seeds[:4]) >= 235
+    tol = 18 if white else 30
+    for s in seeds:
+        if mask[s[1] + 1, s[0] + 1]:
+            continue
+        cv2.floodFill(work, mask, s, (0, 0, 0), (tol,) * 3, (tol,) * 3,
+                      cv2.FLOODFILL_MASK_ONLY | cv2.FLOODFILL_FIXED_RANGE | 8 | (255 << 8))
+    return mask[1:-1, 1:-1] > 0
+
+
+def fill_holes(mask):
+    """Fill enclosed holes: anything not reachable from the border is foreground."""
+    h, w = mask.shape
+    ff = mask.copy()
+    m2 = np.zeros((h + 2, w + 2), np.uint8)
+    cv2.floodFill(ff, m2, (0, 0), 255)
+    for s in [(w - 1, 0), (0, h - 1), (w - 1, h - 1), (w // 2, 0), (0, h // 2), (w - 1, h // 2), (w // 2, h - 1)]:
+        if ff[s[1], s[0]] == 0:
+            cv2.floodFill(ff, m2, s, 255)
+    return mask | cv2.bitwise_not(ff)
+
+
+def remove_extras(bgr):
+    h, w = bgr.shape[:2]
+    bg = background_mask(bgr)
+    fg = (~bg).astype(np.uint8) * 255
+    fg = cv2.morphologyEx(fg, cv2.MORPH_CLOSE, np.ones((3, 3), np.uint8))
+    closed = cv2.morphologyEx(fg, cv2.MORPH_CLOSE, np.ones((11, 11), np.uint8))
+    filled = fill_holes(closed)
+    n2, lab2, st2, _ = cv2.connectedComponentsWithStats(filled, 8)
+    if n2 <= 1:
+        return bgr, 0, 'empty'
+    if not any(st2[i][cv2.CC_STAT_HEIGHT] >= 0.45 * h for i in range(1, n2)):
+        return bgr, 0, 'no-bottle'
+    # every sizeable object (bottle, box, second bottle) is protected; only small loose blobs are candidates
+    tall = [i for i in range(1, n2) if st2[i][cv2.CC_STAT_HEIGHT] >= 0.45 * h or (st2[i][cv2.CC_STAT_HEIGHT] >= 0.28 * h and st2[i][cv2.CC_STAT_WIDTH] >= 0.06 * w)]
+    x0 = min(st2[i][cv2.CC_STAT_LEFT] for i in tall); y0 = min(st2[i][cv2.CC_STAT_TOP] for i in tall)
+    x1 = max(st2[i][cv2.CC_STAT_LEFT] + st2[i][cv2.CC_STAT_WIDTH] for i in tall)
+    y1 = max(st2[i][cv2.CC_STAT_TOP] + st2[i][cv2.CC_STAT_HEIGHT] for i in tall)
+    m = 12
+    x0, y0, x1, y1 = x0 - m, y0 - m, x1 + m, y1 + m
+    n3, lab3, st3 = n2, lab2, st2      # candidates are the hole-filled blobs (a ring logo counts with its interior)
+    cand = []
+    for i in range(1, n3):
+        s = st3[i]
+        if s[cv2.CC_STAT_AREA] < 8:
+            continue
+        cx0, cy0 = s[cv2.CC_STAT_LEFT], s[cv2.CC_STAT_TOP]
+        cx1, cy1 = cx0 + s[cv2.CC_STAT_WIDTH], cy0 + s[cv2.CC_STAT_HEIGHT]
+        xov = min(cx1, x1) - max(cx0, x0) > 0
+        if xov and min(cy1, y1) - max(cy0, y0) > 0:
+            continue           # touches a bottle: keep
+        if xov and cy0 >= y1 - m:
+            continue           # under the bottle (shadow, reflection, base fragment): keep
+        if xov and cy1 <= y0 + m:
+            continue           # above the bottle (capsule, cork, foil top): keep
+        bw, bh = cx1 - cx0, cy1 - cy0
+        fill = s[cv2.CC_STAT_AREA] / float(bw * bh)
+        aspect = bw / float(bh)
+        sticker = 0.5 <= aspect <= 2.0 and fill > 0.45 and bh < 0.28 * h and bw < 0.35 * w   # medal, seal, flag, logo
+        text = bh < 0.07 * h and bw < 0.4 * w                                                # small print, tiny marks
+        if not (sticker or text):
+            continue
+        # the blob must sit on plain background: a ring around it that is mostly background pixels
+        comp = (lab3 == i).astype(np.uint8)
+        ring = cv2.dilate(comp, np.ones((31, 31), np.uint8)) - cv2.dilate(comp, np.ones((5, 5), np.uint8))
+        if ring.sum() and bg[ring > 0].mean() < 0.9:
+            continue           # on a box / another object: leave it
+        cand.append(i)
+    if not cand:
+        return bgr, 0, ''
+    if len(cand) > 6:
+        return bgr, 0, 'fragmented'      # looks like a broken-up bottle, not a few stickers: leave it
+    kill = np.isin(lab3, cand).astype(np.uint8) * 255
+    kill = cv2.dilate(kill, np.ones((7, 7), np.uint8))
+    corners = [bgr[2, 2], bgr[2, w - 3], bgr[h - 3, 2], bgr[h - 3, w - 3]]
+    if min(int(c.min()) for c in corners) >= 235:
+        out = bgr.copy(); out[kill > 0] = (255, 255, 255)
+    else:
+        out = cv2.inpaint(bgr, kill, 5, cv2.INPAINT_TELEA)
+    return out, len(cand), ''
+
+
 def process(data, is_cornerstone):
     im = Image.open(io.BytesIO(data)).convert('RGB')
     arr = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
@@ -116,6 +208,11 @@ def process(data, is_cornerstone):
     badges = 0
     if is_cornerstone:
         arr, badges = remove_badges(arr)   # detection always runs at the same scale as the stored image
+    try:
+        arr, extras, _ = remove_extras(arr)
+        badges += extras
+    except Exception:
+        pass
     ok, buf = cv2.imencode('.jpg', arr, [cv2.IMWRITE_JPEG_QUALITY, 84])
     return buf.tobytes(), badges
 
