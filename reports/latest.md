@@ -1,210 +1,146 @@
-# DADA WINES 每日更新报告 — 2026-11-11
-更新时间 2026-11-11 04:20 (新加坡时间)
+# DADA WINES 每日更新报告 — 2026-11-12
+更新时间 2026-11-12 04:25 (新加坡时间)
 
 ## 概览
-- 产品总数：18,380 → **18,404**（+24）
-- 新上架 50，下架 26，涨价 19，降价 33，库存变动 35，新增评分 1
-- 目前售罄 2127，限量/询价 967，有货 15310
+- 产品总数：18,404 → **18,409**（+5）
+- 新上架 20，下架 15，涨价 2，降价 13，库存变动 60，新增评分 2
+- 目前售罄 2161，限量/询价 966，有货 15282
 
 ## 来源站抓取状态
 - Pivene：✅ 成功，1,158 条（上次 1,158）
-- Crystal Wines：✅ 成功，1,204 条（上次 1,203）
-- Cornerstone：✅ 成功，1,802 条（上次 1,796）
-- Grand Vin：✅ 成功，1,654 条（上次 1,641）
+- Crystal Wines：✅ 成功，1,200 条（上次 1,204）
+- Cornerstone：✅ 成功，1,796 条（上次 1,802）
+- Grand Vin：✅ 成功，1,657 条（上次 1,654）
 - Vinum：✅ 成功，1,610 条（上次 1,610）
-- Wine Culture：✅ 成功，2,037 条（上次 2,037）
-- 1855 The Bottle Shop：✅ 成功，1,637 条（上次 1,637）
-- Angra：✅ 成功，916 条（上次 916）
+- Wine Culture：✅ 成功，2,042 条（上次 2,037）
+- 1855 The Bottle Shop：✅ 成功，1,636 条（上次 1,637）
+- Angra：✅ 成功，921 条（上次 916）
 - Wine Connection：✅ 成功，504 条（上次 504）
 - Straits Wine：✅ 成功，227 条（上次 227）
 - Wines Online：✅ 成功，1,777 条（上次 1,777）
 - Wines Wholesales：✅ 成功，2,833 条（上次 2,833）
 - Ponti：✅ 成功，1,201 条（上次 1,201）
 - Winehours：✅ 成功，1,988 条（上次 1,988）
-- Bottles & Bottles：✅ 成功，1,130 条（上次 1,125）
+- Bottles & Bottles：✅ 成功，1,132 条（上次 1,130）
 
-## 新上架（50）
-- Faiveley Chambertin "Clos de Beze" Ouvrees Rodin Grand Cru 2024 — S$1,315 · 售罄 · Grand Vin
-- Louis Roederer Cristal Rose (Gift Box) 2015 — S$750 · 售罄 · Grand Vin
-- Faiveley Batard Montrachet Grand Cru 2024 — S$646 · 售罄 · Grand Vin
-- Faiveley Chambertin Clos de Beze Grand Cru 2024 — S$644 · 售罄 · Grand Vin
-- Faiveley Bienvenues-Batard-Montrachet Grand Cru 2024 — S$545 · 售罄 · Grand Vin
-- Faiveley Mazis Chambertin Grand Cru 2024 — S$416 · 售罄 · Grand Vin
-- Faiveley Corton Charlemagne Grand Cru 2024 — S$373 · 售罄 · Grand Vin
-- Faiveley Corton Clos des Cortons Faiveley Grand Cru 2024 — S$332 · 售罄 · Grand Vin
-- Le Petit Cheval 1995 — S$320 · 限量/询价 · Cornerstone
-- Tatenokawa, 18 Junmai Daiginjo NV · 720 ml — S$260 · 售罄 · Pivene
-- Coudray Bizot Puligny Montrachet 1er Cru Les Combettes 2022 — S$240 · 售罄 · Grand Vin
-- Domaine Genot-Boulanger Corton Les Combes Grand Cru 2022 — S$227 · 有货 · Cornerstone
-- Domaine Jacques Prieur CORTON Grand Cru Les Bressandes 2014 — S$227 · 限量/询价 · Cornerstone
-- Faiveley Chambolle-Musigny 1er Cru Les Fuees 2024 — S$200 · 售罄 · Grand Vin
-- Faiveley Gevrey-Chambertin 1er Cru "Les Cazetiers" 2024 — S$191 · 售罄 · Grand Vin
-- Faiveley Gevrey-Chambertin 1er Cru "Clos des Issarts" Monopole 2024 — S$181 · 售罄 · Grand Vin
-- Faiveley Chambolle-Musigny 1er Cru "Les Charmes" 2024 — S$169 · 售罄 · Grand Vin
-- Faiveley Puligny-Montrachet 1er Cru "Champ Gain" 2024 — S$155 · 售罄 · Grand Vin
-- Faiveley Puligny-Montrachet 1er Cru "Les Garenne" 2024 — S$155 · 售罄 · Grand Vin
-- Fabien Coche Meursault les Chevalieres 2024 — S$150 · 售罄 · Grand Vin
-- Faiveley Meursault 1er Cru "Blagny" 2024 — S$135 · 售罄 · Grand Vin
-- Faiveley Chambolle Musigny 2024 — S$130 · 有货 · Grand Vin
-- Louis Roederer Brut Vintage 2018 — S$130 · 售罄 · Grand Vin
-- Faiveley Nuits-Saint-Georges 1er Cru "Les Porets St-Georges" 2024 — S$126 · 售罄 · Grand Vin
-- Manzanos - Bodegas Manzanos GRAN RESERVA 2015 — S$124 · 有货 · Cornerstone
-- Faiveley Puligny-Montrachet 2024 — S$120 · 有货 · Grand Vin
-- Faiveley Meursault 2024 — S$105 · 有货 · Grand Vin
-- Robert Weil Kiedrich Grafenberg Riesling Trocken Grosses Gewachs 2023 — S$105 · 售罄 · Grand Vin
-- Faiveley Nuits-Saint-Georges Les Montroziers 2024 — S$100 · 有货 · Grand Vin
-- Bourgneuf 2021 — S$96 · 售罄 · Grand Vin
-- Faiveley Beaune 1er Cru "Clos de L'Ecu" Monopole 2024 — S$95 · 售罄 · Grand Vin
-- Faiveley Gevrey-Chambertin Vieilles Vignes 2024 — S$93 · 有货 · Grand Vin
-- HdV de la Guerra Chardonnay 2023 — S$82 · 售罄 · Grand Vin
-- Faiveley Mercurey 1er Cru Clos des Myglands 2024 — S$75 · 有货 · Grand Vin
-- Wachau Gruner Veltliner Smaragd Ried Achleiten 2024 — S$75 · 售罄 · Grand Vin
-- Wachau Riesling Smaragd Ried Achleiten 2023 — S$75 · 售罄 · Grand Vin
-- Robert Weil Kiedrich Klosterberg Riesling Trocken 2025 — S$73 · 售罄 · Grand Vin
-- Pio Cesare Sauvignon Blanc Langhe 2023 — S$65 · 售罄 · Grand Vin
-- Faiveley Mercurey Rouge Vieilles Vignes 2024 — S$62 · 有货 · Grand Vin
-- Benanti Etna Rosso 2023 — S$58 · 有货 · Angra
-- …另有 10 条，见 latest.json
+## 新上架（20）
+- Louis Roederer Cristal Brut (Giftbox) 2016 ([Bundle of 6]) — S$2,000 · 有货 · Grand Vin
+- Sylvain Cathiard Vosne Romanee 1er Cru Aux Reignots 2022 — S$920 · 有货 · Wine Culture
+- Louis Roederer Brut Nature (Gift Box) 2018 ([Bundle of 6]) — S$714 · 有货 · Grand Vin
+- Henri Boillot Puligny Montrachet 1er Cru Clos De La Mouchere 2018 1.5L · 1.5 L — S$638 · 有货 · Wine Culture
+- La Pousse D'Or Clos De La Roche Grand Cru 2018 — S$502 · 有货 · Wine Culture
+- Lucien Le Moine Clos De La Roche Grand Cru 2018 — S$482 · 有货 · Wine Culture
+- Tortochot Mazis Chambertin Grand Cru 2020 — S$398 · 有货 · Wine Culture
+- Roederer Estate Quartet Brut ([Bundle of 6]) — S$347 · 有货 · Grand Vin
+- Lucien Le Moine Chambolle Musigny 1er Cru Les Charmes 2022 — S$338 · 有货 · Wine Culture
+- Pio Cesare Moscato d'Asti DOCG 2022 ([Bundle of 6]) — S$204 · 有货 · Grand Vin
+- Domaine Des Remizieres Hermitage Autrement 2011 — S$182 · 有货 · Wine Culture
+- Henri Boillot Volnay 1er Cru Les Caillerets 2023 — S$166 · 有货 · Wine Culture
+- Menabrea Amber Premium Italian Beer · 330 ml — S$142 · 有货 · Angra
+- A. Lamblot Blanc - Synergie 2020 — S$140 · 有货 · Angra
+- Menabrea Lager Premium Italian Beer — S$122 · 有货 · Angra
+- Jerome Castagnier Saint Romain Village 2022 — S$89 · 有货 · Wine Culture
+- L'Ormarins Brut Rose Nv — S$27 · 有货 · Bottles & Bottles
+- L'Ormarins Brut, — S$27 · 有货 · Bottles & Bottles
+- Menabrea Amber Premium Italian Beer · 330 ml — S$6 · 有货 · Angra
+- Menabrea Lager Premium Italian Beer · 330 ml — S$6 · 有货 · Angra
 
-## 下架（26）
-- Faiveley Chambertin "Clos de Beze" Ouvrees Rodin Grand Cru 2024 — 原价 S$1,315 · Grand Vin
-- Faiveley Batard Montrachet Grand Cru 2024 — 原价 S$646 · Grand Vin
-- Faiveley Chambertin Clos de Beze Grand Cru 2024 — 原价 S$644 · Grand Vin
-- Faiveley Bienvenues-Batard-Montrachet Grand Cru 2024 — 原价 S$545 · Grand Vin
-- 2022 Opus One — 原价 S$488 · Bottles & Bottles
-- Faiveley Mazis Chambertin Grand Cru 2024 — 原价 S$416 · Grand Vin
-- Faiveley Corton Charlemagne Grand Cru 2024 — 原价 S$373 · Grand Vin
-- Faiveley Corton Clos des Cortons Faiveley Grand Cru 2024 — 原价 S$332 · Grand Vin
-- Faiveley Chambolle-Musigny 1er Cru Les Fuees 2024 — 原价 S$200 · Grand Vin
-- Faiveley Gevrey-Chambertin 1er Cru "Les Cazetiers" 2024 — 原价 S$191 · Grand Vin
-- Faiveley Gevrey-Chambertin 1er Cru "Clos des Issarts" Monopole 2024 — 原价 S$181 · Grand Vin
-- Faiveley Chambolle-Musigny 1er Cru "Les Charmes" 2024 — 原价 S$169 · Grand Vin
-- Faiveley Puligny-Montrachet 1er Cru "Champ Gain" 2024 — 原价 S$155 · Grand Vin
-- Faiveley Puligny-Montrachet 1er Cru "Les Garenne" 2024 — 原价 S$155 · Grand Vin
-- Faiveley Meursault 1er Cru "Blagny" 2024 — 原价 S$135 · Grand Vin
-- Faiveley Chambolle Musigny 2024 — 原价 S$130 · Grand Vin
-- Faiveley Nuits-Saint-Georges 1er Cru "Les Porets St-Georges" 2024 — 原价 S$126 · Grand Vin
-- Faiveley Puligny-Montrachet 2024 — 原价 S$120 · Grand Vin
-- Jean Fournier, Marsannay Clos du Roy 2022 — 原价 S$109 · Pivene
-- Faiveley Meursault 2024 — 原价 S$105 · Grand Vin
-- Faiveley Nuits-Saint-Georges Les Montroziers 2024 — 原价 S$100 · Grand Vin
-- Faiveley Beaune 1er Cru "Clos de L'Ecu" Monopole 2024 — 原价 S$95 · Grand Vin
-- Faiveley Gevrey-Chambertin Vieilles Vignes 2024 — 原价 S$93 · Grand Vin
-- Faiveley Mercurey 1er Cru Clos des Myglands 2024 — 原价 S$75 · Grand Vin
-- Faiveley Mercurey Rouge Vieilles Vignes 2024 — 原价 S$62 · Grand Vin
-- Benanti Etna Rosso 2022 — 原价 S$58 · Angra
+## 下架（15）
+- Lynch Bages 2006 3L · 3 L — 原价 S$998 · Wine Culture
+- Jean Noel Gagnard Chassagne Montrachet 1er Cru Les Caillerets 2022 — 原价 S$274 · Wine Culture
+- Pichon Lalande 2014 — 原价 S$225 · Grand Vin
+- Glenlivet 18YO Batch Reserve Single Malt Whisky 0.70l · 700 ml — 原价 S$160 · Cornerstone
+- Glenlivet 18YO Single Malt Whisky 0.70l · 700 ml — 原价 S$160 · Cornerstone
+- Massolino Barolo Parussi 2019 — 原价 S$140 · Wine Culture
+- Latour Giraud Meursault Cuvee Charles Maxime 2023 — 原价 S$126 · Wine Culture
+- Chavost Blanc de Chardonnay Extra Brut NV*ETA:End Nov — 原价 S$120 · Crystal
+- Chavost Blanc de Meunier Brut Nature NV*ETA:End Nov — 原价 S$120 · Crystal
+- Chavost Cuvee Paradoxe Brut Nature NV*ETA:End Nov — 原价 S$110 · Crystal
+- Hubert Lamy Bourgogne Les Chataigniers 2023 — 原价 S$92 · Wine Culture
+- Chavost Blanc DASSEMBLAGE Brut Nature NV*ETA:End Nov — 原价 S$90 · Crystal
+- Georges Lelektsoglou CAIRANNE Vieilles Vignes 2020 — 原价 S$70 · Cornerstone
+- Sociando Mallet 2023 — 原价 S$66 · Wine Culture
+- Francois Janoueix - Chateau Rousseau Cuvee Tradition Bordeaux BLANC 2024 — 原价 S$24 · Cornerstone
 
-## 涨价（19）
-- L'Aventure, Estate Cuvee 2019：S$174 → **S$266**（+53%）
-- Isole E Olena Syrah IGT：S$105 → **S$152**（+45%）
-- Isole E Olena Chardonnay IGT：S$130 → **S$175**（+35%）
-- Saintayme 2020：S$42 → **S$51**（+21%）
-- LE SERRE Nuove dell Ornellaia 2020 1.5l · 1.5 L：S$258 → **S$300**（+16%）
-- Laroque 2014：S$62 → **S$72**（+16%）
-- Domaine Faiveley Nuits Saint Georges Les Lavieres 2014：S$95 → **S$108**（+14%）
-- Faiveley Nuits-Saint-Georges 1er Cru "Les Damodes" 2012：S$183 → **S$208**（+14%）
-- Domaine Faiveley Nuits Saint Georges 1er Cru Les Porets Saint Georges 2001：S$192 → **S$218**（+14%）
-- Domaine Faiveley Beaune 1er Cru Clos de l'Ecu Monopole 2013：S$113 → **S$128**（+13%）
-- Joseph Faiveley Vosne Romanee 2014：S$114 → **S$129**（+13%）
-- Domaine Faiveley Nuits Saint Georges 2014：S$94 → **S$106**（+13%）
-- Domaine Faiveley Nuits Saint Georges 1C Les Porets Saint Georges 2014：S$176 → **S$198**（+12%）
-- Joseph Faiveley Chambolle Musigny 1er Cru Beaux Bruns 2013：S$169 → **S$190**（+12%）
-- Domaine Faiveley Gevrey Chambertin 1er Cru "Les Cazetiers" 2012：S$198 → **S$222**（+12%）
-- Isole E Olena Chianti Classico Gran Selezione：S$475 → **S$530**（+12%）
-- Domaine Faiveley Chambertin Clos de Beze Grand Cru Rouge 2013：S$474 → **S$527**（+11%）
-- Isole E Olena Cabernet Sauvignon：S$198 → **S$204**（+3%）
-- Isole E Olena Cepparello IGT：S$212 → **S$216**（+2%）
+## 涨价（2）
+- Henri Perrot-Minot Morey Saint Denis En La Rue de Vergy 2021：S$300 → **S$314**（+5%）
+- El Coto De Imaz Reserva 2020：S$45 → **S$47**（+4%）
 
-## 降价（33）
-- Chateau Siran 2017：S$78 → **S$59**（-24%）
-- Chateau Boyd Cantenac 2016：S$128 → **S$97**（-24%）
-- Chevalier de Lascombes 2012：S$95 → **S$72**（-24%）
-- Chateau Lascombes 2003：S$278 → **S$211**（-24%）
-- Chateau Malescot-St-Exupery 2012：S$133 → **S$101**（-24%）
-- La Sirene de Giscours 2017：S$79 → **S$60**（-24%）
-- Chateau Du Tertre 2007：S$125 → **S$95**（-24%）
-- Chateau Rauzan Segla 2002：S$250 → **S$190**（-24%）
-- Pavillon Rouge 2015：S$442 → **S$336**（-24%）
-- Chateau Kirwan 2013：S$121 → **S$92**（-24%）
-- Chateau Kirwan 2012：S$155 → **S$118**（-24%）
-- Chevalier de Lascombes 2016：S$88 → **S$67**（-24%）
-- Chateau d'Angludet 2014：S$105 → **S$80**（-24%）
-- Chateau Brane Cantenac 'Le Baron de Brane' 2005：S$118 → **S$90**（-24%）
-- Chateau Rauzan Gassies 2017：S$118 → **S$90**（-24%）
-- Chateau Monbrison 2017：S$89 → **S$68**（-24%）
-- Ch Lascombes 2012：S$188 → **S$148**（-21%）
-- Ch Gazin 2010：S$290 → **S$235**（-19%）
-- Brane Cantenac - Margaux 2015：S$188 → **S$153**（-19%）
-- Chateau d'Issan 1999：S$195 → **S$160**（-18%）
-- Ch Gazin 2018：S$170 → **S$140**（-18%）
-- Pol Roger, Sir Winston Churchill 2015：S$388 → **S$327**（-16%）
-- Chateau d'Angludet 2005：S$135 → **S$116**（-14%）
-- Domaine Bony Gachot PERNAND VERGELESSES BLANC 2025：S$89 → **S$78**（-12%）
-- Domaine Bony Gachot CHAMBOLLE MUSIGNY 2023：S$185 → **S$163**（-12%）
-- Domaine Bony Gachot VOSNE ROMANEE 2024：S$185 → **S$163**（-12%）
-- Domaine Bony Gachot GEVREY CHAMBERTIN 2024：S$148 → **S$131**（-11%）
-- Domaine Bony Gachot Nuits Saint Georges 1er Cru LES PRULIERS ROUGE 2024：S$157 → **S$139**（-11%）
-- Domaine Bony Gachot Nuits Saint Georges 1er Cru LES TERRES BLANCHES BLANC 2025：S$157 → **S$139**（-11%）
-- Ch Gazin 2008：S$190 → **S$175**（-8%）
-- Ch du Tertre 2015：S$136 → **S$130**（-4%）
-- Gazin 2021：S$135 → **S$130**（-4%）
-- Gazin 2022：S$155 → **S$152**（-2%）
+## 降价（13）
+- Faustino Cava Brut Reserva Nv：S$35 → **S$22**（-37%）
+- Camille Giroud Gevrey Chambertin 1er Cru Lavaut St Jacques 2022：S$522 → **S$340**（-35%）
+- Camille Giroud Clos de la Roche Grand Cru 2022：S$779 → **S$520**（-33%）
+- La Vieille Ferme VDF Rouge 2024,：S$34 → **S$24**（-30%）
+- La Vieille Ferme VDF Rouge 2024,：S$34 → **S$24**（-30%）
+- Camille Giroud Chassagne Montrachet 1er Cru "Les Vergers 2022：S$264 → **S$204**（-23%）
+- Camille Giroud Gevrey Chambertin Les Crais 2022：S$194 → **S$150**（-23%）
+- Camille Giroud Vosne Romanee "Les Chalandins" 2022：S$232 → **S$182**（-22%）
+- Camille Giroud Chambolle Musigny 1er Cru Les Borniques 2022：S$378 → **S$310**（-18%）
+- Camille Giroud Bourgogne Rouge 2021：S$80 → **S$67**（-16%）
+- Camille Giroud Morey-Saint-Denis Clos Solon 2022：S$169 → **S$144**（-15%）
+- Le Serre Nuove dell'Ornellaia 2020 · 1.5 L：S$300 → **S$258**（-14%）
+- Ch Troplong Mondot 2014：S$195 → **S$188**（-4%）
 
-## 库存变动（35）
-- Domaine des Lambrays Clos des Lambrays Grand Cru 2022：有货 → **售罄**
-- Chateau Palmer Margaux 1986：有货 → **售罄**
-- Vega Sicilia Unico 2014：有货 → **售罄**
-- Camille Giroud Gevrey Chambertin 1er Cru Lavaut St Jacques 2021：有货 → **售罄**
-- Mollydooker Velvet Glove Shiraz 2021：有货 → **售罄**
-- Mollydooker Velvet Glove Shiraz：有货 → **售罄**
-- Chateau Pontet Canet 1998：有货 → **售罄**
-- Marc Morey Chassagne Montrachet 1C les Chenevottes 2022：有货 → **售罄**
-- Dassai Junmai Daiginjou 45 · 1.8 L：有货 → **售罄**
-- Domaine Faiveley Gevrey Chambertin Vieilles Vignes 2023：有货 → **售罄**
-- Pranzegg GT Vino Bianco 2021：有货 → **售罄**
-- Pranzegg Caroline Vino Bianco 2020：有货 → **售罄**
-- Bouchard Pere & Fils Monthelie Les Duresses Premier Cru 2021：有货 → **售罄**
-- S de Suduiraut Blanc Sec：有货 → **售罄**
-- Isole E Olena Chianti Classico DOCG：有货 → **售罄**
-- Chevalier de Lascombes 2016：有货 → **售罄**
-- Marques del Atrio Rioja Reserva 2019：有货 → **售罄**
-- Albert Bichot Pouilly Fuisse 1Er Cru Clos Reyssie 2024：有货 → **售罄**
-- Albert Bichot Pouilly Fuisse 1Er Cru Clos Reyssie 2024：有货 → **售罄**
-- Chateau Siran 2017：有货 → **售罄**
-- PASCUAL TOSO Reserva Chardonnay 2023：有货 → **售罄**
-- Rupert & Rothschild Classique 2022：有货 → **售罄**
-- Rupert & Rothschild Classique 2022：有货 → **售罄**
-- Pete's Pure Chardonnay 2023：有货 → **售罄**
-- Domaine Faiveley ECHEZEAUX EN ORVEAUX 2014：有货 → **限量/询价**
-- Nordic Gin House - KOBENHAVN Klassisk Gin 0.70l · 700 ml：有货 → **限量/询价**
-- La Dame de Montrose 2006 1.5l · 1.5 L：限量/询价 → **有货**
-- Henriot Champagne Brut Millesime 2015：售罄 → **有货**
-- Domaine Daniel-Etienne Defaix Chablis Les Lys Premier Cru 2014：售罄 → **有货**
-- Champagne Gosset Grande Reserve Blanc：售罄 → **有货**
-- Champagne Gosset Grande Reserve Blanc：售罄 → **有货**
-- MASSON-BLONDELET Villa Paulus Sauvignon Blanc 2023：售罄 → **有货**
-- Anthonij Rupert Merlot 2022：售罄 → **有货**
-- Anthonij Rupert Merlot 2022：售罄 → **有货**
-- Wolfberger Pinot Gris 2022：售罄 → **有货**
+## 库存变动（60）
+- Comte Georges de Vogue Chambolle Musigny 2023：有货 → **售罄**
+- Schrader Cellars Double Diamond Cabernet Sauvignon 2023：有货 → **售罄**
+- Penfolds Lot 518 Spirited Wine W/ Baijiu：有货 → **售罄**
+- Domaine Laroche Les Blanchot Chablis Grand Cru 2023：有货 → **售罄**
+- Jean Louis Moissenet Bonnard Nuits Saint Georges 2023：有货 → **售罄**
+- Jean Louis Moissenet Bonnard Nuits Saint Georges 2023：有货 → **售罄**
+- Patriarche Pere & Fils Rully 1er Cru Les Cloux 2022：有货 → **售罄**
+- Lethbridge Hillside Haven Pinot Noir 2018：有货 → **售罄**
+- Ernest Rapeneau Blanc de Blancs Brut NV：有货 → **售罄**
+- Guerrieri Guerriero Della Terra Montepulciano Sangiovese 2020：有货 → **售罄**
+- Guerrieri Guerriero Della Terra Montepulciano Sangiovese 2020：有货 → **售罄**
+- CVNE Vina Real Reserva Rioja 2019：有货 → **售罄**
+- MASSON-BLONDELET Villa Paulus Sauvignon Blanc 2023：有货 → **售罄**
+- Albert Bichot Savigny Les Beaune Les Picotins Domaine Du Pavillon Rouge 2023：有货 → **售罄**
+- Albert Bichot Savigny Les Beaune Les Picotins Domaine Du Pavillon Rouge 2023：有货 → **售罄**
+- Layer Cake Central Coast Pinot Noir：有货 → **售罄**
+- Marques de Garoa Rioja Gran Reserva 2018：有货 → **售罄**
+- LA CHABLISIENNE Cuvee Petit Chablis 2023：有货 → **售罄**
+- Aduentus Malbec 2022：有货 → **售罄**
+- Pasqua Desire Lush & Zin Primitivo Puglia IGT 2025：有货 → **售罄**
+- PRADOREY Crianza Tempranillo 2020：有货 → **售罄**
+- CVNE Vina Real Crianza Rioja 2022：有货 → **售罄**
+- La Enfermera Tempranillo 2022：有货 → **售罄**
+- The Hidden Sea Sauvignon Blanc 2023：有货 → **售罄**
+- Wolfberger Pinot Gris 2022：有货 → **售罄**
+- Marques del Silvo Rioja Reserva 2019：有货 → **售罄**
+- HENRI DE BAREUIL Vieilles Vignes Bourgogne Pinot Noir 2024：有货 → **售罄**
+- Cantina Vierre Primitivo del Salento IGT 2024：有货 → **售罄**
+- Conte Parelli IGT Puglia Appassimento 2024：有货 → **售罄**
+- Solino Montepulciano d'Abruzzo 2024：有货 → **售罄**
+- BISCARDO Neropasso Veneto IGT 2023：有货 → **售罄**
+- Fat Bastard Pinot Noir 2025：有货 → **售罄**
+- Fat Bastard Chardonnay 2025：有货 → **售罄**
+- Chateau Lartigue Castillon Cotes de Bordeaux 2023：有货 → **售罄**
+- Tread Softly Pinot Noir 2024：有货 → **售罄**
+- FINCA LAS MORAS Dada Chocolate Red Blend 2025：有货 → **售罄**
+- Mcarthur Ridge Brassknocker Central Otago Pinot Noir 2023：有货 → **售罄**
+- Mcarthur Ridge Brassknocker Central Otago Pinot Noir 2023：有货 → **售罄**
+- Messer del Fauno Nero D'Avola, Sicily 2024：有货 → **售罄**
+- COTE MAS Rose Aurore Pays D'Oc 2023：有货 → **售罄**
+- …另有 20 条，见 latest.json
 
-## 新增评分（1）
-- LE SERRE Nuove dell Ornellaia 2020 1.5l · 1.5 L：WA93
+## 新增评分（2）
+- Mouton Rothschild 1998：Score 97
+- Henri Perrot-Minot Morey Saint Denis En La Rue de Vergy 2021：Score 93
 
-## 其他变动（9）
-- Aromes de Pavie 2017：来源 Ponti → Cornerstone+Ponti
-- Chateau Pontet Canet Pauillac 2017：来源 1855+Cornerstone+Ponti+Wines Online → 1855+Ponti+Wines Online
-- Gazin - Pomerol 2016：来源 Cornerstone+Pivene → Cornerstone+Crystal+Pivene
-- Les Carmes Haut Brion - Pessac Leognan 2019：来源 1855+Grand Vin+Pivene+Wine Culture → 1855+Cornerstone+Grand Vin+Pivene+Wine Culture
-- Domaine Faiveley Gevrey Chambertin Vieilles Vignes 2023：来源 Grand Vin+Wines Online → Wines Online
-- LE SERRE Nuove dell Ornellaia 2020 1.5l · 1.5 L：来源 1855 → 1855+Cornerstone
-- Opus One 2022：来源 Bottles & Bottles+Crystal+Grand Vin+Pivene+Vinum+Wine Culture → Crystal+Grand Vin+Pivene+Vinum+Wine Culture
-- Amelia Park Chardonnay 2025：来源 Wines Online → Grand Vin+Wines Online
-- Pol Roger, Sir Winston Churchill 2015：来源 Bottles & Bottles+Vinum → Vinum
+## 其他变动（7）
+- Aromes de Pavie 2017：来源 Cornerstone+Ponti → Ponti
+- Calon Segur 2009：来源 1855+Ponti → 1855+Ponti+Wine Culture
+- Ch Troplong Mondot 2014：来源 1855+Crystal+Ponti → Crystal+Ponti
+- Les Carmes Haut Brion - Pessac Leognan 2019：来源 1855+Cornerstone+Grand Vin+Pivene+Wine Culture → 1855+Cornerstone+Grand Vin+Pivene
+- Mouton Rothschild 1998：来源 1855 → 1855+Wine Culture
+- Henri Perrot-Minot Morey Saint Denis En La Rue de Vergy 2021：来源 Grand Vin → Grand Vin+Wine Culture
+- Le Serre Nuove dell'Ornellaia 2020 · 1.5 L：来源 1855+Cornerstone → 1855
 
 ## 中文名
-- 词典外、暂用规则翻译的酒名：125 个（见 data/zh_missing.json）
+- 词典外、暂用规则翻译的酒名：131 个（见 data/zh_missing.json）
 
 ## 图片
-- 图库共 13,354 张，其中已去除评分标 892 张
+- 图库共 13,366 张，其中已去除评分标 892 张
 
-来源数量：Pivene 1,158→1,158，Crystal 1,198→1,199，Cornerstone 1,781→1,787，Grand Vin 1,632→1,645，Vinum 1,610→1,610，Wine Culture 2,037→2,037，1855 1,409→1,409，Angra 894→894，Wine Connection 376→376，Straits Wine 218→218，Wines Online 1,532→1,532，Wines Wholesales 2,423→2,423，Ponti 1,200→1,200，Winehours 1,348→1,348，Bottles & Bottles 1,105→1,110
+来源数量：Pivene 1,158→1,158，Crystal 1,199→1,195，Cornerstone 1,787→1,781，Grand Vin 1,645→1,648，Vinum 1,610→1,610，Wine Culture 2,037→2,042，1855 1,409→1,408，Angra 894→899，Wine Connection 376→376，Straits Wine 218→218，Wines Online 1,532→1,532，Wines Wholesales 2,423→2,423，Ponti 1,200→1,200，Winehours 1,348→1,348，Bottles & Bottles 1,110→1,112
