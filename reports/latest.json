@@ -1,271 +1,232 @@
 {
- "date": "2026-11-12",
- "total": 18409,
- "total_prev": 18404,
+ "date": "2026-11-13",
+ "total": 18411,
+ "total_prev": 18409,
  "added": [
   {
-   "name": "Henri Boillot Volnay 1er Cru Les Caillerets 2023",
-   "price": 166,
+   "name": "Chateau D'Armailhac Pauillac 2006",
+   "price": 138.0,
    "stock": "有货",
    "sources": [
-    "wineculture"
+    "1855"
    ]
   },
   {
-   "name": "La Pousse D'Or Clos De La Roche Grand Cru 2018",
-   "price": 502,
+   "name": "Chateau Labegorce Margaux 2017",
+   "price": 58.0,
    "stock": "有货",
    "sources": [
-    "wineculture"
+    "1855"
    ]
   },
   {
-   "name": "Lucien Le Moine Chambolle Musigny 1er Cru Les Charmes 2022",
-   "price": 338,
+   "name": "Chateau Pichon Longueville Baron Pauillac 2012",
+   "price": 235.0,
    "stock": "有货",
    "sources": [
-    "wineculture"
+    "1855"
    ]
   },
   {
-   "name": "Lucien Le Moine Clos De La Roche Grand Cru 2018",
-   "price": 482,
+   "name": "Domaine Harmand Geoffroy Gevrey-Chambertin Vieilles Vignes 2021",
+   "price": 149.0,
    "stock": "有货",
    "sources": [
-    "wineculture"
+    "1855"
    ]
   },
   {
-   "name": "Sylvain Cathiard Vosne Romanee 1er Cru Aux Reignots 2022",
-   "price": 920,
+   "name": "Vietti Barbera d'Asti Tre Vigne DOC 2024",
+   "price": 46.0,
    "stock": "有货",
    "sources": [
-    "wineculture"
+    "1855"
    ]
   },
   {
-   "name": "Tortochot Mazis Chambertin Grand Cru 2020",
-   "price": 398,
-   "stock": "有货",
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "Domaine Des Remizieres Hermitage Autrement 2011",
-   "price": 182,
-   "stock": "有货",
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "Henri Boillot Puligny Montrachet 1er Cru Clos De La Mouchere 2018 1.5L · 1.5 L",
-   "price": 638,
-   "stock": "有货",
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "Jerome Castagnier Saint Romain Village 2022",
-   "price": 89,
-   "stock": "有货",
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "A. Lamblot Blanc - Synergie 2020",
-   "price": 140.0,
+   "name": "The Chocolate Block 2024",
+   "price": 69.0,
    "stock": "有货",
    "sources": [
     "angra"
    ]
   },
   {
-   "name": "Louis Roederer Brut Nature (Gift Box) 2018 ([Bundle of 6])",
-   "price": 714.0,
+   "name": "Trimbach Riesling 2023",
+   "price": 38.0,
    "stock": "有货",
    "sources": [
-    "grandvin"
+    "1855"
    ]
   },
   {
-   "name": "Louis Roederer Cristal Brut (Giftbox) 2016 ([Bundle of 6])",
-   "price": 2000.0,
+   "name": "Smith Haut Lafitte Blanc 2020",
+   "price": 217,
    "stock": "有货",
    "sources": [
-    "grandvin"
+    "cornerstone"
    ]
   },
   {
-   "name": "Roederer Estate Quartet Brut ([Bundle of 6])",
-   "price": 346.8,
+   "name": "Schloss Johannisberg Siberlack Riesling Troken GG 2022",
+   "price": 98.0,
    "stock": "有货",
    "sources": [
-    "grandvin"
+    "1855"
    ]
   },
   {
-   "name": "Pio Cesare Moscato d'Asti DOCG 2022 ([Bundle of 6])",
-   "price": 204.0,
+   "name": "Casal Mendes Vinho Verde",
+   "price": 28.0,
    "stock": "有货",
    "sources": [
-    "grandvin"
+    "wineconn"
    ]
   },
   {
-   "name": "L'Ormarins Brut Rose Nv",
-   "price": 27.0,
+   "name": "Gh Mumm Brut",
+   "price": 62.0,
    "stock": "有货",
    "sources": [
     "bnb"
    ]
   },
   {
-   "name": "L'Ormarins Brut,",
-   "price": 26.9,
+   "name": "[Special Edition] Moet & Chandon Brut Imperial Limited Edition with Giftbox",
+   "price": 68.0,
    "stock": "有货",
    "sources": [
     "bnb"
    ]
   },
   {
-   "name": "Menabrea Amber Premium Italian Beer · 330 ml",
-   "price": 142.0,
+   "name": "Casal Mendes Rose Baga",
+   "price": 28.0,
    "stock": "有货",
    "sources": [
-    "angra"
+    "wineconn"
    ]
   },
   {
-   "name": "Menabrea Amber Premium Italian Beer · 330 ml",
-   "price": 6.0,
+   "name": "The Macallan 12 Years Sherry Oak",
+   "price": 178.2,
    "stock": "有货",
    "sources": [
-    "angra"
+    "bnb"
    ]
   },
   {
-   "name": "Menabrea Lager Premium Italian Beer · 330 ml",
-   "price": 6.0,
+   "name": "The Macallan 18 Years Sherry Oak",
+   "price": 655.2,
    "stock": "有货",
    "sources": [
-    "angra"
+    "bnb"
    ]
   },
   {
-   "name": "Menabrea Lager Premium Italian Beer",
-   "price": 122.0,
+   "name": "Hennessy Paradis Rare Brandy 0.70l · 700 ml",
+   "price": 1622,
    "stock": "有货",
    "sources": [
-    "angra"
+    "cornerstone"
    ]
   }
  ],
  "removed": [
   {
-   "name": "Lynch Bages 2006 3L · 3 L",
-   "price": 998,
+   "name": "Canadian Wines Pairing Dinner",
+   "price": 138.0,
    "sources": [
-    "wineculture"
+    "bnb"
    ]
   },
   {
-   "name": "Pichon Lalande 2014",
-   "price": 225.0,
+   "name": "Chateau Leoville Poyferre Saint Julien 2017,",
+   "price": 149.0,
    "sources": [
-    "grandvin"
+    "bnb"
    ]
   },
   {
-   "name": "Sociando Mallet 2023",
-   "price": 66,
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "Georges Lelektsoglou CAIRANNE Vieilles Vignes 2020",
-   "price": 70,
+   "name": "Francois Janoueix - Ducasse (Graves) 2021",
+   "price": 29,
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Massolino Barolo Parussi 2019",
-   "price": 140,
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "Francois Janoueix - Chateau Rousseau Cuvee Tradition Bordeaux BLANC 2024",
-   "price": 24,
+   "name": "Francois Janoueix - Ducasse (Graves) 2024",
+   "price": 29,
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Latour Giraud Meursault Cuvee Charles Maxime 2023",
-   "price": 126,
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "Hubert Lamy Bourgogne Les Chataigniers 2023",
-   "price": 92,
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "Jean Noel Gagnard Chassagne Montrachet 1er Cru Les Caillerets 2022",
-   "price": 274,
-   "sources": [
-    "wineculture"
-   ]
-  },
-  {
-   "name": "Chavost Blanc DASSEMBLAGE Brut Nature NV*ETA:End Nov",
-   "price": 90.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Chavost Blanc de Chardonnay Extra Brut NV*ETA:End Nov",
-   "price": 120.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Chavost Blanc de Meunier Brut Nature NV*ETA:End Nov",
-   "price": 120.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Chavost Cuvee Paradoxe Brut Nature NV*ETA:End Nov",
-   "price": 110.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Glenlivet 18YO Batch Reserve Single Malt Whisky 0.70l · 700 ml",
-   "price": 160,
+   "name": "Antinori TIGNANELLO 2023",
+   "price": 196,
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Glenlivet 18YO Single Malt Whisky 0.70l · 700 ml",
-   "price": 160,
+   "name": "Castello di Ama Bellavista Chianti Classico 2018",
+   "price": 373.0,
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "The Chocolate Block 2023",
+   "price": 69.0,
+   "sources": [
+    "angra"
+   ]
+  },
+  {
+   "name": "Joseph Mellot Sancerre Blanc Les Vignes Du Rocher 2024",
+   "price": 72.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Joseph Mellot Sancerre Blanc Les Vignes Du Rocher 2024",
+   "price": 72.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Astoria ALISIA Pinot Grigio 2024",
+   "price": 29,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Astoria ALISIA Pinot Grigio 2025",
+   "price": 29,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Champagne Jeeper La Grande Cuvee Grand Cuvee Millesime 2010,",
+   "price": 133.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Campari Aperitif 0.70l · 700 ml",
+   "price": 39,
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Campari Aperitif 0.75l",
+   "price": 39,
    "sources": [
     "cornerstone"
    ]
@@ -273,438 +234,497 @@
  ],
  "price_up": [
   {
-   "name": "Henri Perrot-Minot Morey Saint Denis En La Rue de Vergy 2021",
-   "old": 300.0,
-   "new": 314,
-   "pct": 4.7
+   "name": "Two Hands Bella's Garden Shiraz 2022",
+   "old": 69.0,
+   "new": 83.0,
+   "pct": 20.3
   },
   {
-   "name": "El Coto De Imaz Reserva 2020",
-   "old": 45.0,
-   "new": 47.0,
-   "pct": 4.4
+   "name": "Sena 2021",
+   "old": 185.0,
+   "new": 214.0,
+   "pct": 15.7
+  },
+  {
+   "name": "Chateau Montrose St-Estephe 1993",
+   "old": 380.0,
+   "new": 449.0,
+   "pct": 18.2
+  },
+  {
+   "name": "Bouchard Pere & Fils Chambolle-Musigny Rouge 2013",
+   "old": 125.0,
+   "new": 148.0,
+   "pct": 18.4
+  },
+  {
+   "name": "Antinori TIGNANELLO 2006",
+   "old": 315,
+   "new": 517,
+   "pct": 64.1
+  },
+  {
+   "name": "Antinori TIGNANELLO 2007",
+   "old": 313,
+   "new": 420,
+   "pct": 34.2
+  },
+  {
+   "name": "Antinori TIGNANELLO 2009",
+   "old": 306,
+   "new": 348,
+   "pct": 13.7
+  },
+  {
+   "name": "Il Poggione Brunello di Montalcino Riserva 2019",
+   "old": 120.0,
+   "new": 146.0,
+   "pct": 21.7
+  },
+  {
+   "name": "Le Ragose Amarone della Valpolicella Classico 2017",
+   "old": 88.0,
+   "new": 95.0,
+   "pct": 8.0
+  },
+  {
+   "name": "Burn Cottage Sauvage Vineyard Pinot Noir 2021",
+   "old": 89.0,
+   "new": 98.0,
+   "pct": 10.1
+  },
+  {
+   "name": "The Prisoner Wine Company The Prisoner Red Blend 2022",
+   "old": 82.0,
+   "new": 89.0,
+   "pct": 8.5
+  },
+  {
+   "name": "J. A. Ferret Pouilly Fuisse 2022",
+   "old": 73.0,
+   "new": 82.0,
+   "pct": 12.3
+  },
+  {
+   "name": "J. A. Ferret Pouilly Fuisse 2023",
+   "old": 73.0,
+   "new": 82.0,
+   "pct": 12.3
+  },
+  {
+   "name": "J. A. Ferret Pouilly Fuisse Tete de Cru Les Perrieres 2020",
+   "old": 94.0,
+   "new": 105.0,
+   "pct": 11.7
+  },
+  {
+   "name": "J. A. Ferret Pouilly Fuisse Tete de Cru Les Perrieres 2022",
+   "old": 94.0,
+   "new": 105.0,
+   "pct": 11.7
+  },
+  {
+   "name": "J. A. Ferret Pouilly Fuisse Tete de Cru Les Perrieres 2023",
+   "old": 94.0,
+   "new": 105.0,
+   "pct": 11.7
+  },
+  {
+   "name": "J.A. Ferret Pouilly-Fuisse 1er Cru Les Menetrieres 2022",
+   "old": 124.0,
+   "new": 138.0,
+   "pct": 11.3
+  },
+  {
+   "name": "J.A. Ferret Pouilly-Fuisse 1er Cru Les Menetrieres 2023",
+   "old": 124.0,
+   "new": 138.0,
+   "pct": 11.3
+  },
+  {
+   "name": "Schloss Johannisberg Riesling Kabinett Rotlack 2024",
+   "old": 60.0,
+   "new": 69.0,
+   "pct": 15.0
+  },
+  {
+   "name": "Ruinart SECOND SKIN Blanc De Blancs Champagne",
+   "old": 149,
+   "new": 160.0,
+   "pct": 7.4
+  },
+  {
+   "name": "Kracher Spatlese Rose 2021",
+   "old": 29.0,
+   "new": 44.0,
+   "pct": 51.7
+  },
+  {
+   "name": "Moet And Chandon Ice Rose Imperial",
+   "old": 98.99,
+   "new": 104.95,
+   "pct": 6.0
   }
  ],
  "price_down": [
   {
-   "name": "La Vieille Ferme VDF Rouge 2024,",
-   "old": 34.0,
-   "new": 23.8,
-   "pct": -30.0
+   "name": "Ch Cos D'Estournel 2019",
+   "old": 310,
+   "new": 268.0,
+   "pct": -13.5
   },
   {
-   "name": "La Vieille Ferme VDF Rouge 2024,",
-   "old": 34.0,
-   "new": 23.8,
-   "pct": -30.0
+   "name": "Ch Mouton Rothschild 2010",
+   "old": 1498.0,
+   "new": 1299.0,
+   "pct": -13.3
   },
   {
-   "name": "Ch Troplong Mondot 2014",
-   "old": 195.0,
-   "new": 188.0,
-   "pct": -3.6
+   "name": "Chateau Haut Batailley Pauillac 2011",
+   "old": 123.0,
+   "new": 93.0,
+   "pct": -24.4
   },
   {
-   "name": "Camille Giroud Bourgogne Rouge 2021",
-   "old": 80.0,
-   "new": 67.0,
-   "pct": -16.2
+   "name": "Chateau Leoville Barton 2002",
+   "old": 210.0,
+   "new": 191.99,
+   "pct": -8.6
   },
   {
-   "name": "Camille Giroud Chambolle Musigny 1er Cru Les Borniques 2022",
-   "old": 378.0,
-   "new": 310.0,
-   "pct": -18.0
+   "name": "Cheval Blanc 2020",
+   "old": 998.0,
+   "new": 990,
+   "pct": -0.8
   },
   {
-   "name": "Camille Giroud Clos de la Roche Grand Cru 2022",
-   "old": 779.0,
-   "new": 520.0,
-   "pct": -33.2
+   "name": "Smith Haut Lafitte 2019",
+   "old": 218.0,
+   "new": 163.5,
+   "pct": -25.0
   },
   {
-   "name": "Camille Giroud Gevrey Chambertin 1er Cru Lavaut St Jacques 2022",
-   "old": 522.0,
-   "new": 340.0,
-   "pct": -34.9
-  },
-  {
-   "name": "Camille Giroud Gevrey Chambertin Les Crais 2022",
-   "old": 194.0,
-   "new": 150.0,
-   "pct": -22.7
-  },
-  {
-   "name": "Camille Giroud Morey-Saint-Denis Clos Solon 2022",
-   "old": 169.0,
-   "new": 144.0,
-   "pct": -14.8
-  },
-  {
-   "name": "Camille Giroud Vosne Romanee \"Les Chalandins\" 2022",
-   "old": 232.0,
-   "new": 182.0,
-   "pct": -21.6
-  },
-  {
-   "name": "Le Serre Nuove dell'Ornellaia 2020 · 1.5 L",
-   "old": 300,
+   "name": "Paul Jaboulet Aine Hermitage La Chapelle Rouge 2020",
+   "old": 299.0,
    "new": 258.0,
-   "pct": -14.0
+   "pct": -13.7
   },
   {
-   "name": "Camille Giroud Chassagne Montrachet 1er Cru \"Les Vergers 2022",
-   "old": 264.0,
-   "new": 204.0,
-   "pct": -22.7
+   "name": "Paul Jaboulet Aine Saint Joseph Le Grand Pompee Rouge 2021",
+   "old": 62.0,
+   "new": 52.0,
+   "pct": -16.1
   },
   {
-   "name": "Faustino Cava Brut Reserva Nv",
-   "old": 35.0,
-   "new": 22.0,
-   "pct": -37.1
+   "name": "Vietti Barolo Castiglione DOCG 2020 · 1.5 L",
+   "old": 255.0,
+   "new": 198.0,
+   "pct": -22.4
+  },
+  {
+   "name": "Poliziano Le Stanze IGT 2019",
+   "old": 104.0,
+   "new": 88.0,
+   "pct": -15.4
+  },
+  {
+   "name": "Domaine de la Perriere Sancerre Megalithe 2022",
+   "old": 89.0,
+   "new": 82.0,
+   "pct": -7.9
+  },
+  {
+   "name": "Dr Loosen Dr. L Riesling Year of the Horse Limited Edition 2024",
+   "old": 43.0,
+   "new": 35.0,
+   "pct": -18.6
+  },
+  {
+   "name": "The Macallan 12 Years Double Cask · 700 ml",
+   "old": 160.0,
+   "new": 144.0,
+   "pct": -10.0
+  },
+  {
+   "name": "The Macallan 15 Years Double Cask · 700 ml",
+   "old": 308.0,
+   "new": 277.2,
+   "pct": -10.0
+  },
+  {
+   "name": "The Macallan 18 Years Double Cask · 700 ml",
+   "old": 578.0,
+   "new": 520.2,
+   "pct": -10.0
   }
  ],
  "stock_changes": [
   {
-   "name": "Tread Softly Pinot Noir 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "FINCA LAS MORAS Dada Chocolate Red Blend 2025",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Aduentus Malbec 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Lethbridge Hillside Haven Pinot Noir 2018",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Penfolds Lot 518 Spirited Wine W/ Baijiu",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
    "name": "Fat Bastard Pinot Noir 2025",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Chateau Lartigue Castillon Cotes de Bordeaux 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Chateau Palmer Margaux 1986",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "La Dame de Montrose 2006 1.5l · 1.5 L",
+   "name": "La Vieille Ferme VDF Rouge 2024,",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "La Vieille Ferme VDF Rouge 2024,",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Ch Gazin 2008",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Ch Gazin 2018",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Ch Rouget 2013",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Chateau Cos D'Estournel St-Estephe 2010",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Chateau Pichon Longueville Baron Pauillac 2003",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Albert Bichot Savigny Les Beaune Les Picotins Domaine Du Pavillon Rouge 2023",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Albert Bichot Savigny Les Beaune Les Picotins Domaine Du Pavillon Rouge 2023",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Domaine Harmand Geoffroy Gevrey-Chambertin Lavaux Saint-Jacques Priemier Cru 2021",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Domaine Harmand Geoffroy Gevrey-Chambertin Lavaux Saint-Jacques Priemier Cru 2022",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Domaine des Lambrays Clos des Lambrays Grand Cru 2022",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Jean Fournier, Marsannay Les Longeroies 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Jean Louis Moissenet Bonnard Nuits Saint Georges 2023",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Jean Louis Moissenet Bonnard Nuits Saint Georges 2023",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Moet And Chandon Imperial Nv",
    "old": "有货",
    "new": "限量/询价"
   },
   {
-   "name": "Mouton Rothschild 1998",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Petit Lacoste Pauillac 2016",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Albert Bichot Mr No Beaujolais Villages 2023",
+   "name": "Cantine Paradiso Posta Piana Primitivo 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Albert Bichot Mr No Beaujolais Villages 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Albert Bichot Savigny Les Beaune Les Picotins Domaine Du Pavillon Rouge 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Albert Bichot Savigny Les Beaune Les Picotins Domaine Du Pavillon Rouge 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Comte Georges de Vogue Chambolle Musigny 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "HENRI DE BAREUIL Vieilles Vignes Bourgogne Pinot Noir 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Henri Perrot-Minot Morey Saint Denis En La Rue de Vergy 2021",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Jean Louis Moissenet Bonnard Nuits Saint Georges 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Jean Louis Moissenet Bonnard Nuits Saint Georges 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Cantina Vierre Primitivo del Salento IGT 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Conte Parelli IGT Puglia Appassimento 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Guerrieri Guerriero Della Terra Montepulciano Sangiovese 2020",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Guerrieri Guerriero Della Terra Montepulciano Sangiovese 2020",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Pasqua Desire Lush & Zin Primitivo Puglia IGT 2025",
+   "name": "Antinori Chianti Classico Riserva 2021",
    "old": "有货",
    "new": "售罄"
   },
   {
    "name": "Messer del Fauno Nero D'Avola, Sicily 2024",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Castello di Ama Montebuoni Chianti Classico Riserva 2021",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Solino Montepulciano d'Abruzzo 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "BISCARDO Neropasso Veneto IGT 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Mcarthur Ridge Brassknocker Central Otago Pinot Noir 2023",
-   "old": "有货",
-   "new": "售罄"
+   "name": "Poggio Al Casone Chianti Superiore, Tuscany 2022",
+   "old": "售罄",
+   "new": "有货"
   },
   {
    "name": "Mcarthur Ridge Brassknocker Central Otago Pinot Noir 2023",
-   "old": "有货",
-   "new": "售罄"
+   "old": "售罄",
+   "new": "有货"
   },
   {
-   "name": "CVNE Vina Real Crianza Rioja 2022",
-   "old": "有货",
-   "new": "售罄"
+   "name": "Mcarthur Ridge Brassknocker Central Otago Pinot Noir 2023",
+   "old": "售罄",
+   "new": "有货"
   },
   {
-   "name": "CVNE Vina Real Reserva Rioja 2019",
-   "old": "有货",
-   "new": "售罄"
+   "name": "Rupert & Rothschild Classique 2022",
+   "old": "售罄",
+   "new": "有货"
   },
   {
-   "name": "La Enfermera Tempranillo 2022",
-   "old": "有货",
-   "new": "售罄"
+   "name": "Rupert & Rothschild Classique 2022",
+   "old": "售罄",
+   "new": "有货"
   },
   {
-   "name": "Marques de Garoa Rioja Gran Reserva 2018",
+   "name": "Marques de Riscal Gran Reserva 2007",
    "old": "有货",
    "new": "售罄"
   },
   {
    "name": "Marques del Silvo Rioja Reserva 2019",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "PRADOREY Crianza Tempranillo 2020",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Sangre De Toro Original Red Blend 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Sangre De Toro Original Red Blend 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Fortunate Son The Diplomat 2019",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Layer Cake Central Coast Pinot Noir",
-   "old": "有货",
-   "new": "售罄"
+   "name": "Sangre De Toro Original Red Blend 2024",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Sangre De Toro Original Red Blend 2024",
+   "old": "售罄",
+   "new": "有货"
   },
   {
    "name": "Schrader Cellars Double Diamond Cabernet Sauvignon 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "The Hidden Sea Sauvignon Blanc 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Elderton E-SERIES Chardonnay 2024",
-   "old": "有货",
-   "new": "限量/询价"
+   "old": "售罄",
+   "new": "有货"
   },
   {
    "name": "Fat Bastard Chardonnay 2025",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "S de Suduiraut Blanc Sec",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Wolfberger Pinot Gris 2022",
+   "name": "Albert Bichot Bourgogne Aligote Champ Renard Domaine Adelie 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Domaine Laroche Les Blanchot Chablis Grand Cru 2023",
+   "name": "Albert Bichot Bourgogne Aligote Champ Renard Domaine Adelie 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "LA CHABLISIENNE Cuvee Petit Chablis 2023",
+   "name": "Olivier Leflaive Rully 1Er Cru Vauvry Blanc 2022",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Patriarche Pere & Fils Rully 1er Cru Les Cloux 2022",
+   "name": "Olivier Leflaive Rully 1Er Cru Vauvry Blanc 2022",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "MASSON-BLONDELET Villa Paulus Sauvignon Blanc 2023",
+   "name": "Poggio Alle Gazze Dell'Ornellaia 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Amiri Marlborough Sauvignon Blanc 2024",
+   "name": "Tenuta dell'Ornellaia, Poggio alle Gazze dell'Ornellaia 2023",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Amiri Marlborough Sauvignon Blanc 2024",
+   "name": "Chateau Montelena Potter Valley Riesling 2019",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Ernest Rapeneau Blanc de Blancs Brut NV",
+   "name": "Champagne Lombard Brut Nature Cramant Grand Cru Blanc De Blancs Lieu Dit Les Bauves",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Franck Bonville Champagne Blanc de Blancs Grand Cru NV · 1.5 L",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "COTE MAS Rose Aurore Pays D'Oc 2023",
+   "name": "VALDO Elevantum Valdobbiadene Prosecco Superiore Brut",
    "old": "有货",
    "new": "售罄"
-  },
-  {
-   "name": "Hennessy VSOP · 700 ml",
-   "old": "售罄",
-   "new": "有货"
   },
   {
    "name": "Nordic Gin House - KOBENHAVN Klassisk Gin 0.70l · 700 ml",
-   "old": "限量/询价",
-   "new": "有货"
-  },
-  {
-   "name": "Bivrost Vodka 0.50l · 500 ml",
    "old": "有货",
    "new": "限量/询价"
   },
   {
-   "name": "Monkey Shoulder Premium Blended Malt Scotch Whisky · 700 ml",
-   "old": "售罄",
-   "new": "有货"
+   "name": "Kamoshibito Kuheiji, Yamada Nishiki 45 Human Junmai Daiginjo NV · 720 ml",
+   "old": "有货",
+   "new": "售罄"
   },
   {
    "name": "CHAVIN Pierre Zero Signature Non-Alcoholic Grenache Rose",
-   "old": "有货",
-   "new": "售罄"
+   "old": "售罄",
+   "new": "有货"
   }
  ],
- "rating_added": [
-  {
-   "name": "Mouton Rothschild 1998",
-   "rating": "Score 97"
-  },
-  {
-   "name": "Henri Perrot-Minot Morey Saint Denis En La Rue de Vergy 2021",
-   "rating": "Score 93"
-  }
- ],
+ "rating_added": [],
  "other": [
   {
-   "name": "Aromes de Pavie 2017",
-   "change": "来源 Cornerstone+Ponti → Ponti"
+   "name": "Ch Cos D'Estournel 2019",
+   "change": "来源 Cornerstone+Crystal → Crystal"
   },
   {
-   "name": "Calon Segur 2009",
-   "change": "来源 1855+Ponti → 1855+Ponti+Wine Culture"
+   "name": "Ch Lafite Rothschild 2000",
+   "change": "来源 Crystal+Vinum → 1855+Crystal+Vinum"
   },
   {
-   "name": "Ch Troplong Mondot 2014",
-   "change": "来源 1855+Crystal+Ponti → Crystal+Ponti"
+   "name": "Chateau Leoville Barton 2002",
+   "change": "来源 Crystal+Winehours → Winehours"
   },
   {
-   "name": "Les Carmes Haut Brion - Pessac Leognan 2019",
-   "change": "来源 1855+Cornerstone+Grand Vin+Pivene+Wine Culture → 1855+Cornerstone+Grand Vin+Pivene"
-  },
-  {
-   "name": "Mouton Rothschild 1998",
-   "change": "来源 1855 → 1855+Wine Culture"
-  },
-  {
-   "name": "Henri Perrot-Minot Morey Saint Denis En La Rue de Vergy 2021",
-   "change": "来源 Grand Vin → Grand Vin+Wine Culture"
-  },
-  {
-   "name": "Le Serre Nuove dell'Ornellaia 2020 · 1.5 L",
+   "name": "Chateau Margaux 1983",
    "change": "来源 1855+Cornerstone → 1855"
+  },
+  {
+   "name": "Giscours 2016",
+   "change": "来源 Grand Vin → 1855+Grand Vin"
+  },
+  {
+   "name": "Latour 2006",
+   "change": "来源 Grand Vin+Winehours → 1855+Grand Vin+Winehours"
+  },
+  {
+   "name": "Leoville Poyferre 2017",
+   "change": "来源 Bottles & Bottles+Cornerstone+Ponti+Winehours → Cornerstone+Ponti+Winehours"
+  },
+  {
+   "name": "Les Griffons de Pichon Baron 2016",
+   "change": "来源 Cornerstone+Grand Vin+Ponti → 1855+Cornerstone+Grand Vin+Ponti"
+  },
+  {
+   "name": "Moet And Chandon Imperial Nv",
+   "change": "价格 S$69 → 询价"
+  },
+  {
+   "name": "Joseph Phelps Insignia 2018",
+   "change": "来源 1855+Winehours → Winehours"
+  },
+  {
+   "name": "Moet et Chandon, Imperial Brut NV",
+   "change": "来源 Bottles & Bottles+Cornerstone+Crystal+Pivene+Wines Wholesales+Winehours+Wines Online → Cornerstone+Crystal+Pivene+Wines Wholesales+Winehours+Wines Online"
   }
  ],
  "status": {
@@ -712,97 +732,97 @@
    "ok": true,
    "rows": 1158,
    "previous": 1158,
-   "ts": "2026-11-11T19:56:15"
+   "ts": "2026-11-12T19:52:47"
   },
   "cw_all": {
    "ok": true,
-   "rows": 1200,
-   "previous": 1204,
-   "ts": "2026-11-11T19:57:46"
+   "rows": 1198,
+   "previous": 1200,
+   "ts": "2026-11-12T19:54:01"
   },
   "cs_all": {
    "ok": true,
-   "rows": 1796,
-   "previous": 1802,
-   "ts": "2026-11-11T20:04:52"
+   "rows": 1788,
+   "previous": 1796,
+   "ts": "2026-11-12T20:01:26"
   },
   "cs_types": {
    "ok": true,
-   "rows": 124,
-   "previous": 125,
-   "ts": "2026-11-11T20:04:52"
+   "rows": 123,
+   "previous": 124,
+   "ts": "2026-11-12T20:01:26"
   },
   "gv_all": {
    "ok": true,
    "rows": 1657,
-   "previous": 1654,
-   "ts": "2026-11-11T20:04:58"
+   "previous": 1657,
+   "ts": "2026-11-12T20:01:34"
   },
   "vinum_all": {
    "ok": true,
    "rows": 1610,
    "previous": 1610,
-   "ts": "2026-11-11T20:04:59"
+   "ts": "2026-11-12T20:01:35"
   },
   "wc_all": {
    "ok": true,
    "rows": 2042,
-   "previous": 2037,
-   "ts": "2026-11-11T20:06:14"
+   "previous": 2042,
+   "ts": "2026-11-12T20:02:59"
   },
   "sh_1855": {
    "ok": true,
-   "rows": 1636,
-   "previous": 1637,
-   "ts": "2026-11-11T20:06:21"
+   "rows": 1646,
+   "previous": 1636,
+   "ts": "2026-11-12T20:03:07"
   },
   "sh_straits": {
    "ok": true,
    "rows": 227,
    "previous": 227,
-   "ts": "2026-11-11T20:06:21"
+   "ts": "2026-11-12T20:03:07"
   },
   "sh_wineconn": {
    "ok": true,
-   "rows": 504,
+   "rows": 506,
    "previous": 504,
-   "ts": "2026-11-11T20:06:23"
+   "ts": "2026-11-12T20:03:11"
   },
   "sh_wholesale": {
    "ok": true,
    "rows": 2833,
    "previous": 2833,
-   "ts": "2026-11-11T20:06:37"
+   "ts": "2026-11-12T20:03:26"
   },
   "sh_winesonl": {
    "ok": true,
    "rows": 1777,
    "previous": 1777,
-   "ts": "2026-11-11T20:06:45"
+   "ts": "2026-11-12T20:03:35"
   },
   "sh_angra": {
    "ok": true,
    "rows": 921,
-   "previous": 916,
-   "ts": "2026-11-11T20:06:48"
+   "previous": 921,
+   "ts": "2026-11-12T20:03:40"
   },
   "ponti_all": {
    "ok": true,
    "rows": 1201,
    "previous": 1201,
-   "ts": "2026-11-11T20:08:48"
+   "ts": "2026-11-12T20:06:24"
   },
   "bnb_all": {
    "ok": true,
-   "rows": 1132,
-   "previous": 1130,
-   "ts": "2026-11-11T20:25:06"
+   "rows": 1129,
+   "previous": 1132,
+   "ts": "2026-11-12T20:24:19"
   },
   "wh_all": {
    "ok": true,
    "rows": 1988,
    "previous": 1988,
-   "ts": "2026-11-11T20:09:20"
+   "ts": "2026-11-12T20:06:53"
   }
  }
 }
