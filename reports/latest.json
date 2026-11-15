@@ -1,370 +1,1298 @@
 {
- "date": "2026-11-15",
- "total": 18471,
- "total_prev": 18456,
+ "date": "2026-11-16",
+ "total": 18425,
+ "total_prev": 18471,
  "added": [
   {
-   "name": "Chateau Calon Segur St-Estephe 2006",
-   "price": 199.0,
+   "name": "Penley Estate Tolmer Cabernet Sauvignon 2021",
+   "price": 56.0,
    "stock": "有货",
    "sources": [
-    "1855"
+    "winesonl"
    ]
   },
   {
-   "name": "Chateau Chasse Spleen Moulis-en-Medoc 2019",
-   "price": 70.0,
-   "stock": "有货",
+   "name": "Chateau De Chamirey Clos Des RUELLES MERCUREY 2019",
+   "price": 92,
+   "stock": "限量/询价",
    "sources": [
-    "1855"
-   ]
-  },
-  {
-   "name": "Chateau Figeac St-Emilion 2009",
-   "price": 388.0,
-   "stock": "有货",
-   "sources": [
-    "1855"
-   ]
-  },
-  {
-   "name": "Chateau Haut Brion Pessac-Leognan 1987",
-   "price": 728.0,
-   "stock": "有货",
-   "sources": [
-    "1855"
-   ]
-  },
-  {
-   "name": "Chateau La Fleur Petrus Pomerol 2010",
-   "price": 460.0,
-   "stock": "有货",
-   "sources": [
-    "1855"
-   ]
-  },
-  {
-   "name": "Chateau Montrose St-Estephe 2005",
-   "price": 368.0,
-   "stock": "有货",
-   "sources": [
-    "1855"
-   ]
-  },
-  {
-   "name": "Esprit de Pavie Bordeaux 2018",
-   "price": 68.0,
-   "stock": "有货",
-   "sources": [
-    "wineconn"
-   ]
-  },
-  {
-   "name": "Reserve de La Comtesse Pauillac 2014 · 1.5 L",
-   "price": 170.0,
-   "stock": "有货",
-   "sources": [
-    "1855"
-   ]
-  },
-  {
-   "name": "Paul Jaboulet Aine Hermitage La Chapelle Rouge 2013",
-   "price": 160.0,
-   "stock": "有货",
-   "sources": [
-    "1855"
-   ]
-  },
-  {
-   "name": "Lammidia Rosh 2021",
-   "price": 49.0,
-   "stock": "有货",
-   "sources": [
-    "angra"
-   ]
-  },
-  {
-   "name": "Lammidia Bianchetto 2022",
-   "price": 49.0,
-   "stock": "有货",
-   "sources": [
-    "angra"
-   ]
-  },
-  {
-   "name": "Ratti Langhe Chardonnay DOC Brigata 2024",
-   "price": 55.0,
-   "stock": "有货",
-   "sources": [
-    "angra"
-   ]
-  },
-  {
-   "name": "Billecart Salmon Rendez-Vous No.cinq (5) Pinot Noir",
-   "price": 201.0,
-   "stock": "有货",
-   "sources": [
-    "angra"
-   ]
-  },
-  {
-   "name": "CHARLES MIGNON Premium Reserve Champagne Brut",
-   "price": 76.0,
-   "stock": "有货",
-   "sources": [
-    "wineconn"
-   ]
-  },
-  {
-   "name": "Ombre Prosecco DOC Organic",
-   "price": 35.0,
-   "stock": "有货",
-   "sources": [
-    "angra"
-   ]
-  },
-  {
-   "name": "Chateau Roubine la Vie en Rose Collector Bio 3L Double Magnum 2022 · 3 L",
-   "price": 271.0,
-   "stock": "有货",
-   "sources": [
-    "angra"
-   ]
-  },
-  {
-   "name": "Chateau Roubine Premium Rose Cru Classe Aop 2024",
-   "price": 59.0,
-   "stock": "有货",
-   "sources": [
-    "angra"
+    "cornerstone"
    ]
   }
  ],
  "removed": [
   {
-   "name": "Isole e Olena Collezionede Marche Syrah Toscana IGT 2016",
-   "price": 218,
+   "name": "Amelia Park Trellis Cabernet Merlot 2024",
+   "price": 39.0,
    "sources": [
-    "cornerstone"
+    "winesonl"
    ]
   },
   {
-   "name": "Egly Ouriet Brut Grand Cru",
-   "price": 140,
+   "name": "Penfolds Lot 518 Spirited Wine W/ Baijiu",
+   "price": 138.0,
    "sources": [
-    "wineculture"
+    "bnb"
+   ]
+  },
+  {
+   "name": "Penley Estate Helios Cabernet Sauvignon 2020",
+   "price": 109.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Sons Of Eden Remus Eden Valley Old Vine Shiraz 2020",
+   "price": 62.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Teusner Joshua Gren Shiraz Mataro 2024",
+   "price": 34.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "La Vieille Ferme VDF Rouge 2024,",
+   "price": 23.8,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "La Vieille Ferme VDF Rouge 2024,",
+   "price": 23.8,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau De Pez Saint Estephe 2023",
+   "price": 59.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau La Croix Du Casse Pomerol 2019",
+   "price": 69.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau Les Ormes de Pez 2000 · 375 ml",
+   "price": 82.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Chateau Pichon Longueville Comtesse De Lalande Pauillac 2023",
+   "price": 248.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau Pichon Longueville Comtesse De Lalande Pauillac 2023",
+   "price": 248.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau Sociando-Mallet 2007 · 375 ml",
+   "price": 74.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Chateau Tour De Capet Saint Emilion Grand Cru 2021",
+   "price": 39.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau Tour De Capet Saint Emilion Grand Cru 2021",
+   "price": 39.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau de Pez Cru Bourgeois Exceptional 2020 · 375 ml",
+   "price": 52.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "La Chapelle De La Mission Haut Brion Pessec Leognan 2019",
+   "price": 138.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "La Chapelle De La Mission Haut Brion Pessec Leognan 2019",
+   "price": 138.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Albert Bichot Mr No Beaujolais Villages 2023",
+   "price": 28.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Albert Bichot Mr No Beaujolais Villages 2023",
+   "price": 28.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau Maucoil Privilege Chateauneuf Du Pape 2024",
+   "price": 75.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Chateau Maucoil Privilege Chateauneuf Du Pape 2024",
+   "price": 75.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "E Guigal Cotes Du Rhone Rouge 2022",
+   "price": 42.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Meyer-Nakel Spatburgunder 2019",
+   "price": 69.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Cantine Paradiso Posta Piana Primitivo 2024",
+   "price": 25.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Guerrieri Guerriero Della Terra Montepulciano Sangiovese 2020",
+   "price": 69.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Guerrieri Guerriero Della Terra Montepulciano Sangiovese 2020",
+   "price": 69.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Tenuta San Guido Guidalberto 2017",
+   "price": 89.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Degani Amarone della Valpolicella Classico 2020",
+   "price": 69.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Degani Valpolicella Classico Superiore 2019",
+   "price": 45.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Degani Valpolicella Classico Superiore Ripasso Cicilio 2021",
+   "price": 59.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "R Lopez de Heredia Value Pack",
+   "price": 430.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Clos du Val Napa Valley Cabernet Sauvignon 2021",
+   "price": 109.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Domaine Naturaliste Discovery Chardonnay 2024",
+   "price": 29.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Domaine Naturaliste Discovery Chardonnay 2024",
+   "price": 29.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Penley Estate Genevieve Chardonnay 2021",
+   "price": 49.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Les Hauts de Smith Blanc 2023",
+   "price": 109.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Albert Bichot Chablis Grand Cru Bougros Domaine Long Depaquit 2023,",
+   "price": 115.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Albert Bichot Pouilly Fuisse 1Er Cru Clos Reyssie 2024",
+   "price": 59.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Albert Bichot Pouilly Fuisse 1Er Cru Clos Reyssie 2024",
+   "price": 59.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Domaine Laroche Les Blanchot Chablis Grand Cru 2023",
+   "price": 119.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Olivier Leflaive Rully 1Er Cru Vauvry Blanc 2022",
+   "price": 79.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Olivier Leflaive Rully 1Er Cru Vauvry Blanc 2022",
+   "price": 79.0,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Amiri Marlborough Sauvignon Blanc 2024",
+   "price": 21.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Amiri Marlborough Sauvignon Blanc 2024",
+   "price": 21.9,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Vinos Sanz Finca la Colina Cien x Cien Verdejo 2021",
+   "price": 63.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Vinos Sanz Finca la Colina Sauvignon Blanc 2021",
+   "price": 53.0,
+   "sources": [
+    "winesonl"
+   ]
+  },
+  {
+   "name": "Champagne Lombard Brut Nature Cramant Grand Cru Blanc De Blancs Lieu Dit Les Bauves",
+   "price": 99.0,
+   "sources": [
+    "bnb"
    ]
   }
  ],
  "price_up": [
   {
-   "name": "Canon 2012",
-   "old": 158.0,
-   "new": 159.0,
-   "pct": 0.6
+   "name": "Amelia Park Trellis Cabernet Merlot 2025",
+   "old": 36.0,
+   "new": 39.0,
+   "pct": 8.3
   },
   {
-   "name": "Chateau La Fleur Chantecaille Saint Emilion Rouge 2021",
-   "old": 75.88,
-   "new": 75.98,
-   "pct": 0.1
+   "name": "Borsao, Tres Picos Garnacha 2022",
+   "old": 60.0,
+   "new": 69.0,
+   "pct": 15.0
   },
   {
-   "name": "Pontet Canet 2011",
-   "old": 155.0,
-   "new": 159.0,
-   "pct": 2.6
+   "name": "Williams Selyem Unoaked Chardonnay 2023",
+   "old": 166.88,
+   "new": 189.98,
+   "pct": 13.8
   },
   {
-   "name": "Clerc Milon (Ex-Chateau) 2022",
-   "old": 148.0,
-   "new": 149.0,
-   "pct": 0.7
+   "name": "Les Hauts Smith Blanc 2024",
+   "old": 107.0,
+   "new": 109.0,
+   "pct": 1.9
+  },
+  {
+   "name": "Tatenokawa, 18 Junmai Daiginjo NV · 720 ml",
+   "old": 208.0,
+   "new": 260.0,
+   "pct": 25.0
   }
  ],
  "price_down": [
   {
-   "name": "Chateau La Borne Rouge 2020",
-   "old": 69.88,
-   "new": 47.99,
-   "pct": -31.3
+   "name": "Angelus - Saint Emilion (Ex-Chateau) 2007",
+   "old": 816.0,
+   "new": 675.0,
+   "pct": -17.3
   },
   {
-   "name": "Chateau du Pas d'Ozelle Blaye 2022",
-   "old": 76.88,
-   "new": 74.98,
-   "pct": -2.5
+   "name": "Angelus - Saint Emilion (Ex-Chateau) 2011",
+   "old": 666.0,
+   "new": 658.0,
+   "pct": -1.2
   },
   {
-   "name": "Chateau Brane Cantenac Margaux 2012",
+   "name": "Angelus - Saint Emilion (Ex-Chateau) 2012",
+   "old": 1020.0,
+   "new": 860.0,
+   "pct": -15.7
+  },
+  {
+   "name": "Angelus - Saint Emilion (Ex-Chateau) 2013",
+   "old": 595.0,
+   "new": 555.0,
+   "pct": -6.7
+  },
+  {
+   "name": "Angelus - Saint Emilion (Ex-Chateau) 2014",
+   "old": 612.0,
+   "new": 598.0,
+   "pct": -2.3
+  },
+  {
+   "name": "Angelus - Saint Emilion 2012",
+   "old": 960.0,
+   "new": 850.0,
+   "pct": -11.5
+  },
+  {
+   "name": "Barde Haut - Saint Emilion 2020",
+   "old": 70.0,
+   "new": 60,
+   "pct": -14.3
+  },
+  {
+   "name": "Barrail Saint Andre - Saint Emilion 2017",
+   "old": 66.0,
+   "new": 46.0,
+   "pct": -30.3
+  },
+  {
+   "name": "Barrail Saint Andre - Saint Emilion 2018",
+   "old": 66.0,
+   "new": 46.0,
+   "pct": -30.3
+  },
+  {
+   "name": "Barrail Saint Andre - Saint Emilion 2019",
+   "old": 66.0,
+   "new": 46.0,
+   "pct": -30.3
+  },
+  {
+   "name": "Beau Sejour Becot - Saint Emilion 1998 · 1.5 L",
+   "old": 633.0,
+   "new": 550.0,
+   "pct": -13.1
+  },
+  {
+   "name": "Beau Sejour Becot - Saint Emilion 2018 · 1.5 L",
+   "old": 432.0,
+   "new": 349.0,
+   "pct": -19.2
+  },
+  {
+   "name": "Beau Sejour Becot - Saint Emilion 2019",
+   "old": 139.0,
+   "new": 110.0,
+   "pct": -20.9
+  },
+  {
+   "name": "Belair Monange - Saint Emilion 2011",
+   "old": 211.0,
+   "new": 175.0,
+   "pct": -17.1
+  },
+  {
+   "name": "Bellevue Mondotte - Saint Emilion 2011",
+   "old": 288.0,
+   "new": 250.0,
+   "pct": -13.2
+  },
+  {
+   "name": "Bellevue Mondotte - Saint Emilion 2017",
+   "old": 284.0,
+   "new": 230.0,
+   "pct": -19.0
+  },
+  {
+   "name": "Beychevelle - Saint Julien 2014",
+   "old": 218.0,
+   "new": 180.0,
+   "pct": -17.4
+  },
+  {
+   "name": "Beychevelle - Saint Julien 2019",
+   "old": 213.0,
+   "new": 175.0,
+   "pct": -17.8
+  },
+  {
+   "name": "Brane Cantenac - Margaux 2009",
+   "old": 229.0,
+   "new": 186.0,
+   "pct": -18.8
+  },
+  {
+   "name": "Brane Cantenac - Margaux 2015",
+   "old": 153.0,
+   "new": 150.0,
+   "pct": -2.0
+  },
+  {
+   "name": "Calon Segur - Saint Estephe 2003",
+   "old": 271.0,
+   "new": 229.0,
+   "pct": -15.5
+  },
+  {
+   "name": "Carillon D'Angelus - Saint Emilion (Ex-Chateau) 2013",
+   "old": 163.0,
+   "new": 125.0,
+   "pct": -23.3
+  },
+  {
+   "name": "Carillon D'Angelus - Saint Emilion (Ex-Chateau) 2014",
+   "old": 187.0,
+   "new": 140.0,
+   "pct": -25.1
+  },
+  {
+   "name": "Chantemerle - Haut Medoc 2016",
+   "old": 50.0,
+   "new": 35.0,
+   "pct": -30.0
+  },
+  {
+   "name": "Clerc Milon - Pauillac 2019",
+   "old": 175.0,
+   "new": 142.0,
+   "pct": -18.9
+  },
+  {
+   "name": "Clos Puy Arnaud - Cotes de Castillon 2022",
+   "old": 50.0,
+   "new": 40.0,
+   "pct": -20.0
+  },
+  {
+   "name": "Clos Saint Martin - Saint Emilion 2017",
+   "old": 132.0,
+   "new": 110.0,
+   "pct": -16.7
+  },
+  {
+   "name": "Clos Saint Martin - Saint Emilion 2018",
+   "old": 151.0,
+   "new": 130.0,
+   "pct": -13.9
+  },
+  {
+   "name": "Clos Saint Martin - Saint Emilion 2019",
+   "old": 180.0,
+   "new": 125.0,
+   "pct": -30.6
+  },
+  {
+   "name": "Clos Saint Martin - Saint Emilion 2020",
    "old": 168.0,
-   "new": 128.0,
-   "pct": -23.8
+   "new": 133.0,
+   "pct": -20.8
   },
   {
-   "name": "Chateau Lafite Rothschild Pauillac 2003",
-   "old": 1899.0,
-   "new": 1333.95,
-   "pct": -29.8
+   "name": "Clos du Marquis - Saint Julien 2020",
+   "old": 115.0,
+   "new": 92.0,
+   "pct": -20.0
   },
   {
-   "name": "Clos Fourtet St-Emilion 2018",
-   "old": 255.0,
-   "new": 189.0,
-   "pct": -25.9
+   "name": "Cos d'Estournel - Saint Estephe 2003",
+   "old": 382.0,
+   "new": 317.0,
+   "pct": -17.0
   },
   {
-   "name": "La Conseillante 2017",
-   "old": 299.0,
-   "new": 275.0,
-   "pct": -8.0
+   "name": "Cos d'Estournel - Saint Estephe 2014",
+   "old": 257.0,
+   "new": 213.0,
+   "pct": -17.1
   },
   {
-   "name": "Pavillon Rouge Du Ch. Margaux 2020",
-   "old": 375.0,
-   "new": 261.6,
+   "name": "Couvent des Jacobins - Saint Emilion 2015",
+   "old": 119.0,
+   "new": 83.0,
+   "pct": -30.3
+  },
+  {
+   "name": "Couvent des Jacobins - Saint Emilion 2016",
+   "old": 115.0,
+   "new": 80.0,
+   "pct": -30.4
+  },
+  {
+   "name": "Couvent des Jacobins, Calicem - Saint Emilion 2018 · 1.5 L",
+   "old": 524.0,
+   "new": 366.0,
    "pct": -30.2
+  },
+  {
+   "name": "Couvent des Jacobins, Calicem - Saint Emilion 2018",
+   "old": 202.0,
+   "new": 141.0,
+   "pct": -30.2
+  },
+  {
+   "name": "Couvent des Jacobins, Calicem - Saint Emilion 2019 · 1.5 L",
+   "old": 524.0,
+   "new": 366.0,
+   "pct": -30.2
+  },
+  {
+   "name": "Couvent des Jacobins, Le Menut des Jacobins - Saint Emilion 2022",
+   "old": 71.0,
+   "new": 49.0,
+   "pct": -31.0
+  },
+  {
+   "name": "Couvent des Jacobins, Le Menut des Jacobins - Saint Emilion 2023",
+   "old": 71.0,
+   "new": 49.0,
+   "pct": -31.0
+  },
+  {
+   "name": "D'Issan - Margaux 2019",
+   "old": 109.0,
+   "new": 88.0,
+   "pct": -19.3
+  },
+  {
+   "name": "De Pez - Saint Estephe 2018",
+   "old": 75.0,
+   "new": 60.0,
+   "pct": -20.0
+  },
+  {
+   "name": "Ducru Beaucaillou - Saint Julien 1996",
+   "old": 475.0,
+   "new": 393.0,
+   "pct": -17.3
+  },
+  {
+   "name": "Ducru Beaucaillou - Saint Julien 2003",
+   "old": 398.0,
+   "new": 327.0,
+   "pct": -17.8
+  },
+  {
+   "name": "Ducru Beaucaillou - Saint Julien 2005",
+   "old": 464.0,
+   "new": 382.0,
+   "pct": -17.7
+  },
+  {
+   "name": "Ducru Beaucaillou, La Croix de Beaucaillou - Saint Julien 2018",
+   "old": 99.0,
+   "new": 82.0,
+   "pct": -17.2
+  },
+  {
+   "name": "Ducru Beaucaillou, La Croix de Beaucaillou - Saint Julien 2020",
+   "old": 94.0,
+   "new": 75.0,
+   "pct": -20.2
+  },
+  {
+   "name": "Ducru Beaucaillou, La Croix de Beaucaillou - Saint Julien 2021",
+   "old": 91.0,
+   "new": 70.0,
+   "pct": -23.1
+  },
+  {
+   "name": "Gazin - Pomerol 2016",
+   "old": 159.0,
+   "new": 145.0,
+   "pct": -8.8
+  },
+  {
+   "name": "Grand Puy Ducasse - Pauillac 2021",
+   "old": 77.0,
+   "new": 62.0,
+   "pct": -19.5
+  },
+  {
+   "name": "Gruaud Larose - Saint Julien 1990",
+   "old": 382.0,
+   "new": 306.0,
+   "pct": -19.9
+  },
+  {
+   "name": "Gruaud Larose - Saint Julien 2009",
+   "old": 235.0,
+   "new": 191.0,
+   "pct": -18.7
+  },
+  {
+   "name": "Gruaud Larose - Saint Julien 2015",
+   "old": 180.0,
+   "new": 178.0,
+   "pct": -1.1
+  },
+  {
+   "name": "Haut Batailley, Verso - Pauillac 2019",
+   "old": 60.0,
+   "new": 48.0,
+   "pct": -20.0
+  },
+  {
+   "name": "Hosanna - Pomerol 2010",
+   "old": 420.0,
+   "new": 344.0,
+   "pct": -18.1
+  },
+  {
+   "name": "Hosanna - Pomerol 2014",
+   "old": 240.0,
+   "new": 230.0,
+   "pct": -4.2
+  },
+  {
+   "name": "L'Evangile - Pomerol 1994",
+   "old": 540.0,
+   "new": 447.0,
+   "pct": -17.2
+  },
+  {
+   "name": "La Conseillante - Pomerol 2015",
+   "old": 415.0,
+   "new": 331.0,
+   "pct": -20.2
+  },
+  {
+   "name": "La Fleur Petrus - Pomerol 2005",
+   "old": 654.0,
+   "new": 638.0,
+   "pct": -2.4
+  },
+  {
+   "name": "La Fleur Petrus - Pomerol 2014",
+   "old": 360.0,
+   "new": 278.0,
+   "pct": -22.8
+  },
+  {
+   "name": "La Fleur de Bouard - Lalande de Pomerol 2014",
+   "old": 96.0,
+   "new": 67.0,
+   "pct": -30.2
+  },
+  {
+   "name": "La Fleur de Bouard - Lalande de Pomerol 2018",
+   "old": 99.0,
+   "new": 69.0,
+   "pct": -30.3
+  },
+  {
+   "name": "La Fleur de Bouard - Lalande de Pomerol 2019",
+   "old": 95.0,
+   "new": 66.0,
+   "pct": -30.5
+  },
+  {
+   "name": "La Fleur de Bouard, Lalande de Pomerol 2000",
+   "old": 126.0,
+   "new": 88.0,
+   "pct": -30.2
+  },
+  {
+   "name": "La Fleur de Bouard, Lalande de Pomerol 2007 · 1.5 L",
+   "old": 268.0,
+   "new": 187.0,
+   "pct": -30.2
+  },
+  {
+   "name": "La Fleur de Bouard, Lalande de Pomerol 2009",
+   "old": 126.0,
+   "new": 88.0,
+   "pct": -30.2
+  },
+  {
+   "name": "La Fleur de Bouard, Le Plus - Lalande de Pomerol 2016",
+   "old": 256.0,
+   "new": 179.0,
+   "pct": -30.1
+  },
+  {
+   "name": "La Fleur de Bouard, Le Plus - Lalande de Pomerol 2018",
+   "old": 237.0,
+   "new": 165.0,
+   "pct": -30.4
+  },
+  {
+   "name": "La Fleur de Bouard, Le Plus - Lalande de Pomerol 2019",
+   "old": 230.0,
+   "new": 161.0,
+   "pct": -30.0
+  },
+  {
+   "name": "Langoa Barton - Saint Julien 2014",
+   "old": 120.0,
+   "new": 99.0,
+   "pct": -17.5
+  },
+  {
+   "name": "Langoa Barton - Saint Julien 2015",
+   "old": 126.0,
+   "new": 104.0,
+   "pct": -17.5
+  },
+  {
+   "name": "Lascombes - Margaux 2009",
+   "old": 229.0,
+   "new": 191.0,
+   "pct": -16.6
+  },
+  {
+   "name": "Leoville Barton - Saint Julien 1990",
+   "old": 382.0,
+   "new": 311.0,
+   "pct": -18.6
+  },
+  {
+   "name": "Leoville Las Cases - Saint Julien 1990",
+   "old": 709.0,
+   "new": 562.0,
+   "pct": -20.7
+  },
+  {
+   "name": "Leoville Las Cases - Saint Julien 1995",
+   "old": 491.0,
+   "new": 404.0,
+   "pct": -17.7
+  },
+  {
+   "name": "Leoville Las Cases - Saint Julien 1996",
+   "old": 584.0,
+   "new": 475.0,
+   "pct": -18.7
+  },
+  {
+   "name": "Leoville Las Cases - Saint Julien 2005",
+   "old": 507.0,
+   "new": 420.0,
+   "pct": -17.2
+  },
+  {
+   "name": "Leoville Poyferre - Saint Julien 1990 · 1.5 L",
+   "old": 1475.0,
+   "new": 1254.0,
+   "pct": -15.0
+  },
+  {
+   "name": "Lilian Ladouys - Saint Estephe 2016",
+   "old": 48.0,
+   "new": 39.0,
+   "pct": -18.8
+  },
+  {
+   "name": "Lilian Ladouys - Saint Estephe 2020",
+   "old": 46.0,
+   "new": 36.0,
+   "pct": -21.7
+  },
+  {
+   "name": "Lynch Bages - Pauillac 1996",
+   "old": 393.0,
+   "new": 327.0,
+   "pct": -16.8
+  },
+  {
+   "name": "Magrez Fombrauge - Saint Emilion 2007",
+   "old": 180.0,
+   "new": 150.0,
+   "pct": -16.7
+  },
+  {
+   "name": "Montrose, La Dame de Montrose - Saint Estephe 2016",
+   "old": 90.0,
+   "new": 75.0,
+   "pct": -16.7
+  },
+  {
+   "name": "Moulin de Canhaut - Medoc 2018",
+   "old": 33.0,
+   "new": 27.0,
+   "pct": -18.2
+  },
+  {
+   "name": "Palmer - Margaux 2000 · 1.5 L",
+   "old": 1439.0,
+   "new": 1180.0,
+   "pct": -18.0
+  },
+  {
+   "name": "Palmer - Margaux 2000",
+   "old": 852.0,
+   "new": 735.0,
+   "pct": -13.7
+  },
+  {
+   "name": "Palmer - Margaux 2005 · 1.5 L",
+   "old": 1559.0,
+   "new": 1325.0,
+   "pct": -15.0
+  },
+  {
+   "name": "Palmer - Margaux 2005",
+   "old": 780.0,
+   "new": 680.0,
+   "pct": -12.8
+  },
+  {
+   "name": "Palmer - Margaux 2008 · 1.5 L",
+   "old": 1080.0,
+   "new": 918.0,
+   "pct": -15.0
+  },
+  {
+   "name": "Palmer - Margaux 2009 · 1.5 L",
+   "old": 1559.0,
+   "new": 1287.0,
+   "pct": -17.4
+  },
+  {
+   "name": "Palmer - Margaux 2009",
+   "old": 758.0,
+   "new": 660.0,
+   "pct": -12.9
+  },
+  {
+   "name": "Pichon Baron, Les Griffons de Pichon Baron - Pauillac 2019",
+   "old": 90.0,
+   "new": 75.0,
+   "pct": -16.7
+  },
+  {
+   "name": "Pichon Longueville Comtesse de Lalande - Pauillac (Ex-Chateau) 2016",
+   "old": 491.0,
+   "new": 422,
+   "pct": -14.1
+  },
+  {
+   "name": "Pichon Longueville Comtesse de Lalande - Pauillac 2006",
+   "old": 327.0,
+   "new": 273.0,
+   "pct": -16.5
+  },
+  {
+   "name": "Pichon Longueville Comtesse de Lalande - Pauillac 2008",
+   "old": 317.0,
+   "new": 262.0,
+   "pct": -17.4
+  },
+  {
+   "name": "Puyanche - Francs Cotes de Bordeaux 2019",
+   "old": 45.0,
+   "new": 31.0,
+   "pct": -31.1
+  },
+  {
+   "name": "Quinault L'Enclos - Saint Emilion 2017",
+   "old": 67.0,
+   "new": 55.0,
+   "pct": -17.9
+  },
+  {
+   "name": "Rauzan Segla - Margaux 2016",
+   "old": 197.0,
+   "new": 164.0,
+   "pct": -16.8
+  },
+  {
+   "name": "Reserve de la Comtesse - Pauillac (Ex-Chateau) 2016",
+   "old": 126.0,
+   "new": 101.0,
+   "pct": -19.8
+  },
+  {
+   "name": "Reserve de la Comtesse - Pauillac 2016",
+   "old": 120.0,
+   "new": 105.0,
+   "pct": -12.5
+  },
+  {
+   "name": "Roc de Cambes - Cotes de Bourg 2022",
+   "old": 175.0,
+   "new": 145.0,
+   "pct": -17.1
+  },
+  {
+   "name": "Troplong Mondot - Saint Emilion 2018",
+   "old": 197.0,
+   "new": 162.0,
+   "pct": -17.8
+  },
+  {
+   "name": "Troplong Mondot - Saint Emilion 2022",
+   "old": 257.0,
+   "new": 213.0,
+   "pct": -17.1
+  },
+  {
+   "name": "Troplong Mondot, Mondot - Saint Emilion 2017",
+   "old": 71.0,
+   "new": 60.0,
+   "pct": -15.5
+  },
+  {
+   "name": "Trotanoy - Pomerol 2005",
+   "old": 676.0,
+   "new": 535.0,
+   "pct": -20.9
+  },
+  {
+   "name": "Trotanoy - Pomerol 2009",
+   "old": 720.0,
+   "new": 578.0,
+   "pct": -19.7
+  },
+  {
+   "name": "Trotanoy - Pomerol 2013",
+   "old": 273.0,
+   "new": 265.95,
+   "pct": -2.6
+  },
+  {
+   "name": "Vieux Chateau Certan - Pomerol 1995",
+   "old": 409.0,
+   "new": 338.0,
+   "pct": -17.4
+  },
+  {
+   "name": "Magdelaine, Grand Cru - Saint-Emilion 2005",
+   "old": 262.0,
+   "new": 213.0,
+   "pct": -18.7
+  },
+  {
+   "name": "Borsao, Tres Picos Garnacha 2020",
+   "old": 69.0,
+   "new": 60.0,
+   "pct": -13.0
+  },
+  {
+   "name": "Pago de Los Capellanes Reserva 2021",
+   "old": 119.0,
+   "new": 109.0,
+   "pct": -8.4
+  },
+  {
+   "name": "Masciarelli Marina Cvetic Chardonnay 2022",
+   "old": 92.0,
+   "new": 89.0,
+   "pct": -3.3
   }
  ],
  "stock_changes": [
   {
-   "name": "FINCA LAS MORAS Dada Chocolate Red Blend 2025",
+   "name": "Dominique Portet Shiraz 2022",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Sons Of Eden Remus Eden Valley Old Vine Shiraz 2020",
+   "name": "Tread Softly Shiraz 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Chateau La Croix Du Casse Pomerol 2019",
+   "name": "Chateau Calon Segur St-Estephe 2006",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Ducru Beaucaillou 1988",
+   "name": "Chateau D'Issan Margaux 2002",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Chateau Figeac St-Emilion 2009",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Chateau Trotanoy Pomerol 2012",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Couvent des Jacobins, Le Menut des Jacobins - Saint Emilion 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Reserve de La Comtesse Pauillac 2014 · 1.5 L",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Bouchard Pere & Fils Nuits-St-Georges Les Cailles Premier Cru 2013",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Case of 6 – Nicolas Potel Charmes Chambertin Grand Cru 2002*ETA: End Feb",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Dominique Lafon Beaune Epenottes 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Faiveley Clos de Vougeot Grand Cru 2003",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Sylvie Esmonin Bourgogne Rouge 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Sylvie Esmonin Coteaux Bourguignons 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Chapoutier Chateauneuf du Pape Barbe Rac 2019",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Chapoutier St Joseph le Clos Rouge 2016",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Paul Jaboulet Aine Hermitage La Chapelle Rouge 2013",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "G.D. Vajra Barolo Albe 2022",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Pontet Canet 2011",
+   "name": "Sordo Barolo 2013",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "HENRI DE BAREUIL Vieilles Vignes Bourgogne Pinot Noir 2024",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Joblot Givry Preface 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Labruyere Prieur Santenay Clos Genet 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Clos des Papes Chateauneuf du Pape Rouge 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Capo Zafferano Appassimento 2025",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "BEAULIEU Vineyard Private RESERVE Georges de Latour Cabernet Sauvignon 2019 (100pts, James Suckling",
+   "name": "Argiolas KOREM Bovale Isola Dei Nuraghi IGT 2019",
    "old": "有货",
    "new": "限量/询价"
   },
   {
-   "name": "Domaine Naturaliste Discovery Chardonnay 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Domaine Naturaliste Discovery Chardonnay 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Albert Bichot Chablis Grand Cru Bougros Domaine Long Depaquit 2023,",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "HENRI DE BAREUIL Vieilles Vignes - Bourgogne Chardonnay Burgundy 2024",
+   "name": "La Mozza Morellino Di Scansano 2022",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Henri Boillot Puligny Montrachet Clos de la Mouchere 1ER Cru 2023",
+   "name": "Scott Base Pinot Noir 2023",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Jacques Prieur Meursault Clos de Mazeray Blanc 2023",
+   "name": "Rodney Strong Russian River Pinot Noir 2024",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Williams Selyem Russian River Valley Pinot Noir 2021",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Louis Jadot Chevalier Montrachet Demoiselles Grand Cru 2017",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Leflaive, Puligny Montrachet 1er Cru Les Pucelles 2016",
+   "name": "Domaine Daniel Chotard Sancerre Blanc Les Coutonnes 2022",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Domaine Daniel Chotard Sancerre Blanc Marcel Henri 2022",
    "old": "有货",
    "new": "售罄"
   },
   {
    "name": "Vidal Fleury Crozes Hermitage Blanc 2023",
-   "old": "有货",
-   "new": "售罄"
+   "old": "售罄",
+   "new": "有货"
   },
   {
    "name": "Vidal Fleury Crozes Hermitage Blanc 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Santa Margherita Pinot Grigio 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Endless River Sauvignon Blanc 2025",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Ocean Bay Sauvignon Blanc 2026",
+   "name": "Bastianich Plus 2021",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Bastianich Vespa Bianco 2021",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Masciarelli Marina Cvetic Chardonnay 2022",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Giesen The Brothers Sauvignon Blanc 2023",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "KISTLER CHARDONNAY LES NOISETIERS RRV 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "ERNEST RAPENEAU Selection Brut Champagne",
+   "name": "Kistler Chardonnay Les Noisetiers 2024",
    "old": "售罄",
    "new": "有货"
+  },
+  {
+   "name": "Laurent Perrier la Cuvee NV · 200 ml",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Donnafugata Ben Rye Passito di Pantelleria DOP 2023",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Dassai, 45 Junmai Daiginjo NV · 720 ml",
+   "old": "有货",
+   "new": "售罄"
   }
  ],
  "rating_added": [],
  "other": [
   {
-   "name": "Canon 2012",
-   "change": "来源 Grand Vin → 1855+Grand Vin"
+   "name": "Amelia Park Trellis Cabernet Merlot 2025",
+   "change": "来源 Grand Vin → Grand Vin+Wines Online"
   },
   {
-   "name": "Ducru Beaucaillou 1988",
-   "change": "来源 Grand Vin → 1855+Grand Vin"
+   "name": "Brane Cantenac 2023",
+   "change": "来源 Bottles & Bottles+Wine Culture → Wine Culture"
   },
   {
-   "name": "Pontet Canet 2011",
-   "change": "来源 Grand Vin → 1855+Grand Vin"
+   "name": "Ch Margaux 2019",
+   "change": "来源 Cornerstone+Vinum → Vinum"
   },
   {
-   "name": "Clerc Milon (Ex-Chateau) 2022",
-   "change": "来源 Cornerstone+Grand Vin+Wine Culture → 1855+Cornerstone+Grand Vin+Wine Culture"
+   "name": "E Guigal Cotes du Rhone Rouge 2022",
+   "change": "来源 Bottles & Bottles+Wines Online → Wines Online"
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2013",
+   "change": "来源 Cornerstone+Wines Online → Cornerstone"
+  },
+  {
+   "name": "Degani, Amarone della Valpolicella Classico 2021",
+   "change": "来源 Pivene → Pivene+Wines Online"
+  },
+  {
+   "name": "Borsao, Tres Picos Garnacha 2020",
+   "change": "来源 Pivene+Wines Online → Pivene"
+  },
+  {
+   "name": "Borsao, Tres Picos Garnacha 2022",
+   "change": "来源 Pivene → Pivene+Wines Online"
+  },
+  {
+   "name": "Les Hauts Smith Blanc 2024",
+   "change": "来源 Crystal → Crystal+Wines Online"
   }
  ],
  "status": {
@@ -372,97 +1300,97 @@
    "ok": true,
    "rows": 1186,
    "previous": 1186,
-   "ts": "2026-11-14T19:40:35"
+   "ts": "2026-11-15T19:42:01"
   },
   "cw_all": {
    "ok": true,
    "rows": 1233,
    "previous": 1233,
-   "ts": "2026-11-14T19:41:55"
+   "ts": "2026-11-15T19:43:58"
   },
   "cs_all": {
    "ok": true,
    "rows": 1784,
-   "previous": 1785,
-   "ts": "2026-11-14T19:49:12"
+   "previous": 1784,
+   "ts": "2026-11-15T19:51:34"
   },
   "cs_types": {
    "ok": true,
    "rows": 123,
    "previous": 123,
-   "ts": "2026-11-14T19:49:12"
+   "ts": "2026-11-15T19:51:34"
   },
   "gv_all": {
    "ok": true,
    "rows": 1657,
    "previous": 1657,
-   "ts": "2026-11-14T19:49:20"
+   "ts": "2026-11-15T19:51:42"
   },
   "vinum_all": {
    "ok": true,
    "rows": 1610,
    "previous": 1610,
-   "ts": "2026-11-14T19:49:21"
+   "ts": "2026-11-15T19:51:43"
   },
   "wc_all": {
    "ok": true,
    "rows": 2041,
-   "previous": 2042,
-   "ts": "2026-11-14T19:50:42"
+   "previous": 2041,
+   "ts": "2026-11-15T19:53:07"
   },
   "sh_1855": {
    "ok": true,
    "rows": 1658,
-   "previous": 1646,
-   "ts": "2026-11-14T19:50:49"
+   "previous": 1658,
+   "ts": "2026-11-15T19:53:15"
   },
   "sh_straits": {
    "ok": true,
    "rows": 227,
    "previous": 227,
-   "ts": "2026-11-14T19:50:50"
+   "ts": "2026-11-15T19:53:15"
   },
   "sh_wineconn": {
    "ok": true,
    "rows": 508,
-   "previous": 506,
-   "ts": "2026-11-14T19:50:53"
+   "previous": 508,
+   "ts": "2026-11-15T19:53:17"
   },
   "sh_wholesale": {
    "ok": true,
    "rows": 2833,
    "previous": 2833,
-   "ts": "2026-11-14T19:51:07"
+   "ts": "2026-11-15T19:53:31"
   },
   "sh_winesonl": {
    "ok": true,
-   "rows": 1777,
+   "rows": 1764,
    "previous": 1777,
-   "ts": "2026-11-14T19:51:16"
+   "ts": "2026-11-15T19:53:39"
   },
   "sh_angra": {
    "ok": true,
    "rows": 926,
-   "previous": 919,
-   "ts": "2026-11-14T19:51:21"
+   "previous": 926,
+   "ts": "2026-11-15T19:53:44"
   },
   "ponti_all": {
    "ok": true,
    "rows": 1201,
    "previous": 1201,
-   "ts": "2026-11-14T19:52:24"
+   "ts": "2026-11-15T19:54:32"
   },
   "bnb_all": {
    "ok": true,
-   "rows": 1126,
+   "rows": 1092,
    "previous": 1126,
-   "ts": "2026-11-14T20:12:19"
+   "ts": "2026-11-15T20:12:48"
   },
   "wh_all": {
    "ok": true,
    "rows": 1988,
    "previous": 1988,
-   "ts": "2026-11-14T19:52:57"
+   "ts": "2026-11-15T19:55:04"
   }
  }
 }
