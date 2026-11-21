@@ -227,7 +227,7 @@ for r in cw:
 cs_type_map = {}
 for cat, title, href in cs_types:
     k = cat.split('/')[1]
-    cs_type_map[href] = {'white':'White','sweet':'Dessert','champagne':'Sparkling'}[k]
+    cs_type_map[href] = {'white':'White','sweet':'Dessert','champagne':'Sparkling','sparkling':'Sparkling'}[k]
 CS_COUNTRY = {'france':'France','italy':'Italy','spain':'Spain','germany':'Germany','chile':'Chile','us':'USA','australia':'Australia','new-zealand':'New Zealand','spirits':''}
 seen_cs = set()
 for r in cs:
