@@ -1,155 +1,275 @@
 {
- "date": "2026-11-24",
- "total": 18393,
- "total_prev": 18405,
+ "date": "2026-11-25",
+ "total": 18409,
+ "total_prev": 18393,
  "added": [
   {
-   "name": "Polperro Mill Hill Pinot Noir",
-   "price": null,
-   "stock": "限量/询价",
-   "sources": [
-    "winehours"
-   ]
-  },
-  {
-   "name": "Polperro Pinot Noir 2023",
-   "price": 98.99,
+   "name": "Cheval des Andes Mendoza Argentina 2020",
+   "price": 144.99,
    "stock": "有货",
    "sources": [
     "winehours"
    ]
   },
   {
-   "name": "Chateau Moulin Riche by Leoville Poyferre St-Julien 2019",
-   "price": 93.0,
-   "stock": "售罄",
-   "sources": [
-    "1855"
-   ]
-  },
-  {
-   "name": "Faiveley Mercurey La Framboisiere 2024",
-   "price": 75.0,
-   "stock": "有货",
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Faiveley Vosne Romanee 2024",
-   "price": 130.0,
-   "stock": "有货",
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Nittardi Gran Selezione Chianti Classico DOCG 2020",
-   "price": 92.0,
-   "stock": "有货",
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Sonoma Cutrer Pinot Noir Sonoma Coast 2024",
-   "price": 83.88,
+   "name": "Cheval des Andes Mendoza Argentina 2021",
+   "price": 144.99,
    "stock": "有货",
    "sources": [
     "winehours"
    ]
   },
   {
-   "name": "Williams Selyem Pinot Noir Sonoma Coast 2024",
-   "price": 182.98,
+   "name": "Cheval des Andes Mendoza Argentina 2022",
+   "price": 132.98,
    "stock": "有货",
    "sources": [
     "winehours"
    ]
   },
   {
-   "name": "Polperro Chardonnay",
-   "price": null,
-   "stock": "限量/询价",
-   "sources": [
-    "winehours"
-   ]
-  },
-  {
-   "name": "Louis Latour Puligny Montrachet 2024",
-   "price": 156.75,
+   "name": "Silver Heights Family Red 2021",
+   "price": 76.0,
    "stock": "有货",
    "sources": [
-    "bnb"
+    "crystal"
    ]
   },
   {
-   "name": "Louis Latour Puligny Montrachet 2024",
-   "price": 156.75,
-   "stock": "有货",
-   "sources": [
-    "bnb"
-   ]
-  },
-  {
-   "name": "Faiveley Bourgogne Chardonnay 2024",
-   "price": 53.0,
+   "name": "Aruma 2024",
+   "price": 32.0,
    "stock": "有货",
    "sources": [
     "grandvin"
    ]
   },
   {
-   "name": "Faiveley Mercurey Blanc \"Clos Rochette\" Monopole 2024",
-   "price": 62.0,
+   "name": "Aruma 2024 ([Bundle of 3])",
+   "price": 90.0,
    "stock": "有货",
    "sources": [
     "grandvin"
    ]
   },
   {
-   "name": "Faiveley Mercurey Blanc (Faiveley Mercurey Le Vallon Blanc 2023)",
-   "price": 60.0,
+   "name": "Ch Pichon Lalande 1996*ETA:Feb",
+   "price": 690.0,
    "stock": "有货",
    "sources": [
-    "grandvin"
+    "crystal"
    ]
   },
   {
-   "name": "Maison Champy Chablis 1Er Cru 2019",
-   "price": 64.13,
-   "stock": "有货",
-   "sources": [
-    "bnb"
-   ]
-  },
-  {
-   "name": "Vignoble des Cabottes Corton-Charlemagne Grand Cru 2023",
-   "price": 427.0,
+   "name": "Chateau Gloria St-Julien 2017",
+   "price": 94.0,
    "stock": "有货",
    "sources": [
     "1855"
    ]
   },
   {
-   "name": "Champagne Ephemere Edition 029 Brut - Selected By Fred Savart & Alex Chartogne",
-   "price": 108.0,
+   "name": "Chateau Malescot St.Exupery Margaux 2011",
+   "price": 142.0,
    "stock": "有货",
    "sources": [
-    "bnb"
+    "1855"
    ]
   },
   {
-   "name": "Louis Roederer Collection 242 Brut MV 6000ml (Wooden Gift Box) (Collection 243) · 6 L",
-   "price": 820.0,
+   "name": "Chateau Marquis D'Alesme Becker Margaux 2016",
+   "price": 128.0,
+   "stock": "有货",
+   "sources": [
+    "1855"
+   ]
+  },
+  {
+   "name": "JLohr Cuvee St. Emilion Bordeaux Blend 2022",
+   "price": 138.98,
+   "stock": "有货",
+   "sources": [
+    "winehours"
+   ]
+  },
+  {
+   "name": "Armand Rousseau Mazis Chambertin Grand Cru 2010",
+   "price": 1706,
+   "stock": "有货",
+   "sources": [
+    "wineculture"
+   ]
+  },
+  {
+   "name": "Louis Latour Aloxe Corton Domaine Latour 2023",
+   "price": 135.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Louis Latour Chateau Corton Grancey Gc 2023",
+   "price": 227.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Vignoble des Cabottes Beaune Les Greves Vigne de l'Enfant Jesus Premier Cru 2023",
+   "price": 267.0,
+   "stock": "有货",
+   "sources": [
+    "1855"
+   ]
+  },
+  {
+   "name": "Chapoutier Cornas les Arenes 2022",
+   "price": 103.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Rivera Triusco Primitivo di Manduria DOC 2023",
+   "price": 61.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Zenato Ripassa Valp Ripasso DOC Superiore 2021",
+   "price": 76.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Leeuwin Estate Art Series Chardonnay 2023",
+   "price": 163.0,
+   "stock": "有货",
+   "sources": [
+    "1855"
+   ]
+  },
+  {
+   "name": "Zenato Lugana DOC San Benedetto 2025",
+   "price": 49.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Misha's Vineyard Limelight Riesling 2023",
+   "price": 51.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Laurent Perrier Cuvee Rose NV*event",
+   "price": 182.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Laurent Perrier Grand Siecle Iteration (27)*event",
+   "price": 308.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Laurent Perrier Heritage Brut NV*event",
+   "price": 163.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Laurent Perrier la Cuvee NV*Dinner",
+   "price": 78.4,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Laurent Perrier la Cuvee NV*event",
+   "price": 98.0,
+   "stock": "有货",
+   "sources": [
+    "crystal"
+   ]
+  },
+  {
+   "name": "Louis Roederer Cristal Brut Late Release Deluxe Giftbox 2008",
+   "price": 780.0,
    "stock": "有货",
    "sources": [
     "grandvin"
    ]
   },
   {
-   "name": "Louis Roederer Collection 245 Brut MV 3000ml (Wooden Gift Box) (Collection 246) · 3 L",
-   "price": 400.0,
+   "name": "Cygnet Infinity Gin 700ml - Zero Alcohol · 700 ml",
+   "price": 78.0,
+   "stock": "有货",
+   "sources": [
+    "angra"
+   ]
+  },
+  {
+   "name": "Jagermeister 0.70l · 700 ml",
+   "price": 39,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Chivas Regal 18YO 0.70l · 700 ml",
+   "price": 88,
+   "stock": "有货",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Chivas Regal 18YO 0.75l",
+   "price": 88,
+   "stock": "限量/询价",
+   "sources": [
+    "cornerstone"
+   ]
+  },
+  {
+   "name": "Xmas Floral Wine Hamper (Bourgneuf 2019 ($96)",
+   "price": 244.0,
+   "stock": "有货",
+   "sources": [
+    "grandvin"
+   ]
+  },
+  {
+   "name": "Xmas Floral Wine Hamper (I will add my own before checkout)",
+   "price": 148.0,
+   "stock": "有货",
+   "sources": [
+    "grandvin"
+   ]
+  },
+  {
+   "name": "Xmas Floral Wine Hamper (Louis Roederer Collection 246 ($75)",
+   "price": 223.0,
    "stock": "有货",
    "sources": [
     "grandvin"
@@ -158,769 +278,902 @@
  ],
  "removed": [
   {
-   "name": "The Colonial Estate Emigre 2006",
-   "price": 148,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Beychevelle 1976",
-   "price": 176,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Ch Pichon Lalande 1996",
-   "price": 545.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Giscours 1994",
-   "price": 153,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Leoville Las Cases 1994",
-   "price": 357,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Albert Bichot Nuits Saint Georges Domaine Du Clos Frantin 2023,",
-   "price": 96.19,
-   "sources": [
-    "bnb"
-   ]
-  },
-  {
-   "name": "Albert Bichot Savigny Les Beaune Les Picotins Domaine Du Pavillon Rouge 2023",
-   "price": 64.13,
-   "sources": [
-    "bnb"
-   ]
-  },
-  {
-   "name": "Albert Bichot Savigny Les Beaune Les Picotins Domaine Du Pavillon Rouge 2023",
-   "price": 64.13,
-   "sources": [
-    "bnb"
-   ]
-  },
-  {
-   "name": "Faiveley Chambolle-Musigny 1er Cru Les Amoureuses (Faiveley Chambolle Musigny Les Amoureuses 2024)",
-   "price": 0.0,
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Faiveley Mercurey La Framboisiere (Faiveley Mercurey La Framboisiere 2024)",
-   "price": 0.0,
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Faiveley Musigny Grand Cru (Faiveley Musigny Grand Cru 2024)",
-   "price": 0.0,
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Ch Palmer 2008",
-   "price": 408.0,
-   "sources": [
-    "crystal"
-   ]
-  },
-  {
-   "name": "Antinori Guado Al TASSO 2008",
-   "price": 338,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Nittardi Chianti Classico Riserva DOCG (Gran Selezione Chianti Classico DOCG 2020)",
-   "price": 92.0,
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Nittardi Chianti Classico Riserva DOCG 2010",
-   "price": 88.0,
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Nittardi Chianti Classico Riserva DOCG 2019",
-   "price": 88.0,
-   "sources": [
-    "grandvin"
-   ]
-  },
-  {
-   "name": "Sonoma Cutrer Russian River Valley Pinot Noir 2022",
-   "price": 76.88,
+   "name": "Michael David Earthquake Zinfandel 2022",
+   "price": 78.99,
    "sources": [
     "winehours"
    ]
   },
   {
-   "name": "Williams Selyem Estate Vineyard Chardonnay 2023",
-   "price": 182.88,
+   "name": "Wild Duck Creek Estate Yellow Hammer Hill 2021",
+   "price": 45,
+   "sources": [
+    "wineculture"
+   ]
+  },
+  {
+   "name": "Aruma 2023",
+   "price": 35.0,
+   "sources": [
+    "grandvin"
+   ]
+  },
+  {
+   "name": "Aruma 2023 ([Bundle of 3])",
+   "price": 105.0,
+   "sources": [
+    "grandvin"
+   ]
+  },
+  {
+   "name": "Chateau Cheval Blanc [EP2023] 2023",
+   "price": null,
    "sources": [
     "winehours"
    ]
   },
   {
-   "name": "Louis Latour Puligny Montrachet 2024",
-   "price": 156.75,
+   "name": "A Et P De Villaine Bourgogne Cote Chalonnaise La Digoine 2022",
+   "price": 82,
    "sources": [
-    "bnb"
+    "wineculture"
    ]
   },
   {
-   "name": "Louis Latour Puligny Montrachet 2024",
-   "price": 156.75,
+   "name": "Joseph Roty Charmes Chambertin Tres Vieilles Vignes Grand Cru 2006",
+   "price": 654,
    "sources": [
-    "bnb"
+    "wineculture"
    ]
   },
   {
-   "name": "Domaine de La Choupette Puligny Montrachet 1er Cru LES CHALUMAUX BLANC 2023",
-   "price": 103,
+   "name": "Louis Latour Chateau Corton Grancey Grand Cru 2023",
+   "price": 227.0,
    "sources": [
-    "cornerstone"
+    "crystal"
    ]
   },
   {
-   "name": "Domaine de La Choupette Puligny Montrachet 1er Cru LES CHALUMAUX BLANC 2024",
-   "price": 103,
+   "name": "Tortochot Chambolle Musigny 1er Cru Les Sentiers 2022",
+   "price": 188,
    "sources": [
-    "cornerstone"
+    "wineculture"
    ]
   },
   {
-   "name": "Faiveley Mercurey Blanc \"Clos Rochette\" Monopole (Faiveley Mercurey Clos Rochette 2024)",
-   "price": 0.0,
+   "name": "Williams Selyem Sonoma Coast Pinot Noir",
+   "price": null,
    "sources": [
-    "grandvin"
+    "winehours"
    ]
   },
   {
-   "name": "Faiveley Mercurey Blanc 2023 (Mercurey Le Vallon Blanc)",
-   "price": 60.0,
+   "name": "JLohr Riverstone Chardonnay 2021",
+   "price": 69.88,
    "sources": [
-    "grandvin"
+    "winehours"
    ]
   },
   {
-   "name": "Gauffroy Marc Chassagne Montrachet LES MORGEOT BLANC 2007",
-   "price": 148,
+   "name": "Domaine De La Romanee Conti Montrachet Grand Cru 2010",
+   "price": 18922,
    "sources": [
-    "cornerstone"
+    "wineculture"
    ]
   },
   {
-   "name": "Pierre Bouree Mersault Blagny La Piece Sous Bios 2016",
-   "price": 101,
+   "name": "Domaine William Fevre Chablis Vaillons Premier Cru 2021",
+   "price": 99.0,
    "sources": [
-    "cornerstone"
+    "1855"
    ]
   },
   {
-   "name": "Lawson's Dry Hills Sauvignon Blanc 2024",
-   "price": 45.0,
+   "name": "Misha's Vineyard the Limelight Riesling 2023",
+   "price": 51.0,
    "sources": [
-    "winesonl"
+    "crystal"
    ]
   },
   {
-   "name": "Champagne Jean Pernet Reserve Brut Grand Cru",
-   "price": 59.0,
+   "name": "Ernest Rapeneau CNY Limited Edition Fire Horse",
+   "price": 49.9,
    "sources": [
-    "bnb"
+    "wineconn"
    ]
   },
   {
-   "name": "Dom Perignon 2005",
-   "price": 468,
+   "name": "Krug Champagne Grand Cuvee 173eme Edition NV",
+   "price": 428.0,
    "sources": [
-    "cornerstone"
+    "1855"
    ]
   },
   {
-   "name": "Louis Roederer Collection 242 Brut MV 6000ml (Wooden Gift Box) (Louis Roederer Collection 243 Brut MV 6L Wooden Case) · 6 L",
-   "price": 0.0,
+   "name": "Laurent Perrier Brut Reserve Heritage NV",
+   "price": 146.7,
    "sources": [
-    "grandvin"
+    "crystal"
    ]
   },
   {
-   "name": "Louis Roederer Collection 245 Brut MV 3000ml (Wooden Gift Box) (Louis Roederer Collection 246 Brut MV D.MAG Wooden Case) · 3 L",
-   "price": 0.0,
+   "name": "Laurent Perrier Grand Siecle Iteration (27)",
+   "price": 308.0,
    "sources": [
-    "grandvin"
+    "crystal"
    ]
   }
  ],
  "price_up": [
   {
-   "name": "Chateau Lynch Bages Pauillac 2008",
-   "old": 288.0,
-   "new": 327.0,
-   "pct": 13.5
+   "name": "Brane Cantenac - Margaux 2015",
+   "old": 153.0,
+   "new": 188.0,
+   "pct": 22.9
   },
   {
-   "name": "Leoville Barton - Saint Julien 2010",
-   "old": 196.2,
-   "new": 262.0,
-   "pct": 33.5
+   "name": "Chateau Boyd Cantenac 2016",
+   "old": 97.0,
+   "new": 128.0,
+   "pct": 32.0
   },
   {
-   "name": "Domaine Bony Gachot CHAMBOLLE MUSIGNY 2023",
-   "old": 163,
-   "new": 185,
-   "pct": 13.5
+   "name": "Chateau Brane Cantenac 'Le Baron de Brane' 2005",
+   "old": 90.0,
+   "new": 118.0,
+   "pct": 31.1
   },
   {
-   "name": "Domaine Bony Gachot GEVREY CHAMBERTIN 2024",
-   "old": 131,
-   "new": 148,
-   "pct": 13.0
-  },
-  {
-   "name": "Domaine Bony Gachot Nuits Saint Georges 1er Cru LES PRULIERS ROUGE 2024",
-   "old": 139,
-   "new": 157,
-   "pct": 12.9
-  },
-  {
-   "name": "Domaine Bony Gachot VOSNE ROMANEE 2024",
-   "old": 163,
-   "new": 185,
-   "pct": 13.5
-  },
-  {
-   "name": "Il Poggione Brunello di Montalcino 2018",
+   "name": "Chateau Du Tertre 2007",
    "old": 95.0,
-   "new": 99.0,
-   "pct": 4.2
+   "new": 125.0,
+   "pct": 31.6
   },
   {
-   "name": "Cesari Valpolicella Ripasso Superiore DOC",
+   "name": "Chateau Kirwan 2012",
+   "old": 118.0,
+   "new": 155.0,
+   "pct": 31.4
+  },
+  {
+   "name": "Chateau Kirwan 2013",
+   "old": 92.0,
+   "new": 121.0,
+   "pct": 31.5
+  },
+  {
+   "name": "Chateau Lascombes 2003",
+   "old": 211.0,
+   "new": 278.0,
+   "pct": 31.8
+  },
+  {
+   "name": "Chateau Malescot-St-Exupery 2012",
+   "old": 101.0,
+   "new": 133.0,
+   "pct": 31.7
+  },
+  {
+   "name": "Chateau Monbrison 2017",
+   "old": 68.0,
+   "new": 89.0,
+   "pct": 30.9
+  },
+  {
+   "name": "Chateau Rauzan Gassies 2017",
+   "old": 90.0,
+   "new": 118.0,
+   "pct": 31.1
+  },
+  {
+   "name": "Chateau Rauzan Segla 2002",
+   "old": 190.0,
+   "new": 250.0,
+   "pct": 31.6
+  },
+  {
+   "name": "Chateau Siran 2017",
    "old": 59.0,
-   "new": 61.0,
-   "pct": 3.4
+   "new": 78.0,
+   "pct": 32.2
   },
   {
-   "name": "Kosta Browne Pinot Noir Russian River Valley 2023",
-   "old": 192.96,
-   "new": 209.88,
-   "pct": 8.8
+   "name": "Chateau d'Angludet 2005",
+   "old": 116.0,
+   "new": 135.0,
+   "pct": 16.4
   },
   {
-   "name": "Vivier Pinot Noir Sonoma Coast 2022",
-   "old": 89.98,
-   "new": 102.0,
-   "pct": 13.4
+   "name": "Chateau d'Angludet 2014",
+   "old": 80.0,
+   "new": 105.0,
+   "pct": 31.2
   },
   {
-   "name": "Williams Selyem Chardonnay Allen Vineyard 2023",
-   "old": 182.88,
-   "new": 242.88,
-   "pct": 32.8
+   "name": "Chateau d'Issan 1999",
+   "old": 160.0,
+   "new": 195.0,
+   "pct": 21.9
   },
   {
-   "name": "Williams Selyem Chardonnay Lewis MacGregor Vineyard 2023",
-   "old": 182.88,
-   "new": 242.88,
-   "pct": 32.8
+   "name": "Chevalier de Lascombes 2012",
+   "old": 72.0,
+   "new": 95.0,
+   "pct": 31.9
   },
   {
-   "name": "Williams Selyem Drake Estate Chardonnay 2023",
-   "old": 178.98,
-   "new": 183.98,
-   "pct": 2.8
+   "name": "Chevalier de Lascombes 2016",
+   "old": 67.0,
+   "new": 88.0,
+   "pct": 31.3
   },
   {
-   "name": "Domaine Bony Gachot Nuits Saint Georges 1er Cru LES TERRES BLANCHES BLANC 2025",
-   "old": 139,
-   "new": 157,
-   "pct": 12.9
+   "name": "La Sirene de Giscours 2017",
+   "old": 60.0,
+   "new": 79.0,
+   "pct": 31.7
   },
   {
-   "name": "Domaine Bony Gachot PERNAND VERGELESSES BLANC 2025",
-   "old": 78,
-   "new": 89,
-   "pct": 14.1
+   "name": "Pavillon Rouge 2015",
+   "old": 336.0,
+   "new": 442.0,
+   "pct": 31.5
   },
   {
-   "name": "Le Pich Cabernet Sauvignon Napa Valley 2021",
-   "old": 138.88,
-   "new": 139.98,
-   "pct": 0.8
+   "name": "Ch Lascombes 2012",
+   "old": 153.0,
+   "new": 188.0,
+   "pct": 22.9
   },
   {
-   "name": "Vivier Chardonnay Sonoma Coast 2022",
-   "old": 89.98,
-   "new": 99.98,
-   "pct": 11.1
+   "name": "Ch du Tertre 2015",
+   "old": 110.5,
+   "new": 136.0,
+   "pct": 23.1
+  },
+  {
+   "name": "Krug Champagne Grande Cuvee 173eme Edition NV",
+   "old": 399.0,
+   "new": 428.0,
+   "pct": 7.3
+  },
+  {
+   "name": "Louis Roederer Cristal Brut 2018",
+   "old": 400.0,
+   "new": 461.0,
+   "pct": 15.2
+  },
+  {
+   "name": "Ca'Del Bosco Cuvee Prestige Extra Brut NV (EDT 48)",
+   "old": 80.0,
+   "new": 82.0,
+   "pct": 2.5
   }
  ],
  "price_down": [
   {
-   "name": "Mouton Rothschild 2015",
-   "old": 842.95,
-   "new": 838.0,
-   "pct": -0.6
+   "name": "Morlet Coteaux Nobles Pinot Noir 2019",
+   "old": 200.0,
+   "new": 180.0,
+   "pct": -10.0
   },
   {
-   "name": "Joseph Drouhin Clos De Vougeot Grand Cru Cote De Nuits 2018",
-   "old": 569.99,
-   "new": 536.98,
-   "pct": -5.8
+   "name": "Morlet Coteaux Nobles Pinot Noir 2019 ([Bundle of 3])",
+   "old": 600.0,
+   "new": 510.0,
+   "pct": -15.0
   },
   {
-   "name": "Williams Selyem Pinot Noir Russian River Valley 2024",
-   "old": 249.98,
-   "new": 187.98,
-   "pct": -24.8
+   "name": "Wayfarer Pinot Noir The Estate 2021",
+   "old": 189.88,
+   "new": 170.98,
+   "pct": -10.0
   },
   {
-   "name": "Williams Selyem Pinot Noir Sonoma Coast 2023",
-   "old": 242.88,
-   "new": 194.98,
-   "pct": -19.7
+   "name": "Chateau du Moulin-A-Vent Moulin-A-Vent 2020",
+   "old": 49.0,
+   "new": 45.0,
+   "pct": -8.2
   },
   {
-   "name": "Williams Selyem Drake Estate Chardonnay 2022",
-   "old": 252.97,
-   "new": 191.98,
-   "pct": -24.1
+   "name": "Chateau du Moulin-A-Vent Moulin-A-Vent 2020 ([Bundle of 3])",
+   "old": 147.0,
+   "new": 125.0,
+   "pct": -15.0
   },
   {
-   "name": "Williams Selyem Unoaked Chardonnay 2023",
-   "old": 189.98,
-   "new": 169.98,
-   "pct": -10.5
+   "name": "Ch Pichon Lalande 1997",
+   "old": 314.5,
+   "new": 310.0,
+   "pct": -1.4
+  },
+  {
+   "name": "JPM St Emilion 2020",
+   "old": 50.0,
+   "new": 45.0,
+   "pct": -10.0
+  },
+  {
+   "name": "JPM St Emilion 2020 ([Bundle of 3])",
+   "old": 150.0,
+   "new": 128.0,
+   "pct": -14.7
+  },
+  {
+   "name": "Heritage d'Aqueria Lirac Rouge 2018",
+   "old": 70.0,
+   "new": 63.0,
+   "pct": -10.0
+  },
+  {
+   "name": "Heritage d'Aqueria Lirac Rouge 2018 ([Bundle of 3])",
+   "old": 210.0,
+   "new": 179.0,
+   "pct": -14.8
+  },
+  {
+   "name": "Bodegas Muga Torre Muga 2021",
+   "old": 184.0,
+   "new": 179.0,
+   "pct": -2.7
+  },
+  {
+   "name": "Domaine Anderson Pinot Noir Walraven 2016",
+   "old": 115.0,
+   "new": 104.0,
+   "pct": -9.6
+  },
+  {
+   "name": "Domaine Anderson Pinot Noir Walraven 2016 ([Bundle of 3])",
+   "old": 345.0,
+   "new": 294.0,
+   "pct": -14.8
+  },
+  {
+   "name": "Kosta Browne Pinot Noir Russian River Valley 2023",
+   "old": 209.88,
+   "new": 188.98,
+   "pct": -10.0
+  },
+  {
+   "name": "Sojourn Cellars Pinot Noir Sonoma Coast 2023",
+   "old": 109.97,
+   "new": 82.98,
+   "pct": -24.5
+  },
+  {
+   "name": "JLohr Flume Crossing Sauvignon Blanc 2023",
+   "old": 52.98,
+   "new": 51.98,
+   "pct": -1.9
+  },
+  {
+   "name": "Sojourn Oakville Cabernet Sauvignon 2021",
+   "old": 182.97,
+   "new": 137.98,
+   "pct": -24.6
+  },
+  {
+   "name": "Amelia Park Trellis Semillon Sauvignon Blanc 2025 ([Bundle of 3])",
+   "old": 108.0,
+   "new": 92.0,
+   "pct": -14.8
+  },
+  {
+   "name": "Los Vascos Chardonnay 2024 ([Bundle of 3])",
+   "old": 96.0,
+   "new": 82.0,
+   "pct": -14.6
+  },
+  {
+   "name": "E. Guigal Condrieu 2023 ([Bundle of 3])",
+   "old": 294.0,
+   "new": 250.0,
+   "pct": -15.0
+  },
+  {
+   "name": "Robert Weil Riesling Trocken 2024 ([Bundle of 3])",
+   "old": 147.0,
+   "new": 125.0,
+   "pct": -15.0
+  },
+  {
+   "name": "Te Mata Estate Sauvignon Blanc 2025",
+   "old": 45.0,
+   "new": 41.0,
+   "pct": -8.9
+  },
+  {
+   "name": "Te Mata Estate Sauvignon Blanc 2025 ([Bundle of 3])",
+   "old": 135.0,
+   "new": 115.0,
+   "pct": -14.8
+  },
+  {
+   "name": "Marques De Murrieta Pazo Barrantes Albarino 2021",
+   "old": 95.0,
+   "new": 86.0,
+   "pct": -9.5
+  },
+  {
+   "name": "Marques De Murrieta Pazo Barrantes Albarino 2021 ([Bundle of 3])",
+   "old": 285.0,
+   "new": 243.0,
+   "pct": -14.7
+  },
+  {
+   "name": "Sojourn Chardonnay Durell Vineyard Sonoma Coast 2019",
+   "old": 125.97,
+   "new": 94.98,
+   "pct": -24.6
+  },
+  {
+   "name": "Sojourn Chardonnay Durell Vineyard Sonoma Coast 2022",
+   "old": 117.88,
+   "new": 88.98,
+   "pct": -24.5
+  },
+  {
+   "name": "Sojourn Chardonnay Sonoma Coast 2022",
+   "old": 92.88,
+   "new": 69.98,
+   "pct": -24.7
+  },
+  {
+   "name": "Sojourn Chardonnay Sonoma Coast 2023",
+   "old": 95.88,
+   "new": 71.98,
+   "pct": -24.9
+  },
+  {
+   "name": "Dom Perignon Vintage 2003",
+   "old": 532.0,
+   "new": 447.0,
+   "pct": -16.0
+  },
+  {
+   "name": "Dom Perignon Vintage 2006",
+   "old": 442.0,
+   "new": 371.0,
+   "pct": -16.1
+  },
+  {
+   "name": "Dom Perignon Vintage 2008",
+   "old": 580.0,
+   "new": 522.0,
+   "pct": -10.0
+  },
+  {
+   "name": "Dom Perignon Vintage 2009",
+   "old": 490.0,
+   "new": 402.0,
+   "pct": -18.0
+  },
+  {
+   "name": "Francoise Bedel & Fils Cuvee Dis Vin Secret N.V",
+   "old": 138.0,
+   "new": 113.0,
+   "pct": -18.1
+  },
+  {
+   "name": "Francoise Bedel Jouvence Brut 2013",
+   "old": 298.0,
+   "new": 244.0,
+   "pct": -18.1
+  },
+  {
+   "name": "Laurent Perrier Grand Siecle Iteration N26 NV (Gift Box)",
+   "old": 450.0,
+   "new": 369.0,
+   "pct": -18.0
+  },
+  {
+   "name": "Laurent-Perrier Cuvee Rose Champagne NV",
+   "old": 182.0,
+   "new": 179.0,
+   "pct": -1.6
+  },
+  {
+   "name": "Louis Roederer Cristal Brut Vinotheque (Giftbox) 2002",
+   "old": 2284.0,
+   "new": 2033.0,
+   "pct": -11.0
+  },
+  {
+   "name": "Philipponnat Champagne Royale Reserve Brut NV",
+   "old": 99.0,
+   "new": 98.0,
+   "pct": -1.0
+  },
+  {
+   "name": "Philipponnat Clos des Goisses Extra Brut 2011",
+   "old": 388.0,
+   "new": 318.0,
+   "pct": -18.0
+  },
+  {
+   "name": "Philipponnat Clos des Goisses Extra Brut 2014",
+   "old": 480.0,
+   "new": 394.0,
+   "pct": -17.9
+  },
+  {
+   "name": "Roederer Estate Quartet Brut ([Bundle of 3])",
+   "old": 204.0,
+   "new": 174.0,
+   "pct": -14.7
+  },
+  {
+   "name": "Montelliana Prosecco DOC Treviso Extra Dry",
+   "old": 32.0,
+   "new": 29.0,
+   "pct": -9.4
+  },
+  {
+   "name": "Montelliana Prosecco DOC Treviso Extra Dry ([Bundle of 3])",
+   "old": 96.0,
+   "new": 82.0,
+   "pct": -14.6
+  },
+  {
+   "name": "Wayfarer Pinot Noir WF2 Rose 2023",
+   "old": 102.97,
+   "new": 72.98,
+   "pct": -29.1
   }
  ],
  "stock_changes": [
   {
-   "name": "Polperro Mill Hill Pinot Noir 2023",
-   "old": "限量/询价",
+   "name": "Del Dotto Cinghiale Vineyard Pinot Noir",
+   "old": "有货",
+   "new": "限量/询价"
+  },
+  {
+   "name": "JLohr Wildflower Valdiguie Red Blend 2021",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Barrail Saint Andre - Saint Emilion 2018",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Carruades De Lafite 2018",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Chateau Langoa Barton St-Julien 2019",
+   "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Clos de Los Siete 2021",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Cullen Wines Diana Madeline 2004",
-   "old": "有货",
-   "new": "限量/询价"
-  },
-  {
-   "name": "Penfolds Grange 2003",
-   "old": "有货",
-   "new": "限量/询价"
-  },
-  {
-   "name": "Riddoch Coonawarra Shiraz 2025,",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Riddoch Coonawarra Shiraz 2025,",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Fat Bastard Pinot Noir 2025",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Aruma 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "La Reserve de Leoville Barton St-Julien 2017",
-   "old": "有货",
-   "new": "售罄"
+   "name": "Chateau Moulin Riche by Leoville Poyferre St-Julien 2019",
+   "old": "售罄",
+   "new": "有货"
   },
   {
    "name": "Lilian Ladouys - Saint Estephe 2016",
-   "old": "售罄",
-   "new": "有货"
+   "old": "有货",
+   "new": "售罄"
   },
   {
-   "name": "Lilian Ladouys - Saint Estephe 2020",
-   "old": "售罄",
-   "new": "有货"
+   "name": "Albert Bichot Gevrey Chambertin La Justice 2022",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Albert Bichot Gevrey Chambertin La Justice 2022",
+   "old": "有货",
+   "new": "售罄"
   },
   {
    "name": "Bouchard Pere & Fils Le Corton Grand Cru 2012",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Nicolas Potel Bourgogne Pinot Noir 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Domaine Marchand Grillot Gevrey Chambertin Au Velle 2013",
-   "old": "有货",
-   "new": "限量/询价"
-  },
-  {
-   "name": "Faiveley Echezeaux En Orveaux Grand Cru",
-   "old": "有货",
-   "new": "限量/询价"
-  },
-  {
-   "name": "Famille Perrachon Bourgogne Pinot Noir Vieilles Vignes 2024",
+   "name": "Nicolas Potel Bourgogne Pinot Noir 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Geantet Pansiot, Gevrey Chambertin En Champs 2018",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Simon Bize et Fils, Savigny Les Beaune Rouge 2022",
+   "name": "Ch les Trois Croix 2020",
    "old": "有货",
    "new": "售罄"
   },
   {
    "name": "Capo Zafferano Primitivo di Manduria 2022",
-   "old": "售罄",
-   "new": "有货"
+   "old": "有货",
+   "new": "售罄"
   },
   {
-   "name": "Le Vigne Di Sammarco Salice Salentino Riserva Rosso 2022",
+   "name": "Beni Di Batasiolo Barolo 2020",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Beni Di Batasiolo Barolo 2020",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Produttori del Barbaresco Barbaresco Riserva Pora 2019",
    "old": "有货",
    "new": "售罄"
   },
   {
    "name": "Argiolas Is Solinas CARIGNANO Rosso Isola dei Nuraghi 2021",
-   "old": "限量/询价",
-   "new": "有货"
-  },
-  {
-   "name": "Zenato Amarone Della Valpolicella Classico 2019/2020",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Zenato Amarone Della Valpolicella Classico 2019/2020",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Kosta Browne Pinot Noir Russian River Valley 2023",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Williams Selyem Pinot Noir Russian River Valley 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Williams Selyem Pinot Noir Sonoma Coast 2025",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Babich Black Label Sauvignon Blanc 2025",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Polperro Chardonnay 2023",
-   "old": "限量/询价",
-   "new": "有货"
-  },
-  {
-   "name": "Sojourn Cabernet Sauvignon Home Ranch Cuvee 2018",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Williams Selyem Chardonnay Allen Vineyard 2023",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Williams Selyem Unoaked Chardonnay",
    "old": "有货",
    "new": "限量/询价"
   },
   {
-   "name": "EVOI Reserve Chardonnay 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Deux Roches St Veran Les Pommards 2020",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Domaine William Fevre Chablis Les Clos Grand Cru 2022",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Domaine William Fevre Chablis Vaudesir Grand Cru 2022",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Domaine de La Choupette Puligny Montrachet 1er Cru LA GARENNE BLANC 2023",
+   "name": "Antinori Badia a PASSIGNANO Chianti Classico Gran Selezione 2019",
    "old": "有货",
    "new": "限量/询价"
   },
   {
-   "name": "Paul Prieur et Fils, Sancerre La Pitaude 2023",
+   "name": "Yjar 2019",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Ernest Rapeneau CNY Limited Edition Fire Horse",
+   "name": "Yjar 2021",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Bollinger La Grande Annee Rose 2012",
+   "name": "Sonoma Cutrer Russian River Valley Pinot Noir 2022",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Franck Bonville Champagne Blanc de Blancs Grand Cru NV",
+   "name": "Del Dotto Caves Cabernet Sauvignon 2021",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Del Dotto The Beast Cabernet Sauvignon 2018",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Robert Foley Cabernet Sauvignon 2016",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Williams Selyem Chardonnay Lewis MacGregor Vineyard 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Cape Mentelle Grey Label Chardonnay 2022/2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Cape Mentelle Grey Label Chardonnay 2022/2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Deux Roches St Veran Les Pommards 2023",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "VALDO Elevantum Rose Prosecco DOC Brut 2024",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "ZONTE'S FOOTSTEP Scarlet Ladybird Rose 2022",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Caves D Esclans Whispering Angel Rose 2025",
+   "name": "Domaine William Fevre Chablis 1Er Cru Fourchaume 2022",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Caves D Esclans Whispering Angel Rose 2025",
+   "name": "Domaine William Fevre Chablis 1Er Cru Fourchaume 2022",
    "old": "有货",
    "new": "售罄"
+  },
+  {
+   "name": "Donnafugata Dolce & Gabbana Isolano 2022",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Delamotte Brut Nv",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Dom Perignon Vintage 2008",
+   "old": "售罄",
+   "new": "有货"
+  },
+  {
+   "name": "Henri Giraud, MV Ay Grand Cru MV20 · 1.5 L",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Bols TRIPLE Sec 0.70l · 700 ml",
+   "old": "有货",
+   "new": "限量/询价"
+  },
+  {
+   "name": "Glenfarclas 12YO Single Malt Whisky 0.70l · 700 ml",
+   "old": "有货",
+   "new": "限量/询价"
   },
   {
    "name": "Dassai, 39 Junmai Daiginjo NV · 1.8 L",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Juyondai, Ryusen Junmai Daiginjo NV · 720 ml",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Zankyo, Super 7 Junmai Daiginjo NV · 720 ml",
    "old": "售罄",
    "new": "有货"
   }
  ],
  "rating_added": [
   {
-   "name": "Leoville Barton - Saint Julien 2010",
-   "rating": "Vinous-95"
+   "name": "Polperro Mill Hill Pinot Noir",
+   "rating": " WA 94 /  JS 93"
+  },
+  {
+   "name": "Polperro Pinot Noir",
+   "rating": "WA 93 / JS 93"
+  },
+  {
+   "name": "Polperro Pinot Noir 2023",
+   "rating": "WA 93 / JS 93"
+  },
+  {
+   "name": "Polperro Chardonnay",
+   "rating": " JS 94 /  WA 93"
   }
  ],
  "other": [
   {
-   "name": "Polperro Mill Hill Pinot Noir 2023",
-   "change": "价格 询价 → S$110"
+   "name": "Del Dotto Cinghiale Vineyard Pinot Noir",
+   "change": "价格 S$170 → 询价"
   },
   {
-   "name": "Chateau Canon la Gaffeliere 2007",
-   "change": "来源 Cornerstone+Ponti → Ponti"
+   "name": "Leeuwin Estate Art Series Shiraz 2023",
+   "change": "来源 Wines Online → 1855+Wines Online"
   },
   {
-   "name": "Chateau Lynch Bages Pauillac 2008",
-   "change": "来源 Ponti → 1855+Ponti"
+   "name": "Silver Heights Jiayuan Marselan 2023",
+   "change": "来源 Wines Online → Crystal+Wines Online"
   },
   {
-   "name": "Leoville Barton - Saint Julien 2010",
-   "change": "来源 Vinum → Pivene+Vinum"
+   "name": "Chateau Calon Segur St-Estephe 2009",
+   "change": "来源 1855+Ponti+Wine Culture → 1855+Ponti"
   },
   {
-   "name": "Faiveley Bourgogne Pinot Noir",
-   "change": "来源 Grand Vin+Wines Wholesales → Wines Wholesales"
+   "name": "Chateau Latour Pauillac 2004",
+   "change": "来源 1855+Wine Culture+Winehours → 1855+Winehours"
   },
   {
-   "name": "Faiveley Bourgogne Pinot Noir 2024",
-   "change": "来源 Wines Online → Grand Vin+Wines Online"
+   "name": "Reserve de Pichon Comtesse 2017",
+   "change": "来源 Ponti → Crystal+Ponti"
   },
   {
-   "name": "Faiveley Echezeaux En Orveaux Grand Cru",
-   "change": "价格 S$0 → 询价"
+   "name": "Krug Champagne Grande Cuvee 173eme Edition NV",
+   "change": "来源 Wines Online → 1855+Wines Online"
   },
   {
-   "name": "Faiveley Echezeaux En Orveaux Grand Cru",
-   "change": "来源 Grand Vin+Winehours → Winehours"
+   "name": "Laurent Perrier Brut NV Champagne",
+   "change": "来源 Cornerstone+Crystal+Wines Wholesales+Wines Online → Cornerstone+Wines Wholesales+Wines Online"
   },
   {
-   "name": "Faiveley Vosne Romanee",
-   "change": "来源 Grand Vin+Wines Wholesales → Wines Wholesales"
+   "name": "Laurent-Perrier Cuvee Rose Champagne NV",
+   "change": "来源 Crystal+Wines Wholesales+Wines Online → Wines Wholesales+Wines Online"
   },
   {
-   "name": "Il Poggione Brunello di Montalcino 2018",
-   "change": "来源 Ponti → 1855+Ponti"
+   "name": "Louis Roederer Cristal Brut 2018",
+   "change": "来源 Grand Vin → 1855+Grand Vin"
   },
   {
-   "name": "Marchesi Antinori Tignanello IGT 2021",
-   "change": "来源 Bottles & Bottles+Ponti+Winehours → 1855+Bottles & Bottles+Ponti+Winehours"
-  },
-  {
-   "name": "Opus One 2019",
-   "change": "来源 Bottles & Bottles+Cornerstone+Winehours → Bottles & Bottles+Winehours"
-  },
-  {
-   "name": "Polperro Chardonnay 2023",
-   "change": "价格 询价 → S$98"
-  },
-  {
-   "name": "Williams Selyem Unoaked Chardonnay",
-   "change": "价格 S$167 → 询价"
-  },
-  {
-   "name": "Faiveley Bourgogne Chardonnay",
-   "change": "来源 Grand Vin+Wines Wholesales → Wines Wholesales"
-  },
-  {
-   "name": "Faiveley Mercurey Blanc (Faiveley Mercurey Le Vallon Blanc 2024)",
-   "change": "价格 S$0 → S$60"
-  },
-  {
-   "name": "Lawson's Dry Hills Sauvignon Blanc 2025",
-   "change": "来源 Crystal → Crystal+Wines Online"
+   "name": "Ca'Del Bosco Cuvee Prestige Extra Brut NV (EDT 48)",
+   "change": "来源 Wines Wholesales → Crystal+Wines Wholesales"
   }
  ],
  "status": {
   "pivene_all": {
    "ok": true,
    "rows": 1195,
-   "previous": 1194,
-   "ts": "2026-11-23T20:00:06"
+   "previous": 1195,
+   "ts": "2026-11-24T20:00:53"
   },
   "cw_all": {
    "ok": true,
-   "rows": 1252,
-   "previous": 1254,
-   "ts": "2026-11-23T20:01:24"
+   "rows": 1263,
+   "previous": 1252,
+   "ts": "2026-11-24T20:02:10"
   },
   "cs_all": {
    "ok": true,
-   "rows": 1752,
-   "previous": 1764,
-   "ts": "2026-11-23T20:08:54"
+   "rows": 1757,
+   "previous": 1752,
+   "ts": "2026-11-24T20:09:15"
   },
   "cs_types": {
    "ok": true,
    "rows": 113,
-   "previous": 118,
-   "ts": "2026-11-23T20:08:54"
+   "previous": 113,
+   "ts": "2026-11-24T20:09:15"
   },
   "gv_all": {
    "ok": true,
-   "rows": 1672,
-   "previous": 1677,
-   "ts": "2026-11-23T20:09:00"
+   "rows": 1676,
+   "previous": 1672,
+   "ts": "2026-11-24T20:09:22"
   },
   "vinum_all": {
    "ok": true,
    "rows": 1610,
    "previous": 1610,
-   "ts": "2026-11-23T20:09:01"
+   "ts": "2026-11-24T20:09:23"
   },
   "wc_all": {
    "ok": true,
-   "rows": 2023,
+   "rows": 2017,
    "previous": 2023,
-   "ts": "2026-11-23T20:10:15"
+   "ts": "2026-11-24T20:10:32"
   },
   "sh_1855": {
    "ok": true,
-   "rows": 1681,
-   "previous": 1676,
-   "ts": "2026-11-23T20:10:23"
+   "rows": 1687,
+   "previous": 1681,
+   "ts": "2026-11-24T20:10:40"
   },
   "sh_straits": {
    "ok": true,
    "rows": 214,
    "previous": 214,
-   "ts": "2026-11-23T20:10:23"
+   "ts": "2026-11-24T20:10:40"
   },
   "sh_wineconn": {
    "ok": true,
-   "rows": 495,
-   "previous": 489,
-   "ts": "2026-11-23T20:10:25"
+   "rows": 494,
+   "previous": 495,
+   "ts": "2026-11-24T20:10:43"
   },
   "sh_wholesale": {
    "ok": true,
    "rows": 2833,
    "previous": 2833,
-   "ts": "2026-11-23T20:10:39"
+   "ts": "2026-11-24T20:10:57"
   },
   "sh_winesonl": {
    "ok": true,
    "rows": 1764,
-   "previous": 1765,
-   "ts": "2026-11-23T20:10:47"
+   "previous": 1764,
+   "ts": "2026-11-24T20:11:05"
   },
   "sh_angra": {
    "ok": true,
-   "rows": 933,
+   "rows": 934,
    "previous": 933,
-   "ts": "2026-11-23T20:10:53"
+   "ts": "2026-11-24T20:11:10"
   },
   "ponti_all": {
    "ok": true,
    "rows": 1200,
    "previous": 1200,
-   "ts": "2026-11-23T20:11:59"
+   "ts": "2026-11-24T20:12:17"
   },
   "bnb_all": {
    "ok": true,
    "rows": 1059,
-   "previous": 1061,
-   "ts": "2026-11-23T20:29:26"
+   "previous": 1059,
+   "ts": "2026-11-24T20:28:31"
   },
   "wh_all": {
    "ok": true,
-   "rows": 1983,
-   "previous": 1993,
-   "ts": "2026-11-23T20:12:30"
+   "rows": 1945,
+   "previous": 1983,
+   "ts": "2026-11-24T20:12:49"
   }
  }
 }
