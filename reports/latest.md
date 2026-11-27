@@ -1,293 +1,151 @@
-# DADA WINES 每日更新报告 — 2026-11-26
-更新时间 2026-11-26 04:22 (新加坡时间)
+# DADA WINES 每日更新报告 — 2026-11-27
+更新时间 2026-11-27 11:02 (新加坡时间)
 
 ## 概览
-- 产品总数：18,409 → **18,610**（+201）
-- 新上架 423，下架 223，涨价 266，降价 825，库存变动 44，新增评分 1
-- 目前售罄 2165，限量/询价 973，有货 15472
+- 产品总数：18,610 → **18,604**（-6）
+- 新上架 7，下架 13，涨价 5，降价 31，库存变动 29，新增评分 15
+- 目前售罄 2177，限量/询价 966，有货 15461
 
 ## 来源站抓取状态
 - Pivene：✅ 成功，1,195 条（上次 1,195）
-- Crystal Wines：✅ 成功，1,267 条（上次 1,263）
-- Cornerstone：✅ 成功，1,756 条（上次 1,757）
-- Grand Vin：✅ 成功，1,675 条（上次 1,676）
-- Vinum：✅ 成功，1,825 条（上次 1,610）
+- Crystal Wines：❌ 抓取异常，只拿到 0 条（上次 1,267），已沿用旧数据
+- Cornerstone：✅ 成功，1,745 条（上次 1,756）
+- Grand Vin：✅ 成功，1,675 条（上次 1,675）
+- Vinum：✅ 成功，1,825 条（上次 1,825）
 - Wine Culture：✅ 成功，2,017 条（上次 2,017）
-- 1855 The Bottle Shop：✅ 成功，1,693 条（上次 1,687）
-- Angra：✅ 成功，934 条（上次 934）
-- Wine Connection：✅ 成功，494 条（上次 494）
-- Straits Wine：✅ 成功，214 条（上次 214）
-- Wines Online：✅ 成功，1,764 条（上次 1,764）
+- 1855 The Bottle Shop：✅ 成功，1,700 条（上次 1,693）
+- Angra：✅ 成功，939 条（上次 934）
+- Wine Connection：✅ 成功，495 条（上次 494）
+- Straits Wine：✅ 成功，215 条（上次 214）
+- Wines Online：✅ 成功，1,765 条（上次 1,764）
 - Wines Wholesales：✅ 成功，2,833 条（上次 2,833）
 - Ponti：✅ 成功，1,200 条（上次 1,200）
-- Winehours：✅ 成功，1,906 条（上次 1,945）
-- Bottles & Bottles：✅ 成功，1,065 条（上次 1,059）
+- Winehours：✅ 成功，1,901 条（上次 1,906）
+- Bottles & Bottles：✅ 成功，1,065 条（上次 1,065）
 
-## 新上架（423）
-- DRC, Richebourg Grand Cru 2022 — S$37,605 · 有货 · Vinum
-- Ch Le Pin (1dmg/OWC) 2009 — S$34,880 · 有货 · Vinum
-- DRC, Romanee Conti Grand Cru 2023 — S$30,520 · 有货 · Vinum
-- Comte Liger-Belair, La Romanee Grand Cru 2012 — S$29,430 · 有货 · Vinum
-- DRC, Romanee St Vivant Grand Cru 2022 — S$29,430 · 有货 · Vinum
-- DRC, Grands Echezeaux Grand Cru 2022 — S$27,795 · 有货 · Vinum
-- Ch Rayas, Chateauneuf du Pape 2007 — S$26,160 · 有货 · Vinum
-- Ch Rayas, Chateauneuf du Pape 2014 — S$19,620 · 有货 · Vinum
-- Ch Haut Brion 1990 — S$18,966 · 有货 · Vinum
-- D'Auvenay, Bonnes Mares Grand Cru 2010 — S$17,440 · 有货 · Vinum
-- D'Auvenay, Meursault Les Gouttes d'Or 1er Cru 2015 — S$15,260 · 有货 · Vinum
-- Ch Petrus 2001 · 1.5 L — S$11,445 · 有货 · Vinum
-- Georges Roumier, Bonnes Mares Grand Cru 2013 — S$11,118 · 有货 · Vinum
-- Georges Roumier, Bonnes Mares Grand Cru 2014 — S$11,118 · 有货 · Vinum
-- D'Auvenay, Meursault Les Narvaux 2016 — S$10,900 · 有货 · Vinum
-- Ch Latour 1986 — S$10,791 · 有货 · Vinum
-- Ch Haut Brion 1990 — S$9,483 · 有货 · Vinum
-- Jacques-Frederic Mugnier, Musigny Grand Cru 2008 — S$9,156 · 有货 · Vinum
-- Leroy, Latricieres Chambertin Grand Cru 2000 — S$8,720 · 有货 · Vinum
-- Comte Liger-Belair, La Romanee Grand Cru 2012 — S$8,175 · 有货 · Vinum
-- Salon 2004 — S$8,175 · 有货 · Vinum
-- Ch Lafleur (Ex-Chateau) 2022 — S$7,848 · 有货 · Vinum
-- DRC, La Tache Grand Cru 2023 — S$7,848 · 有货 · Vinum
-- DRC, Richebourg Grand Cru 2009 — S$7,085 · 有货 · Vinum
-- Georges Roumier, Ruchottes Chambertin Grand Cru 2009 — S$6,540 · 有货 · Vinum
-- Robert Groffier, Chambolle Musigny Les Amoureuses 1er Cru 2009 — S$6,540 · 有货 · Vinum
-- Ch L' Evangile 1990 — S$6,213 · 有货 · Vinum
-- Ch Lafleur (Ex-Chateau) 2021 — S$6,213 · 有货 · Vinum
-- Petrus 2015 — S$6,111 · 限量/询价 · Cornerstone
-- Ch Latour (1dmg/OWC) 2000 — S$5,995 · 有货 · Vinum
-- DRC, Richebourg Grand Cru 2023 — S$5,995 · 有货 · Vinum
-- Ch Mouton Rothschild 2005 — S$5,559 · 有货 · Vinum
-- Ch Lafleur (Ex-Chateau) (1dmg/OWC) 2022 — S$5,450 · 有货 · Vinum
-- DRC, Romanee St Vivant Grand Cru 2010 — S$5,450 · 有货 · Vinum
-- Jean Grivot, Echezeaux Grand Cru 2005 — S$5,232 · 有货 · Vinum
-- Tawse, Musigny Grand Cru 2012 — S$5,232 · 有货 · Vinum
-- DRC, Romanee St Vivant Grand Cru 2023 — S$4,905 · 有货 · Vinum
-- Ch Gruaud Larose 1990 · 1.5 L — S$4,578 · 有货 · Vinum
-- DRC, Grands Echezeaux Grand Cru 2023 — S$4,578 · 有货 · Vinum
-- Georges Roumier, Chambolle Musigny Les Amoureuses 1er Cru 2006 — S$4,578 · 有货 · Vinum
-- …另有 383 条，见 latest.json
+## 新上架（7）
+- Opus One Napa Valley Cabernet Sauvignon 2006 — S$1,130 · 有货 · 1855
+- Domaine Henri Rebourseau Chambertin Grand Cru 2012 — S$775 · 有货 · 1855
+- Glenfiddich Single Malt Whisky 21Yrs · 700 ml — S$492 · 有货 · 1855
+- Chateau Du Tertre Margaux 1998 — S$163 · 有货 · 1855
+- Matsui Pure Malt Whisky Kurayoshi Sherry Cask · 700 ml — S$148 · 有货 · 1855
+- Chateau Marquis D'Alesme Becker Margaux 2012 — S$138 · 有货 · 1855
+- Babich Marlborough Pinot Gris 2025 — S$46 · 有货 · Straits Wine
 
-## 下架（223）
-- Ch Le Pin (1dmg/OWC) 2009 · 1.5 L — 原价 S$34,880 · Vinum
-- Armand Rousseau, Chambertin Clos de Beze Grand Cru 2019 — 原价 S$29,430 · Vinum
-- Ch La Mission Haut Brion 1982 — 原价 S$26,160 · Vinum
-- Duroche, Latricieres Chambertin Grand Cru Vertical Assortment (1 each of 2014-19) MV · 1.5 L — 原价 S$17,985 · Vinum
-- Ch Lafite Rothschild 1990 — 原价 S$14,388 · Vinum
-- Etienne Guigal, Cote Rotie La Turque 2003 — 原价 S$11,772 · Vinum
-- Ch Cheval Blanc 1986 — 原价 S$11,772 · Vinum
-- Ch Margaux 2010 — 原价 S$10,791 · Vinum
-- DRC, La Tache Grand Cru 2002 — 原价 S$10,355 · Vinum
-- DRC, La Tache Grand Cru 1998 — 原价 S$9,592 · Vinum
-- Ch Cos d'Estournel 1982 — 原价 S$9,156 · Vinum
-- Ch Lynch Bages 1990 — 原价 S$9,156 · Vinum
-- Robert Groffier, Chambertin Clos de Beze Grand Cru 2022 — 原价 S$8,829 · Vinum
-- Ch Lafleur (Ex-Chateau) 2021 · 375 ml — 原价 S$8,502 · Vinum
-- Ch Lafleur (Ex-Chateau) 2022 · 375 ml — 原价 S$8,502 · Vinum
-- Bruno Giacosa, Barolo Le Rocche del Falletto Riserva 2004 · 1.5 L — 原价 S$8,502 · Vinum
-- Auguste Clape, Cornas 2010 — 原价 S$7,521 · Vinum
-- Ch Valandraud 2005 · 1.5 L — 原价 S$6,867 · Vinum
-- Ch Lafleur (Ex-Chateau) (1dmg/OWC) 2022 · 1.5 L — 原价 S$6,812 · Vinum
-- Leroy, Nuits St Georges 2015 — 原价 S$6,540 · Vinum
-- Robert Groffier, Bonnes Mares Grand Cru 2022 — 原价 S$6,540 · Vinum
-- Leflaive, Puligny Montrachet Les Pucelles 1er Cru 2013 — 原价 S$6,540 · Vinum
-- Macallan 30 yrs Sherry Oak 2023 Release (43%) — 原价 S$6,540 · Vinum
-- Louis Latour, Romanee St Vivant 'Les Quatre Journaux' Grand Cru 2022 — 原价 S$6,213 · Vinum
-- Ramonet, Corton Charlemagne Grand Cru 2022 · 1.5 L — 原价 S$6,213 · Vinum
-- Ch L' Evangile 1985 — 原价 S$5,559 · Vinum
-- Ch Leoville Las Cases 2000 — 原价 S$5,559 · Vinum
-- Ch Lafleur 2018 — 原价 S$5,232 · Vinum
-- Robert Groffier, Chambolle Musigny Les Amoureuses 1er Cru 2017 — 原价 S$5,232 · Vinum
-- Ch Petrus 1995 — 原价 S$4,905 · Vinum
-- Roulot, Meursault Clos des Boucheres 1er Cru 2010 — 原价 S$4,905 · Vinum
-- Carruades de Lafite 2010 — 原价 S$4,578 · Vinum
-- Ch La Conseillante 1990 — 原价 S$4,578 · Vinum
-- Ch Pichon Baron 2000 — 原价 S$4,578 · Vinum
-- Robert Groffier, Bonnes Mares Grand Cru 2020 — 原价 S$4,578 · Vinum
-- Ch Mouton Rothschild 2019 — 原价 S$4,251 · Vinum
-- Egly-Ouriet, Brut Grand Cru Millesime 2012 — 原价 S$4,251 · Vinum
-- Ch Lafleur 2017 — 原价 S$3,924 · Vinum
-- Robert Groffier, Bonnes Mares Grand Cru 2019 — 原价 S$3,924 · Vinum
-- Leflaive, Chassagne Montrachet La Maltroie 1er Cru 2019 — 原价 S$3,924 · Vinum
-- …另有 183 条，见 latest.json
+## 下架（13）
+- Ausone 2012 — 原价 S$700 · Cornerstone
+- Pavillon Rouge Du Ch. Margaux 2013 — 原价 S$269 · Cornerstone
+- Veuve Clicquot Vintage Brut Rose with Gift Box 2015 — 原价 S$126 · Winehours
+- M&H Elements Sherry Cask Single Malt Whisky 0.70l · 700 ml — 原价 S$121 · Cornerstone
+- Veuve Clicquot Vintage Brut Champagne with Gift Box 2015 — 原价 S$115 · Winehours
+- Domaine de La Choupette Puligny Montrachet 1er Cru LA GARENNE BLANC 2023 — 原价 S$103 · Cornerstone
+- Domaine Digioia Royer Hautes Cotes de Nuits 2017 — 原价 S$101 · Cornerstone
+- Gustave Lorentz Riesling Vieilles Vignes Altenberg de Bergheim Blanc 2016 — 原价 S$92 · Cornerstone
+- Weingut Seehof Westhofener Morstein Riesling ALTE REBEN Qualitatswein Trocken 2023 — 原价 S$57 · Cornerstone
+- Aussieres Rouge 2023 — 原价 S$49 · Wines Online
+- Saint Clair Pioneer Block 5 Pinot Noir 2021 — 原价 S$39 · Cornerstone
+- Cornerstone Margaret River Cabernet Sauvignon 2023 — 原价 S$20 · Cornerstone
+- Cornerstone Margaret River Shiraz 2022 — 原价 S$20 · Cornerstone
 
-## 涨价（266）
-- Tenuta San Guido, Sassicaia 2010：S$619 → **S$2,616**（+323%）
-- Hosanna 2022：S$268 → **S$1,090**（+307%）
-- Montrose 2019：S$255 → **S$981**（+285%）
-- Ch Margaux (1dmg/OWC) 2010：S$1,580 → **S$5,722**（+262%）
-- Mouton Rothschild 2000：S$4,332 → **S$14,715**（+240%）
-- Mouton Rothschild 2012：S$1,048 → **S$3,488**（+233%）
-- Ch la Conseillante 2019：S$375 → **S$1,199**（+220%）
-- Pichon Lalande 2016：S$649 → **S$1,635**（+152%）
-- Maison Noir Pinot Noir OPP "OTHER PEOPLE'S PINOT NOIR" 2022：S$73 → **S$153**（+110%）
-- Song By Bong 2022：S$40 → **S$80**（+100%）
-- Ch les Trois Croix 2020：S$48 → **S$80**（+67%）
-- Ch Bellevue 2011：S$72 → **S$120**（+67%）
-- By Clinet 2020：S$49 → **S$70**（+43%）
-- Second de Camensac 2016：S$32 → **S$46**（+43%）
-- Hyland Estate Chardonnay, Willamette Valley 2022：S$81 → **S$113**（+40%）
-- Clos du Milieu 2021：S$52 → **S$70**（+33%）
-- Lion de Fleur de Bouard 2021：S$41 → **S$55**（+33%）
-- Ch Haut Batailley Verso 2017：S$45 → **S$60**（+33%）
-- Ch Bellevue Mondotte 2014：S$188 → **S$250**（+33%）
-- Ch Bellevue Mondotte 2016：S$218 → **S$290**（+33%）
-- Ch Bellevue Mondotte 2020：S$180 → **S$240**（+33%）
-- Ch Bellevue Mondotte 2021：S$156 → **S$208**（+33%）
-- Ch Quintus 2017：S$180 → **S$240**（+33%）
-- Ch Quintus 2018：S$176 → **S$235**（+33%）
-- Ch Quintus 2021：S$135 → **S$180**（+33%）
-- Ch Quintus 2022：S$176 → **S$235**（+33%）
-- Dame de Gaffeliere 2020：S$45 → **S$60**（+33%）
-- Intuition de Fleur Cardinale 2019：S$45 → **S$60**（+33%）
-- Les Ormes de Pez 2010：S$82 → **S$110**（+33%）
-- Le Petit Caillou 2017：S$49 → **S$65**（+33%）
-- Blanc du Milieu 2023：S$52 → **S$70**（+33%）
-- Intuition de Fleur Cardinale Blanc 2023：S$52 → **S$70**（+33%）
-- Ch Malartic Lagraviere Blanc 2011：S$102 → **S$127**（+25%）
-- Ch la Dauphine 2022：S$48 → **S$60**（+25%）
-- Baron de Brane 2018：S$56 → **S$70**（+25%）
-- Ch Brane Cantenac 2006：S$144 → **S$180**（+25%）
-- Jacques Boyd 2022：S$64 → **S$80**（+25%）
-- G D'Estournel 2020：S$48 → **S$60**（+25%）
-- Ch Haut Bages Liberal 2017 · 200 ml：S$72 → **S$90**（+25%）
-- Prelude a Grand Puy Ducasse 2016：S$64 → **S$80**（+25%）
-- …另有 226 条，见 latest.json
+## 涨价（5）
+- Aussieres Rouge 2025：S$32 → **S$49**（+53%）
+- Schlumberger Riesling Kitterle Grand Cru 2019：S$75 → **S$85**（+13%）
+- Ducru Beaucaillou 1988：S$445 → **S$473**（+6%）
+- Leeuwin Estate Art Series Chardonnay 2023：S$163 → **S$169**（+4%）
+- Vivier Chardonnay Sonoma Coast 2022：S$89 → **S$90**（+1%）
 
-## 降价（825）
-- Sandrone, Barolo Le Vigne 2021：S$272 → **S$131**（-52%）
-- Ch Belair Monange (Ex-Chateau) 2018：S$1,472 → **S$850**（-42%）
-- Ch Lafleur 2020 · 1.5 L：S$4,905 → **S$2,943**（-40%）
-- Elio Grasso, Barolo Riserva Runcot 2016 · 1.5 L：S$872 → **S$545**（-38%）
-- Dujac, Clos de la Roche Grand Cru 2020：S$1,526 → **S$981**（-36%）
-- Dujac, Echezeaux Grand Cru 2020：S$1,526 → **S$981**（-36%）
-- Sylvain Cathiard et Fils, Vosne Romanee Aux Malconsorts 1er Cru 2016：S$2,180 → **S$1,417**（-35%）
-- Ch Petrus (Ex-Chateau) 2018 · 1.5 L：S$16,350 → **S$10,900**（-33%）
-- Comte de Vogue, Musigny V V Grand Cru 2020：S$1,635 → **S$1,090**（-33%）
-- Coquard Loison-Fleurot, Grands Echezeaux Grand Cru 2021：S$1,144 → **S$763**（-33%）
-- Dujac, Bonnes Mares Grand Cru 2021：S$1,635 → **S$1,090**（-33%）
-- Sandrone, Barolo Aleste 2018：S$207 → **S$142**（-32%）
-- Sandrone, Barolo Aleste 2018 · 1.5 L：S$414 → **S$283**（-32%）
-- Ch Lafleur (Ex-Chateau) 2021 · 1.5 L：S$3,161 → **S$2,180**（-31%）
-- Coquard Loison-Fleurot, Clos St Denis Grand Cru 2021：S$708 → **S$490**（-31%）
-- Comte de Vogue, Bonnes Mares Grand Cru 2023：S$1,090 → **S$763**（-30%）
-- Jackson Triggs Grand Reserve Entourage Blanc De Blanc 2017：S$88 → **S$62**（-30%）
-- Jackson Triggs Grand Reserve Entourage Blanc De Blanc 2017：S$88 → **S$62**（-30%）
-- Jackson Triggs Grand Reserve Entourage Blanc De Blanc 2017：S$88 → **S$62**（-30%）
-- Trapet Pere et Fils, Chapelle Chambertin Grand Cru 2021：S$926 → **S$654**（-29%）
-- Ch Lafleur (Ex-Chateau) 2019 · 1.5 L：S$4,905 → **S$3,488**（-29%）
-- Ch Lafleur 2021：S$1,526 → **S$1,090**（-29%）
-- Ch Lafleur 2021 · 1.5 L：S$3,052 → **S$2,180**（-29%）
-- Ch Rauzan Segla (Ex-Chateau) 2017 · 1.5 L：S$305 → **S$218**（-29%）
-- Sandrone, Barolo Le Vigne (1jrb/OC) 2019 · 3 L：S$1,526 → **S$1,090**（-29%）
-- Trapet Pere et Fils, Chambertin Grand Cru 2021 · 1.5 L：S$2,725 → **S$1,962**（-28%）
-- Sandrone, Barolo Aleste Sibi et Paucis 2014 · 1.5 L：S$545 → **S$392**（-28%）
-- Ch Lafleur 2019：S$2,344 → **S$1,690**（-28%）
-- Domaine de la Vougeraie, Musigny Grand Cru 2019：S$1,962 → **S$1,417**（-28%）
-- Ch Lafleur 2019：S$2,398 → **S$1,744**（-27%）
-- Charles Lachaux, Vosne Romanee Les Suchots 1er Cru 2020：S$5,995 → **S$4,360**（-27%）
-- Sandrone, Barolo Le Vigne 2018 · 1.5 L：S$360 → **S$262**（-27%）
-- Macallan The Red Collection 40 yrs (48.1%)：S$52,320 → **S$38,150**（-27%）
-- Ch Lafleur (Ex-Chateau) 2021：S$4,251 → **S$3,106**（-27%）
-- Dujac, Bonnes Mares Grand Cru 2020：S$1,635 → **S$1,199**（-27%）
-- Ch Guillot Clauzel (Ex-Chateau) 2018：S$164 → **S$120**（-27%）
-- Ch Belair Monange (Ex-Chateau) 2022 · 1.5 L：S$1,766 → **S$1,308**（-26%）
-- Faiveley Mazis Chambertin Grand Cru 2024：S$416 → **S$310**（-25%）
-- Ch Belair Monange (Ex-Chateau) 2022：S$1,744 → **S$1,308**（-25%）
-- Ch Les Carmes Haut Brion (Ex-Chateau) 2019：S$1,308 → **S$981**（-25%）
-- …另有 785 条，见 latest.json
+## 降价（31）
+- Domaine de Chevalier Blanc 2003：S$226 → **S$156**（-31%）
+- Les Carmes Haut Brion 2018：S$320 → **S$221**（-31%）
+- Chateau Larrivet Haut Brion 2008：S$165 → **S$114**（-31%）
+- Chateau Larrivet Haut Brion 2018：S$104 → **S$72**（-31%）
+- Chateau La Louviere Blanc 2015：S$78 → **S$54**（-31%）
+- Chateau Carbonnieux Rouge 2015：S$92 → **S$69**（-25%）
+- Domaine de Chevalier Blanc 2014：S$196 → **S$147**（-25%）
+- Chateau Haut-Brion Rouge 2019：S$888 → **S$684**（-23%）
+- Chateau Haut-Brion Rouge 2017：S$823 → **S$650**（-21%）
+- Chateau Haut-Brion Rouge 2021：S$750 → **S$593**（-21%）
+- Chateau Pichon Lalande 2005：S$388 → **S$310**（-20%）
+- Le Clarence de Haut Brion 2014：S$259 → **S$207**（-20%）
+- Le Clarence de Haut Brion 2018：S$285 → **S$228**（-20%）
+- Chateau Pontet Canet 2018：S$216 → **S$173**（-20%）
+- De Kuyper - Peachtree Peach Liqueur 0.70l · 700 ml：S$47 → **S$38**（-19%）
+- Chateau Les Carmes Haut Brion 2015：S$298 → **S$244**（-18%）
+- Chateau Pontet Canet 2019：S$198 → **S$165**（-17%）
+- Chateau Pichon Lalande 2003：S$398 → **S$338**（-15%）
+- Ch Pichon Lalande 2001：S$410 → **S$360**（-12%）
+- Krug Grande Cuvee - 173 Eme Edition：S$348 → **S$308**（-11%）
+- L Ecole Merlot Columbia Valley 2014：S$144 → **S$129**（-10%）
+- Chateau Pontet Canet Pauillac 2017：S$245 → **S$220**（-10%）
+- Robert Weil Riesling Spatlese 2024：S$70 → **S$63**（-10%）
+- Sonoma Cutrer Russian River Ranches Chardonnay 2023：S$75 → **S$68**（-9%）
+- Domaines Ott Clos Mireille Rose 2024：S$65 → **S$59**（-9%）
+- Chateau Pichon Baron 2018：S$328 → **S$300**（-9%）
+- Leeuwin Estate Art Series Chardonnay 2022：S$169 → **S$155**（-8%）
+- Domaine de Long Dai, Hu Yue 2019：S$370 → **S$359**（-3%）
+- Carruades De Lafite 2022：S$380 → **S$369**（-3%）
+- Domaine de Long Dai, Hu Yue 2020：S$330 → **S$321**（-3%）
+- Domaine de Long Dai, Hu Yue 2021：S$260 → **S$253**（-3%）
 
-## 库存变动（44）
-- Maison M. Chapoutier Ermitage L Ermite Blanc Bio 2018：有货 → **售罄**
-- Maison M. Chapoutier Ermitage L Ermite Rouge Bio 2018：有货 → **售罄**
-- Maison M. Chapoutier Ermitage La Pavillon Bio 2018：有货 → **售罄**
-- Maison M. Chapoutier Ermitage De L Oree Bio 2018：有货 → **售罄**
-- Maison M. Chapoutier Ermitage Le Meal Rouge Bio 2017：有货 → **售罄**
-- Amuse Bouche by Heidi Barrett 2021：有货 → **售罄**
-- Chateau Pichon Baron 2014：有货 → **售罄**
-- Potinet Ampeau Pommard 1er Cru Pezerolles Rouge 2018：有货 → **售罄**
-- Epoch Ingenuity Paso Robles Rhone Blend 2017：有货 → **售罄**
-- The Macallan 12 Years Double Cask · 700 ml：有货 → **售罄**
-- Hyland Founders Selection Pinot Noir, Willamette Valley 2022：有货 → **售罄**
-- Glenmorangie Lasanta Single Malt Whisky 12Yrs · 700 ml：有货 → **售罄**
-- Shunyi Santa Lucia Highlands Chardonnay 2022：有货 → **售罄**
-- Echo De Lynch Bages Pauillac 2022：有货 → **售罄**
-- Deutz Brut Classic Champagne：有货 → **售罄**
-- Wolfberger Riesling 2021：有货 → **售罄**
-- Kozaemon Junmai Yuzu Sake · 720 ml：有货 → **售罄**
-- Robert Mondavi California Pinot Noir 2024：有货 → **售罄**
-- Robert Mondavi California Pinot Noir 2024：有货 → **售罄**
-- DON CAYETANO Classic Merlot 2025：有货 → **售罄**
-- Le Petit Smith Haut Lafitte 2016：有货 → **限量/询价**
-- Haut Brion 1993：限量/询价 → **有货**
-- Ch Pavie 2015：售罄 → **有货**
-- Louis Roederer Cristal Brut 2002：售罄 → **有货**
-- Carruades De Lafite 2018：售罄 → **有货**
-- Dom Perignon 2013：限量/询价 → **有货**
-- Ch Lynch Bages 2012：售罄 → **有货**
-- Ulysses 2018：售罄 → **有货**
-- De Venoge Princes Blanc De Blanc Etui：售罄 → **有货**
-- Kavalan Whisky Single Malt · 700 ml：售罄 → **有货**
-- Elio Grasso, Barolo Ginestra Casa Mate 2018：售罄 → **有货**
-- Montrose, La Dame de Montrose - Saint Estephe 2016：售罄 → **有货**
-- Schlumberger Gewurztraminer Kitterle Grand Cru 2015：售罄 → **有货**
-- Taylor's Fine Tawny Port NV：售罄 → **有货**
-- Ryder Estate Cabernet Sauvignon 2020：售罄 → **有货**
-- Cape Mentelle Grey Label Chardonnay 2022/2023：售罄 → **有货**
-- Cape Mentelle Grey Label Chardonnay 2022/2023：售罄 → **有货**
-- Capo Zafferano Primitivo di Manduria 2022：售罄 → **有货**
-- Chateau la Hourcade Medoc Cru Artisan 2023：售罄 → **有货**
-- Nicolas Potel Bourgogne Pinot Noir 2024：售罄 → **有货**
-- …另有 4 条，见 latest.json
+## 库存变动（29）
+- Chateau Pichon Longueville Comtesse de Lalande Pauillac 1999：有货 → **售罄**
+- Faiveley Gevrey-Chambertin 1er Cru "Les Cazetiers" 1500ml 2013 · 1.5 L：有货 → **售罄**
+- Aramasa, No.6 X-Type Junmai Daiginjo NV · 720 ml：有货 → **售罄**
+- Serafin, Gevrey Chambertin 2022：有货 → **售罄**
+- Isole e Olena Chardonnay 2022：有货 → **售罄**
+- Aromes De Pavie 2021：有货 → **售罄**
+- Ruinart Blanc De Blancs With Second Skin Gift：有货 → **售罄**
+- Louis Roederer Collection Brut MV (in Giftbox + 2 flutes) (Collection 244)：有货 → **售罄**
+- Champagne Richard Cheurlin Blanc de Blancs 2020：有货 → **售罄**
+- Champagne Richard Cheurlin Rose Brut NV：有货 → **售罄**
+- Alto Moncayo, Veraton 2022：有货 → **售罄**
+- Ruinart R De Ruinart Brut · 375 ml：有货 → **售罄**
+- Head, Old Vine Shiraz 2020：有货 → **售罄**
+- Sociando Mallet 2018：有货 → **售罄**
+- Carmes de Rieussec 2022：有货 → **售罄**
+- Champagne Bauchet Origine Brut：有货 → **售罄**
+- Ocean Bay Sauvignon Blanc 2026：有货 → **售罄**
+- Albert Bichot Cremant De Bourgogne Brut Reserve：有货 → **售罄**
+- 360° Loire Sauvignon Blanc Val de Loire IGP 2024：有货 → **售罄**
+- Domaine Laroche Petit Chablis 2024：有货 → **售罄**
+- Le Petit Mouton 2013：有货 → **限量/询价**
+- Ducru Beaucaillou 1988：售罄 → **有货**
+- Chateau Pichon Longueville Baron Pauillac 2012：售罄 → **有货**
+- Pontet Canet 2011：售罄 → **有货**
+- The Macallan 12 Years Double Cask · 700 ml：售罄 → **有货**
+- Deutz Brut Classic Champagne：售罄 → **有货**
+- Chateau Labegorce Margaux 2017：售罄 → **有货**
+- Riddoch Coonawarra Shiraz 2025,：售罄 → **有货**
+- Riddoch Coonawarra Shiraz 2025,：售罄 → **有货**
 
-## 新增评分（1）
-- Donnafugata, Anthilia 2025：ST 90
+## 新增评分（15）
+- Cullen Wines Diana Madeline 2004：JS96 / WA94
+- Penfolds Bin 28 Kalimna Shiraz 2016：V92 / WA91
+- Antinori Guado Al Tasso CONT UGO 2021：V92
+- Antinori Guado Al Tasso CONT UGO 2022：WA90
+- Antinori Villa Antinori ROSSO IGT 2020：V90
+- LE VOLTE Dell Ornellaia 2021：WA91
+- Le Macchiole Paleo Rosso 2017：JD96 / V96 / WA97+
+- Marchese Antinori Chianti Classico RISERVA 2018：JA94 / V93 / WA93
+- Marchese Antinori Chianti Classico RISERVA 2020：JD93 / V92
+- Marchese Antinori Chianti Classico RISERVA 2022：WA93 / V93
+- Pietroso Brunello di Montalcino DOCG 2016：JD98+
+- Tenuta Tignanello Marchese Antinori Chianti Classico Reserva 2023：V92
+- Petrolo Torrione 2019：WA93 / V92
+- Faustino I Gran Reserva 2008：WA90
+- Dominio de Pingus PSI 2017：JS94 / V92
 
-## 其他变动（63）
-- L Aventure Cuvee Estate 2019：来源 Vinum+Winehours → Winehours
-- Angelus - Saint Emilion (Ex-Chateau) 2012：来源 Cornerstone+Pivene → Cornerstone+Pivene+Vinum
-- Belair Monange - Saint Emilion 2016：来源 Pivene → Pivene+Vinum
-- Ch Grand Puy Lacoste 2020：来源 Crystal+Vinum → Crystal
-- Ch Lynch Bages 2012：来源 Wines Online → Vinum+Wines Online
-- Ch Margaux (1dmg/OWC) 2010：来源 1855 → 1855+Vinum
-- Ch Montrose 2010：来源 Crystal+Wines Online → Crystal+Vinum+Wines Online
-- Ch Pavie 2015：来源 Winehours → Vinum+Winehours
-- Ch Pichon Lalande 2001：来源 Ponti → Ponti+Vinum
-- Ch Pontet Canet 2014：来源 Crystal+Ponti → Crystal+Ponti+Vinum
-- Chateau Meyney St-Estephe 2019：来源 1855+Ponti+Vinum → 1855+Ponti
-- Chateau Pichon Baron 2014：来源 Vinum+Winehours → Winehours
-- Clos Du Clocher Pomerol 2022：来源 Bottles & Bottles+Vinum → Bottles & Bottles
-- Clos Du Marquis St-Julien 2017：来源 Ponti → 1855+Ponti
-- Cos D'Estournel 2009：来源 Wine Culture → Vinum+Wine Culture
-- Ducru Beaucaillou 2009：来源 Wine Culture → Vinum+Wine Culture
-- Gruaud Larose - Saint Julien 1990：来源 Pivene → Pivene+Vinum
-- Haut Brion 1993：来源 Cornerstone → Cornerstone+Vinum
-- Lafite Rothschild 2019：来源 Grand Vin+Winehours → Grand Vin+Vinum+Winehours
-- Latour A Pomerol 2022：来源 Vinum+Wine Culture → Wine Culture
-- Leoville Las Cases - Saint Julien 1990：来源 Pivene → Pivene+Vinum
-- Les Forts de Latour 2016：来源 Cornerstone+Winehours → Cornerstone+Vinum+Winehours
-- Margaux 2008：来源 Grand Vin+Winehours → Grand Vin+Vinum+Winehours
-- Montrose 2019：来源 Cornerstone+Grand Vin → Cornerstone+Grand Vin+Vinum
-- Montrose, La Dame de Montrose - Saint Estephe 2016：来源 Grand Vin+Pivene → Grand Vin+Pivene+Vinum
-- Mouton Rothschild 2000：来源 1855+Cornerstone → 1855+Cornerstone+Vinum
-- Mouton Rothschild 2001：来源 Wine Culture → Vinum+Wine Culture
-- Mouton Rothschild 2011：来源 Grand Vin+Vinum+Winehours → Grand Vin+Winehours
-- Mouton Rothschild 2012：来源 1855+Crystal+Grand Vin+Winehours → 1855+Crystal+Grand Vin+Vinum+Winehours
-- PICHON Longueville BARON 2017：来源 Cornerstone+Winehours+Wines Online → Cornerstone+Vinum+Winehours+Wines Online
-- Palmer 1989：来源 Wine Culture → Vinum+Wine Culture
-- Pichon Baron 2000：来源 Wine Culture → Vinum+Wine Culture
-- Pichon Lalande 2016：来源 Grand Vin+Wine Connection → Grand Vin+Vinum+Wine Connection
-- Rauzan Segla, Segla - Margaux 2018：来源 Pivene+Vinum+Wine Culture → Pivene+Wine Culture
-- Smith Haut Lafitte 2019：来源 1855+Cornerstone+Vinum → 1855+Cornerstone
-- Georges Noellat, Vosne Romanee Les Beaux Monts 1er Cru 2019：来源 Angra → Angra+Vinum
-- Hubert Lignier, Gevrey Chambertin Regnard 2023：来源 Grand Vin+Pivene+Vinum → Grand Vin+Pivene
-- Nicole Lamarche Echezeaux Grand Cru 2023：来源 Wine Culture → Vinum+Wine Culture
-- Robert Groffier, Bonnes Mares Grand Cru (Ex-Domaine) 2019：来源 Pivene → Pivene+Vinum
-- Robert Groffier, Chambolle Musigny 1er Cru Les Amoureuses (Ex-Domaine) 2017：来源 Pivene → Pivene+Vinum
-- …另有 23 条，见 latest.json
+## 其他变动（5）
+- Aussieres Rouge 2025：来源 Grand Vin → Grand Vin+Wines Online
+- Ducru Beaucaillou 1988：来源 Grand Vin → 1855+Grand Vin
+- Leeuwin Estate Art Series Chardonnay 2022：来源 1855+Wines Online → 1855
+- Leeuwin Estate Art Series Chardonnay 2023：来源 1855 → 1855+Wines Online
+- Billecart Salmon Champagne Blanc de Blancs Grand Cru NV：来源 1855+Angra → 1855+Angra+Winehours
 
 ## 中文名
-- 词典外、暂用规则翻译的酒名：466 个（见 data/zh_missing.json）
+- 词典外、暂用规则翻译的酒名：471 个（见 data/zh_missing.json）
 
 ## 图片
-- 图库共 13,632 张，其中已去除评分标 903 张
+- 图库共 13,646 张，其中已去除评分标 903 张
 
-来源数量：Pivene 1,195→1,195，Crystal 1,258→1,262，Cornerstone 1,742→1,741，Grand Vin 1,674→1,674，Vinum 1,610→1,825，Wine Culture 2,017→2,017，1855 1,458→1,466，Angra 913→913，Wine Connection 363→363，Straits Wine 205→205，Wines Online 1,519→1,519，Wines Wholesales 2,423→2,423，Ponti 1,199→1,199，Winehours 1,350→1,353，Bottles & Bottles 1,030→1,038
+来源数量：Pivene 1,195→1,195，Crystal 1,262→1,262，Cornerstone 1,741→1,731，Grand Vin 1,674→1,674，Vinum 1,825→1,825，Wine Culture 2,017→2,017，1855 1,466→1,473，Angra 913→913，Wine Connection 363→363，Straits Wine 205→206，Wines Online 1,519→1,519，Wines Wholesales 2,423→2,423，Ponti 1,199→1,199，Winehours 1,353→1,352，Bottles & Bottles 1,038→1,038
