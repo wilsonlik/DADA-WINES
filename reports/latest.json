@@ -1,153 +1,202 @@
 {
- "date": "2026-11-27",
- "total": 18604,
- "total_prev": 18610,
+ "date": "2026-11-28",
+ "total": 18606,
+ "total_prev": 18604,
  "added": [
   {
-   "name": "Chateau Du Tertre Margaux 1998",
-   "price": 163.0,
+   "name": "Penfolds Bin 21 Grenache 2023",
+   "price": 55.0,
    "stock": "有货",
    "sources": [
-    "1855"
+    "bnb"
    ]
   },
   {
-   "name": "Chateau Marquis D'Alesme Becker Margaux 2012",
-   "price": 138.0,
-   "stock": "有货",
+   "name": "D'Armailhac - Pauillac 2017",
+   "price": 120.0,
+   "stock": "售罄",
    "sources": [
-    "1855"
+    "pivene"
    ]
   },
   {
-   "name": "Domaine Henri Rebourseau Chambertin Grand Cru 2012",
-   "price": 775.0,
+   "name": "Beaulieu Vineyard Merlot 2021",
+   "price": 28.5,
    "stock": "有货",
    "sources": [
-    "1855"
+    "bnb"
    ]
   },
   {
-   "name": "Opus One Napa Valley Cabernet Sauvignon 2006",
-   "price": 1130.0,
+   "name": "Beaulieu Vineyard Merlot 2021",
+   "price": 28.5,
    "stock": "有货",
    "sources": [
-    "1855"
+    "bnb"
    ]
   },
   {
-   "name": "Babich Marlborough Pinot Gris 2025",
-   "price": 46.0,
+   "name": "WILLIAM FEVRE Espino Gran Reserva 2024",
+   "price": 38.0,
    "stock": "有货",
    "sources": [
-    "straits"
+    "wineconn"
    ]
   },
   {
-   "name": "Matsui Pure Malt Whisky Kurayoshi Sherry Cask · 700 ml",
-   "price": 148.0,
+   "name": "Denis Race Chablis AOC 2025",
+   "price": 61.0,
    "stock": "有货",
    "sources": [
-    "1855"
+    "angra"
    ]
   },
   {
-   "name": "Glenfiddich Single Malt Whisky 21Yrs · 700 ml",
-   "price": 492.0,
+   "name": "Francois Carillon, Puligny Montrachet Les Enseignieres 2024",
+   "price": 240.0,
+   "stock": "售罄",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Francois Gaunoux, Meursault Clos de Meix Chavaux Monopole 2022",
+   "price": 169.0,
+   "stock": "售罄",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Francois Gaunoux, Meursault Le Clos de Tavaux Monopole 2022",
+   "price": 169.0,
+   "stock": "售罄",
+   "sources": [
+    "pivene"
+   ]
+  },
+  {
+   "name": "Jerome Patriarche Meursault 1Er Cru Charmes Dessus 2023 Blanc",
+   "price": 212.33,
    "stock": "有货",
    "sources": [
-    "1855"
+    "bnb"
+   ]
+  },
+  {
+   "name": "Jerome Patriarche Meursault 1Er Cru Charmes Dessus 2023 Blanc",
+   "price": 212.33,
+   "stock": "有货",
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Silvio Carta Su Puddu Vermentino di Sardegna DOC 2025",
+   "price": 40.0,
+   "stock": "有货",
+   "sources": [
+    "angra"
+   ]
+  },
+  {
+   "name": "Le Pich Cabernet Sauvignon Napa Valley 2023",
+   "price": 139.98,
+   "stock": "有货",
+   "sources": [
+    "winehours"
+   ]
+  },
+  {
+   "name": "Le Pich Chardonnay Napa Valley 2023",
+   "price": 97.98,
+   "stock": "有货",
+   "sources": [
+    "winehours"
    ]
   }
  ],
  "removed": [
   {
-   "name": "Cornerstone Margaret River Cabernet Sauvignon 2023",
-   "price": 20,
+   "name": "Beaulieu Vineyard Merlot 2021",
+   "price": 28.5,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Beaulieu Vineyard Merlot 2021",
+   "price": 28.5,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "Elderton E-SERIES Shiraz 2023",
+   "price": 22,
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Cornerstone Margaret River Shiraz 2022",
-   "price": 20,
+   "name": "Fleur De Clinet Pomerol 2020",
+   "price": 71.25,
+   "sources": [
+    "bnb"
+   ]
+  },
+  {
+   "name": "BRUNO DESAUNAY Bissey Vosne Romanee 1er Cru LES ROUGES Vieilles Vignes 2013",
+   "price": 181,
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Aussieres Rouge 2023",
-   "price": 49.0,
+   "name": "Le Vigne Di Sammarco Arche Primitivo Di Manduria Dop 2018",
+   "price": 44.89,
    "sources": [
-    "winesonl"
+    "bnb"
    ]
   },
   {
-   "name": "Ausone 2012",
-   "price": 700,
+   "name": "Le Vigne Di Sammarco Arche Primitivo Di Manduria Dop 2018",
+   "price": 44.89,
    "sources": [
-    "cornerstone"
+    "bnb"
    ]
   },
   {
-   "name": "Pavillon Rouge Du Ch. Margaux 2013",
-   "price": 269,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Domaine Digioia Royer Hautes Cotes de Nuits 2017",
-   "price": 101,
+   "name": "Brigaldara Amarone CASE VECIE 2018",
+   "price": 75,
    "sources": [
     "cornerstone"
    ]
   },
   {
-   "name": "Saint Clair Pioneer Block 5 Pinot Noir 2021",
-   "price": 39,
+   "name": "WILLIAM FEVRE Espino Chardonnay 2023",
+   "price": 38.0,
    "sources": [
-    "cornerstone"
+    "wineconn"
    ]
   },
   {
-   "name": "Gustave Lorentz Riesling Vieilles Vignes Altenberg de Bergheim Blanc 2016",
-   "price": 92,
+   "name": "Denis Race Chablis AOC 2024",
+   "price": 61.0,
    "sources": [
-    "cornerstone"
+    "angra"
    ]
   },
   {
-   "name": "Domaine de La Choupette Puligny Montrachet 1er Cru LA GARENNE BLANC 2023",
-   "price": 103,
+   "name": "Silvio Carta Su Puddu Vermentino di Sardegna DOC 2024",
+   "price": 40.0,
    "sources": [
-    "cornerstone"
+    "angra"
    ]
   },
   {
-   "name": "Weingut Seehof Westhofener Morstein Riesling ALTE REBEN Qualitatswein Trocken 2023",
-   "price": 57,
-   "sources": [
-    "cornerstone"
-   ]
-  },
-  {
-   "name": "Veuve Clicquot Vintage Brut Champagne with Gift Box 2015",
-   "price": 114.95,
-   "sources": [
-    "winehours"
-   ]
-  },
-  {
-   "name": "Veuve Clicquot Vintage Brut Rose with Gift Box 2015",
-   "price": 125.95,
-   "sources": [
-    "winehours"
-   ]
-  },
-  {
-   "name": "M&H Elements Sherry Cask Single Malt Whisky 0.70l · 700 ml",
-   "price": 121,
+   "name": "Glenfarclas 12YO Single Malt Whisky 0.70l · 700 ml",
+   "price": 80,
    "sources": [
     "cornerstone"
    ]
@@ -155,551 +204,7996 @@
  ],
  "price_up": [
   {
-   "name": "Aussieres Rouge 2025",
-   "old": 32.0,
-   "new": 49.0,
-   "pct": 53.1
+   "name": "Paracombe Wines Somerville Shiraz 2003",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
   },
   {
-   "name": "Ducru Beaucaillou 1988",
-   "old": 445.0,
-   "new": 473.0,
-   "pct": 6.3
+   "name": "Barossa OLD VINE Company Shiraz 2002",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
   },
   {
-   "name": "Leeuwin Estate Art Series Chardonnay 2023",
-   "old": 163.0,
-   "new": 169.0,
-   "pct": 3.7
+   "name": "Barossa OLD VINE Company Shiraz 2003",
+   "old": 241,
+   "new": 269,
+   "pct": 11.6
   },
   {
-   "name": "Schlumberger Riesling Kitterle Grand Cru 2019",
-   "old": 75.0,
-   "new": 85.0,
+   "name": "Barossa OLD VINE Company Shiraz 2003 1.5L · 1.5 L",
+   "old": 592,
+   "new": 662,
+   "pct": 11.8
+  },
+  {
+   "name": "Barossa OLD VINE Company Shiraz 2004 1.5L · 1.5 L",
+   "old": 305,
+   "new": 341,
+   "pct": 11.8
+  },
+  {
+   "name": "Barossa OLD VINE Company Shiraz 2005",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Barossa OLD VINE Company Shiraz 2006 1.5L · 1.5 L",
+   "old": 509,
+   "new": 569,
+   "pct": 11.8
+  },
+  {
+   "name": "Clarendon Hills Astralis 2003",
+   "old": 490,
+   "new": 548,
+   "pct": 11.8
+  },
+  {
+   "name": "Clarendon Hills Astralis 2004",
+   "old": 542,
+   "new": 606,
+   "pct": 11.8
+  },
+  {
+   "name": "Clarendon Hills Astralis 2005",
+   "old": 407,
+   "new": 455,
+   "pct": 11.8
+  },
+  {
+   "name": "Clarendon Hills Astralis 2006",
+   "old": 468,
+   "new": 523,
+   "pct": 11.8
+  },
+  {
+   "name": "Clarendon Hills Blewitt Springs Grenache 2005",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Clarendon Hills Cabernet Sauvignon Brookman Vineyard 2006",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Clarendon Hills Cabernet Sauvignon Hickinbotham 2006",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Clarendon Hills Cabernet Sauvignon Sandown Vineyard 2006",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Clarendon Hills Clarendon Grenache 2006",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "Clarendon Hills Grenache Hickinbotham 2005",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Clarendon Hills Grenache Hickinbotham 2006",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Clarendon Hills Grenache Old Vine Kangarilla Vineyard 2005",
+   "old": 107,
+   "new": 120,
+   "pct": 12.1
+  },
+  {
+   "name": "Clarendon Hills Grenache Old Vine Kangarilla Vineyard 2006",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Clarendon Hills Merlot Brookman Vineyard 2005",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Clarendon Hills Merlot Brookman Vineyard 2006",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Clarendon Hills Syrah Bakers Gully 2006",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Clarendon Hills Syrah Brookman Vineyard 2006",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Clarendon Hills Syrah Hickinbotham Vineyard 2006",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "Clarendon Hills Syrah Liandra Vineyard 2005",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Clarendon Hills Syrah Liandra Vineyard 2006",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Clarendon Hills Syrah Moritz Vineyard 2006",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Cullen Wines Diana Madeline 2004",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Elderton BAROSSA Cabernet Sauvignon 2022",
+   "old": 31,
+   "new": 42,
+   "pct": 35.5
+  },
+  {
+   "name": "Elderton BAROSSA Cabernet Sauvignon 2025",
+   "old": 31,
+   "new": 42,
+   "pct": 35.5
+  },
+  {
+   "name": "Elderton BAROSSA Merlot 2023",
+   "old": 31,
+   "new": 42,
+   "pct": 35.5
+  },
+  {
+   "name": "Elderton BAROSSA Shiraz 2024",
+   "old": 31,
+   "new": 42,
+   "pct": 35.5
+  },
+  {
+   "name": "Elderton COMMAND Shiraz 2014",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Elderton COMMAND Shiraz 2015",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Elderton COMMAND Shiraz 2016",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Elderton COMMAND Shiraz 2021",
+   "old": 96,
+   "new": 118,
+   "pct": 22.9
+  },
+  {
+   "name": "Fox Creek McLaren Vale Reserve Shiraz 2005",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Hazyblur Barossa Shiraz 2003",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Hewitson Private Cellar Shiraz Mclaren Vale 2000 1.5l · 1.5 L",
+   "old": 231,
+   "new": 258,
+   "pct": 11.7
+  },
+  {
+   "name": "Howard Park Abercrombie Cabernet Sauvignon 2007 1.5l · 1.5 L",
+   "old": 435,
+   "new": 486,
+   "pct": 11.7
+  },
+  {
+   "name": "Howard Park Cabernet Sauvignon 2002 1.5l · 1.5 L",
+   "old": 388,
+   "new": 434,
+   "pct": 11.9
+  },
+  {
+   "name": "Kilikanoon Super Six Assortment 2005 (OWC set of 6btls)",
+   "old": 784,
+   "new": 876,
+   "pct": 11.7
+  },
+  {
+   "name": "Mount Mary Vineyard Quintet 2003",
+   "old": 286,
+   "new": 320,
+   "pct": 11.9
+  },
+  {
+   "name": "Mount Mary Vineyard Quintet 2005",
+   "old": 314,
+   "new": 352,
+   "pct": 12.1
+  },
+  {
+   "name": "Penfolds Bin 28 Kalimna Shiraz 2016",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Penfolds Bin 707 Cabernet Sauvignon 2004",
+   "old": 648,
+   "new": 724,
+   "pct": 11.7
+  },
+  {
+   "name": "Penfolds GRANGE 2001 1.5l · 1.5 L",
+   "old": 1630,
+   "new": 1822,
+   "pct": 11.8
+  },
+  {
+   "name": "Penfolds Grange 2003",
+   "old": 784,
+   "new": 876,
+   "pct": 11.7
+  },
+  {
+   "name": "Torbreck The Run Rig 2004",
+   "old": 348,
+   "new": 388,
+   "pct": 11.5
+  },
+  {
+   "name": "Torbreck The Run Rig 2004 1.5L · 1.5 L",
+   "old": 718,
+   "new": 803,
+   "pct": 11.8
+  },
+  {
+   "name": "Torbreck The Run Rig 2004 3.0L · 3 L",
+   "old": 1880,
+   "new": 2101,
+   "pct": 11.8
+  },
+  {
+   "name": "Torbreck The Run Rig 2004 6.0L · 6 L",
+   "old": 4780,
+   "new": 5343,
+   "pct": 11.8
+  },
+  {
+   "name": "Grant Burge Meshach 2001",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Grant Burge Meshach 2002",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Haan Merlot Prestige 2003 1.5l · 1.5 L",
+   "old": 305,
+   "new": 341,
+   "pct": 11.8
+  },
+  {
+   "name": "Haan Wilhelmus 2003 1.5l · 1.5 L",
+   "old": 385,
+   "new": 430,
+   "pct": 11.7
+  },
+  {
+   "name": "James Irvine Grand Merlot 2002",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "Massena The Howling Dog Durif 2005",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Rolf Binder Veritas Winery Heinrich Shiraz Mataro Grenache 2005 1.5L · 1.5 L",
+   "old": 422,
+   "new": 471,
+   "pct": 11.6
+  },
+  {
+   "name": "Rolf Binder Veritas Winery Heinrich Shiraz Mataro Grenache 2007 1.5L · 1.5 L",
+   "old": 348,
+   "new": 388,
+   "pct": 11.5
+  },
+  {
+   "name": "Rolf Binder Veritas Winery Heysen Shiraz 2004 1.5L · 1.5 L",
+   "old": 422,
+   "new": 471,
+   "pct": 11.6
+  },
+  {
+   "name": "Rolf Binder Veritas Winery Heysen Shiraz 2006 1.5L · 1.5 L",
+   "old": 348,
+   "new": 388,
+   "pct": 11.5
+  },
+  {
+   "name": "Rolf Binder Veritas Winery Hubris Shiraz 2004 1.5L · 1.5 L",
+   "old": 422,
+   "new": 471,
+   "pct": 11.6
+  },
+  {
+   "name": "Rolf Binder Veritas Winery Hubris Shiraz 2006 1.5L · 1.5 L",
+   "old": 348,
+   "new": 388,
+   "pct": 11.5
+  },
+  {
+   "name": "Rusden Boundaries Cabernet Sauvignon 2006",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Schubert Estate Goose Yard Block Shiraz 2004",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "The Colonial Estate Emigre 2005 6L · 6 L",
+   "old": 1362,
+   "new": 1522,
+   "pct": 11.7
+  },
+  {
+   "name": "The Colonial Estate Exile 2005 6L · 6 L",
+   "old": 1543,
+   "new": 1724,
+   "pct": 11.7
+  },
+  {
+   "name": "Majella The Malleea Cabernet Shiraz 2003",
+   "old": 231,
+   "new": 258,
+   "pct": 11.7
+  },
+  {
+   "name": "Penley Estate Special Select Shiraz 2004 1.5L · 1.5 L",
+   "old": 302,
+   "new": 337,
+   "pct": 11.6
+  },
+  {
+   "name": "Jasper Hill Georgia's Paddock Shiraz 2003",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Jasper Hill Georgia's Paddock Shiraz 2004",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Jasper Hill Georgia's Paddock Shiraz 2005",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Wild Duck Creek Estate Reserve Shiraz 2005",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Thompson Estate Specialist Cabernet Sauvignon 2019",
+   "old": 86,
+   "new": 106,
+   "pct": 23.3
+  },
+  {
+   "name": "Branson Coach House Block Shiraz 2005",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Fox Creek Reserve Shiraz 2004",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Fox Creek Reserve Shiraz 2004 1.5l · 1.5 L",
+   "old": 509,
+   "new": 569,
+   "pct": 11.8
+  },
+  {
+   "name": "Hewitson The Mad Hatter Shiraz 2005",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Oliverhill Jimmy Section Shiraz 2007 3.0L · 3 L",
+   "old": 404,
+   "new": 451,
+   "pct": 11.6
+  },
+  {
+   "name": "Lakes Folly Cabernet 2002",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Morambro - JIP JIP ROCKS Shiraz 2022",
+   "old": 25,
+   "new": 34,
+   "pct": 36.0
+  },
+  {
+   "name": "Charles Melton Nine Popes 2002",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "Oliverhill Jimmy Section Shiraz 2006 3.0L · 3 L",
+   "old": 416,
+   "new": 466,
+   "pct": 12.0
+  },
+  {
+   "name": "The Colonial Estate Emigre 2004",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Tahbilk 1860 Vines Shiraz 1997",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Tahbilk 1860 Vines Shiraz 1998",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Tahbilk 1860 Vines Shiraz 1999",
+   "old": 241,
+   "new": 269,
+   "pct": 11.6
+  },
+  {
+   "name": "Tahbilk 1860 Vines Shiraz 2003",
+   "old": 264,
+   "new": 295,
+   "pct": 11.7
+  },
+  {
+   "name": "Warrenmang Vineyard and Resort Black Puma Shiraz 2004 1.5L · 1.5 L",
+   "old": 357,
+   "new": 399,
+   "pct": 11.8
+  },
+  {
+   "name": "Wild Duck Creek Springflat Shiraz 2004",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Tapanappa Whalebone Vineyard Cabernet Shiraz 2004",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Yeringberg Cabernet Blend 2005",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Clos du Lican 2019",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Almaviva 2002 6.0L · 6 L",
+   "old": 7269,
+   "new": 8124,
+   "pct": 11.8
+  },
+  {
+   "name": "Casa Silva Cabernet Sauvignon 2025",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Casa Silva Cabernet Sauvignon 2026",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Casa Silva Merlot 2025",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Casa Silva Merlot 2026",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Lapostolle Clos Apalta 2012",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Santa Rita Casa Real Cabernet Sauvignon 2018",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Anita MORGON LE CLACHET 2021",
+   "old": 42,
+   "new": 52,
+   "pct": 23.8
+  },
+  {
+   "name": "Domaine Anita MORGON LE CLACHET 2022",
+   "old": 42,
+   "new": 52,
+   "pct": 23.8
+  },
+  {
+   "name": "Domaine Anita Moulin a Vent COEUR DE VIGNERONNE 2024",
+   "old": 53,
+   "new": 66,
+   "pct": 24.5
+  },
+  {
+   "name": "Domaine Anita Moulin a Vent TRES VIEILLE VIGNE 2024",
+   "old": 39,
+   "new": 48,
+   "pct": 23.1
+  },
+  {
+   "name": "Jean Paul Brun Domaine des Terres Dorees Fleurie Grille Midi 2019",
+   "old": 60,
+   "new": 67,
+   "pct": 11.7
+  },
+  {
+   "name": "Pierre Marie Chermette Domaine du Vissoux Fleurie LES GARANTS 2019",
+   "old": 55,
+   "new": 62,
+   "pct": 12.7
+  },
+  {
+   "name": "AMIRAL De Beychevelle 2007",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Angelus 2012 3.0L · 3 L",
+   "old": 3511,
+   "new": 3924,
+   "pct": 11.8
+  },
+  {
+   "name": "Angelus 2019 (OWC 1)(Ex-Chateau)",
+   "old": 519.0,
+   "new": 523,
+   "pct": 0.8
+  },
+  {
+   "name": "Angelus 2020",
+   "old": 576.0,
+   "new": 580,
+   "pct": 0.7
+  },
+  {
+   "name": "Ausone 1993 1.5l · 1.5 L",
+   "old": 1908,
+   "new": 2133,
+   "pct": 11.8
+  },
+  {
+   "name": "Ausone 2010 1.5L · 1.5 L",
+   "old": 5429,
+   "new": 6068,
+   "pct": 11.8
+  },
+  {
+   "name": "Ausone 2011",
+   "old": 1015,
+   "new": 1134,
+   "pct": 11.7
+  },
+  {
+   "name": "Beau Sejour BECOT 1976",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Beau Sejour BECOT 1976 1.5L · 1.5 L",
+   "old": 388,
+   "new": 434,
+   "pct": 11.9
+  },
+  {
+   "name": "Beau Sejour BECOT 1979",
+   "old": 314,
+   "new": 352,
+   "pct": 12.1
+  },
+  {
+   "name": "Beau Sejour BECOT 1979 1.5L · 1.5 L",
+   "old": 709,
+   "new": 792,
+   "pct": 11.7
+  },
+  {
+   "name": "Beau Sejour BECOT 1986 1.5L · 1.5 L",
+   "old": 580,
+   "new": 648,
+   "pct": 11.7
+  },
+  {
+   "name": "Beau Sejour BECOT 1990",
+   "old": 255,
+   "new": 285,
+   "pct": 11.8
+  },
+  {
+   "name": "Beau Sejour BECOT 2003",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Beausejour DUFFAU-Lagarrosse 2007",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Beausejour DUFFAU-Lagarrosse 2009",
+   "old": 564,
+   "new": 631,
+   "pct": 11.9
+  },
+  {
+   "name": "Belgrave 2017 0.375l · 375 ml",
+   "old": 46,
+   "new": 51,
+   "pct": 10.9
+  },
+  {
+   "name": "Berliquet 2022",
+   "old": 115.0,
+   "new": 120,
+   "pct": 4.3
+  },
+  {
+   "name": "Beychevelle 1974 1.48l · 1.48 L",
+   "old": 1043,
+   "new": 1166,
+   "pct": 11.8
+  },
+  {
+   "name": "Beychevelle 1983",
+   "old": 228,
+   "new": 255,
+   "pct": 11.8
+  },
+  {
+   "name": "Beychevelle 2011",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Beychevelle 2012",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Beychevelle 2016",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "Beychevelle 2022 (Ex-Chateau)",
+   "old": 156.75,
+   "new": 165,
+   "pct": 5.3
+  },
+  {
+   "name": "Beychevelle 2023 (Ex-Chateau)",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Boyd Cantenac 1975 1.5L · 1.5 L",
+   "old": 487,
+   "new": 544,
+   "pct": 11.7
+  },
+  {
+   "name": "Branaire Ducru 1974",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Branaire Ducru 1990",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Branaire Ducru 2001 (Ex-Chateau)",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Branaire Ducru 2015",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Branaire Ducru 2016",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Brane Cantenac 1973",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Brane Cantenac 1990",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Brane Cantenac 1993",
+   "old": 311,
+   "new": 348,
+   "pct": 11.9
+  },
+  {
+   "name": "Brane Cantenac 2018",
+   "old": 150.0,
+   "new": 151,
+   "pct": 0.7
+  },
+  {
+   "name": "Brane Cantenac 2020",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "CLOSERIE De Fourtet 2015",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Calon Segur 1979",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Camensac 1989 1.5l · 1.5 L",
+   "old": 246,
+   "new": 275,
+   "pct": 11.8
+  },
+  {
+   "name": "Camensac 2003",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Canon 1975",
+   "old": 314,
+   "new": 352,
+   "pct": 12.1
+  },
+  {
+   "name": "Canon 2020",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Canon 2022",
+   "old": 265.0,
+   "new": 275,
+   "pct": 3.8
+  },
+  {
+   "name": "Canon La Gaffeliere 2019",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Cantemerle 2006",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Cantenac Brown 1950",
+   "old": 1010,
+   "new": 1129,
+   "pct": 11.8
+  },
+  {
+   "name": "Cantenac Brown 1978",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Cantenac Brown 1982",
+   "old": 231,
+   "new": 258,
+   "pct": 11.7
+  },
+  {
+   "name": "Cantenac Brown 1985",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Cantenac Brown 1993",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Cantenac Brown 2016",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Cantenac Brown 2021",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Carruades De Lafite 2012",
+   "old": 639,
+   "new": 714,
+   "pct": 11.7
+  },
+  {
+   "name": "Carruades De Lafite 2019",
+   "old": 611,
+   "new": 683,
+   "pct": 11.8
+  },
+  {
+   "name": "Carruades De Lafite 2022",
+   "old": 369.0,
+   "new": 404,
+   "pct": 9.5
+  },
+  {
+   "name": "Carruades de Lafite 2003",
+   "old": 648,
+   "new": 724,
+   "pct": 11.7
+  },
+  {
+   "name": "Carruades de Lafite 2011",
+   "old": 639,
+   "new": 714,
+   "pct": 11.7
+  },
+  {
+   "name": "Carruades de Lafite 2013",
+   "old": 663,
+   "new": 741,
+   "pct": 11.8
+  },
+  {
+   "name": "Carruades de Lafite 2014",
+   "old": 635,
+   "new": 710,
+   "pct": 11.8
+  },
+  {
+   "name": "Carruades de Lafite 2015",
+   "old": 639,
+   "new": 714,
+   "pct": 11.7
+  },
+  {
+   "name": "Carruades de Lafite 2017",
+   "old": 413,
+   "new": 462,
+   "pct": 11.9
+  },
+  {
+   "name": "Chateau Citran 1989 1.5l (OWC 1)(Ex-Chateau) · 1.5 L",
+   "old": 241,
+   "new": 269,
+   "pct": 11.6
+  },
+  {
+   "name": "Chateau Corbin-Michotte 1993 0.375l · 375 ml",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Chateau Corbin-Michotte 1994 0.375l · 375 ml",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "Chateau Corbin-Michotte 2009",
+   "old": 146.0,
+   "new": 155,
+   "pct": 6.2
+  },
+  {
+   "name": "Chateau Corbin-Michotte 2022",
+   "old": 65,
+   "new": 72,
+   "pct": 10.8
+  },
+  {
+   "name": "Chateau Desmirail 2000",
+   "old": 144,
+   "new": 160,
+   "pct": 11.1
+  },
+  {
+   "name": "Chateau Lafleur 1994",
+   "old": 1265,
+   "new": 1414,
+   "pct": 11.8
+  },
+  {
+   "name": "Chateau Laroze Saint Emilion Grand Cru 2019",
+   "old": 55,
+   "new": 62,
+   "pct": 12.7
+  },
+  {
+   "name": "Chateau Marjosse 2022",
+   "old": 37,
+   "new": 41,
+   "pct": 10.8
+  },
+  {
+   "name": "Chateau Pibran 1967",
+   "old": 352,
+   "new": 393,
+   "pct": 11.6
+  },
+  {
+   "name": "Cheval Blanc 1974 0.75l",
+   "old": 889,
+   "new": 994,
+   "pct": 11.8
+  },
+  {
+   "name": "Cheval Blanc 1978",
+   "old": 1296,
+   "new": 1449,
+   "pct": 11.8
+  },
+  {
+   "name": "Cheval Blanc 1984",
+   "old": 1139,
+   "new": 1273,
+   "pct": 11.8
+  },
+  {
+   "name": "Clerc Milon 2003",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Clerc Milon 2018",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "Clinet 1989",
+   "old": 1500,
+   "new": 1677,
+   "pct": 11.8
+  },
+  {
+   "name": "Clos Du Clocher 1994",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Clos Fourtet 1967",
+   "old": 246,
+   "new": 275,
+   "pct": 11.8
+  },
+  {
+   "name": "Clos Fourtet 1994",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Clos Fourtet 2000",
+   "old": 329,
+   "new": 368,
+   "pct": 11.9
+  },
+  {
+   "name": "Clos Fourtet 2013",
+   "old": 236,
+   "new": 264,
+   "pct": 11.9
+  },
+  {
+   "name": "Clos Fourtet 2019",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Closerie De Fourtet 2019",
+   "old": 51,
+   "new": 57,
+   "pct": 11.8
+  },
+  {
+   "name": "Cos D Estournel 1977",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Cos D Estournel 1993",
+   "old": 333,
+   "new": 372,
+   "pct": 11.7
+  },
+  {
+   "name": "Cos D Estournel 2020 3.0l · 3 L",
+   "old": 1293,
+   "new": 1445,
+   "pct": 11.8
+  },
+  {
+   "name": "Cos D Estournel 2020 6.0l · 6 L",
+   "old": 3419,
+   "new": 3821,
+   "pct": 11.8
+  },
+  {
+   "name": "Cos D'Estournel 1972",
+   "old": 462,
+   "new": 517,
+   "pct": 11.9
+  },
+  {
+   "name": "Cos Labory 2016",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "D Issan 1989",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "D Issan 2003",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "D Issan 2021",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "D'Armailhac 2021",
+   "old": 86,
+   "new": 88,
+   "pct": 2.3
+  },
+  {
+   "name": "Domaine Louis Latour Corton Grand Cru 2014",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de Chevalier 2014",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine de Chevalier 2017",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine de Chevalier 2018",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Domaine de Chevalier 2019",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Domaine de Chevalier 2020",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Domaine de Chevalier 2022",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Du Tertre 1985",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Du Tertre 2003",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Du Tertre 2018",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Duclot Bordeaux Set of 12 Bots 1993",
+   "old": 27600,
+   "new": 30847,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 7 Bots 2012",
+   "old": 15537,
+   "new": 17365,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 8 Bots 2013",
+   "old": 13989,
+   "new": 15635,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 9 Bots 2004",
+   "old": 15209,
+   "new": 16998,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 9 Bots 2005",
+   "old": 22445,
+   "new": 25086,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 9 Bots 2006",
+   "old": 15709,
+   "new": 17557,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 9 Bots 2007",
+   "old": 16510,
+   "new": 18452,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 9 Bots 2008",
+   "old": 15978,
+   "new": 17858,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 9 Bots 2009",
+   "old": 24057,
+   "new": 26887,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 9 Bots 2010",
+   "old": 24863,
+   "new": 27788,
+   "pct": 11.8
+  },
+  {
+   "name": "Duclot Bordeaux Set of 9 Bots 2011",
+   "old": 14629,
+   "new": 16350,
+   "pct": 11.8
+  },
+  {
+   "name": "Ducru Beaucaillou 1970",
+   "old": 407,
+   "new": 455,
+   "pct": 11.8
+  },
+  {
+   "name": "Ducru Beaucaillou 1971",
+   "old": 435,
+   "new": 486,
+   "pct": 11.7
+  },
+  {
+   "name": "Ducru Beaucaillou 1974",
+   "old": 431,
+   "new": 482,
+   "pct": 11.8
+  },
+  {
+   "name": "Ducru Beaucaillou 2013",
+   "old": 298.0,
+   "new": 300,
+   "pct": 0.7
+  },
+  {
+   "name": "Ducru Beaucaillou 2020 3.0l · 3 L",
+   "old": 1667,
+   "new": 1863,
+   "pct": 11.8
+  },
+  {
+   "name": "Duhart Milon 2021",
+   "old": 122.0,
+   "new": 134,
+   "pct": 9.8
+  },
+  {
+   "name": "Duhart Milon 2022",
+   "old": 145.0,
+   "new": 155,
+   "pct": 6.9
+  },
+  {
+   "name": "Durfort Vivens 1979",
+   "old": 264,
+   "new": 295,
+   "pct": 11.7
+  },
+  {
+   "name": "Feytit Clinet 2020",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Figeac 2001",
+   "old": 542,
+   "new": 606,
+   "pct": 11.8
+  },
+  {
+   "name": "Fleur Cardinale 2000",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Fleur Cardinale 2003",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Fombrauge 2020",
+   "old": 60,
+   "new": 67,
+   "pct": 11.7
+  },
+  {
+   "name": "Fonbadet 1990",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Fonbadet 2000",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Fontenil 2020",
+   "old": 51,
+   "new": 57,
+   "pct": 11.8
+  },
+  {
+   "name": "Franc Mayne 2022",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Francois Janoueix - Chateau Lafleur Saint Jean POMEROL 2018",
+   "old": 225,
+   "new": 255,
    "pct": 13.3
   },
   {
-   "name": "Vivier Chardonnay Sonoma Coast 2022",
-   "old": 89.0,
-   "new": 89.98,
-   "pct": 1.1
+   "name": "Francois Janoueix - La Croix La Bastienne 2022",
+   "old": 24,
+   "new": 33,
+   "pct": 37.5
+  },
+  {
+   "name": "Giscours 1984 3.0l · 3 L",
+   "old": 1398,
+   "new": 1563,
+   "pct": 11.8
+  },
+  {
+   "name": "Giscours 1989",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Giscours 1995",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Giscours 1998",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Giscours 2021",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Giscours 2022 (Ex-Chateau) (Wine Spectator Wine of the Year 2025)",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Grand Mayne 2012",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Grand Puy Lacoste 1964",
+   "old": 580,
+   "new": 648,
+   "pct": 11.7
+  },
+  {
+   "name": "Grand Puy Lacoste 1984",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Grand Puy Lacoste 2017",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Gruaud Larose 1984",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Gruaud Larose 1988",
+   "old": 264,
+   "new": 295,
+   "pct": 11.7
+  },
+  {
+   "name": "Gruaud Larose 2000",
+   "old": 311,
+   "new": 348,
+   "pct": 11.9
+  },
+  {
+   "name": "Haut Bages Liberal 2020",
+   "old": 65,
+   "new": 72,
+   "pct": 10.8
+  },
+  {
+   "name": "Haut Bailly 1973",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Haut Bailly 1977",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Haut Bailly 1988",
+   "old": 241,
+   "new": 269,
+   "pct": 11.6
+  },
+  {
+   "name": "Haut Bailly 1993",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Haut Bailly 1993 1.5l · 1.5 L",
+   "old": 385,
+   "new": 430,
+   "pct": 11.7
+  },
+  {
+   "name": "Haut Bailly 1994",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Haut Bailly 1994 1.5l · 1.5 L",
+   "old": 370,
+   "new": 413,
+   "pct": 11.6
+  },
+  {
+   "name": "Haut Bailly 2007 (Ex-Chateau)",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Haut Batailley 1998",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Haut Brion 1971",
+   "old": 1186,
+   "new": 1325,
+   "pct": 11.7
+  },
+  {
+   "name": "Haut Brion 1972",
+   "old": 1154,
+   "new": 1290,
+   "pct": 11.8
+  },
+  {
+   "name": "Haut Brion 1973 0.73l · 730 ml",
+   "old": 987,
+   "new": 1103,
+   "pct": 11.8
+  },
+  {
+   "name": "Haut Brion 1974",
+   "old": 820,
+   "new": 917,
+   "pct": 11.8
+  },
+  {
+   "name": "Haut Brion 1975",
+   "old": 917,
+   "new": 1025,
+   "pct": 11.8
+  },
+  {
+   "name": "Haut Brion 1986",
+   "old": 1130,
+   "new": 1263,
+   "pct": 11.8
+  },
+  {
+   "name": "Haut Brion 1993",
+   "old": 880,
+   "new": 983,
+   "pct": 11.7
+  },
+  {
+   "name": "Haut Brion 2003 (Ex-Chateau)",
+   "old": 880,
+   "new": 983,
+   "pct": 11.7
+  },
+  {
+   "name": "Haut Brion 2004 1.5L · 1.5 L",
+   "old": 1608,
+   "new": 1797,
+   "pct": 11.8
+  },
+  {
+   "name": "Haut Brion 2007 (Ex-Chateau)",
+   "old": 820,
+   "new": 917,
+   "pct": 11.8
+  },
+  {
+   "name": "Haut Brion 2007 (Ex-Chateau) (OWC 1)",
+   "old": 904,
+   "new": 1010,
+   "pct": 11.7
+  },
+  {
+   "name": "Haut Brion 2010",
+   "old": 1488,
+   "new": 1662,
+   "pct": 11.7
+  },
+  {
+   "name": "Kirwan 1993",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "L Eglise Clinet 2022",
+   "old": 509,
+   "new": 569,
+   "pct": 11.8
+  },
+  {
+   "name": "L Evangile 1984",
+   "old": 404,
+   "new": 451,
+   "pct": 11.6
+  },
+  {
+   "name": "L Evangile 1993",
+   "old": 286,
+   "new": 320,
+   "pct": 11.9
+  },
+  {
+   "name": "L'Esprit de Chevalier 2023",
+   "old": 51,
+   "new": 57,
+   "pct": 11.8
+  },
+  {
+   "name": "La Cabanne 2009",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "La Chapelle d'Ausone 2019",
+   "old": 288,
+   "new": 295,
+   "pct": 2.4
+  },
+  {
+   "name": "La Conseillante 2020",
+   "old": 379,
+   "new": 424,
+   "pct": 11.9
+  },
+  {
+   "name": "La Dame de Montrose 2006 1.5l · 1.5 L",
+   "old": 236,
+   "new": 264,
+   "pct": 11.9
+  },
+  {
+   "name": "La Gaffeliere 2019",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "La Gomerie 2006",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "La Lagune 2003",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "La Lagune 2007 0.75l",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "La Mission Haut Brion 1962",
+   "old": 1108,
+   "new": 1238,
+   "pct": 11.7
+  },
+  {
+   "name": "La Mission Haut Brion 1970",
+   "old": 765,
+   "new": 855,
+   "pct": 11.8
+  },
+  {
+   "name": "La Mission Haut Brion 1974",
+   "old": 496,
+   "new": 555,
+   "pct": 11.9
+  },
+  {
+   "name": "La Mission Haut Brion 1993",
+   "old": 506,
+   "new": 565,
+   "pct": 11.7
+  },
+  {
+   "name": "La Mission Haut Brion 1995",
+   "old": 547,
+   "new": 611,
+   "pct": 11.7
+  },
+  {
+   "name": "La Mission Haut Brion 2003 6.0l · 6 L",
+   "old": 7185,
+   "new": 8030,
+   "pct": 11.8
+  },
+  {
+   "name": "La Mission Haut Brion 2010",
+   "old": 848,
+   "new": 948,
+   "pct": 11.8
+  },
+  {
+   "name": "La Mission Haut Brion 2011",
+   "old": 440,
+   "new": 492,
+   "pct": 11.8
+  },
+  {
+   "name": "La Tour Carnet 1982",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "La Tour Carnet 2007 1.5l · 1.5 L",
+   "old": 241,
+   "new": 269,
+   "pct": 11.6
+  },
+  {
+   "name": "La Tour Carnet 2007 3.0l · 3 L",
+   "old": 542,
+   "new": 606,
+   "pct": 11.8
+  },
+  {
+   "name": "La Tour Carnet 2009",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "La Tour Carnet 2010",
+   "old": 96.0,
+   "new": 103,
+   "pct": 7.3
+  },
+  {
+   "name": "La Tour Carnet 2011",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "La Tour Haut Brion 2001",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "La Tour Haut Brion 2003",
+   "old": 296,
+   "new": 331,
+   "pct": 11.8
+  },
+  {
+   "name": "Lafite Rothschild 1956",
+   "old": 4752,
+   "new": 5311,
+   "pct": 11.8
+  },
+  {
+   "name": "Lafite Rothschild 1973",
+   "old": 1473,
+   "new": 1646,
+   "pct": 11.7
+  },
+  {
+   "name": "Lafite Rothschild 1974",
+   "old": 996,
+   "new": 1113,
+   "pct": 11.7
+  },
+  {
+   "name": "Lafite Rothschild 1984",
+   "old": 842,
+   "new": 941,
+   "pct": 11.8
+  },
+  {
+   "name": "Lafite Rothschild 2005 6.0l · 6 L",
+   "old": 8733,
+   "new": 9760,
+   "pct": 11.8
+  },
+  {
+   "name": "Lafite Rothschild 2011 6.0L · 6 L",
+   "old": 9404,
+   "new": 10510,
+   "pct": 11.8
+  },
+  {
+   "name": "Lafite Rothschild 2012",
+   "old": 1125.0,
+   "new": 1232,
+   "pct": 9.5
+  },
+  {
+   "name": "Lafite Rothschild 2013",
+   "old": 972,
+   "new": 1087,
+   "pct": 11.8
+  },
+  {
+   "name": "Lafite Rothschild 2020",
+   "old": 1010.0,
+   "new": 1015,
+   "pct": 0.5
+  },
+  {
+   "name": "Lagrange 1974",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Lagrange 1983",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Langoa Barton 2020",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "Langoa Barton 2022",
+   "old": 98,
+   "new": 99,
+   "pct": 1.0
+  },
+  {
+   "name": "Larcis Ducasse 1978",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Laroque 2014",
+   "old": 65,
+   "new": 72,
+   "pct": 10.8
+  },
+  {
+   "name": "Lascombes 1990",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Latour 1946",
+   "old": 1941,
+   "new": 2170,
+   "pct": 11.8
+  },
+  {
+   "name": "Latour 1971 5.0L · 5 L",
+   "old": 16120,
+   "new": 18017,
+   "pct": 11.8
+  },
+  {
+   "name": "Latour 1972",
+   "old": 1108,
+   "new": 1238,
+   "pct": 11.7
+  },
+  {
+   "name": "Latour 1973",
+   "old": 1037,
+   "new": 1159,
+   "pct": 11.8
+  },
+  {
+   "name": "Latour 1976",
+   "old": 885,
+   "new": 989,
+   "pct": 11.8
+  },
+  {
+   "name": "Latour 2016",
+   "old": 1186,
+   "new": 1325,
+   "pct": 11.7
+  },
+  {
+   "name": "Latour 2017",
+   "old": 1010,
+   "new": 1129,
+   "pct": 11.8
+  },
+  {
+   "name": "Latour 2017 (Ex-Chateau)",
+   "old": 1010,
+   "new": 1129,
+   "pct": 11.8
+  },
+  {
+   "name": "Latour Martillac 1985",
+   "old": 404,
+   "new": 451,
+   "pct": 11.6
+  },
+  {
+   "name": "Latour Martillac 2020",
+   "old": 60,
+   "new": 67,
+   "pct": 11.7
+  },
+  {
+   "name": "Le C des Carmes Haut Brion 2022",
+   "old": 65,
+   "new": 72,
+   "pct": 10.8
+  },
+  {
+   "name": "Le Pardon De L Angelus 2008",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Le Petit Cheval 1995",
+   "old": 286,
+   "new": 320,
+   "pct": 11.9
+  },
+  {
+   "name": "Le Petit Mouton 2006",
+   "old": 496,
+   "new": 555,
+   "pct": 11.9
+  },
+  {
+   "name": "Le Petit Mouton 2008",
+   "old": 583,
+   "new": 652,
+   "pct": 11.8
+  },
+  {
+   "name": "Le Petit Mouton 2011",
+   "old": 547,
+   "new": 611,
+   "pct": 11.7
+  },
+  {
+   "name": "Le Petit Mouton 2012",
+   "old": 490,
+   "new": 548,
+   "pct": 11.8
+  },
+  {
+   "name": "Le Petit Mouton 2013",
+   "old": 472,
+   "new": 527,
+   "pct": 11.7
+  },
+  {
+   "name": "Le Petit Mouton 2014",
+   "old": 481,
+   "new": 538,
+   "pct": 11.9
+  },
+  {
+   "name": "Le Petit Mouton 2015",
+   "old": 487,
+   "new": 544,
+   "pct": 11.7
+  },
+  {
+   "name": "Le Petit Mouton 2016",
+   "old": 487,
+   "new": 544,
+   "pct": 11.7
+  },
+  {
+   "name": "Le Petit Mouton 2017",
+   "old": 481,
+   "new": 538,
+   "pct": 11.9
+  },
+  {
+   "name": "Le Petit Mouton 2018",
+   "old": 478,
+   "new": 534,
+   "pct": 11.7
+  },
+  {
+   "name": "Le Petit Mouton 2023 (Ex-Chateau)",
+   "old": 305,
+   "new": 341,
+   "pct": 11.8
+  },
+  {
+   "name": "Le Petit Smith Haut Lafitte 2016",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Leoville Barton 1983",
+   "old": 255,
+   "new": 285,
+   "pct": 11.8
+  },
+  {
+   "name": "Leoville Barton 2021",
+   "old": 136.25,
+   "new": 151,
+   "pct": 10.8
+  },
+  {
+   "name": "Leoville Las Cases 1973",
+   "old": 357,
+   "new": 399,
+   "pct": 11.8
+  },
+  {
+   "name": "Leoville Las Cases 1974",
+   "old": 431,
+   "new": 482,
+   "pct": 11.8
+  },
+  {
+   "name": "Leoville Las Cases 2022",
+   "old": 454,
+   "new": 507,
+   "pct": 11.7
+  },
+  {
+   "name": "Leoville Poyferre 2020 3.0l · 3 L",
+   "old": 774,
+   "new": 865,
+   "pct": 11.8
+  },
+  {
+   "name": "Les Allees de Cantemerle 2014",
+   "old": 46,
+   "new": 51,
+   "pct": 10.9
+  },
+  {
+   "name": "Les Forts de Latour 2007",
+   "old": 413,
+   "new": 462,
+   "pct": 11.9
+  },
+  {
+   "name": "Les Forts de Latour 2014",
+   "old": 333,
+   "new": 372,
+   "pct": 11.7
+  },
+  {
+   "name": "Les Griffons De PICHON Longueville BARON 2016 (Ex-Chateau)",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Les Griffons De PICHON Longueville BARON 2018",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Les Ormes de Pez 2021",
+   "old": 51,
+   "new": 57,
+   "pct": 11.8
+  },
+  {
+   "name": "Les Pagodes De Cos 2016 (Ex-Chateau)",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Les Pagodes De Cos 2017",
+   "old": 80.0,
+   "new": 88,
+   "pct": 10.0
+  },
+  {
+   "name": "Lilian Ladouys 2018",
+   "old": 55,
+   "new": 62,
+   "pct": 12.7
+  },
+  {
+   "name": "Louis Latour Chateau CORTON GRANCEY 2016",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Louis Latour Romanee Saint Vivant Grand Cru Les Quatre Journaux 2011",
+   "old": 561,
+   "new": 627,
+   "pct": 11.8
+  },
+  {
+   "name": "Louis Latour Romanee Saint Vivant Grand Cru Les Quatre Journaux 2012",
+   "old": 528,
+   "new": 590,
+   "pct": 11.7
+  },
+  {
+   "name": "Lynch Moussas 2007",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Lynch Moussas 2020",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "Malartic Lagraviere 2020",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "Malescot St Exupery 2021",
+   "old": 96,
+   "new": 99,
+   "pct": 3.1
+  },
+  {
+   "name": "Mangot 2020",
+   "old": 46,
+   "new": 51,
+   "pct": 10.9
+  },
+  {
+   "name": "Margaux 1972",
+   "old": 1126,
+   "new": 1259,
+   "pct": 11.8
+  },
+  {
+   "name": "Margaux 1973",
+   "old": 1120,
+   "new": 1252,
+   "pct": 11.8
+  },
+  {
+   "name": "Margaux 1980",
+   "old": 824,
+   "new": 922,
+   "pct": 11.9
+  },
+  {
+   "name": "Margaux 1981",
+   "old": 861,
+   "new": 962,
+   "pct": 11.7
+  },
+  {
+   "name": "Margaux 1984 (OWC1)",
+   "old": 1154,
+   "new": 1290,
+   "pct": 11.8
+  },
+  {
+   "name": "Margaux 1993",
+   "old": 885,
+   "new": 989,
+   "pct": 11.8
+  },
+  {
+   "name": "Margaux 1994 (OWC1)",
+   "old": 963,
+   "new": 1076,
+   "pct": 11.7
+  },
+  {
+   "name": "Margaux 2018",
+   "old": 978,
+   "new": 1092,
+   "pct": 11.7
+  },
+  {
+   "name": "Margaux 2022",
+   "old": 1060.0,
+   "new": 1097,
+   "pct": 3.5
+  },
+  {
+   "name": "Marquis De Terme 1995",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Marquis de Alesme 1986",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "Mauvesin Barton La RESERVE 2014",
+   "old": 42,
+   "new": 47,
+   "pct": 11.9
+  },
+  {
+   "name": "Mondot 2007",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Montlandrie 2019",
+   "old": 51,
+   "new": 57,
+   "pct": 11.8
+  },
+  {
+   "name": "Montlandrie 2020",
+   "old": 46,
+   "new": 51,
+   "pct": 10.9
+  },
+  {
+   "name": "Montrose 1978 1.5l · 1.5 L",
+   "old": 435,
+   "new": 486,
+   "pct": 11.7
+  },
+  {
+   "name": "Mouton Baronne Philippe 1984",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Mouton Rothschild 1984",
+   "old": 982,
+   "new": 1097,
+   "pct": 11.7
+  },
+  {
+   "name": "Mouton Rothschild 1993",
+   "old": 861,
+   "new": 962,
+   "pct": 11.7
+  },
+  {
+   "name": "Mouton Rothschild 2000 1.5l · 1.5 L",
+   "old": 13041,
+   "new": 14575,
+   "pct": 11.8
+  },
+  {
+   "name": "Mouton Rothschild 2000 5.0l · 5 L",
+   "old": 49142,
+   "new": 54923,
+   "pct": 11.8
+  },
+  {
+   "name": "Mouton Rothschild 2009",
+   "old": 1423,
+   "new": 1590,
+   "pct": 11.7
+  },
+  {
+   "name": "Mouton Rothschild 2020",
+   "old": 839,
+   "new": 938,
+   "pct": 11.8
+  },
+  {
+   "name": "PICHON Longueville BARON 1975 0.73l · 730 ml",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "PICHON Longueville BARON 1993",
+   "old": 274,
+   "new": 306,
+   "pct": 11.7
+  },
+  {
+   "name": "PICHON Longueville Comtesse de LALANDE 2011 (Ex-Chateau)",
+   "old": 236,
+   "new": 264,
+   "pct": 11.9
+  },
+  {
+   "name": "PICHON Longueville Comtesse de LALANDE 2016 (OWC1-Special Signature)(Ex-Chateau)",
+   "old": 509,
+   "new": 569,
+   "pct": 11.8
+  },
+  {
+   "name": "PICHON Longueville Comtesse de LALANDE 2021",
+   "old": 250,
+   "new": 279,
+   "pct": 11.6
+  },
+  {
+   "name": "Palmer 1973 1.5l · 1.5 L",
+   "old": 1186,
+   "new": 1325,
+   "pct": 11.7
+  },
+  {
+   "name": "Palmer 1982",
+   "old": 732,
+   "new": 818,
+   "pct": 11.7
+  },
+  {
+   "name": "Palmer 1993",
+   "old": 385,
+   "new": 430,
+   "pct": 11.7
+  },
+  {
+   "name": "Pape Clement 2017",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Pavie 1979",
+   "old": 329,
+   "new": 368,
+   "pct": 11.9
+  },
+  {
+   "name": "Pavie 2017",
+   "old": 343,
+   "new": 383,
+   "pct": 11.7
+  },
+  {
+   "name": "Pavie 2017 (Ex-Chateau)",
+   "old": 343,
+   "new": 383,
+   "pct": 11.7
+  },
+  {
+   "name": "Pavillon Rouge Du Ch. Margaux 2007",
+   "old": 320,
+   "new": 358,
+   "pct": 11.9
+  },
+  {
+   "name": "Pavillon Rouge Du Ch. Margaux 2008",
+   "old": 338,
+   "new": 378,
+   "pct": 11.8
+  },
+  {
+   "name": "Pavillon Rouge Du Ch. Margaux 2012",
+   "old": 274,
+   "new": 306,
+   "pct": 11.7
+  },
+  {
+   "name": "Pavillon Rouge Du Ch. Margaux 2016",
+   "old": 270,
+   "new": 285,
+   "pct": 5.6
+  },
+  {
+   "name": "Pavillon Rouge Du Ch. Margaux 2017",
+   "old": 320,
+   "new": 358,
+   "pct": 11.9
+  },
+  {
+   "name": "Pavillon Rouge Du Ch. Margaux 2018",
+   "old": 329,
+   "new": 368,
+   "pct": 11.9
+  },
+  {
+   "name": "Pavillon Rouge Du Ch. Margaux 2019",
+   "old": 236,
+   "new": 264,
+   "pct": 11.9
+  },
+  {
+   "name": "Pavillon Rouge du Chateau Margaux 2014",
+   "old": 248.0,
+   "new": 264,
+   "pct": 6.5
+  },
+  {
+   "name": "Pedesclaux 1985",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Pedesclaux 2015",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Petrus 1972 0.73l · 730 ml",
+   "old": 4094,
+   "new": 4576,
+   "pct": 11.8
+  },
+  {
+   "name": "Petrus 1982",
+   "old": 8881,
+   "new": 9926,
+   "pct": 11.8
+  },
+  {
+   "name": "Petrus 1985",
+   "old": 5095,
+   "new": 5694,
+   "pct": 11.8
+  },
+  {
+   "name": "Petrus 1989",
+   "old": 9228,
+   "new": 10313,
+   "pct": 11.8
+  },
+  {
+   "name": "Petrus 2015",
+   "old": 6111,
+   "new": 6830,
+   "pct": 11.8
+  },
+  {
+   "name": "Phelan Segur 1994 1.5l (Ex-Chateau) · 1.5 L",
+   "old": 305,
+   "new": 341,
+   "pct": 11.8
+  },
+  {
+   "name": "Pontet Canet 1988",
+   "old": 333,
+   "new": 372,
+   "pct": 11.7
+  },
+  {
+   "name": "Pontet Canet 2021",
+   "old": 170.0,
+   "new": 171,
+   "pct": 0.6
+  },
+  {
+   "name": "Poujeaux 2019",
+   "old": 55,
+   "new": 62,
+   "pct": 12.7
+  },
+  {
+   "name": "Prieure Lichine 1982",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Prieure Lichine 1983",
+   "old": 236,
+   "new": 264,
+   "pct": 11.9
+  },
+  {
+   "name": "Prieure Lichine 1994",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Quintus 2020",
+   "old": 175.0,
+   "new": 180,
+   "pct": 2.9
+  },
+  {
+   "name": "Rouget 2022",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Saint Pierre 1988",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Saintayme 2020",
+   "old": 46,
+   "new": 51,
+   "pct": 10.9
+  },
+  {
+   "name": "Siran 2022",
+   "old": 70.0,
+   "new": 72,
+   "pct": 2.9
+  },
+  {
+   "name": "Smith Haut Lafitte 2020 3.0L · 3 L",
+   "old": 1034,
+   "new": 1155,
+   "pct": 11.7
+  },
+  {
+   "name": "Talbot 1978",
+   "old": 236,
+   "new": 264,
+   "pct": 11.9
+  },
+  {
+   "name": "Trilogie Le Pin L11.12.13 NV 1.5l · 1.5 L",
+   "old": 1357,
+   "new": 1517,
+   "pct": 11.8
+  },
+  {
+   "name": "Troplong Mondot 2021",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Trotanoy 1989 1.5l · 1.5 L",
+   "old": 1450,
+   "new": 1621,
+   "pct": 11.8
+  },
+  {
+   "name": "Trotanoy 1994",
+   "old": 286,
+   "new": 320,
+   "pct": 11.9
+  },
+  {
+   "name": "Villemaurine 2014",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Albert Bichot Domaine du Clos Frantin Grands Echezeaux Grand Cru 2012",
+   "old": 398,
+   "new": 445,
+   "pct": 11.8
+  },
+  {
+   "name": "Aleth Girardin LES CHARMOTS Pommard Premier Cru 2015",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Antonin RODET Charmes Chambertin 2007",
+   "old": 231,
+   "new": 258,
+   "pct": 11.7
+  },
+  {
+   "name": "BRUNO DESAUNAY Bissey Echezeaux Grand Cru Vieilles Vignes 2013",
+   "old": 264,
+   "new": 295,
+   "pct": 11.7
+  },
+  {
+   "name": "Bouchard Pere et Fils La Romanee Grand Cru 1982",
+   "old": 2501,
+   "new": 2795,
+   "pct": 11.8
+  },
+  {
+   "name": "Bouchard Pere et Fils La Romanee Grand Cru 1985",
+   "old": 3714,
+   "new": 4152,
+   "pct": 11.8
+  },
+  {
+   "name": "Camus Chambertin Grand Cru 2017",
+   "old": 224,
+   "new": 275,
+   "pct": 22.8
+  },
+  {
+   "name": "Capitain Gagnerot Vosne Romanee AUX RAVIOLLES 2020",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Charles Noellat Chambolle MUSIGNY LES BUSSIERES 2009",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Charles Noellat Chambolle MUSIGNY Les Bussieres 2007",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Chateau De Chamirey Clos Des RUELLES MERCUREY 2019",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Chateau De La Tour Clos VOUGEOT Grand Cru 2018",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "Chateau De Meursault Volnay Clos DES CHENES 2016",
+   "old": 231,
+   "new": 258,
+   "pct": 11.7
+  },
+  {
+   "name": "Chateau de Marsannay POMMARD 1er Cru Vigne de L Hospital de Dijon Cuvee Prieur Louis Berrier 2019",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Chateau de Meursault Pommard Clos des EPENOTS 2019",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Chateau de Pommard Clos MAREY MONGE Monopole 2011",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Chateau de Pommard Clos MAREY MONGE Monopole 2012",
+   "old": 246,
+   "new": 275,
+   "pct": 11.8
+  },
+  {
+   "name": "Chateau de la Tour Clos de Vougeot Grand Cru 2016",
+   "old": 324,
+   "new": 362,
+   "pct": 11.7
+  },
+  {
+   "name": "DRC Grands Echezeaux 1988",
+   "old": 8144,
+   "new": 9102,
+   "pct": 11.8
+  },
+  {
+   "name": "DRC La Tache Grand Cru 1999",
+   "old": 20392,
+   "new": 22790,
+   "pct": 11.8
+  },
+  {
+   "name": "DRC Romanee Conti 1995",
+   "old": 46321,
+   "new": 51770,
+   "pct": 11.8
+  },
+  {
+   "name": "DRC Vosne Romanee Duvault Blochet 1er Cru 1999",
+   "old": 7788,
+   "new": 8704,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Christian Clerget Echezeaux Grand Cru En Orveaux 2019",
+   "old": 370,
+   "new": 413,
+   "pct": 11.6
+  },
+  {
+   "name": "Domaine Coquard Loison Fleurot Clos de la Roche Grand Cru 2017",
+   "old": 292,
+   "new": 327,
+   "pct": 12.0
+  },
+  {
+   "name": "Domaine Faiveley ECHEZEAUX EN ORVEAUX 2014",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine Faiveley Lavaux Saint Jacques Gevrey Chambertin 2014",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine Faiveley Mazis Chambertin Grand Cru 2001 1.5l · 1.5 L",
+   "old": 1408,
+   "new": 1573,
+   "pct": 11.7
+  },
+  {
+   "name": "Domaine Fichet BOURGOGNE PINOT NOIR 2023",
+   "old": 30,
+   "new": 40,
+   "pct": 33.3
+  },
+  {
+   "name": "Domaine Fichet BOURGOGNE PINOT NOIR 2024",
+   "old": 30,
+   "new": 40,
+   "pct": 33.3
+  },
+  {
+   "name": "Domaine Fichet Cuvee 1969 Macon GAMAY ROUGE 2022",
+   "old": 57,
+   "new": 70,
+   "pct": 22.8
+  },
+  {
+   "name": "Domaine G Roblot Marchand Chambolle Musigny Premier Cru Les Fuees 2017",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "Domaine Genot-Boulanger Corton Les Combes Grand Cru 2022",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Jacques Prieur CORTON Grand Cru Les Bressandes 2014",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Laurent Pere & Fils Clos Vougeot SUI GENERIS La Plante L abbe 2017",
+   "old": 379,
+   "new": 424,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine Laurent Pere & Fils Les Quatre Vignes Nuits-Saint-Georges 2013",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Domaine Louis Jadot Corton Grand Cru Les Greves 2012",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Domaine Marchand Grillot Gevrey Chambertin Au Velle 2013",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Michel Gros CHAMBOLLE Musigny 2011",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Domaine Michel Mallard Corton Le ROGNET 2019",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Domaine Odoul Coquard CHAMBOLLE MUSIGNY Vieilles Vignes 2023",
+   "old": 107,
+   "new": 120,
+   "pct": 12.1
+  },
+  {
+   "name": "Domaine PIERRE AMIOT Clos de la Roche 2018",
+   "old": 269,
+   "new": 300,
+   "pct": 11.5
+  },
+  {
+   "name": "Domaine de La Choupette Chassagne Montrachet 1er Cru MORGEOT ROUGE 2023",
+   "old": 82,
+   "new": 101,
+   "pct": 23.2
+  },
+  {
+   "name": "Domaine de La Choupette Chassagne Montrachet LA PLATIERE ROUGE 2023",
+   "old": 70,
+   "new": 86,
+   "pct": 22.9
+  },
+  {
+   "name": "Domaine de La Choupette Santenay 1er Cru Clos ROUSSEAU ROUGE 2023",
+   "old": 68,
+   "new": 83,
+   "pct": 22.1
+  },
+  {
+   "name": "Domaine de La Choupette Santenay COMME DESSUS 2024",
+   "old": 60,
+   "new": 74,
+   "pct": 23.3
+  },
+  {
+   "name": "Domaine de Montille Les Pezerolles Pommard Premier Cru 1990",
+   "old": 694,
+   "new": 776,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti ECHEZEAUX Grand Cru 2009",
+   "old": 6463,
+   "new": 7223,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti Echezeaux Grand Cru 2008",
+   "old": 7245,
+   "new": 8097,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti Echezeaux Grand Cru 2015",
+   "old": 6948,
+   "new": 7765,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti GRANDS ECHEZEAUX Grand Cru 1999",
+   "old": 7245,
+   "new": 8097,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti LA TACHE Grand Cru 2013",
+   "old": 11933,
+   "new": 13337,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti La Tache Grand Cru 2015",
+   "old": 13582,
+   "new": 15180,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti La Tache Grand Cru Monopole 2004",
+   "old": 10382,
+   "new": 11603,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti RICHEBOURG Grand Cru 2014",
+   "old": 8446,
+   "new": 9439,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti Romanee Conti Grand Cru 1970",
+   "old": 44023,
+   "new": 49202,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti Romanee Conti Grand Cru 2014",
+   "old": 39626,
+   "new": 44288,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine de la Romanee Conti Romanee SAINT VIVANT Grand Cru 2020",
+   "old": 4462,
+   "new": 4987,
+   "pct": 11.8
+  },
+  {
+   "name": "Dominique Laurent Beaune Vieilles Vignes 2017",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Georges Lignier et Fils Clos Saint Denis Grand Cru 2016",
+   "old": 228,
+   "new": 255,
+   "pct": 11.8
+  },
+  {
+   "name": "Georges Lignier et Fils Clos de la Roche Grand Cru 2016",
+   "old": 333,
+   "new": 372,
+   "pct": 11.7
+  },
+  {
+   "name": "Gerard Raphet Charmes Chambertin Grand Cru 2018",
+   "old": 292,
+   "new": 327,
+   "pct": 12.0
+  },
+  {
+   "name": "Henri de Villamont Bonnes Mares Grand Cru 2019",
+   "old": 682,
+   "new": 762,
+   "pct": 11.7
+  },
+  {
+   "name": "Henri de Villamont Chambolle Musigny Les Chatelots 2014",
+   "old": 194,
+   "new": 217,
+   "pct": 11.9
+  },
+  {
+   "name": "Jean Claude Boisset Hospice de Beaune 1er Cru Cuvee Clos des AVAUX 2004",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Lafon Rochet 1994 (Ex-Chateau)",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Lafon Rochet 2008 (Ex-Chateau)",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Lafon Rochet 2011 (Ex-Chateau)",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Leroy Ruchottes Chambertin 1985",
+   "old": 6235,
+   "new": 6968,
+   "pct": 11.8
+  },
+  {
+   "name": "Leroy Vosne Romanee Les Beaux Monts 1995",
+   "old": 12878,
+   "new": 14392,
+   "pct": 11.8
+  },
+  {
+   "name": "Louis Jadot Clos de Vougeot 2014",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Louis Jadot Corton Marechaudes 2015",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Louis Jadot Domaine des HERITIERS Corton Pougets 2018",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Louis Jadot Le Musigny Grand Cru 1994",
+   "old": 1899,
+   "new": 2122,
+   "pct": 11.7
+  },
+  {
+   "name": "Maison Louis Jadot Clos Saint Denis Grand Cru 2013",
+   "old": 274,
+   "new": 306,
+   "pct": 11.7
+  },
+  {
+   "name": "Maison Louis Jadot Corton Grand Cru ROUGE 2014",
+   "old": 228,
+   "new": 255,
+   "pct": 11.8
+  },
+  {
+   "name": "Maison Louis Jadot Les Marechaudes Grand Cru 2015",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Maison Nicolas Potel Charmes Chambertin 2007",
+   "old": 333,
+   "new": 372,
+   "pct": 11.7
+  },
+  {
+   "name": "Michel Magnien Clos Saint Denis Grand Cru 2020",
+   "old": 426,
+   "new": 476,
+   "pct": 11.7
+  },
+  {
+   "name": "Paul Reitz Nuits Saint Georges 1991",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Pierre Bouree Gevrey Chambertin La Justice 2008",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Pierre Bouree Gevrey Chambertin La Justice 2018",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Pierre De Crillon Gevrey Chambertin FONTENY 2009",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Roche De Bellene Collection Bellenum Charmes Chambertin 2008",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Roche de Bellene Collection Bellenum Santenay GRAVIERES 2004",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Thibault Liger-Belair Bourgogne Les Deux Terres 2020",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Thilloux Christophe VOLNAY CAILLERETS 2002",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "VINCENOT Armand Hospices de Beaune Pommard Cuvee BILLARDET 2009 1.5l · 1.5 L",
+   "old": 343,
+   "new": 383,
+   "pct": 11.7
+  },
+  {
+   "name": "Vincenot Armand Clos de LA ROCHE 2018",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Vincent Barbier Nuits Saint Georges Les Plateaux 2002",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Vincent Girardin Chassagne Montrachet LA MALTROIE Rouge 2017",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "Violot Guillemard Joannes POMMARD LES FREMIERS 2020",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "Yannick Amirault Bourgueil Les Quartiers 2018",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "ANDRE BRUNEL Chateauneuf Du Pape Cuvee Centenaire 2003",
+   "old": 144,
+   "new": 160,
+   "pct": 11.1
+  },
+  {
+   "name": "Clos Des Papes Chateauneuf Du Pape 2013 1.5L · 1.5 L",
+   "old": 255,
+   "new": 285,
+   "pct": 11.8
+  },
+  {
+   "name": "Clos Des Papes Chateauneuf Du Pape 2013 3L · 3 L",
+   "old": 796,
+   "new": 890,
+   "pct": 11.8
+  },
+  {
+   "name": "Clos Des Papes Chateauneuf Du Pape 2014 1.5L · 1.5 L",
+   "old": 269,
+   "new": 300,
+   "pct": 11.5
+  },
+  {
+   "name": "Domaine Belle Crozes Hermitage Roche Pierre 2015",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Domaine De La Mordoree Chateauneuf Du Pape Reine Des Bois 2004",
+   "old": 212,
+   "new": 237,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Des Remizieres Hermitage Cuvee Emilie 2017",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Domaine Grand Montmirail Mon Reve Gigondas 2017",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Domaine Grand Montmirail Mon Reve Gigondas 2017 1.5L · 1.5 L",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Domaine Guy Farge Harmonie Cornas 2015",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Domaine Jean Louis Chave Saint Joseph 2004",
+   "old": 241,
+   "new": 269,
+   "pct": 11.6
+  },
+  {
+   "name": "Domaine Pierre Usseglio Chateauneuf Du Pape Cuvee de Mon Aieul 2007",
+   "old": 292,
+   "new": 327,
+   "pct": 12.0
+  },
+  {
+   "name": "Domaine Pierre Usseglio et Fils Chateauneuf-du-Pape Reserve des Deux Freres 2003",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Domaine Santa Duc Chateauneuf-du-Pape Habemus Papam 2016",
+   "old": 144,
+   "new": 160,
+   "pct": 11.1
+  },
+  {
+   "name": "Domaine Santa Duc Chateauneuf-du-Pape Habemus Papam 2016 1.5L · 1.5 L",
+   "old": 296,
+   "new": 331,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Santa Duc Chateauneuf-du-Pape Le Pied De Baud 2016 1.5L · 1.5 L",
+   "old": 487,
+   "new": 544,
+   "pct": 11.7
+  },
+  {
+   "name": "Domaine Santa Duc Chateauneuf-du-Pape Les Saintes Vierges 2016",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Domaine Santa Duc Chateauneuf-du-Pape Les Saintes Vierges 2016 1.5L · 1.5 L",
+   "old": 286,
+   "new": 320,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine Santa Duc Gigondas Les Hautes Garrigues 2016",
+   "old": 218,
+   "new": 244,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine Santa Duc Grand Grenache 66 Gigondas 2009",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Domaine de Ferrand Chateauneuf du Pape 2018",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "Domaine de Fontavin Chateauneuf Du Pape David et Goliath 2016",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Domaine des Bosquets Gigondas LE REGARD LOIN 2021",
+   "old": 219,
+   "new": 270,
+   "pct": 23.3
+  },
+  {
+   "name": "Domaine des Bosquets Gigondas LES ROCHES 2021",
+   "old": 92,
+   "new": 113,
+   "pct": 22.8
+  },
+  {
+   "name": "Domaine des Bosquets Gigondas LES ROUTES 2021",
+   "old": 92,
+   "new": 113,
+   "pct": 22.8
+  },
+  {
+   "name": "Domaine des Bosquets Gigondas La Colline 2021",
+   "old": 92,
+   "new": 113,
+   "pct": 22.8
+  },
+  {
+   "name": "Domaine des Bosquets Gigondas Le Lieu Dit 2021",
+   "old": 92,
+   "new": 113,
+   "pct": 22.8
+  },
+  {
+   "name": "Domaine des Bosquets Gigondas Le Plateau 2021",
+   "old": 92,
+   "new": 113,
+   "pct": 22.8
+  },
+  {
+   "name": "Domaine du Comte Christophe de Courten Cuvee Speciale des Comtes de Courten CDP 2016",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine du Pegau Chateauneuf Du Pape Reserve 2015",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Etienne Guigal Cote Rotie La Landonne 2003",
+   "old": 1464,
+   "new": 1636,
+   "pct": 11.7
+  },
+  {
+   "name": "Etienne Guigal DE NALYS Chateauneuf Du Pape 2019",
+   "old": 107,
+   "new": 120,
+   "pct": 12.1
+  },
+  {
+   "name": "Etienne Guigal Hermitage Rouge 2014",
+   "old": 305,
+   "new": 341,
+   "pct": 11.8
+  },
+  {
+   "name": "Etienne Guigal LA TURQUE Cote Brune Cote Rotie 2003",
+   "old": 1315,
+   "new": 1470,
+   "pct": 11.8
+  },
+  {
+   "name": "Etienne Guigal Saint Joseph Vignes de L'Hospice 2015",
+   "old": 352,
+   "new": 393,
+   "pct": 11.6
+  },
+  {
+   "name": "Georges Lelektsoglou Cote Rotie Lieu dit LA BROCARDE 2019",
+   "old": 286,
+   "new": 324,
+   "pct": 13.3
+  },
+  {
+   "name": "Georges Lelektsoglou Saint Joseph Hector Adrien Charalambos 2020",
+   "old": 111,
+   "new": 126,
+   "pct": 13.5
+  },
+  {
+   "name": "Grand Veneur Chateauneuf Du Pape Cuvee des Origines 2015",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Henri Bonneau Chateauneuf Du Pape Cuvee Celestins 1999",
+   "old": 1191,
+   "new": 1331,
+   "pct": 11.8
+  },
+  {
+   "name": "Henri Bonneau Chateauneuf Du Pape Marie Beurrier 1999",
+   "old": 602,
+   "new": 673,
+   "pct": 11.8
+  },
+  {
+   "name": "Henri Bonneau Chateauneuf Du Pape Marie Beurrier 2000",
+   "old": 616,
+   "new": 689,
+   "pct": 11.9
+  },
+  {
+   "name": "Janasse Chateauneuf Du Pape Vieilles Vignes 2013",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Janasse Chaupin Chateauneuf du Pape 2017",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Le Vieux Donjon Chateauneuf du Pape 2014",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Le Vieux Donjon Chateauneuf du Pape 2016",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Le Vieux Donjon Chateauneuf du Pape 2017",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Mas De Sainte Croix Cotes Du Rhone Villages Valreas Passion D Une Terre 2023",
+   "old": 46,
+   "new": 51,
+   "pct": 10.9
+  },
+  {
+   "name": "Mas De Sainte Croix Douceur de Fruit BIO Cotes du Rhone ROUGE 2023",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Mas De Sainte Croix Douceur de Fruit BIO Cotes du Rhone ROUGE 2024",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Patrick Lesec Chateauneuf du Pape Cuvee Bargeton 2018 1.5l · 1.5 L",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Patrick Lesec Chateauneuf du Pape Les Galets Blonds 2016",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Paul Jaboulet Hermitage La Chapelle 1990",
+   "old": 1255,
+   "new": 1403,
+   "pct": 11.8
+  },
+  {
+   "name": "Paul Jaboulet Hermitage La Chapelle 2004",
+   "old": 250,
+   "new": 279,
+   "pct": 11.6
+  },
+  {
+   "name": "Paul Jaboulet Hermitage La Chapelle 2005",
+   "old": 329,
+   "new": 368,
+   "pct": 11.9
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Cuvee IMPERIALE 2021",
+   "old": 82,
+   "new": 101,
+   "pct": 23.2
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Cuvee IMPERIALE 2023",
+   "old": 82,
+   "new": 101,
+   "pct": 23.2
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Cuvee Imperiale 2018",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Cuvee Imperiale 2018 1.5l · 1.5 L",
+   "old": 241,
+   "new": 269,
+   "pct": 11.6
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Cuvee Imperiale 2018 3.0l · 3 L",
+   "old": 605,
+   "new": 676,
+   "pct": 11.7
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Cuvee Imperiale 2020",
+   "old": 82,
+   "new": 101,
+   "pct": 23.2
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Cuvee Imperiale 2020 3.0l · 3 L",
+   "old": 756,
+   "new": 846,
+   "pct": 11.9
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Imperiale 2016 3.0L · 3 L",
+   "old": 514,
+   "new": 575,
+   "pct": 11.9
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape Imperiale 2017",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape La Part des ANGES 2021",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape La Part des Anges 2016",
+   "old": 167,
+   "new": 187,
+   "pct": 12.0
+  },
+  {
+   "name": "Raymond Usseglio Chateauneuf Du Pape La Part des Anges 2016 3L · 3 L",
+   "old": 867,
+   "new": 969,
+   "pct": 11.8
+  },
+  {
+   "name": "Raymond Usseglio Le Peche Originel Sans Soufre 2019 1.5l · 1.5 L",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Roger Sabon Chateauneuf du Pape Cuvee Prestige 2016",
+   "old": 144,
+   "new": 160,
+   "pct": 11.1
+  },
+  {
+   "name": "Xavier Chateauneuf Du Pape 1983",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Xavier Chateauneuf Du Pape 2000",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Xavier Chateauneuf Du Pape ANONYME 2019",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Xavier Chateauneuf Du Pape Ange 2001",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Pierre Graffeuille Odyssee Vin De France 2018",
+   "old": 65,
+   "new": 72,
+   "pct": 10.8
+  },
+  {
+   "name": "Feudi di San Gregorio Patrimo 2016",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Feudi di San Gregorio Piano di Montevergine Riserva 2015",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Lionel GOAT 10 - Puglia Primitivo IGT 2022",
+   "old": 110,
+   "new": 135,
+   "pct": 22.7
+  },
+  {
+   "name": "Lungarotti Rubesco Vigna Monticchio Riserva 2010",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Varvaglione 12 e MEZZO Primitivo del Salento IGP 2024",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Velenosi LACRIMA di Morro d Alba SUPERIORE DOC 2023",
+   "old": 28,
+   "new": 38,
+   "pct": 35.7
+  },
+  {
+   "name": "Velenosi LUDI Offida DOCG Rosso 2019",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Velenosi Quintana Rosso Piceno DOC Superiore Bio 2018",
+   "old": 86,
+   "new": 96,
+   "pct": 11.6
+  },
+  {
+   "name": "Velenosi Rosso PICENO DOC BIO 2022",
+   "old": 22,
+   "new": 29,
+   "pct": 31.8
+  },
+  {
+   "name": "Velenosi Velenosi Rosso Bio Piceno 2024",
+   "old": 22,
+   "new": 29,
+   "pct": 31.8
+  },
+  {
+   "name": "Velenosi Versosera 2018",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "Velenosi Versosera 2018 1.5l · 1.5 L",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Boroli 1661 LANGHE DOC Nebbiolo 2023",
+   "old": 39,
+   "new": 48,
+   "pct": 23.1
+  },
+  {
+   "name": "Boroli 1661 LANGHE DOC Nebbiolo 2024",
+   "old": 39,
+   "new": 48,
+   "pct": 23.1
+  },
+  {
+   "name": "Boroli Barolo 2011",
+   "old": 194,
+   "new": 217,
+   "pct": 11.9
+  },
+  {
+   "name": "Boroli Barolo BRUNELLA DOCG 2016",
+   "old": 101,
+   "new": 124,
+   "pct": 22.8
+  },
+  {
+   "name": "Boroli Barolo BRUNELLA DOCG 2021",
+   "old": 101,
+   "new": 124,
+   "pct": 22.8
+  },
+  {
+   "name": "Boroli Barolo CEREQUIO DOCG 2016",
+   "old": 101,
+   "new": 124,
+   "pct": 22.8
+  },
+  {
+   "name": "Boroli Barolo CEREQUIO DOCG 2021",
+   "old": 101,
+   "new": 124,
+   "pct": 22.8
+  },
+  {
+   "name": "Boroli Barolo DOCG 2021",
+   "old": 57,
+   "new": 70,
+   "pct": 22.8
+  },
+  {
+   "name": "Boroli Barolo VILLERO DOCG 2021",
+   "old": 101,
+   "new": 124,
+   "pct": 22.8
+  },
+  {
+   "name": "Boroli Barolo del Comune di CASTIGLIONE FALLETTO DOCG 2021",
+   "old": 75,
+   "new": 92,
+   "pct": 22.7
+  },
+  {
+   "name": "Damilano CANNUBI Barolo DOCG 2018",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Damilano Cannubi Barolo DOCG 2016",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Damilano LECINQUEVIGNE Barolo DOCG 2018",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Damilano Lecinquevigne Barolo DOCG 2004 3.0l · 3 L",
+   "old": 833,
+   "new": 931,
+   "pct": 11.8
+  },
+  {
+   "name": "Damilano Marghe LANGHE Nebbiolo DOC 2020",
+   "old": 45,
+   "new": 55,
+   "pct": 22.2
+  },
+  {
+   "name": "Domenico Clerico Barolo Pajana 2011",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Domenico Clerico Barolo Pajana 2015",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Gaja Barbaresco Costa Russi 2005",
+   "old": 1148,
+   "new": 1283,
+   "pct": 11.8
+  },
+  {
+   "name": "Gaja Barbaresco Sori San Lorenzo 2005",
+   "old": 1228,
+   "new": 1373,
+   "pct": 11.8
+  },
+  {
+   "name": "Gaja Barbaresco Sori Tildin 2005",
+   "old": 524,
+   "new": 585,
+   "pct": 11.6
+  },
+  {
+   "name": "Gaja Costa Russi 2004 3.0l · 3 L",
+   "old": 3581,
+   "new": 4002,
+   "pct": 11.8
+  },
+  {
+   "name": "Gianni Gagliardo Barolo DOCG Experience 2017 COLLECTION (OWC set of 5)",
+   "old": 732,
+   "new": 818,
+   "pct": 11.7
+  },
+  {
+   "name": "Gianni Gagliardo Castelletto Barolo DOCG 2016",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Giovanni Manzone Barolo Castelletto 2016",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Giovanni Manzone Barolo Gramolere 2013",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Paitin ALBESANI Barbaresco 2021",
+   "old": 82,
+   "new": 101,
+   "pct": 23.2
+  },
+  {
+   "name": "Paitin SERRABOELLA Barbaresco 2021",
+   "old": 70,
+   "new": 86,
+   "pct": 22.9
+  },
+  {
+   "name": "Paitin SORI PAITIN SERRABOELLA Barbaresco 2020",
+   "old": 84,
+   "new": 104,
+   "pct": 23.8
+  },
+  {
+   "name": "Produttori del Barbaresco Barbaresco DOCG 2017",
+   "old": 65,
+   "new": 72,
+   "pct": 10.8
+  },
+  {
+   "name": "Agricola Punica MONTESSU 2015",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Argiolas COSTERA Cannonau Di Sardegna DOC 2022",
+   "old": 28,
+   "new": 38,
+   "pct": 35.7
+  },
+  {
+   "name": "Argiolas COSTERA Cannonau Di Sardegna DOC 2023",
+   "old": 28,
+   "new": 38,
+   "pct": 35.7
+  },
+  {
+   "name": "Argiolas Is Solinas CARIGNANO Rosso Isola dei Nuraghi 2021",
+   "old": 41,
+   "new": 50,
+   "pct": 22.0
+  },
+  {
+   "name": "Argiolas Is Solinas CARIGNANO Rosso Isola dei Nuraghi 2022",
+   "old": 41,
+   "new": 50,
+   "pct": 22.0
+  },
+  {
+   "name": "Argiolas KOREM Bovale Isola Dei Nuraghi IGT 2016",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Argiolas KOREM Bovale Isola Dei Nuraghi IGT 2019",
+   "old": 68,
+   "new": 83,
+   "pct": 22.1
+  },
+  {
+   "name": "Argiolas KOREM Bovale Isola Dei Nuraghi IGT 2021",
+   "old": 68,
+   "new": 83,
+   "pct": 22.1
+  },
+  {
+   "name": "Argiolas SENES Cannonau Di Sardegna RISERVA DOC 2022",
+   "old": 42,
+   "new": 52,
+   "pct": 23.8
+  },
+  {
+   "name": "Argiolas TURRIGA ROSSO Isola Dei Nuraghi IGT 2016",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Argiolas TURRIGA ROSSO Isola Dei Nuraghi IGT 2018 1.5L · 1.5 L",
+   "old": 311,
+   "new": 348,
+   "pct": 11.9
+  },
+  {
+   "name": "Argiolas TURRIGA ROSSO Isola Dei Nuraghi IGT 2018 18L · 18 L",
+   "old": 12016,
+   "new": 13430,
+   "pct": 11.8
+  },
+  {
+   "name": "Argiolas TURRIGA ROSSO Isola Dei Nuraghi IGT 2018 3L · 3 L",
+   "old": 740,
+   "new": 827,
+   "pct": 11.8
+  },
+  {
+   "name": "Argiolas TURRIGA ROSSO Isola Dei Nuraghi IGT 2019 5L · 5 L",
+   "old": 2816,
+   "new": 3147,
+   "pct": 11.8
+  },
+  {
+   "name": "Argiolas TURRIGA ROSSO Isola Dei Nuraghi IGT 2020",
+   "old": 117,
+   "new": 144,
+   "pct": 23.1
+  },
+  {
+   "name": "Lionel GOAT 10 - Sicily Syrah IGT 2022",
+   "old": 110,
+   "new": 135,
+   "pct": 22.7
+  },
+  {
+   "name": "Lombardo Marsala Fine I.P. D.O.C Ambra Semisecco NV",
+   "old": 24,
+   "new": 33,
+   "pct": 37.5
+  },
+  {
+   "name": "Marabino Archimede 2015",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Marabino Archimede 2018",
+   "old": 64,
+   "new": 79,
+   "pct": 23.4
+  },
+  {
+   "name": "ALTESINO Brunello Di Montalcino 2010",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Antinori Badia a PASSIGNANO Chianti Classico Gran Selezione 2005 3.0L · 3 L",
+   "old": 4724,
+   "new": 5280,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori Badia a PASSIGNANO Chianti Classico Gran Selezione 2016",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Antinori Badia a PASSIGNANO Chianti Classico Gran Selezione 2019",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2005",
+   "old": 398,
+   "new": 445,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2006 3.0L · 3 L",
+   "old": 1769,
+   "new": 1977,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2007",
+   "old": 286,
+   "new": 320,
+   "pct": 11.9
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2007 1.5L · 1.5 L",
+   "old": 704,
+   "new": 787,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2013",
+   "old": 274,
+   "new": 306,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2015",
+   "old": 241,
+   "new": 269,
+   "pct": 11.6
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2018",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2021",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Antinori Guado Al TASSO 2022",
+   "old": 231,
+   "new": 258,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori Guado Al Tasso CONT UGO 2020",
+   "old": 144,
+   "new": 160,
+   "pct": 11.1
+  },
+  {
+   "name": "Antinori MATAROCCHIO 2007",
+   "old": 842,
+   "new": 941,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori MATAROCCHIO 2007 1.5L · 1.5 L",
+   "old": 1899,
+   "new": 2122,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori SOLAIA 2002",
+   "old": 496,
+   "new": 555,
+   "pct": 11.9
+  },
+  {
+   "name": "Antinori SOLAIA 2003",
+   "old": 663,
+   "new": 741,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori SOLAIA 2005 3.0L · 3 L",
+   "old": 5466,
+   "new": 6108,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori SOLAIA 2006",
+   "old": 547,
+   "new": 611,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori SOLAIA 2006 1.5L · 1.5 L",
+   "old": 1191,
+   "new": 1331,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori SOLAIA 2006 3.0L · 3 L",
+   "old": 3386,
+   "new": 3785,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori SOLAIA 2007",
+   "old": 598,
+   "new": 669,
+   "pct": 11.9
+  },
+  {
+   "name": "Antinori SOLAIA 2007 3.0L · 3 L",
+   "old": 2266,
+   "new": 2533,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori SOLAIA 2008",
+   "old": 536.0,
+   "new": 548,
+   "pct": 2.2
+  },
+  {
+   "name": "Antinori SOLAIA 2009",
+   "old": 468,
+   "new": 523,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori SOLAIA 2012",
+   "old": 445,
+   "new": 497,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori SOLAIA 2016",
+   "old": 746,
+   "new": 834,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori SOLAIA 2018",
+   "old": 431,
+   "new": 482,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori TIGNANELLO 2001",
+   "old": 426,
+   "new": 476,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori TIGNANELLO 2005 1.5L · 1.5 L",
+   "old": 972,
+   "new": 1087,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori TIGNANELLO 2006",
+   "old": 462,
+   "new": 517,
+   "pct": 11.9
+  },
+  {
+   "name": "Antinori TIGNANELLO 2006 1.5L · 1.5 L",
+   "old": 867,
+   "new": 969,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori TIGNANELLO 2006 3.0l · 3 L",
+   "old": 3113,
+   "new": 3479,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori TIGNANELLO 2007",
+   "old": 376,
+   "new": 420,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori TIGNANELLO 2007 1.5L · 1.5 L",
+   "old": 944,
+   "new": 1055,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori TIGNANELLO 2007 3.0L · 3 L",
+   "old": 2266,
+   "new": 2533,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori TIGNANELLO 2008 1.5L · 1.5 L",
+   "old": 691,
+   "new": 772,
+   "pct": 11.7
+  },
+  {
+   "name": "Antinori TIGNANELLO 2009",
+   "old": 311,
+   "new": 348,
+   "pct": 11.9
+  },
+  {
+   "name": "Antinori TIGNANELLO 2010 6.0l · 6 L",
+   "old": 6439,
+   "new": 7196,
+   "pct": 11.8
+  },
+  {
+   "name": "Antinori Villa Antinori ROSSO IGT 2020",
+   "old": 46,
+   "new": 51,
+   "pct": 10.9
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2012",
+   "old": 366,
+   "new": 409,
+   "pct": 11.7
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2012 1.5L · 1.5 L",
+   "old": 894,
+   "new": 999,
+   "pct": 11.7
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2016",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2016 1.5L · 1.5 L",
+   "old": 487,
+   "new": 544,
+   "pct": 11.7
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2016 12L · 12 L",
+   "old": 12461,
+   "new": 13927,
+   "pct": 11.8
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2016 3L · 3 L",
+   "old": 1163,
+   "new": 1300,
+   "pct": 11.8
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2016 6L · 6 L",
+   "old": 3113,
+   "new": 3479,
+   "pct": 11.8
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2017",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2017 1.5L · 1.5 L",
+   "old": 329,
+   "new": 368,
+   "pct": 11.9
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2017 3L · 3 L",
+   "old": 765,
+   "new": 855,
+   "pct": 11.8
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2019",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2020",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Argentiera DOC Bolgheri SUPERIORE 2021 1.5l (OWC 1) · 1.5 L",
+   "old": 379,
+   "new": 424,
+   "pct": 11.9
+  },
+  {
+   "name": "Argentiera LAVINIA Maria 2011",
+   "old": 700,
+   "new": 782,
+   "pct": 11.7
+  },
+  {
+   "name": "Argentiera LAVINIA Maria 2011 1.5L · 1.5 L",
+   "old": 1506,
+   "new": 1683,
+   "pct": 11.8
+  },
+  {
+   "name": "Argentiera Poggio Al GINEPRI DOC 2017",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Argentiera Poggio Al GINEPRI DOC 2022",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "Argentiera Villa DONORATICO DOC 2016",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Argentiera Villa DONORATICO DOC 2021",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "Argiano Brunello Di Montalcino 2013",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "Argiano Brunello Di Montalcino 2018 (Wine Spectator no.1 Wine, Top 100 2023 - Wine of the Year)",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Argiano Brunello Di Montalcino 2018 1.5l (Wine Spectator no.1 Wine, Top 100 2023 - Wine of the Year · 1.5 L",
+   "old": 413,
+   "new": 462,
+   "pct": 11.9
+  },
+  {
+   "name": "Argiano Brunello Di Montalcino 2019",
+   "old": 81,
+   "new": 92,
+   "pct": 13.6
+  },
+  {
+   "name": "Argiano Brunello Di Montalcino 2020",
+   "old": 81,
+   "new": 92,
+   "pct": 13.6
+  },
+  {
+   "name": "Argiano Brunello Di Montalcino 2021",
+   "old": 81,
+   "new": 92,
+   "pct": 13.6
+  },
+  {
+   "name": "Argiano Brunello Di Montalcino 2021 1.5l · 1.5 L",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Argiano ROSSO Di Montalcino 2024",
+   "old": 39,
+   "new": 48,
+   "pct": 23.1
+  },
+  {
+   "name": "Argiano SOLENGO 2015",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Argiano SOLENGO 2016",
+   "old": 107,
+   "new": 120,
+   "pct": 12.1
+  },
+  {
+   "name": "Argiano SOLENGO 2018",
+   "old": 103,
+   "new": 115,
+   "pct": 11.7
+  },
+  {
+   "name": "Argiano SOLENGO 2019",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Argiano SOLENGO 2020",
+   "old": 84,
+   "new": 104,
+   "pct": 23.8
+  },
+  {
+   "name": "Argiano SOLENGO 2022",
+   "old": 84,
+   "new": 104,
+   "pct": 23.8
+  },
+  {
+   "name": "Argiano SOLENGO 2023",
+   "old": 84,
+   "new": 104,
+   "pct": 23.8
+  },
+  {
+   "name": "Argiano SOLENGO 2023 1.5l · 1.5 L",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Biserno 2018",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Biserno 2019",
+   "old": 264,
+   "new": 295,
+   "pct": 11.7
+  },
+  {
+   "name": "Biserno 2020",
+   "old": 228,
+   "new": 255,
+   "pct": 11.8
+  },
+  {
+   "name": "Boscarelli Di Boscarelli 2006",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Brancaia IL BLU Toscana IGT 2016",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Brancaia ILATRAIA Rosso 2016",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "CASTIGLION Del Bosco Brunello Di Montalcino 2015",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "CASTIGLION Del Bosco Brunello Di Montalcino 2016",
+   "old": 107,
+   "new": 120,
+   "pct": 12.1
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2015",
+   "old": 107,
+   "new": 120,
+   "pct": 12.1
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2016",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2017",
+   "old": 119,
+   "new": 133,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2017 1.5l · 1.5 L",
+   "old": 269,
+   "new": 300,
+   "pct": 11.5
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2018",
+   "old": 89,
+   "new": 110,
+   "pct": 23.6
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2018 1.5l · 1.5 L",
+   "old": 202,
+   "new": 249,
+   "pct": 23.3
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2018 3.0L · 3 L",
+   "old": 718,
+   "new": 803,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2019",
+   "old": 89,
+   "new": 110,
+   "pct": 23.6
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2019 1.5l · 1.5 L",
+   "old": 202,
+   "new": 249,
+   "pct": 23.3
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2019 3.0L · 3 L",
+   "old": 694,
+   "new": 776,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2020",
+   "old": 89,
+   "new": 110,
+   "pct": 23.6
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2020 1.5l · 1.5 L",
+   "old": 202,
+   "new": 249,
+   "pct": 23.3
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2020 3.0l · 3 L",
+   "old": 694,
+   "new": 776,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2021",
+   "old": 89,
+   "new": 110,
+   "pct": 23.6
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2021 1.5l · 1.5 L",
+   "old": 202,
+   "new": 249,
+   "pct": 23.3
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino 2021 3.0l · 3 L",
+   "old": 694,
+   "new": 776,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino RISERVA 2015",
+   "old": 218,
+   "new": 244,
+   "pct": 11.9
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino RISERVA 2015 1.5L · 1.5 L",
+   "old": 663,
+   "new": 741,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino RISERVA 2016",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "Canalicchio di Sopra Brunello Di Montalcino RISERVA 2019",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2015",
+   "old": 255,
+   "new": 285,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2015 1.5l · 1.5 L",
+   "old": 700,
+   "new": 782,
+   "pct": 11.7
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2016",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2016 1.5l · 1.5 L",
+   "old": 709,
+   "new": 792,
+   "pct": 11.7
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2017",
+   "old": 246,
+   "new": 275,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2018",
+   "old": 255,
+   "new": 285,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2018 1.5l · 1.5 L",
+   "old": 574,
+   "new": 641,
+   "pct": 11.7
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2019",
+   "old": 194,
+   "new": 217,
+   "pct": 11.9
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2019 1.5l · 1.5 L",
+   "old": 440,
+   "new": 492,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2020",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2020 1.5l · 1.5 L",
+   "old": 440,
+   "new": 492,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2021",
+   "old": 198,
+   "new": 244,
+   "pct": 23.2
+  },
+  {
+   "name": "Canalicchio di Sopra LA CASACCIA Brunello Di Montalcino 2021 1.5l · 1.5 L",
+   "old": 440,
+   "new": 492,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra MONTOSOLI Brunello Di Montalcino 2018",
+   "old": 195,
+   "new": 240,
+   "pct": 23.1
+  },
+  {
+   "name": "Canalicchio di Sopra MONTOSOLI Brunello Di Montalcino 2018 1.5L · 1.5 L",
+   "old": 639,
+   "new": 714,
+   "pct": 11.7
+  },
+  {
+   "name": "Canalicchio di Sopra MONTOSOLI Brunello Di Montalcino 2019",
+   "old": 195,
+   "new": 240,
+   "pct": 23.1
+  },
+  {
+   "name": "Canalicchio di Sopra MONTOSOLI Brunello Di Montalcino 2019 1.5l · 1.5 L",
+   "old": 639,
+   "new": 714,
+   "pct": 11.7
+  },
+  {
+   "name": "Canalicchio di Sopra MONTOSOLI Brunello Di Montalcino 2020",
+   "old": 255,
+   "new": 285,
+   "pct": 11.8
+  },
+  {
+   "name": "Canalicchio di Sopra MONTOSOLI Brunello Di Montalcino 2020 1.5l · 1.5 L",
+   "old": 639,
+   "new": 714,
+   "pct": 11.7
+  },
+  {
+   "name": "Canalicchio di Sopra MONTOSOLI Brunello Di Montalcino 2021",
+   "old": 195,
+   "new": 240,
+   "pct": 23.1
+  },
+  {
+   "name": "Canalicchio di Sopra MONTOSOLI Brunello Di Montalcino 2021 1.5l · 1.5 L",
+   "old": 639,
+   "new": 714,
+   "pct": 11.7
+  },
+  {
+   "name": "Canalicchio di Sopra ROSSO Di Montalcino 2021",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "Canalicchio di Sopra ROSSO Di Montalcino 2022",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "Canalicchio di Sopra ROSSO Di Montalcino 2023",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "Canalicchio di Sopra ROSSO Di Montalcino 2024",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "Caparsa Caparsino Chianti Classico RISERVA 2016",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Caparzo Brunello Di Montalcino 2013",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Caparzo Brunello Di Montalcino 2016",
+   "old": 107,
+   "new": 120,
+   "pct": 12.1
+  },
+  {
+   "name": "Casanova di Neri TENUTA NUOVA Brunello Di Montalcino 2015",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Castello Banfi Brunello Di Montalcino 2016",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Castello Trebbio Chianti DOCG SUPERIORE 2024",
+   "old": 22,
+   "new": 30,
+   "pct": 36.4
+  },
+  {
+   "name": "Castello di CAMIGLIANO Gualto Brunello di Montalcino RISERVA 2015",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Castello di Monsanto FABRIZIO BIANCHI Sangioveto IGT 2016",
+   "old": 84,
+   "new": 104,
+   "pct": 23.8
+  },
+  {
+   "name": "Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2018",
+   "old": 99,
+   "new": 122,
+   "pct": 23.2
+  },
+  {
+   "name": "Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2019",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Castello di Monsanto Il Poggio Chianti Classico GRAN SELEZIONE DOCG 2020 (Vinous No.1 Wine of 2025)",
+   "old": 123,
+   "new": 139,
+   "pct": 13.0
+  },
+  {
+   "name": "Col D Orcia Brunello Di Montalcino 2016",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Cordella Brunello Di Montalcino 2016",
+   "old": 94,
+   "new": 105,
+   "pct": 11.7
+  },
+  {
+   "name": "Donna Olimpia 1898 Costa Toscana 2016",
+   "old": 84,
+   "new": 94,
+   "pct": 11.9
+  },
+  {
+   "name": "Fattoria Le Pupille Saffredi Rosso 2016",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Felsina Berardenga Rancia Chianti Classico Riserva 2018",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Felsina Fontalloro 2016",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Fossacolle Riesci Rosso di Toscana IGT 2018",
+   "old": 84,
+   "new": 94,
+   "pct": 11.9
+  },
+  {
+   "name": "Frescobaldi Castelgiocondo Brunello Di Montalcino 2012",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Frescobaldi Castelgiocondo RIPE al CONVENTO Brunello Di Montalcino 2016",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Grattamacco Bolgheri Rosso Superiore 2019",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Il Pino di Biserno 2020",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Il Poggione Brunello Di Montalcino 2015 3.0l · 3 L",
+   "old": 445,
+   "new": 497,
+   "pct": 11.7
+  },
+  {
+   "name": "LE VOLTE Dell Ornellaia 2021",
+   "old": 51,
+   "new": 57,
+   "pct": 11.8
+  },
+  {
+   "name": "La Gerla BIRBA Toscana IGT 2022",
+   "old": 53,
+   "new": 66,
+   "pct": 24.5
+  },
+  {
+   "name": "La Gerla Birba Toscana IGT 2021",
+   "old": 53,
+   "new": 66,
+   "pct": 24.5
+  },
+  {
+   "name": "La Gerla Brunello di Montalcino DOCG LA PIEVE 2021 (KO 100, #1 Top Wines of 2025)",
+   "old": 103,
+   "new": 117,
+   "pct": 13.6
+  },
+  {
+   "name": "La Gerla Rosso di Montalcino 2022",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "La Gerla Rosso di Montalcino 2023",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "La Rasina Brunello Di Montalcino 2015",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "La Rasina Brunello Di Montalcino 2016",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "La Rasina Brunello Di Montalcino RISERVA 2012",
+   "old": 127,
+   "new": 142,
+   "pct": 11.8
+  },
+  {
+   "name": "Le Macchiole Paleo Rosso 2017",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "Luce della Vite Brunello di Montalcino 2015",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Luce della Vite Brunello di Montalcino 2016",
+   "old": 218,
+   "new": 244,
+   "pct": 11.9
+  },
+  {
+   "name": "Luce della Vite Brunello di Montalcino 2016 1.5L · 1.5 L",
+   "old": 592,
+   "new": 662,
+   "pct": 11.8
+  },
+  {
+   "name": "Luce della Vite Brunello di Montalcino 2017",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Marabino ROSSO Di CONTRADA 2019",
+   "old": 29,
+   "new": 40,
+   "pct": 37.9
+  },
+  {
+   "name": "Marchese Antinori Chianti 1999 3L · 3 L",
+   "old": 542,
+   "new": 606,
+   "pct": 11.8
+  },
+  {
+   "name": "Marchese Antinori Chianti Classico RISERVA 1994",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Marchese Antinori Chianti Classico RISERVA 2010 1.5l · 1.5 L",
+   "old": 302,
+   "new": 337,
+   "pct": 11.6
+  },
+  {
+   "name": "Marchese Antinori Chianti Classico RISERVA 2016",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Marchese Antinori Chianti Classico RISERVA 2018",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Marchese Antinori Chianti Classico RISERVA 2019",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "Marchese Antinori Chianti Classico RISERVA 2020",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Marchese Antinori Chianti Classico RISERVA 2021",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Marchese Antinori Chianti Classico RISERVA 2022",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Massetino 2020",
+   "old": 602,
+   "new": 673,
+   "pct": 11.8
+  },
+  {
+   "name": "Masseto 2020",
+   "old": 1195.0,
+   "new": 1196,
+   "pct": 0.1
+  },
+  {
+   "name": "Ornellaia 1994 6.0L · 6 L",
+   "old": 8844,
+   "new": 9885,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2001",
+   "old": 564,
+   "new": 631,
+   "pct": 11.9
+  },
+  {
+   "name": "Ornellaia 2002",
+   "old": 542,
+   "new": 606,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2005",
+   "old": 533,
+   "new": 596,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2016 1.5L · 1.5 L",
+   "old": 960,
+   "new": 1073,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2016 3L · 3 L",
+   "old": 2303,
+   "new": 2574,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2016 6L · 6 L",
+   "old": 7041,
+   "new": 7869,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2017",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Ornellaia 2017 1.5L · 1.5 L",
+   "old": 904,
+   "new": 1010,
+   "pct": 11.7
+  },
+  {
+   "name": "Ornellaia 2017 3L · 3 L",
+   "old": 2071,
+   "new": 2315,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2018",
+   "old": 348,
+   "new": 388,
+   "pct": 11.5
+  },
+  {
+   "name": "Ornellaia 2018 1.5L · 1.5 L",
+   "old": 867,
+   "new": 969,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2018 3.0L · 3 L",
+   "old": 2081,
+   "new": 2326,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2019",
+   "old": 292,
+   "new": 327,
+   "pct": 12.0
+  },
+  {
+   "name": "Ornellaia 2019 1.5l · 1.5 L",
+   "old": 740,
+   "new": 827,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2019 3.0l · 3 L",
+   "old": 1756,
+   "new": 1963,
+   "pct": 11.8
+  },
+  {
+   "name": "Ornellaia 2020 1.5l · 1.5 L",
+   "old": 732,
+   "new": 818,
+   "pct": 11.7
+  },
+  {
+   "name": "Ornellaia 2020 3l · 3 L",
+   "old": 1973,
+   "new": 2205,
+   "pct": 11.8
+  },
+  {
+   "name": "Petrolo Galatrona 2019 6.0L · 6 L",
+   "old": 2112,
+   "new": 2361,
+   "pct": 11.8
+  },
+  {
+   "name": "Pietroso Brunello di Montalcino DOCG 2016",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Podere Sapaio - SAPAIO Toscana 2020",
+   "old": 113,
+   "new": 139,
+   "pct": 23.0
+  },
+  {
+   "name": "Podere Sapaio - SAPAIO Toscana 2021",
+   "old": 113,
+   "new": 139,
+   "pct": 23.0
+  },
+  {
+   "name": "Podere Sapaio VOLPOLO Bolgheri 2024",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "Poggio Scalette CAPOGATTO IGT Alta Valle Della Greve IGT 2015",
+   "old": 111,
+   "new": 124,
+   "pct": 11.7
+  },
+  {
+   "name": "Poggio Scalette CAPOGATTO IGT Alta Valle Della Greve IGT 2016",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Poggio Scalette CAPOGATTO IGT Alta Valle Della Greve IGT 2020",
+   "old": 60,
+   "new": 74,
+   "pct": 23.3
+  },
+  {
+   "name": "Poggio Scalette CHIANTI Classico 2023",
+   "old": 28,
+   "new": 38,
+   "pct": 35.7
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2012 (100pts: Top Italian Red 2016 by Res",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2013",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2015",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2016",
+   "old": 92,
+   "new": 103,
+   "pct": 12.0
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2018",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2019",
+   "old": 60,
+   "new": 74,
+   "pct": 23.3
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2020",
+   "old": 60,
+   "new": 74,
+   "pct": 23.3
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2021",
+   "old": 60,
+   "new": 74,
+   "pct": 23.3
+  },
+  {
+   "name": "Poggio Scalette PIANTONAIA IGT Alta Valle Della 2020",
+   "old": 113,
+   "new": 139,
+   "pct": 23.0
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2011 1.5L · 1.5 L",
+   "old": 274,
+   "new": 306,
+   "pct": 11.7
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2012 1.5L · 1.5 L",
+   "old": 274,
+   "new": 306,
+   "pct": 11.7
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2013",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2013 1.5L · 1.5 L",
+   "old": 296,
+   "new": 331,
+   "pct": 11.8
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2015 1.5L · 1.5 L",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2017 1.5L · 1.5 L",
+   "old": 236,
+   "new": 264,
+   "pct": 11.9
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2018 1.5L · 1.5 L",
+   "old": 194,
+   "new": 217,
+   "pct": 11.9
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2019 1.5l · 1.5 L",
+   "old": 190,
+   "new": 213,
+   "pct": 12.1
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2023 1.5l · 1.5 L",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2024 1.5l · 1.5 L",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "San Guido GUIDALBERTO 2024 3.0l · 3 L",
+   "old": 311,
+   "new": 348,
+   "pct": 11.9
+  },
+  {
+   "name": "Sassicaia 2010 1.5L · 1.5 L",
+   "old": 1260,
+   "new": 1408,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2011 1.5L · 1.5 L",
+   "old": 1182,
+   "new": 1320,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2012",
+   "old": 416,
+   "new": 466,
+   "pct": 12.0
+  },
+  {
+   "name": "Sassicaia 2012 1.5L · 1.5 L",
+   "old": 1210,
+   "new": 1352,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2013",
+   "old": 422,
+   "new": 471,
+   "pct": 11.6
+  },
+  {
+   "name": "Sassicaia 2013 1.5L · 1.5 L",
+   "old": 1232,
+   "new": 1377,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2013 3L · 3 L",
+   "old": 2400,
+   "new": 2682,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2013 6L · 6 L",
+   "old": 7115,
+   "new": 7952,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2014",
+   "old": 370,
+   "new": 413,
+   "pct": 11.6
+  },
+  {
+   "name": "Sassicaia 2014 1.5L · 1.5 L",
+   "old": 1074,
+   "new": 1201,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2014 3L · 3 L",
+   "old": 2219,
+   "new": 2480,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2014 6L · 6 L",
+   "old": 6819,
+   "new": 7621,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2015",
+   "old": 561,
+   "new": 627,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2015 1.5L · 1.5 L",
+   "old": 1288,
+   "new": 1439,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2015 3L · 3 L",
+   "old": 3016,
+   "new": 3371,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2015 6L · 6 L",
+   "old": 8042,
+   "new": 8988,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2016",
+   "old": 682,
+   "new": 762,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2016 1.5L · 1.5 L",
+   "old": 1794,
+   "new": 2004,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2017 1.5L · 1.5 L",
+   "old": 870,
+   "new": 973,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2017 3L · 3 L",
+   "old": 2071,
+   "new": 2315,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2018 1.5l · 1.5 L",
+   "old": 1117,
+   "new": 1248,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2018 3.0l · 3 L",
+   "old": 2673,
+   "new": 2988,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2019",
+   "old": 474.95,
+   "new": 497,
+   "pct": 4.6
+  },
+  {
+   "name": "Sassicaia 2019 1.5l · 1.5 L",
+   "old": 1126,
+   "new": 1259,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2020 3.0l · 3 L",
+   "old": 2557,
+   "new": 2858,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2021 1.5l · 1.5 L",
+   "old": 1056,
+   "new": 1180,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2021 3.0l · 3 L",
+   "old": 2535,
+   "new": 2833,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2022 1.5l · 1.5 L",
+   "old": 1056,
+   "new": 1180,
+   "pct": 11.7
+  },
+  {
+   "name": "Sassicaia 2022 3.0l · 3 L",
+   "old": 2535,
+   "new": 2833,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2023",
+   "old": 404,
+   "new": 451,
+   "pct": 11.6
+  },
+  {
+   "name": "Sassicaia 2023 1.5l · 1.5 L",
+   "old": 885,
+   "new": 989,
+   "pct": 11.8
+  },
+  {
+   "name": "Sassicaia 2023 3.0l · 3 L",
+   "old": 1775,
+   "new": 1984,
+   "pct": 11.8
+  },
+  {
+   "name": "Sette Ponti Oreno 2011",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Sette Ponti Oreno 2011 1.5L · 1.5 L",
+   "old": 292,
+   "new": 327,
+   "pct": 12.0
+  },
+  {
+   "name": "Sette Ponti Oreno 2012",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Sette Ponti Oreno 2013",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Sette Ponti Oreno 2014",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Sette Ponti Oreno 2015",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Sette Ponti Oreno 2016",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Sette Ponti Oreno 2020",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Sette Ponti Orma 2010",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "Sette Ponti Orma 2012",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Sette Ponti Orma 2013",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Sette Ponti Orma 2014",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Sette Ponti Orma 2019",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "Sette Ponti Orma 2020",
+   "old": 101,
+   "new": 113,
+   "pct": 11.9
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2011",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2012",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2013",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2015",
+   "old": 255,
+   "new": 285,
+   "pct": 11.8
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2016",
+   "old": 166,
+   "new": 185,
+   "pct": 11.4
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2017",
+   "old": 138,
+   "new": 170,
+   "pct": 23.2
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2018",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2019",
+   "old": 138,
+   "new": 170,
+   "pct": 23.2
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2020",
+   "old": 138,
+   "new": 170,
+   "pct": 23.2
+  },
+  {
+   "name": "Siro Pacenti Brunello Di Montalcino VECCHIE VIGNE DOCG 2021",
+   "old": 138,
+   "new": 170,
+   "pct": 23.2
+  },
+  {
+   "name": "Siro Pacenti PELAGRILLI Brunello Di Montalcino DOCG 2018",
+   "old": 77,
+   "new": 95,
+   "pct": 23.4
+  },
+  {
+   "name": "Siro Pacenti PELAGRILLI Brunello Di Montalcino DOCG 2019",
+   "old": 75,
+   "new": 92,
+   "pct": 22.7
+  },
+  {
+   "name": "Siro Pacenti PELAGRILLI Brunello Di Montalcino DOCG 2020",
+   "old": 75,
+   "new": 92,
+   "pct": 22.7
+  },
+  {
+   "name": "Siro Pacenti PELAGRILLI Brunello Di Montalcino DOCG 2021",
+   "old": 77,
+   "new": 95,
+   "pct": 23.4
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino RISERVA DOCG 2019 0.75l",
+   "old": 343,
+   "new": 383,
+   "pct": 11.7
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino RISERVA DOCG 2019 3.0l · 3 L",
+   "old": 768,
+   "new": 859,
+   "pct": 11.8
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino Riserva DOCG 2012 1.5L · 1.5 L",
+   "old": 685,
+   "new": 766,
+   "pct": 11.8
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino Riserva DOCG 2015",
+   "old": 274,
+   "new": 306,
+   "pct": 11.7
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino Riserva DOCG 2015 1.5l · 1.5 L",
+   "old": 768,
+   "new": 859,
+   "pct": 11.8
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino Riserva DOCG 2015 3.0l · 3 L",
+   "old": 1618,
+   "new": 1808,
+   "pct": 11.7
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino Riserva DOCG 2016",
+   "old": 343,
+   "new": 383,
+   "pct": 11.7
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino Riserva DOCG 2016 1.5l · 1.5 L",
+   "old": 768,
+   "new": 859,
+   "pct": 11.8
+  },
+  {
+   "name": "Siro Pacenti PS Brunello Di Montalcino Riserva DOCG 2016 3.0l · 3 L",
+   "old": 1473,
+   "new": 1646,
+   "pct": 11.7
+  },
+  {
+   "name": "Talenti Brunello Di Montalcino 2016",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Tenuta Luce Luce 2017 (25th Anniversary)",
+   "old": 181,
+   "new": 202,
+   "pct": 11.6
+  },
+  {
+   "name": "Tenuta Luce Luce 2018",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "Tenuta Luce Luce 2018 1.5l · 1.5 L",
+   "old": 338,
+   "new": 378,
+   "pct": 11.8
+  },
+  {
+   "name": "Tenuta Luce Luce 2019",
+   "old": 194,
+   "new": 217,
+   "pct": 11.9
+  },
+  {
+   "name": "Tenuta Luce Luce 2019 1.5l · 1.5 L",
+   "old": 481,
+   "new": 538,
+   "pct": 11.9
+  },
+  {
+   "name": "Tenuta Luce Luce 2019 3.0l · 3 L",
+   "old": 1200,
+   "new": 1341,
+   "pct": 11.8
+  },
+  {
+   "name": "Tenuta Luce Lucente 2018",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Tenuta Luce Lucente 2018 1.5L · 1.5 L",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Tenuta Luce Lucente 2019",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "Tenuta San Leonardo 2015",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Tenuta Tignanello Marchese Antinori Chianti Classico Reserva 2023",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Tenuta dell'Ornellaia, Masseto 2021",
+   "old": 1074,
+   "new": 1201,
+   "pct": 11.8
+  },
+  {
+   "name": "Tenuta dell'Ornellaia, Ornellaia 2020",
+   "old": 336,
+   "new": 368,
+   "pct": 9.5
+  },
+  {
+   "name": "Trebbio Chianti DOCG SUPERIORE 2021",
+   "old": 28,
+   "new": 38,
+   "pct": 35.7
+  },
+  {
+   "name": "Velenosi Montepulciano d ABRUZZO 2022",
+   "old": 22,
+   "new": 29,
+   "pct": 31.8
+  },
+  {
+   "name": "Velenosi Montepulciano d ABRUZZO 2024",
+   "old": 22,
+   "new": 29,
+   "pct": 31.8
+  },
+  {
+   "name": "Petrolo Galatrona Val d Arno di Sopra 2019",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Petrolo Galatrona Val d Arno di Sopra 2019 1.5l · 1.5 L",
+   "old": 338,
+   "new": 378,
+   "pct": 11.8
+  },
+  {
+   "name": "Petrolo Galatrona Val d Arno di Sopra 2019 3.0L · 3 L",
+   "old": 792,
+   "new": 885,
+   "pct": 11.7
+  },
+  {
+   "name": "Petrolo Torrione 2019",
+   "old": 60,
+   "new": 67,
+   "pct": 11.7
+  },
+  {
+   "name": "Astoria ICONA Cabernet Sauvignon 2023",
+   "old": 22,
+   "new": 29,
+   "pct": 31.8
+  },
+  {
+   "name": "Astoria ICONA Cabernet Sauvignon 2024",
+   "old": 22,
+   "new": 29,
+   "pct": 31.8
+  },
+  {
+   "name": "Brigaldara AMARONE Della Valpolicella Classico 2005 1.5L · 1.5 L",
+   "old": 269,
+   "new": 300,
+   "pct": 11.5
+  },
+  {
+   "name": "Brigaldara AMARONE Della Valpolicella Classico 2006",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Brigaldara AMARONE Della Valpolicella Classico 2007",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Brigaldara AMARONE Della Valpolicella Classico RISERVA 2007 1.5L · 1.5 L",
+   "old": 481,
+   "new": 538,
+   "pct": 11.9
+  },
+  {
+   "name": "Brigaldara AMARONE Della Valpolicella RISERVA 2013",
+   "old": 117,
+   "new": 144,
+   "pct": 23.1
+  },
+  {
+   "name": "Brigaldara Amarone Della Valpolicella RISERVA 2016",
+   "old": 117,
+   "new": 144,
+   "pct": 23.1
+  },
+  {
+   "name": "Brigaldara Amarone Della Valpolicella Riserva 2015",
+   "old": 117,
+   "new": 144,
+   "pct": 23.1
+  },
+  {
+   "name": "Brigaldara Valpolicella Classico 2024",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Dal Forno Romano Amarone della Valpolicella 2008",
+   "old": 594.0,
+   "new": 611,
+   "pct": 2.9
+  },
+  {
+   "name": "Dal Forno Romano Amarone della Valpolicella Monte Lodoletta 2010",
+   "old": 561,
+   "new": 627,
+   "pct": 11.8
+  },
+  {
+   "name": "Dal Forno Romano Amarone della Valpolicella Monte Lodoletta 2015",
+   "old": 496,
+   "new": 555,
+   "pct": 11.9
+  },
+  {
+   "name": "Dal Forno Romano Valpolicella MONTE LODOLETTA SUPERIORE 2013 1.5L · 1.5 L",
+   "old": 1037,
+   "new": 1159,
+   "pct": 11.8
+  },
+  {
+   "name": "Dal Forno Romano Valpolicella MONTE LODOLETTA SUPERIORE 2013 3.0L · 3 L",
+   "old": 2279,
+   "new": 2547,
+   "pct": 11.8
+  },
+  {
+   "name": "Giuseppe Quintarelli Alzero Cabernet IGT 2013",
+   "old": 542,
+   "new": 606,
+   "pct": 11.8
+  },
+  {
+   "name": "Giuseppe Quintarelli Amarone Classico 2003 1.5l · 1.5 L",
+   "old": 2507,
+   "new": 2802,
+   "pct": 11.8
+  },
+  {
+   "name": "Giuseppe Quintarelli Amarone della Valpolicella Classico 2015 1.5l · 1.5 L",
+   "old": 1232,
+   "new": 1377,
+   "pct": 11.8
+  },
+  {
+   "name": "Giuseppe Quintarelli ROSSO Ca Del Merlo IGT 2017",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Giuseppe Quintarelli ROSSO Ca Del Merlo IGT 2018",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Giuseppe Quintarelli Valpolicella Classico SUPERIORE 2017",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Giuseppe Quintarelli Valpolicella Classico SUPERIORE 2018",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Giuseppe Quintarelli Valpolicella Classico Superiore 2015",
+   "old": 228,
+   "new": 255,
+   "pct": 11.8
+  },
+  {
+   "name": "Saint Clair Hawkes Bay Premium Gimblett Cabernet Merlot 2021",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Saint Clair MARLBOROUGH Pinot Noir 2025",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Saint Clair OMAKA Reserve Pinot Noir 2024",
+   "old": 41,
+   "new": 46,
+   "pct": 12.2
+  },
+  {
+   "name": "Casa Agricola Pepe Mendoza FIERROCA 2020",
+   "old": 106,
+   "new": 130,
+   "pct": 22.6
+  },
+  {
+   "name": "Pepe Mendoza Casa Agricola El Veneno 2021",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "Pepe Mendoza Casa Agricola Giro de Abargues 2021",
+   "old": 46,
+   "new": 57,
+   "pct": 23.9
+  },
+  {
+   "name": "Bodegas MAURO Mauro 2018",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Bodegas MAURO Mauro 2019",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Bodegas Mauro Mauro VENDIMIA Seleccionada 2017",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Bodegas y Vinedos VALDERIZ 2018",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "La Fleur Vivaltus 2016",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Las Lamas 2019",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Vivaltus 2016",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "Vivaltus 2016 1.5l · 1.5 L",
+   "old": 352,
+   "new": 393,
+   "pct": 11.6
+  },
+  {
+   "name": "Vivaltus 2016 3.0l · 3 L",
+   "old": 750,
+   "new": 838,
+   "pct": 11.7
+  },
+  {
+   "name": "Vivaltus 2016 5.0l · 5 L",
+   "old": 1834,
+   "new": 2050,
+   "pct": 11.8
+  },
+  {
+   "name": "Vivaltus 2017",
+   "old": 150.0,
+   "new": 155,
+   "pct": 3.3
+  },
+  {
+   "name": "Vivaltus 2017 1.5l · 1.5 L",
+   "old": 305,
+   "new": 341,
+   "pct": 11.8
+  },
+  {
+   "name": "Vivaltus 2017 3l · 3 L",
+   "old": 820,
+   "new": 917,
+   "pct": 11.8
+  },
+  {
+   "name": "Vivaltus 2017 5l · 5 L",
+   "old": 1751,
+   "new": 1957,
+   "pct": 11.8
+  },
+  {
+   "name": "Clos Mogador 2006",
+   "old": 236,
+   "new": 264,
+   "pct": 11.9
+  },
+  {
+   "name": "Clos Mogador 2007",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "Clos Mogador 2018",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Familia Nin-Ortiz Planetes de Nin 2017",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Terroir Al Limit Dits Del Terra 2015",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Terroir Al Limit Les Manyes 2014",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Terroir Al Limit Les Manyes 2015",
+   "old": 361,
+   "new": 404,
+   "pct": 11.9
+  },
+  {
+   "name": "Terroir Al Limit Les Tosses 2014",
+   "old": 277,
+   "new": 310,
+   "pct": 11.9
+  },
+  {
+   "name": "Terroir Al Limit Les Tosses 2015",
+   "old": 286,
+   "new": 320,
+   "pct": 11.9
+  },
+  {
+   "name": "El Nido 2002",
+   "old": 1176,
+   "new": 1315,
+   "pct": 11.8
+  },
+  {
+   "name": "El Coto de Imaz Centenario 1995",
+   "old": 157,
+   "new": 176,
+   "pct": 12.1
+  },
+  {
+   "name": "El Coto de Imaz Reserva 1998 1.5L · 1.5 L",
+   "old": 583,
+   "new": 652,
+   "pct": 11.8
+  },
+  {
+   "name": "Faustino I Gran Reserva 2001 (Decanter Wine of the Year 2013)",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Faustino I Gran Reserva 2008",
+   "old": 138,
+   "new": 155,
+   "pct": 12.3
+  },
+  {
+   "name": "Faustino I Gran Reserva 2009",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Marques de Riscal Gran Reserva 1987",
+   "old": 218,
+   "new": 244,
+   "pct": 11.9
+  },
+  {
+   "name": "Remelluri Reserva 2009",
+   "old": 129,
+   "new": 144,
+   "pct": 11.6
+  },
+  {
+   "name": "Yjar 2017",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Yjar 2018",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Vega Sicilia Unico 1962",
+   "old": 3233,
+   "new": 3614,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1966",
+   "old": 3233,
+   "new": 3614,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1967",
+   "old": 3193,
+   "new": 3568,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Unico 1968",
+   "old": 3733,
+   "new": 4172,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1969",
+   "old": 2405,
+   "new": 2688,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1972 1.5l · 1.5 L",
+   "old": 2942,
+   "new": 3288,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1974",
+   "old": 1497,
+   "new": 1673,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1975",
+   "old": 1849,
+   "new": 2066,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Unico 1976",
+   "old": 1593,
+   "new": 1780,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Unico 1983 1.5l · 1.5 L",
+   "old": 3785,
+   "new": 4230,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1986",
+   "old": 1500,
+   "new": 1677,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1987",
+   "old": 1186,
+   "new": 1325,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Unico 1989",
+   "old": 1488,
+   "new": 1662,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Unico 1990",
+   "old": 1274,
+   "new": 1424,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1991",
+   "old": 1089,
+   "new": 1217,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1995",
+   "old": 1098,
+   "new": 1227,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Unico 1996",
+   "old": 1126,
+   "new": 1259,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 1998",
+   "old": 1136,
+   "new": 1269,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Unico 1999",
+   "old": 1182,
+   "new": 1320,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Unico 1999 1.5l · 1.5 L",
+   "old": 2955,
+   "new": 3303,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 2000",
+   "old": 768,
+   "new": 859,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico 2002",
+   "old": 663,
+   "new": 741,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Unico Reserva Especial (2018 Release)",
+   "old": 718,
+   "new": 803,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Valbuena 3 1980",
+   "old": 759,
+   "new": 848,
+   "pct": 11.7
+  },
+  {
+   "name": "Vega Sicilia Valbuena 5 1979",
+   "old": 2099,
+   "new": 2346,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Valbuena 5 1983",
+   "old": 2599,
+   "new": 2905,
+   "pct": 11.8
+  },
+  {
+   "name": "Vega Sicilia Valbuena 5 1985",
+   "old": 2445,
+   "new": 2733,
+   "pct": 11.8
+  },
+  {
+   "name": "Bodegas Roda RESERVA 2013",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "CVNE Imperial RESERVA 2016 · 6 L",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "CVNE Vina Real RESERVA 2015",
+   "old": 55,
+   "new": 62,
+   "pct": 12.7
+  },
+  {
+   "name": "CVNE Vinedos del CONTINO Vina del Olivo 2016",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Clos i Terrasses Clos Erasmus Laurel 2016",
+   "old": 167,
+   "new": 186,
+   "pct": 11.4
+  },
+  {
+   "name": "Contador ALMA 2020",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Dominio de Pingus PSI 2018",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Hacienda Solano Finca CASCORRALES 2015",
+   "old": 222,
+   "new": 248,
+   "pct": 11.7
+  },
+  {
+   "name": "Hacienda Solano Finca CASCORRALES 2016",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Hacienda Solano Finca CASCORRALES 2017",
+   "old": 135,
+   "new": 153,
+   "pct": 13.3
+  },
+  {
+   "name": "Hacienda Solano Finca CASCORRALES 2018",
+   "old": 135,
+   "new": 153,
+   "pct": 13.3
+  },
+  {
+   "name": "Hacienda Solano Finca PENA LOBERA 2016",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Hacienda Solano Finca PENA LOBERA 2018",
+   "old": 152,
+   "new": 172,
+   "pct": 13.2
+  },
+  {
+   "name": "Hacienda Solano Finca PENA LOBERA 2019",
+   "old": 152,
+   "new": 172,
+   "pct": 13.2
+  },
+  {
+   "name": "Hacienda Solano Finca PENA LOBERA 2021",
+   "old": 152,
+   "new": 172,
+   "pct": 13.2
+  },
+  {
+   "name": "Hacienda Solano SELECCION 2023",
+   "old": 30,
+   "new": 40,
+   "pct": 33.3
+  },
+  {
+   "name": "Lopez De Heredia Vina Tondonia RESERVA 2010",
+   "old": 70,
+   "new": 78,
+   "pct": 11.4
+  },
+  {
+   "name": "Lopez De Heredia Vina Tondonia Reserva 2007",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Lopez De Heredia Vina Tondonia Reserva 2008",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Lopez de Heredia Vina Bosconia Reserva 2006",
+   "old": 110,
+   "new": 124,
+   "pct": 12.7
+  },
+  {
+   "name": "Manzanos - Bodegas Manzanos GRAN RESERVA 2007 1.5l (125th Anniversary) · 1.5 L",
+   "old": 231,
+   "new": 258,
+   "pct": 11.7
+  },
+  {
+   "name": "Manzanos - Bodegas Manzanos GRAN RESERVA 2015",
+   "old": 98,
+   "new": 109,
+   "pct": 11.2
+  },
+  {
+   "name": "Manzanos - Bodegas Manzanos RESERVA Especial 2009 (125th Anniversary)",
+   "old": 89,
+   "new": 101,
+   "pct": 13.5
+  },
+  {
+   "name": "Manzanos - Manzanos 1961",
+   "old": 152,
+   "new": 172,
+   "pct": 13.2
+  },
+  {
+   "name": "Manzanos - Siglo Crianza Edicion Oro 2022",
+   "old": 28,
+   "new": 38,
+   "pct": 35.7
+  },
+  {
+   "name": "Manzanos - Siglo GRAN RESERVA 2001",
+   "old": 68,
+   "new": 83,
+   "pct": 22.1
+  },
+  {
+   "name": "Manzanos - Siglo GRAN RESERVA 2003",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Manzanos - Siglo GRAN RESERVA 2005",
+   "old": 62,
+   "new": 79,
+   "pct": 27.4
+  },
+  {
+   "name": "Manzanos - Siglo Tempranillo \"Sack\"",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Muga 1987",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Muga Aro 2016",
+   "old": 450,
+   "new": 503,
+   "pct": 11.8
+  },
+  {
+   "name": "Muga Prado Enea Gran Reserva 2011",
+   "old": 148,
+   "new": 165,
+   "pct": 11.5
+  },
+  {
+   "name": "BEAULIEU Vineyard Private RESERVE Georges de Latour Cabernet Sauvignon 2018",
+   "old": 200,
+   "new": 223,
+   "pct": 11.5
+  },
+  {
+   "name": "BEAULIEU Vineyard Private RESERVE Georges de Latour Cabernet Sauvignon 2019 (100pts, James Suckling",
+   "old": 194,
+   "new": 217,
+   "pct": 11.9
+  },
+  {
+   "name": "L Aventure Chloe 2019 0.75l",
+   "old": 286,
+   "new": 320,
+   "pct": 11.9
+  },
+  {
+   "name": "L Aventure Cote a Cote 2022 0.75l",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "L Aventure Estate Reserve 2022 0.75l",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "L Aventure For Her 2019 0.75l",
+   "old": 209,
+   "new": 234,
+   "pct": 12.0
+  },
+  {
+   "name": "L Aventure Optimus 2021 0.75l",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "L Aventure Optimus 2022 0.75l",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Clos du Val Celebration of Eights Cabernet Sauvignon (set of 3 - 88/98/08)",
+   "old": 695,
+   "new": 777,
+   "pct": 11.8
+  },
+  {
+   "name": "Merryvale Profile 2004",
+   "old": 424,
+   "new": 474,
+   "pct": 11.8
+  },
+  {
+   "name": "Merryvale Profile COLLECTION (2btls each of 01/02/03)",
+   "old": 1052,
+   "new": 1176,
+   "pct": 11.8
+  },
+  {
+   "name": "Merryvale red table 1984 3L · 3 L",
+   "old": 40367,
+   "new": 45116,
+   "pct": 11.8
+  },
+  {
+   "name": "L'Aventure, Estate Cuvee 2017",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Duckhorn Vineyards Cabernet Sauvignon Napa Valley 2020",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Harlan Estate Proprietary Red 2003 1.5L · 1.5 L",
+   "old": 4919,
+   "new": 5498,
+   "pct": 11.8
+  },
+  {
+   "name": "L Aventure Estate Cuvee Red Paso Robles 2019",
+   "old": 176,
+   "new": 197,
+   "pct": 11.9
+  },
+  {
+   "name": "OPUS ONE 2019 0.375l · 375 ml",
+   "old": 324,
+   "new": 341,
+   "pct": 5.2
+  },
+  {
+   "name": "Promontory 2016",
+   "old": 1312,
+   "new": 1466,
+   "pct": 11.7
+  },
+  {
+   "name": "Shafer Hillside Select Cabernet Sauvignon 1999",
+   "old": 612.0,
+   "new": 728.0,
+   "pct": 19.0
+  },
+  {
+   "name": "Shafer Hillside Select Cabernet Sauvignon 2001",
+   "old": 973.0,
+   "new": 1158.0,
+   "pct": 19.0
+  },
+  {
+   "name": "Shafer Hillside Select Cabernet Sauvignon 2018",
+   "old": 544.0,
+   "new": 648.0,
+   "pct": 19.1
+  },
+  {
+   "name": "Shafer Hillside Select Cabernet Sauvignon 2019",
+   "old": 544.0,
+   "new": 648.0,
+   "pct": 19.1
+  },
+  {
+   "name": "Shafer Hillside Select Cabernet Sauvignon 2019 (1500ml) · 1.5 L",
+   "old": 927.0,
+   "new": 1103.0,
+   "pct": 19.0
+  },
+  {
+   "name": "Shafer Hillside Select Cabernet Sauvignon 2021",
+   "old": 544.0,
+   "new": 648.0,
+   "pct": 19.1
+  },
+  {
+   "name": "Shafer Hillside Select Cabernet Sauvignon 2021 (1500ml) · 1.5 L",
+   "old": 927.0,
+   "new": 1103.0,
+   "pct": 19.0
+  },
+  {
+   "name": "Shafer Napa Valley Cabernet Sauvignon 2002",
+   "old": 218.0,
+   "new": 259.0,
+   "pct": 18.8
+  },
+  {
+   "name": "Shafer One-Point-Five Cabernet Sauvignon 2022 (375ml) · 375 ml",
+   "old": 115.0,
+   "new": 137.0,
+   "pct": 19.1
+  },
+  {
+   "name": "Shafer Relentless Syrah 2019",
+   "old": 164.0,
+   "new": 195.0,
+   "pct": 18.9
+  },
+  {
+   "name": "Shafer Relentless Syrah 2021",
+   "old": 164.0,
+   "new": 195.0,
+   "pct": 18.9
+  },
+  {
+   "name": "Elderton E-SERIES Chardonnay 2026",
+   "old": 22,
+   "new": 30,
+   "pct": 36.4
+  },
+  {
+   "name": "Casa Silva Chardonnay 2025",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Casa Silva Chardonnay 2026",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Casa Silva Sauvignon Blanc 2026",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Hugel Gewurztraminer SGN 2005 0.375l · 375 ml",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Hugel Riesling Vendage Tardive 1989 1.5l · 1.5 L",
+   "old": 407,
+   "new": 455,
+   "pct": 11.8
+  },
+  {
+   "name": "Francois Janoueix - Chateau Rousseau Cuvee Tradition Bordeaux BLANC 2025",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Francois Janoueix - R de Romer 2024",
+   "old": 29,
+   "new": 39,
+   "pct": 34.5
+  },
+  {
+   "name": "Haut Brion Blanc 2004",
+   "old": 1450,
+   "new": 1621,
+   "pct": 11.8
+  },
+  {
+   "name": "La Mission Haut Brion Blanc 2012",
+   "old": 1034,
+   "new": 1155,
+   "pct": 11.7
+  },
+  {
+   "name": "Le Petit Cheval Blanc 2019",
+   "old": 194,
+   "new": 217,
+   "pct": 11.9
+  },
+  {
+   "name": "Le Petit Cheval Blanc 2020",
+   "old": 242,
+   "new": 271,
+   "pct": 12.0
+  },
+  {
+   "name": "Smith Haut Lafitte Blanc 2020",
+   "old": 194,
+   "new": 217,
+   "pct": 11.9
+  },
+  {
+   "name": "Albert Bichot Domaine du Pavillon Beaune 1er Cru Le Clos des MOUCHES 2020",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Albert Bichot Domaine du Pavillon Meursault 1er Cru Les Charmes 2020",
+   "old": 212,
+   "new": 238,
+   "pct": 12.3
+  },
+  {
+   "name": "Chapelle de Blagny Meursault 1er Cru LES RAVELLES 2020",
+   "old": 135,
+   "new": 151,
+   "pct": 11.9
+  },
+  {
+   "name": "Charles Noellat Corton CHARLEMAGNE BLANC 2020",
+   "old": 184,
+   "new": 206,
+   "pct": 12.0
+  },
+  {
+   "name": "Chateau de Marsannay PULIGNY MONTRACHET Vigne de L Hospital de Dijon Cuvee de Maiziere 2021",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "Chateau de Meursault LES CHARMES Dessus BLANC 2020",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Domaine Bonneau du Martray Corton Charlemagne Grand Cru 2008 1.5l · 1.5 L",
+   "old": 1839,
+   "new": 2056,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Christian Moreau Chablis Grand Cru Les Clos 2004 3L · 3 L",
+   "old": 3177,
+   "new": 3551,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Fichet BOURGOGNE CHARDONNAY 2024",
+   "old": 28,
+   "new": 38,
+   "pct": 35.7
+  },
+  {
+   "name": "Domaine Fichet Macon Chateau LONDON BLANC 2024",
+   "old": 30,
+   "new": 40,
+   "pct": 33.3
+  },
+  {
+   "name": "Domaine Henri Boillot Corton Charlemagne 2004 6.0l · 6 L",
+   "old": 11738,
+   "new": 13120,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Jean Michel Gaunoux Puligny Montrachet FOLATIERES BLANC 2020",
+   "old": 203,
+   "new": 227,
+   "pct": 11.8
+  },
+  {
+   "name": "Domaine Philippe Colin Chassagne Montrachet LES CHENEVOTTES 1er Cru 2014",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Domaine de La Choupette Puligny Montrachet Premier Cru SOUS Le PUITS BLANC 2024",
+   "old": 103,
+   "new": 127,
+   "pct": 23.3
+  },
+  {
+   "name": "Domaine de La Choupette Puligny Montrachet VIEILLES VIGNES BLANC 2023",
+   "old": 96,
+   "new": 118,
+   "pct": 22.9
+  },
+  {
+   "name": "Domaine de La Choupette Puligny Montrachet VIEILLES VIGNES BLANC 2024",
+   "old": 96,
+   "new": 118,
+   "pct": 22.9
+  },
+  {
+   "name": "Domaine de Villaine Bouzeron BLANC 2020",
+   "old": 74,
+   "new": 83,
+   "pct": 12.2
+  },
+  {
+   "name": "Joseph Drouhin Montrachet Marquis De Laguiche 2001",
+   "old": 1478,
+   "new": 1652,
+   "pct": 11.8
+  },
+  {
+   "name": "Joseph Drouhin Montrachet Marquis de Laguiche 2007",
+   "old": 1367,
+   "new": 1528,
+   "pct": 11.8
+  },
+  {
+   "name": "Leroy Meursault Les Charmes 1er Cru 1999",
+   "old": 3442,
+   "new": 3848,
+   "pct": 11.8
+  },
+  {
+   "name": "Maison Champy Pernand Vergelesses En Caradeux BLANC 2019",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Domaine Berthet Bondet Chateau Chalon Blanc 2011 0.62l · 620 ml",
+   "old": 311,
+   "new": 348,
+   "pct": 11.9
+  },
+  {
+   "name": "Etienne Guigal Hermitage BLANC 2019",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Mas De Sainte Croix Delicatesse Cotes du Rhone BLANC 2025",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Weingut Seehof Riesling Feinherb 2024",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Velenosi PECORINO Offida DOCG Bio 2025",
+   "old": 24,
+   "new": 32,
+   "pct": 33.3
+  },
+  {
+   "name": "Bersano Monteolivo MOSCATO D Asti DOCG 2025",
+   "old": 18,
+   "new": 25,
+   "pct": 38.9
+  },
+  {
+   "name": "Argiolas COSTAMOLINO Vermentino Di Sardegna DOC 2025",
+   "old": 28,
+   "new": 38,
+   "pct": 35.7
+  },
+  {
+   "name": "Alvear Solera Pedro Ximenez 1910 0.375l · 375 ml",
+   "old": 162,
+   "new": 181,
+   "pct": 11.7
+  },
+  {
+   "name": "Alvear Solera Pedro Ximenez 1927 0.375l · 375 ml",
+   "old": 88,
+   "new": 99,
+   "pct": 12.5
+  },
+  {
+   "name": "Manzanos - Bodegas Manzanos BLANCO FERMENTADO en Barrica NV",
+   "old": 29,
+   "new": 39,
+   "pct": 34.5
+  },
+  {
+   "name": "Shafer Napa Valley Red Shoulder Ranch Chardonnay 2023",
+   "old": 109.0,
+   "new": 130.0,
+   "pct": 19.3
+  },
+  {
+   "name": "Duval Leroy Blanc de Blancs Brut Millesime Champagne 2008",
+   "old": 153,
+   "new": 171,
+   "pct": 11.8
+  },
+  {
+   "name": "De Venoge Tour Eiffel Cuvee (130th Anniversary Edition) NV",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Dom Perignon Damien Hirst 2018",
+   "old": 370,
+   "new": 413,
+   "pct": 11.6
+  },
+  {
+   "name": "Dom Perignon Lenny Kravitz 2008",
+   "old": 589,
+   "new": 658,
+   "pct": 11.7
+  },
+  {
+   "name": "Dom Perignon P2 2004",
+   "old": 811,
+   "new": 906,
+   "pct": 11.7
+  },
+  {
+   "name": "Dom Perignon P2 Champagne 2008",
+   "old": 759,
+   "new": 848,
+   "pct": 11.7
+  },
+  {
+   "name": "Dom Perignon Rose 2003",
+   "old": 691,
+   "new": 772,
+   "pct": 11.7
+  },
+  {
+   "name": "Dom Perignon Rose Luminous 2005",
+   "old": 1561,
+   "new": 1745,
+   "pct": 11.8
+  },
+  {
+   "name": "Krug Grande Cuvee NV Champagne (174 Edition)",
+   "old": 416,
+   "new": 466,
+   "pct": 12.0
+  },
+  {
+   "name": "Moet et Chandon Brut Imperial 150th Anniversary Edition NV Champagne",
+   "old": 79,
+   "new": 88,
+   "pct": 11.4
+  },
+  {
+   "name": "Moet et Chandon Brut Imperial RESERVE NV",
+   "old": 83,
+   "new": 93,
+   "pct": 12.0
+  },
+  {
+   "name": "Ployez Jacquemart Extra Brut Granite Champagne - Special 90th Anniversary Edition",
+   "old": 259,
+   "new": 290,
+   "pct": 12.0
+  },
+  {
+   "name": "Ployez Jacquemart Extra Quality Brut Champagne",
+   "old": 59,
+   "new": 73,
+   "pct": 23.7
+  },
+  {
+   "name": "Ployez Jacquemart Extra Quality Brut Champagne 0.375l · 375 ml",
+   "old": 29,
+   "new": 40,
+   "pct": 37.9
+  },
+  {
+   "name": "Pol Roger Sir Winston Churchill Champagne 1998 1.5L · 1.5 L",
+   "old": 1269,
+   "new": 1418,
+   "pct": 11.7
+  },
+  {
+   "name": "Pol Roger Sir Winston Churchill Champagne 1999 3L · 3 L",
+   "old": 2414,
+   "new": 2698,
+   "pct": 11.8
+  },
+  {
+   "name": "Ruinart Blanc De Blancs Champagne 1.5l · 1.5 L",
+   "old": 305,
+   "new": 341,
+   "pct": 11.8
+  },
+  {
+   "name": "Ruinart SECOND SKIN Blanc De Blancs 1.5l · 1.5 L",
+   "old": 305,
+   "new": 341,
+   "pct": 11.8
+  },
+  {
+   "name": "CornerStone Sparkling Brut",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Chateau de Saint Martin Cotes de Provence Cuvee Grande Reserve ROSE 2023",
+   "old": 49,
+   "new": 60,
+   "pct": 22.4
+  },
+  {
+   "name": "Rieussec 2009",
+   "old": 116,
+   "new": 130,
+   "pct": 12.1
+  },
+  {
+   "name": "Rieussec 2010",
+   "old": 120,
+   "new": 134,
+   "pct": 11.7
+  },
+  {
+   "name": "Rieussec 2011",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Sauternes mixed case of 12 bot 2010",
+   "old": 1324,
+   "new": 1480,
+   "pct": 11.8
+  },
+  {
+   "name": "Sauternes mixed case of 6 bot 2010",
+   "old": 663,
+   "new": 741,
+   "pct": 11.8
+  },
+  {
+   "name": "Dr Loosen Erdener Pralat Auslese 2004 0.375l · 375 ml",
+   "old": 126,
+   "new": 141,
+   "pct": 11.9
+  },
+  {
+   "name": "Dr Loosen Erdener Pralat Auslese 2006",
+   "old": 172,
+   "new": 192,
+   "pct": 11.6
+  },
+  {
+   "name": "Angostura No.1 OLOROSO Sherry Cask 0.70l · 700 ml",
+   "old": 106,
+   "new": 138,
+   "pct": 30.2
+  },
+  {
+   "name": "Poli - Gran Bassano Vermouth Bianco",
+   "old": 34,
+   "new": 45,
+   "pct": 32.4
+  },
+  {
+   "name": "Angostura 1787 15YO DARK Rum 0.70l · 700 ml",
+   "old": 99,
+   "new": 130,
+   "pct": 31.3
+  },
+  {
+   "name": "Angostura 5YO Rum 0.70l · 700 ml",
+   "old": 52,
+   "new": 68,
+   "pct": 30.8
+  },
+  {
+   "name": "Angostura COCOA Bitters 0.10l · 100 ml",
+   "old": 18,
+   "new": 24,
+   "pct": 33.3
+  },
+  {
+   "name": "Angostura Reserva 3YO White Rum · 700 ml",
+   "old": 44,
+   "new": 58,
+   "pct": 31.8
+  },
+  {
+   "name": "Beveland - Ron Cayo Grande ANEJO Rum 0.70l · 700 ml",
+   "old": 38,
+   "new": 49,
+   "pct": 28.9
+  },
+  {
+   "name": "Nordic Gin House - KOBENHAVN Klassisk Gin 0.70l · 700 ml",
+   "old": 69,
+   "new": 90,
+   "pct": 30.4
+  },
+  {
+   "name": "Nordic Gin House - Kobenhavn Klassisk Gin 0.50l · 500 ml",
+   "old": 54,
+   "new": 71,
+   "pct": 31.5
+  },
+  {
+   "name": "Nordic Gin House - Kobenhavn Lounge Gin 0.50l · 500 ml",
+   "old": 45,
+   "new": 59,
+   "pct": 31.1
+  },
+  {
+   "name": "Nordic Gin House - Kobenhavn Pink Gin 0.70l · 700 ml",
+   "old": 54,
+   "new": 71,
+   "pct": 31.5
+  },
+  {
+   "name": "Bivrost Vodka 0.50l · 500 ml",
+   "old": 51,
+   "new": 67,
+   "pct": 31.4
+  },
+  {
+   "name": "Tenu Gin - Tikka Gin 0.50l · 500 ml",
+   "old": 77,
+   "new": 100,
+   "pct": 29.9
+  },
+  {
+   "name": "Tenu Gin 0.50l · 500 ml",
+   "old": 57,
+   "new": 74,
+   "pct": 29.8
+  },
+  {
+   "name": "Tenu Gin 0.50l · 500 ml",
+   "old": 57,
+   "new": 74,
+   "pct": 29.8
+  },
+  {
+   "name": "ARMAGNAC Castarede 1963 Brandy 0.50l · 500 ml",
+   "old": 413,
+   "new": 540,
+   "pct": 30.8
+  },
+  {
+   "name": "ARMAGNAC Castarede 1967 Brandy 0.50l · 500 ml",
+   "old": 380,
+   "new": 496,
+   "pct": 30.5
+  },
+  {
+   "name": "ARMAGNAC Castarede 1970 Brandy 0.50l · 500 ml",
+   "old": 304,
+   "new": 397,
+   "pct": 30.6
+  },
+  {
+   "name": "ARMAGNAC Castarede 1971 Brandy 0.50l · 500 ml",
+   "old": 301,
+   "new": 394,
+   "pct": 30.9
+  },
+  {
+   "name": "ARMAGNAC Castarede 1972 Brandy 0.50l · 500 ml",
+   "old": 240,
+   "new": 314,
+   "pct": 30.8
+  },
+  {
+   "name": "ARMAGNAC Castarede 1973 Brandy 0.50l · 500 ml",
+   "old": 220,
+   "new": 288,
+   "pct": 30.9
+  },
+  {
+   "name": "ARMAGNAC Castarede 1974 Brandy 0.50l · 500 ml",
+   "old": 214,
+   "new": 280,
+   "pct": 30.8
+  },
+  {
+   "name": "ARMAGNAC Castarede 1978 Brandy 0.50l · 500 ml",
+   "old": 223,
+   "new": 292,
+   "pct": 30.9
+  },
+  {
+   "name": "ARMAGNAC Castarede 1980 Brandy 0.50l · 500 ml",
+   "old": 172,
+   "new": 224,
+   "pct": 30.2
+  },
+  {
+   "name": "ARMAGNAC Castarede 1981 Brandy 0.50l · 500 ml",
+   "old": 163,
+   "new": 213,
+   "pct": 30.7
+  },
+  {
+   "name": "ARMAGNAC Castarede 1982 Brandy 0.50l · 500 ml",
+   "old": 156,
+   "new": 204,
+   "pct": 30.8
+  },
+  {
+   "name": "ARMAGNAC Castarede 1984 Brandy 0.50l · 500 ml",
+   "old": 146,
+   "new": 191,
+   "pct": 30.8
+  },
+  {
+   "name": "ARMAGNAC Castarede 1986 Brandy 0.50l · 500 ml",
+   "old": 140,
+   "new": 184,
+   "pct": 31.4
+  },
+  {
+   "name": "ARMAGNAC Castarede 1987 Brandy 0.50l · 500 ml",
+   "old": 133,
+   "new": 174,
+   "pct": 30.8
+  },
+  {
+   "name": "ARMAGNAC Castarede 1988 Brandy 0.50l · 500 ml",
+   "old": 130,
+   "new": 170,
+   "pct": 30.8
+  },
+  {
+   "name": "ARMAGNAC Castarede 1992 Brandy 0.50l · 500 ml",
+   "old": 120,
+   "new": 156,
+   "pct": 30.0
+  },
+  {
+   "name": "ARMAGNAC Castarede 1994 Brandy 0.50l · 500 ml",
+   "old": 113,
+   "new": 148,
+   "pct": 31.0
+  },
+  {
+   "name": "ARMAGNAC Castarede 1995 Brandy 0.50l · 500 ml",
+   "old": 113,
+   "new": 148,
+   "pct": 31.0
+  },
+  {
+   "name": "ARMAGNAC Castarede 1996 Brandy 0.50l · 500 ml",
+   "old": 112,
+   "new": 146,
+   "pct": 30.4
+  },
+  {
+   "name": "ARMAGNAC Castarede 1997 Brandy 0.50l · 500 ml",
+   "old": 109,
+   "new": 143,
+   "pct": 31.2
+  },
+  {
+   "name": "ARMAGNAC Castarede 1998 Brandy 0.50l · 500 ml",
+   "old": 108,
+   "new": 141,
+   "pct": 30.6
+  },
+  {
+   "name": "ARMAGNAC Castarede 1999 Brandy 0.50l · 500 ml",
+   "old": 107,
+   "new": 139,
+   "pct": 29.9
+  },
+  {
+   "name": "ARMAGNAC Castarede 2000 Brandy 0.50l · 500 ml",
+   "old": 107,
+   "new": 139,
+   "pct": 29.9
+  },
+  {
+   "name": "ARMAGNAC Castarede 2001 Brandy 0.50l · 500 ml",
+   "old": 107,
+   "new": 139,
+   "pct": 29.9
+  },
+  {
+   "name": "ARMAGNAC Castarede 2002 Brandy 0.50l · 500 ml",
+   "old": 107,
+   "new": 139,
+   "pct": 29.9
+  },
+  {
+   "name": "ARMAGNAC Castarede 2003 Brandy 0.50l · 500 ml",
+   "old": 106,
+   "new": 138,
+   "pct": 30.2
+  },
+  {
+   "name": "ARMAGNAC Castarede Brut de Fut 8YO Cask No.76 0.70l · 700 ml",
+   "old": 114,
+   "new": 150,
+   "pct": 31.6
+  },
+  {
+   "name": "ARMAGNAC Castarede XO 20YO Brandy 0.70l · 700 ml",
+   "old": 128,
+   "new": 167,
+   "pct": 30.5
+  },
+  {
+   "name": "M&H Apex Dead Sea Single Malt Whisky 0.70l · 700 ml",
+   "old": 138,
+   "new": 180,
+   "pct": 30.4
+  },
+  {
+   "name": "M&H Elements Peated Single Malt Whisky 0.70l · 700 ml",
+   "old": 84,
+   "new": 110,
+   "pct": 31.0
+  },
+  {
+   "name": "M&H Levantine Gin 0.70l · 700 ml",
+   "old": 70,
+   "new": 91,
+   "pct": 30.0
+  },
+  {
+   "name": "M&H Levantine Oak Gin 0.70l · 700 ml",
+   "old": 70,
+   "new": 91,
+   "pct": 30.0
+  },
+  {
+   "name": "Poli - Elisir Limone 0.70l · 700 ml",
+   "old": 38,
+   "new": 49,
+   "pct": 28.9
+  },
+  {
+   "name": "Poli - Sassicaia Grappa 0.50l · 500 ml",
+   "old": 129,
+   "new": 168,
+   "pct": 30.2
+  },
+  {
+   "name": "Poli - Elisir Sambuca 0.70l · 700 ml",
+   "old": 51,
+   "new": 66,
+   "pct": 29.4
+  },
+  {
+   "name": "Poli - Marconi 46 Gin 0.70l · 700 ml",
+   "old": 70,
+   "new": 92,
+   "pct": 31.4
+  },
+  {
+   "name": "Poli - Segretario di Stato Single Malt Whisky 0.70l · 700 ml",
+   "old": 82,
+   "new": 107,
+   "pct": 30.5
+  },
+  {
+   "name": "Poli - Vaca Mora Amaro Liqueur 0.70l · 700 ml",
+   "old": 57,
+   "new": 75,
+   "pct": 31.6
+  },
+  {
+   "name": "De Kuyper - Rutte Dutch Dry Gin 0.70l · 700 ml",
+   "old": 56,
+   "new": 73,
+   "pct": 30.4
+  },
+  {
+   "name": "De Kuyper - Rutte Old Tom Genever 0.70l · 700 ml",
+   "old": 48,
+   "new": 63,
+   "pct": 31.2
+  },
+  {
+   "name": "De Kuyper Blue Curacao 0.70l · 700 ml",
+   "old": 27,
+   "new": 36,
+   "pct": 33.3
+  },
+  {
+   "name": "De Kuyper Creme de Cassis 0.70l · 700 ml",
+   "old": 26,
+   "new": 34,
+   "pct": 30.8
+  },
+  {
+   "name": "De Kuyper Curacao Triple Sec 0.70l · 700 ml",
+   "old": 27,
+   "new": 36,
+   "pct": 33.3
+  },
+  {
+   "name": "De Kuyper Melon 0.70l · 700 ml",
+   "old": 21,
+   "new": 28,
+   "pct": 33.3
+  },
+  {
+   "name": "De Kuyper - Mandarine Napoleon 0.70l · 700 ml",
+   "old": 46,
+   "new": 60,
+   "pct": 30.4
+  },
+  {
+   "name": "De Kuyper Butterscotch (Liquer) 0.70l · 700 ml",
+   "old": 48,
+   "new": 63,
+   "pct": 31.2
+  },
+  {
+   "name": "De Kuyper Kiwi 0.70l · 700 ml",
+   "old": 25,
+   "new": 32,
+   "pct": 28.0
+  },
+  {
+   "name": "De Kuyper Marasquin 0.70l · 700 ml",
+   "old": 33,
+   "new": 43,
+   "pct": 30.3
+  },
+  {
+   "name": "GinRaw Gastronomic Gin 0.70l · 700 ml",
+   "old": 68,
+   "new": 89,
+   "pct": 30.9
+  },
+  {
+   "name": "Nordic Gin House - Bergslagens Classic Organic Gin 0.50l · 500 ml",
+   "old": 54,
+   "new": 71,
+   "pct": 31.5
+  },
+  {
+   "name": "Beveland - Glen Silvers Blended Malt Whisky 0.70l · 700 ml",
+   "old": 46,
+   "new": 60,
+   "pct": 30.4
   }
  ],
  "price_down": [
   {
-   "name": "L Ecole Merlot Columbia Valley 2014",
-   "old": 143.98,
-   "new": 128.98,
-   "pct": -10.4
+   "name": "Salmon Run Coho Red",
+   "old": 43.97,
+   "new": 39.98,
+   "pct": -9.1
   },
   {
-   "name": "Domaine de Long Dai, Hu Yue 2019",
-   "old": 370.0,
-   "new": 359.0,
-   "pct": -3.0
+   "name": "Shunyi Santa Lucia Highlands Pinot Noir 2023",
+   "old": 99.88,
+   "new": 89.98,
+   "pct": -9.9
   },
   {
-   "name": "Domaine de Long Dai, Hu Yue 2020",
-   "old": 330.0,
-   "new": 321.0,
-   "pct": -2.7
+   "name": "Buccia Nera 'Tenuta di Campriano' Chianti Riserva 2018",
+   "old": 60.0,
+   "new": 59.0,
+   "pct": -1.7
   },
   {
-   "name": "Domaine de Long Dai, Hu Yue 2021",
-   "old": 260.0,
-   "new": 253.0,
-   "pct": -2.7
-  },
-  {
-   "name": "Carruades De Lafite 2022",
-   "old": 380.0,
-   "new": 369.0,
-   "pct": -2.9
-  },
-  {
-   "name": "Ch Pichon Lalande 2001",
-   "old": 410.0,
-   "new": 359.7,
-   "pct": -12.3
-  },
-  {
-   "name": "Chateau Carbonnieux Rouge 2015",
-   "old": 92.0,
-   "new": 69.0,
-   "pct": -25.0
-  },
-  {
-   "name": "Chateau Haut-Brion Rouge 2017",
-   "old": 823.0,
-   "new": 650.0,
-   "pct": -21.0
-  },
-  {
-   "name": "Chateau Haut-Brion Rouge 2019",
-   "old": 888.0,
-   "new": 684.0,
-   "pct": -23.0
-  },
-  {
-   "name": "Chateau Haut-Brion Rouge 2021",
-   "old": 750.0,
-   "new": 593.0,
-   "pct": -20.9
-  },
-  {
-   "name": "Chateau Larrivet Haut Brion 2008",
-   "old": 165.0,
-   "new": 114.0,
-   "pct": -30.9
-  },
-  {
-   "name": "Chateau Larrivet Haut Brion 2018",
-   "old": 104.0,
-   "new": 72.0,
-   "pct": -30.8
-  },
-  {
-   "name": "Chateau Les Carmes Haut Brion 2015",
-   "old": 298.0,
-   "new": 244.0,
-   "pct": -18.1
-  },
-  {
-   "name": "Chateau Pichon Baron 2018",
-   "old": 328.0,
-   "new": 299.98,
-   "pct": -8.5
-  },
-  {
-   "name": "Chateau Pichon Lalande 2003",
-   "old": 398.0,
-   "new": 338.0,
-   "pct": -15.1
-  },
-  {
-   "name": "Chateau Pichon Lalande 2005",
-   "old": 388.0,
-   "new": 310.0,
-   "pct": -20.1
-  },
-  {
-   "name": "Chateau Pontet Canet 2018",
-   "old": 216.0,
-   "new": 173.0,
-   "pct": -19.9
-  },
-  {
-   "name": "Chateau Pontet Canet 2019",
-   "old": 198.0,
-   "new": 164.98,
-   "pct": -16.7
-  },
-  {
-   "name": "Chateau Pontet Canet Pauillac 2017",
-   "old": 245.0,
-   "new": 220.0,
-   "pct": -10.2
-  },
-  {
-   "name": "Le Clarence de Haut Brion 2014",
-   "old": 259.0,
-   "new": 207.0,
-   "pct": -20.1
-  },
-  {
-   "name": "Le Clarence de Haut Brion 2018",
-   "old": 285.0,
-   "new": 228.0,
-   "pct": -20.0
-  },
-  {
-   "name": "Les Carmes Haut Brion 2018",
-   "old": 320.0,
-   "new": 221.0,
-   "pct": -30.9
-  },
-  {
-   "name": "Leeuwin Estate Art Series Chardonnay 2022",
-   "old": 169.0,
-   "new": 155.0,
-   "pct": -8.3
-  },
-  {
-   "name": "Chateau La Louviere Blanc 2015",
-   "old": 78.0,
-   "new": 54.0,
-   "pct": -30.8
-  },
-  {
-   "name": "Domaine de Chevalier Blanc 2003",
-   "old": 226.0,
-   "new": 156.0,
-   "pct": -31.0
-  },
-  {
-   "name": "Domaine de Chevalier Blanc 2014",
-   "old": 196.0,
-   "new": 147.0,
-   "pct": -25.0
-  },
-  {
-   "name": "Robert Weil Riesling Spatlese 2024",
-   "old": 70.0,
-   "new": 63.0,
-   "pct": -10.0
-  },
-  {
-   "name": "Sonoma Cutrer Russian River Ranches Chardonnay 2023",
-   "old": 74.98,
-   "new": 67.98,
+   "name": "Hyland Estate Single Vineyard Old Vine Pinot Noir, Willamette Valley 2022",
+   "old": 95.88,
+   "new": 86.98,
    "pct": -9.3
   },
   {
-   "name": "Krug Grande Cuvee - 173 Eme Edition",
-   "old": 348.0,
-   "new": 308.0,
-   "pct": -11.5
+   "name": "Dr. Frank Konstantin Salmon Run Chardonnay 2024",
+   "old": 46.99,
+   "new": 42.98,
+   "pct": -8.5
   },
   {
-   "name": "Domaines Ott Clos Mireille Rose 2024",
-   "old": 65.0,
-   "new": 59.0,
-   "pct": -9.2
+   "name": "Maison Noir Knock on Wood Chardonnay 2021",
+   "old": 59.88,
+   "new": 53.98,
+   "pct": -9.9
   },
   {
-   "name": "De Kuyper - Peachtree Peach Liqueur 0.70l · 700 ml",
-   "old": 47,
-   "new": 38,
-   "pct": -19.1
+   "name": "Shunyi Santa Lucia Highlands Chardonnay 2023",
+   "old": 98.99,
+   "new": 89.98,
+   "pct": -9.1
+  },
+  {
+   "name": "Dr. Frank Konstantin Salmon Run Riesling 2019",
+   "old": 59.97,
+   "new": 53.98,
+   "pct": -10.0
+  },
+  {
+   "name": "Kudos Willamette Valley Chardonnay 2022",
+   "old": 65.97,
+   "new": 59.98,
+   "pct": -9.1
+  },
+  {
+   "name": "Maison Noir In Sheeps Clothing Cabernet Sauvignon, Washington 2021",
+   "old": 56.88,
+   "new": 51.98,
+   "pct": -8.6
+  },
+  {
+   "name": "Leonardslee Blanc De Blancs Sparkling 2020",
+   "old": 122.88,
+   "new": 110.98,
+   "pct": -9.7
+  },
+  {
+   "name": "Leonardslee Brut Reserve 2021",
+   "old": 105.88,
+   "new": 95.98,
+   "pct": -9.4
+  },
+  {
+   "name": "De Venoge Cordon Bleu Brut",
+   "old": 94.98,
+   "new": 75.98,
+   "pct": -20.0
   }
  ],
  "stock_changes": [
   {
-   "name": "Riddoch Coonawarra Shiraz 2025,",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Riddoch Coonawarra Shiraz 2025,",
-   "old": "售罄",
-   "new": "有货"
-  },
-  {
-   "name": "Head, Old Vine Shiraz 2020",
+   "name": "JJ Hahn Reginald Shiraz Cabernet 2024",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Sociando Mallet 2018",
+   "name": "Kaesler Stonehorse Grenache 2017",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Aromes De Pavie 2021",
+   "name": "Fat Bastard Pinot Noir 2025",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Chateau Labegorce Margaux 2017",
+   "name": "Chateau Haut Batailley Pauillac 2011",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Chateau Pichon Longueville Baron Pauillac 2012",
+   "name": "Chateau Haut Brion Pessac-Leognan 1987",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Chateau Pichon Longueville Comtesse de Lalande Pauillac 1999",
+   "name": "Chateau Haut-Brion Rouge 2019",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Ducru Beaucaillou 1988",
-   "old": "售罄",
-   "new": "有货"
+   "name": "Chateau Lagrange St-Julien 2009",
+   "old": "有货",
+   "new": "售罄"
   },
   {
-   "name": "Le Petit Mouton 2013",
+   "name": "Chateau Langoa Barton St-Julien 2019",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Grand Puy Ducasse - Pauillac 2021",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Hosanna - Pomerol 2010",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "La Fleur Petrus - Pomerol 2009",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "La Fleur de Bouard, Le Plus - Lalande de Pomerol 2016",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "La Fleur de Bouard, Le Plus - Lalande de Pomerol 2019",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Palmer - Margaux 2005",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Pichon Longueville Comtesse de Lalande - Pauillac 2006",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Trotanoy - Pomerol 2005",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Trotanoy - Pomerol 2009",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Albert Bichot Volnay 1Er Cru Cloles Santenots Domaine Du Pavillon 2024",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Albert Bichot Volnay 1Er Cru Cloles Santenots Domaine Du Pavillon 2024",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Jean Louis Moissenet Bonnard Nuits Saint Georges 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Jean Louis Moissenet Bonnard Nuits Saint Georges 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Aldo Conterno Barolo Bussia Colonnello DOCG 2019",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Ricossa Barbera 2023",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Poggio Scalette IL CARBONAIONE IGT Alta Valle Della Greve 2019",
    "old": "有货",
    "new": "限量/询价"
   },
   {
-   "name": "Pontet Canet 2011",
+   "name": "Poliziano Rosso di Montepulciano 2022",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Marques De Vitoria Grand Reserva Rioja 2018",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Marques De Vitoria Grand Reserva Rioja 2018",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Ryder Estate Chardonnay 2021",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "La Fleur de Bouard, Sauvignon Blanc 2022",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Albert Bichot Petit Chablis 2024",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Albert Bichot Petit Chablis 2024",
+   "old": "有货",
+   "new": "售罄"
+  },
+  {
+   "name": "Billaud-Simon Chablis Les Clos Grand Cru 2024",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Faiveley Gevrey-Chambertin 1er Cru \"Les Cazetiers\" 1500ml 2013 · 1.5 L",
+   "name": "Nicolas Potel Chablis 2025",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Serafin, Gevrey Chambertin 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Alto Moncayo, Veraton 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Carmes de Rieussec 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Domaine Laroche Petit Chablis 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "360° Loire Sauvignon Blanc Val de Loire IGP 2024",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Isole e Olena Chardonnay 2022",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Ocean Bay Sauvignon Blanc 2026",
+   "name": "Nicolas Potel Chablis 2025",
    "old": "有货",
    "new": "售罄"
   },
   {
    "name": "Albert Bichot Cremant De Bourgogne Brut Reserve",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Champagne Bauchet Origine Brut",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Champagne Richard Cheurlin Blanc de Blancs 2020",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Deutz Brut Classic Champagne",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Louis Roederer Collection Brut MV (in Giftbox + 2 flutes) (Collection 244)",
+   "name": "BELLA MODELLA Prosecco DOC Spumante Veneto",
    "old": "有货",
    "new": "售罄"
   },
   {
-   "name": "Ruinart Blanc De Blancs With Second Skin Gift",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Ruinart R De Ruinart Brut · 375 ml",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "Champagne Richard Cheurlin Rose Brut NV",
-   "old": "有货",
-   "new": "售罄"
-  },
-  {
-   "name": "The Macallan 12 Years Double Cask · 700 ml",
+   "name": "Yoichi Single Malt Whisky · 700 ml",
    "old": "售罄",
    "new": "有货"
   },
   {
-   "name": "Aramasa, No.6 X-Type Junmai Daiginjo NV · 720 ml",
+   "name": "Macallan 12 Years Double Oak Cask Whisky · 700 ml",
    "old": "有货",
    "new": "售罄"
+  },
+  {
+   "name": "Kozaemon Junmai Yuzu Sake · 720 ml",
+   "old": "售罄",
+   "new": "有货"
   }
  ],
- "rating_added": [
-  {
-   "name": "Cullen Wines Diana Madeline 2004",
-   "rating": "JS96 / WA94"
-  },
-  {
-   "name": "Penfolds Bin 28 Kalimna Shiraz 2016",
-   "rating": "V92 / WA91"
-  },
-  {
-   "name": "Antinori Guado Al Tasso CONT UGO 2021",
-   "rating": "V92"
-  },
-  {
-   "name": "Antinori Guado Al Tasso CONT UGO 2022",
-   "rating": "WA90"
-  },
-  {
-   "name": "Antinori Villa Antinori ROSSO IGT 2020",
-   "rating": "V90"
-  },
-  {
-   "name": "LE VOLTE Dell Ornellaia 2021",
-   "rating": "WA91"
-  },
-  {
-   "name": "Le Macchiole Paleo Rosso 2017",
-   "rating": "JD96 / V96 / WA97+"
-  },
-  {
-   "name": "Marchese Antinori Chianti Classico RISERVA 2018",
-   "rating": "JA94 / V93 / WA93"
-  },
-  {
-   "name": "Marchese Antinori Chianti Classico RISERVA 2020",
-   "rating": "JD93 / V92"
-  },
-  {
-   "name": "Marchese Antinori Chianti Classico RISERVA 2022",
-   "rating": "WA93 / V93"
-  },
-  {
-   "name": "Pietroso Brunello di Montalcino DOCG 2016",
-   "rating": "JD98+"
-  },
-  {
-   "name": "Tenuta Tignanello Marchese Antinori Chianti Classico Reserva 2023",
-   "rating": "V92"
-  },
-  {
-   "name": "Petrolo Torrione 2019",
-   "rating": "WA93 / V92"
-  },
-  {
-   "name": "Faustino I Gran Reserva 2008",
-   "rating": "WA90"
-  },
-  {
-   "name": "Dominio de Pingus PSI 2017",
-   "rating": "JS94 / V92"
-  }
- ],
+ "rating_added": [],
  "other": [
   {
-   "name": "Aussieres Rouge 2025",
-   "change": "来源 Grand Vin → Grand Vin+Wines Online"
+   "name": "Ch Gazin 2017",
+   "change": "来源 Cornerstone+Crystal+Ponti → Crystal+Ponti"
   },
   {
-   "name": "Ducru Beaucaillou 1988",
-   "change": "来源 Grand Vin → 1855+Grand Vin"
+   "name": "Leoville Barton 1999",
+   "change": "来源 1855+Grand Vin → Grand Vin"
   },
   {
-   "name": "Leeuwin Estate Art Series Chardonnay 2022",
-   "change": "来源 1855+Wines Online → 1855"
-  },
-  {
-   "name": "Leeuwin Estate Art Series Chardonnay 2023",
-   "change": "来源 1855 → 1855+Wines Online"
-  },
-  {
-   "name": "Billecart Salmon Champagne Blanc de Blancs Grand Cru NV",
-   "change": "来源 1855+Angra → 1855+Angra+Winehours"
+   "name": "Buccia Nera 'Tenuta di Campriano' Chianti Riserva 2018",
+   "change": "来源 Angra+Wines Online → Wines Online"
   }
  ],
  "status": {
   "pivene_all": {
    "ok": true,
-   "rows": 1195,
+   "rows": 1199,
    "previous": 1195,
-   "ts": "2026-11-27T02:07:02"
+   "ts": "2026-11-28T01:52:17"
   },
   "cw_all": {
    "ok": false,
    "rows": 0,
    "previous": 1267,
-   "ts": "2026-11-27T02:09:21"
+   "ts": "2026-11-28T01:54:37"
   },
   "cs_all": {
    "ok": true,
-   "rows": 1745,
-   "previous": 1756,
-   "ts": "2026-11-27T02:16:50"
+   "rows": 1740,
+   "previous": 1745,
+   "ts": "2026-11-28T02:01:26"
   },
   "cs_types": {
    "ok": true,
    "rows": 110,
-   "previous": 113,
-   "ts": "2026-11-27T02:16:50"
+   "previous": 110,
+   "ts": "2026-11-28T02:01:26"
   },
   "gv_all": {
    "ok": true,
    "rows": 1675,
    "previous": 1675,
-   "ts": "2026-11-27T02:16:56"
+   "ts": "2026-11-28T02:01:32"
   },
   "vinum_all": {
    "ok": true,
    "rows": 1825,
    "previous": 1825,
-   "ts": "2026-11-27T02:16:57"
+   "ts": "2026-11-28T02:01:33"
   },
   "wc_all": {
-   "ok": true,
-   "rows": 2017,
+   "ok": false,
+   "rows": 0,
    "previous": 2017,
-   "ts": "2026-11-27T02:18:03"
+   "ts": "2026-11-28T02:02:03"
   },
   "sh_1855": {
    "ok": true,
-   "rows": 1700,
-   "previous": 1693,
-   "ts": "2026-11-27T02:18:11"
+   "rows": 1699,
+   "previous": 1700,
+   "ts": "2026-11-28T02:02:11"
   },
   "sh_straits": {
    "ok": true,
    "rows": 215,
-   "previous": 214,
-   "ts": "2026-11-27T02:18:11"
+   "previous": 215,
+   "ts": "2026-11-28T02:02:11"
   },
   "sh_wineconn": {
    "ok": true,
    "rows": 495,
-   "previous": 494,
-   "ts": "2026-11-27T02:18:13"
+   "previous": 495,
+   "ts": "2026-11-28T02:02:13"
   },
   "sh_wholesale": {
    "ok": true,
    "rows": 2833,
    "previous": 2833,
-   "ts": "2026-11-27T02:18:27"
+   "ts": "2026-11-28T02:02:27"
   },
   "sh_winesonl": {
    "ok": true,
    "rows": 1765,
-   "previous": 1764,
-   "ts": "2026-11-27T02:18:34"
+   "previous": 1765,
+   "ts": "2026-11-28T02:02:34"
   },
   "sh_angra": {
    "ok": true,
-   "rows": 939,
-   "previous": 934,
-   "ts": "2026-11-27T02:18:40"
+   "rows": 938,
+   "previous": 939,
+   "ts": "2026-11-28T02:02:40"
   },
   "ponti_all": {
    "ok": true,
    "rows": 1200,
    "previous": 1200,
-   "ts": "2026-11-27T02:20:54"
+   "ts": "2026-11-28T02:03:41"
   },
   "bnb_all": {
    "ok": true,
-   "rows": 1065,
+   "rows": 1066,
    "previous": 1065,
-   "ts": "2026-11-27T02:39:16"
+   "ts": "2026-11-28T02:21:33"
   },
   "wh_all": {
    "ok": true,
-   "rows": 1901,
-   "previous": 1906,
-   "ts": "2026-11-27T02:21:25"
+   "rows": 1903,
+   "previous": 1901,
+   "ts": "2026-11-28T02:04:13"
   }
  }
 }
